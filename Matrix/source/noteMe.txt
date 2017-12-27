@@ -1,4 +1,4 @@
- AutoMixerAttack[0]=8;
+ AutoMixerAttack[0]=9;
  AutoMixerHavg_tau[0]=32;
  AutoMixerRelease[0]=11;
 
