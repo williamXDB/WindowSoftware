@@ -1,0 +1,189 @@
+﻿<UserControl x:Class="MatrixSystemEditor.FBCValueShow"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             mc:Ignorable="d" 
+             d:DesignHeight="200" d:DesignWidth="1024">
+    <Grid Name="rootGrid" ShowGridLines="False">
+        <Grid.RowDefinitions>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+        </Grid.RowDefinitions> 
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="Auto"></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+        <TextBlock Grid.Row="1" Text="FBC Status" VerticalAlignment="Center"></TextBlock>
+        <TextBlock Grid.Row="2" Text="FBC Freq"  VerticalAlignment="Center"></TextBlock>
+        <TextBlock Grid.Row="3" Text="FBC Gain"  VerticalAlignment="Center"></TextBlock>
+        
+        <TextBlock Grid.Row="0" Grid.Column="1" Text="0"  VerticalAlignment="Center" HorizontalAlignment="Center" />
+        <TextBlock Grid.Row="0" Grid.Column="2" Text="1"  VerticalAlignment="Center" HorizontalAlignment="Center" />
+        <TextBlock Grid.Row="0" Grid.Column="3" Text="2"  VerticalAlignment="Center" HorizontalAlignment="Center" />
+        <TextBlock Grid.Row="0" Grid.Column="4" Text="3"  VerticalAlignment="Center" HorizontalAlignment="Center" />
+
+        <TextBlock Grid.Row="0" Grid.Column="5" Text="4"  VerticalAlignment="Center" HorizontalAlignment="Center" />
+        <TextBlock Grid.Row="0" Grid.Column="6" Text="5"  VerticalAlignment="Center" HorizontalAlignment="Center" />
+        <TextBlock Grid.Row="0" Grid.Column="7" Text="6"  VerticalAlignment="Center" HorizontalAlignment="Center" />
+        <TextBlock Grid.Row="0" Grid.Column="8" Text="7"  VerticalAlignment="Center" HorizontalAlignment="Center" />
+
+        <TextBlock Grid.Row="0" Grid.Column="9" Text="8"  VerticalAlignment="Center" HorizontalAlignment="Center" />
+        <TextBlock Grid.Row="0" Grid.Column="10" Text="9"  VerticalAlignment="Center" HorizontalAlignment="Center" />
+        <TextBlock Grid.Row="0" Grid.Column="11" Text="10"  VerticalAlignment="Center" HorizontalAlignment="Center" />
+        <TextBlock Grid.Row="0" Grid.Column="12" Text="11"  VerticalAlignment="Center" HorizontalAlignment="Center" />
+
+
+        <TextBlock Grid.Row="0" Grid.Column="13" Text="12"  VerticalAlignment="Center" HorizontalAlignment="Center" />
+        <TextBlock Grid.Row="0" Grid.Column="14" Text="13"  VerticalAlignment="Center" HorizontalAlignment="Center" />
+        <TextBlock Grid.Row="0" Grid.Column="15" Text="14"  VerticalAlignment="Center" HorizontalAlignment="Center" />
+        <TextBlock Grid.Row="0" Grid.Column="16" Text="15"  VerticalAlignment="Center" HorizontalAlignment="Center" />
+
+        <TextBlock Grid.Row="0" Grid.Column="17" Text="16"  VerticalAlignment="Center" HorizontalAlignment="Center" />
+        <TextBlock Grid.Row="0" Grid.Column="18" Text="17"  VerticalAlignment="Center" HorizontalAlignment="Center" />
+        <TextBlock Grid.Row="0" Grid.Column="19" Text="18"  VerticalAlignment="Center" HorizontalAlignment="Center" />
+        <TextBlock Grid.Row="0" Grid.Column="20" Text="19"  VerticalAlignment="Center" HorizontalAlignment="Center" />
+
+        <TextBlock Grid.Row="0" Grid.Column="21" Text="20"  VerticalAlignment="Center" HorizontalAlignment="Center" />
+        <TextBlock Grid.Row="0" Grid.Column="22" Text="21"  VerticalAlignment="Center" HorizontalAlignment="Center" />
+        <TextBlock Grid.Row="0" Grid.Column="23" Text="22"  VerticalAlignment="Center" HorizontalAlignment="Center" />
+        <TextBlock Grid.Row="0" Grid.Column="24" Text="23"  VerticalAlignment="Center" HorizontalAlignment="Center" />
+
+         <!--//FBC status field-->
+        <TextBlock  Name="fbcStatus_0"  Grid.Row="1" Grid.Column="1" Text="0"  VerticalAlignment="Center" HorizontalAlignment="Center" />
+        <TextBlock  Name="fbcStatus_1"  Grid.Row="1" Grid.Column="2" Text="1"  VerticalAlignment="Center" HorizontalAlignment="Center" />
+        <TextBlock  Name="fbcStatus_2"  Grid.Row="1" Grid.Column="3" Text="2"  VerticalAlignment="Center" HorizontalAlignment="Center" />
+        <TextBlock  Name="fbcStatus_3"  Grid.Row="1" Grid.Column="4" Text="3"  VerticalAlignment="Center" HorizontalAlignment="Center" />
+
+        <TextBlock  Name="fbcStatus_4"  Grid.Row="1" Grid.Column="5" Text="4"  VerticalAlignment="Center" HorizontalAlignment="Center" />
+        <TextBlock  Name="fbcStatus_5"  Grid.Row="1" Grid.Column="6" Text="5"  VerticalAlignment="Center" HorizontalAlignment="Center" />
+        <TextBlock  Name="fbcStatus_6"  Grid.Row="1" Grid.Column="7" Text="6"  VerticalAlignment="Center" HorizontalAlignment="Center" />
+        <TextBlock  Name="fbcStatus_7"  Grid.Row="1" Grid.Column="8" Text="7"  VerticalAlignment="Center" HorizontalAlignment="Center" />
+
+        <TextBlock  Name="fbcStatus_8"  Grid.Row="1" Grid.Column="9" Text="8"  VerticalAlignment="Center" HorizontalAlignment="Center" />
+        <TextBlock  Name="fbcStatus_9"  Grid.Row="1" Grid.Column="10" Text="9"  VerticalAlignment="Center" HorizontalAlignment="Center" />
+        <TextBlock  Name="fbcStatus_10"  Grid.Row="1" Grid.Column="11" Text="10"  VerticalAlignment="Center" HorizontalAlignment="Center" />
+        <TextBlock  Name="fbcStatus_11"  Grid.Row="1" Grid.Column="12" Text="11"  VerticalAlignment="Center" HorizontalAlignment="Center" />
+
+
+        <TextBlock  Name="fbcStatus_12"  Grid.Row="1" Grid.Column="13" Text="12"  VerticalAlignment="Center" HorizontalAlignment="Center" />
+        <TextBlock  Name="fbcStatus_13"  Grid.Row="1" Grid.Column="14" Text="13"  VerticalAlignment="Center" HorizontalAlignment="Center" />
+        <TextBlock  Name="fbcStatus_14"  Grid.Row="1" Grid.Column="15" Text="14"  VerticalAlignment="Center" HorizontalAlignment="Center" />
+        <TextBlock  Name="fbcStatus_15"  Grid.Row="1" Grid.Column="16" Text="15"  VerticalAlignment="Center" HorizontalAlignment="Center" />
+
+        <TextBlock  Name="fbcStatus_16"  Grid.Row="1" Grid.Column="17" Text="16"  VerticalAlignment="Center" HorizontalAlignment="Center" />
+        <TextBlock  Name="fbcStatus_17"  Grid.Row="1" Grid.Column="18" Text="17"  VerticalAlignment="Center" HorizontalAlignment="Center" />
+        <TextBlock  Name="fbcStatus_18"  Grid.Row="1" Grid.Column="19" Text="18"  VerticalAlignment="Center" HorizontalAlignment="Center" />
+        <TextBlock  Name="fbcStatus_19"  Grid.Row="1" Grid.Column="20" Text="19"  VerticalAlignment="Center" HorizontalAlignment="Center" />
+
+        <TextBlock  Name="fbcStatus_20"  Grid.Row="1" Grid.Column="21" Text="20"  VerticalAlignment="Center" HorizontalAlignment="Center" />
+        <TextBlock  Name="fbcStatus_21"  Grid.Row="1" Grid.Column="22" Text="21"  VerticalAlignment="Center" HorizontalAlignment="Center" />
+        <TextBlock  Name="fbcStatus_22"  Grid.Row="1" Grid.Column="23" Text="22"  VerticalAlignment="Center" HorizontalAlignment="Center" />
+        <TextBlock  Name="fbcStatus_23"  Grid.Row="1" Grid.Column="24" Text="23"  VerticalAlignment="Center" HorizontalAlignment="Center" />
+        
+        
+        <!--//FBC freq field-->
+        <TextBlock  Name="fbcFreq_0"  Grid.Row="2" Grid.Column="1" Text="0"  VerticalAlignment="Center" HorizontalAlignment="Center" />
+        <TextBlock  Name="fbcFreq_1"  Grid.Row="2" Grid.Column="2" Text="1"  VerticalAlignment="Center" HorizontalAlignment="Center" />
+        <TextBlock  Name="fbcFreq_2"  Grid.Row="2" Grid.Column="3" Text="2"  VerticalAlignment="Center" HorizontalAlignment="Center" />
+        <TextBlock  Name="fbcFreq_3"  Grid.Row="2" Grid.Column="4" Text="3"  VerticalAlignment="Center" HorizontalAlignment="Center" />
+
+        <TextBlock  Name="fbcFreq_4"  Grid.Row="2" Grid.Column="5" Text="4"  VerticalAlignment="Center" HorizontalAlignment="Center" />
+        <TextBlock  Name="fbcFreq_5"  Grid.Row="2" Grid.Column="6" Text="5"  VerticalAlignment="Center" HorizontalAlignment="Center" />
+        <TextBlock  Name="fbcFreq_6"  Grid.Row="2" Grid.Column="7" Text="6"  VerticalAlignment="Center" HorizontalAlignment="Center" />
+        <TextBlock  Name="fbcFreq_7"  Grid.Row="2" Grid.Column="8" Text="7"  VerticalAlignment="Center" HorizontalAlignment="Center" />
+
+        <TextBlock  Name="fbcFreq_8"  Grid.Row="2" Grid.Column="9" Text="8"  VerticalAlignment="Center" HorizontalAlignment="Center" />
+        <TextBlock  Name="fbcFreq_9"  Grid.Row="2" Grid.Column="10" Text="9"  VerticalAlignment="Center" HorizontalAlignment="Center" />
+        <TextBlock  Name="fbcFreq_10"  Grid.Row="2" Grid.Column="11" Text="10"  VerticalAlignment="Center" HorizontalAlignment="Center" />
+        <TextBlock  Name="fbcFreq_11"  Grid.Row="2" Grid.Column="12" Text="11"  VerticalAlignment="Center" HorizontalAlignment="Center" />
+
+
+        <TextBlock  Name="fbcFreq_12"  Grid.Row="2" Grid.Column="13" Text="12"  VerticalAlignment="Center" HorizontalAlignment="Center" />
+        <TextBlock  Name="fbcFreq_13"  Grid.Row="2" Grid.Column="14" Text="13"  VerticalAlignment="Center" HorizontalAlignment="Center" />
+        <TextBlock  Name="fbcFreq_14"  Grid.Row="2" Grid.Column="15" Text="14"  VerticalAlignment="Center" HorizontalAlignment="Center" />
+        <TextBlock  Name="fbcFreq_15"  Grid.Row="2" Grid.Column="16" Text="15"  VerticalAlignment="Center" HorizontalAlignment="Center" />
+
+        <TextBlock  Name="fbcFreq_16"  Grid.Row="2" Grid.Column="17" Text="16"  VerticalAlignment="Center" HorizontalAlignment="Center" />
+        <TextBlock  Name="fbcFreq_17"  Grid.Row="2" Grid.Column="18" Text="17"  VerticalAlignment="Center" HorizontalAlignment="Center" />
+        <TextBlock  Name="fbcFreq_18"  Grid.Row="2" Grid.Column="19" Text="18"  VerticalAlignment="Center" HorizontalAlignment="Center" />
+        <TextBlock  Name="fbcFreq_19"  Grid.Row="2" Grid.Column="20" Text="19"  VerticalAlignment="Center" HorizontalAlignment="Center" />
+
+        <TextBlock  Name="fbcFreq_20"  Grid.Row="2" Grid.Column="21" Text="20"  VerticalAlignment="Center" HorizontalAlignment="Center" />
+        <TextBlock  Name="fbcFreq_21"  Grid.Row="2" Grid.Column="22" Text="21"  VerticalAlignment="Center" HorizontalAlignment="Center" />
+        <TextBlock  Name="fbcFreq_22"  Grid.Row="2" Grid.Column="23" Text="22"  VerticalAlignment="Center" HorizontalAlignment="Center" />
+        <TextBlock  Name="fbcFreq_23"  Grid.Row="2" Grid.Column="24" Text="23"  VerticalAlignment="Center" HorizontalAlignment="Center" />
+
+        <!--//FBC gain field-->
+        <TextBlock  Name="fbcGain_0" Grid.Row="3" Grid.Column="1" Text="0"  VerticalAlignment="Center" HorizontalAlignment="Center" />
+        <TextBlock  Name="fbcGain_1"  Grid.Row="3" Grid.Column="2" Text="1"  VerticalAlignment="Center" HorizontalAlignment="Center" />
+        <TextBlock  Name="fbcGain_2"  Grid.Row="3" Grid.Column="3" Text="2"  VerticalAlignment="Center" HorizontalAlignment="Center" />
+        <TextBlock  Name="fbcGain_3"  Grid.Row="3" Grid.Column="4" Text="3"  VerticalAlignment="Center" HorizontalAlignment="Center" />
+
+        <TextBlock  Name="fbcGain_4"  Grid.Row="3" Grid.Column="5" Text="4"  VerticalAlignment="Center" HorizontalAlignment="Center" />
+        <TextBlock  Name="fbcGain_5"  Grid.Row="3" Grid.Column="6" Text="5"  VerticalAlignment="Center" HorizontalAlignment="Center" />
+        <TextBlock  Name="fbcGain_6"  Grid.Row="3" Grid.Column="7" Text="6"  VerticalAlignment="Center" HorizontalAlignment="Center" />
+        <TextBlock  Name="fbcGain_7"  Grid.Row="3" Grid.Column="8" Text="7"  VerticalAlignment="Center" HorizontalAlignment="Center" />
+
+        <TextBlock  Name="fbcGain_8"  Grid.Row="3" Grid.Column="9" Text="8"  VerticalAlignment="Center" HorizontalAlignment="Center" />
+        <TextBlock  Name="fbcGain_9"  Grid.Row="3" Grid.Column="10" Text="9"  VerticalAlignment="Center" HorizontalAlignment="Center" />
+        <TextBlock  Name="fbcGain_10"  Grid.Row="3" Grid.Column="11" Text="10"  VerticalAlignment="Center" HorizontalAlignment="Center" />
+        <TextBlock  Name="fbcGain_11"  Grid.Row="3" Grid.Column="12" Text="11"  VerticalAlignment="Center" HorizontalAlignment="Center" />
+
+
+        <TextBlock  Name="fbcGain_12"  Grid.Row="3" Grid.Column="13" Text="12"  VerticalAlignment="Center" HorizontalAlignment="Center" />
+        <TextBlock  Name="fbcGain_13"  Grid.Row="3" Grid.Column="14" Text="13"  VerticalAlignment="Center" HorizontalAlignment="Center" />
+        <TextBlock  Name="fbcGain_14"  Grid.Row="3" Grid.Column="15" Text="14"  VerticalAlignment="Center" HorizontalAlignment="Center" />
+        <TextBlock  Name="fbcGain_15"  Grid.Row="3" Grid.Column="16" Text="15"  VerticalAlignment="Center" HorizontalAlignment="Center" />
+
+        <TextBlock  Name="fbcGain_16"  Grid.Row="3" Grid.Column="17" Text="16"  VerticalAlignment="Center" HorizontalAlignment="Center" />
+        <TextBlock  Name="fbcGain_17"  Grid.Row="3" Grid.Column="18" Text="17"  VerticalAlignment="Center" HorizontalAlignment="Center" />
+        <TextBlock  Name="fbcGain_18"  Grid.Row="3" Grid.Column="19" Text="18"  VerticalAlignment="Center" HorizontalAlignment="Center" />
+        <TextBlock  Name="fbcGain_19"  Grid.Row="3" Grid.Column="20" Text="19"  VerticalAlignment="Center" HorizontalAlignment="Center" />
+
+        <TextBlock  Name="fbcGain_20"  Grid.Row="3" Grid.Column="21" Text="20"  VerticalAlignment="Center" HorizontalAlignment="Center" />
+        <TextBlock  Name="fbcGain_21"  Grid.Row="3" Grid.Column="22" Text="21"  VerticalAlignment="Center" HorizontalAlignment="Center" />
+        <TextBlock  Name="fbcGain_22"  Grid.Row="3" Grid.Column="23" Text="22"  VerticalAlignment="Center" HorizontalAlignment="Center" />
+        <TextBlock  Name="fbcGain_23"  Grid.Row="3" Grid.Column="24" Text="23"  VerticalAlignment="Center" HorizontalAlignment="Center" />
+
+
+
+        <DockPanel Grid.Row="4" Grid.Column="1" Grid.ColumnSpan="24" HorizontalAlignment="Center" VerticalAlignment="Center">
+            <StackPanel Orientation="Horizontal">
+                <TextBlock Text="Next Position "></TextBlock>
+                <TextBlock Text="05" Name="nPosLb"></TextBlock>
+            </StackPanel>
+        </DockPanel>
+        
+    </Grid>
+</UserControl>

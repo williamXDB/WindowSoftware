@@ -1,0 +1,409 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Windows;
+using System.Windows.Controls;
+using System.Windows.Data;
+using System.Windows.Documents;
+using System.Windows.Input;
+using System.Windows.Media;
+using System.Windows.Media.Imaging;
+using System.Windows.Navigation;
+using System.Windows.Shapes;
+using Lib.Controls;
+
+namespace MatrixSystemEditor
+{
+    /// <summary>
+    /// Follow steps 1a or 1b and then 2 to use this custom control in a XAML file.
+    ///
+    /// Step 1a) Using this custom control in a XAML file that exists in the current project.
+    /// Add this XmlNamespace attribute to the root element of the markup file where it is 
+    /// to be used:
+    ///
+    ///     xmlns:MyNamespace="clr-namespace:MatrixSystemEditor"
+    ///
+    ///
+    /// Step 1b) Using this custom control in a XAML file that exists in a different project.
+    /// Add this XmlNamespace attribute to the root element of the markup file where it is 
+    /// to be used:
+    ///
+    ///     xmlns:MyNamespace="clr-namespace:MatrixSystemEditor;assembly=MatrixSystemEditor"
+    ///
+    /// You will also need to add a project reference from the project where the XAML file lives
+    /// to this project and Rebuild to avoid compilation errors:
+    ///
+    ///     Right click on the target project in the Solution Explorer and
+    ///     "Add Reference"->"Projects"->[Browse to and select this project]
+    ///
+    ///
+    /// Step 2)
+    /// Go ahead and use your control in the XAML file.
+    ///
+    ///     <MyNamespace:CLimitGDSlider/>
+    ///
+    /// </summary>
+    public enum GDSliderType
+    {
+        GDSLIDER_Gate = 20,
+        GDSLIDER_Exp = 21,
+        GDSLIDER_Dyn = 22,
+    };
+
+    public class CLimitGDSlider : CommControl
+    {
+        public static double[] dynExpRatioTable =
+       {
+
+ 1.0,     //0
+ 1.2,     //1
+ 1.3,     //2
+ 1.5,     //3
+ 1.7,     //4
+ 2.0,     //5
+ 2.2,     //6
+ 2.3,     //6
+ 2.5,    //7
+ 3.0,     //9
+ 3.5,     //10
+ 4.0,     //11
+ 4.5,     //12
+ 5.0,     //13
+ 5.5,     //14
+ 5.6,     //15
+ 5.9,     //16
+ 6.0,     //17
+ 6.2,     //18
+ 6.5,     //19
+ 7.0,     //20
+ 7.2,     //21
+ 7.4,     //22
+ 7.8,     //23
+ 8.0,     //19
+
+};
+
+        public static double[] dynRatioTable =
+ {
+ 1.0,     //0
+ 1.2,     //1
+ 1.3,     //2
+ 1.5,     //3
+ 1.7,     //4
+ 2.0,     //5
+ 2.2,     //6
+ 2.3,     //6
+ 2.5,    //7
+ 3.0,     //9
+ 3.5,     //10
+ 4.0,     //11
+ 4.5,     //12
+ 5.0,     //13
+ 5.5,     //14
+ 6.0,     //15
+ 6.5,     //16
+ 7.0,     //17
+ 7.5,     //18
+ 8.0,     //19
+ 8.5,     //20
+ 9.0,     //21
+ 9.5,     //22
+ 10.0,    //23
+ 20.0,    //24
+ };
+
+        static CLimitGDSlider()
+        {
+            DefaultStyleKeyProperty.OverrideMetadata(typeof(CLimitGDSlider), new FrameworkPropertyMetadata(typeof(CLimitGDSlider)));
+        }
+
+        private static System.Windows.Point[] dPoints = new Point[3]; //double type 
+
+        //   
+
+
+        private const int DefaultGDRatioMax = 24;
+        public int dp_gdRatioMax
+        {
+            get { return (int)GetValue(dp_gdRatioMaxProperty); }
+            set { SetValue(dp_gdRatioMaxProperty, value); }
+        }
+
+        // Using a DependencyProperty as the backing store for dp_gdRatioMax.  This enables animation, styling, binding, etc...
+        public static readonly DependencyProperty dp_gdRatioMaxProperty =
+            DependencyProperty.Register("dp_gdRatioMax", typeof(int), typeof(CLimitGDSlider), new PropertyMetadata(DefaultGDRatioMax));
+
+
+
+
+        private const int DefaultGDRatioPos = 0;
+        public int dp_gdRatioPos
+        {
+            get { return (int)GetValue(dp_gdRatioPosProperty); }
+            set { SetValue(dp_gdRatioPosProperty, value); }
+        }
+
+        // Using a DependencyProperty as the backing store for dp_gdRatioPos.  This enables animation, styling, binding, etc...
+        public static readonly DependencyProperty dp_gdRatioPosProperty =
+            DependencyProperty.Register("dp_gdRatioPos", typeof(int), typeof(CLimitGDSlider), new PropertyMetadata(DefaultGDRatioPos));
+
+
+        //   
+
+        private const int DefaultGDThreshold = 0;
+        public int dp_gdThresholdPos
+        {
+            get { return (int)GetValue(dp_gdThresholdPosProperty); }
+            set { SetValue(dp_gdThresholdPosProperty, value); }
+        }
+        // Using a DependencyProperty as the backing store for dp_dgThresholdPos.  This enables animation, styling, binding, etc...
+        public static readonly DependencyProperty dp_gdThresholdPosProperty =
+            DependencyProperty.Register("dp_gdThresholdPos", typeof(int), typeof(CLimitGDSlider),
+            new PropertyMetadata(DefaultGDThreshold));
+
+
+
+
+        //
+
+
+        private const int DefaultGDThresdMax = 50;
+        public int dp_gdThresholdMax
+        {
+            get { return (int)GetValue(dp_gdThresholdMaxProperty); }
+            set { SetValue(dp_gdThresholdMaxProperty, value); }
+        }
+        // Using a DependencyProperty as the backing store for dp_gdThresholdMax.  This enables animation, styling, binding, etc...
+        public static readonly DependencyProperty dp_gdThresholdMaxProperty =
+            DependencyProperty.Register("dp_gdThresholdMax", typeof(int), typeof(CLimitGDSlider), new PropertyMetadata(DefaultGDThresdMax));
+
+
+
+
+        private const int DefaultGDGainMax = 24;
+        public int dp_gdGainMax
+        {
+            get { return (int)GetValue(dp_gdGainMaxProperty); }
+            set { SetValue(dp_gdGainMaxProperty, value); }
+        }
+        // Using a DependencyProperty as the backing store for dp_gdGainMax.  This enables animation, styling, binding, etc...
+        public static readonly DependencyProperty dp_gdGainMaxProperty =
+            DependencyProperty.Register("dp_gdGainMax", typeof(int), typeof(CLimitGDSlider), new PropertyMetadata(DefaultGDGainMax));
+
+
+
+        //
+        private const int DefaultGDGainPos = 0;
+        public int dp_gdGainPos
+        {
+            get { return (int)GetValue(dp_gdGainPosProperty); }
+            set { SetValue(dp_gdGainPosProperty, value); }
+        }
+
+        // Using a DependencyProperty as the backing store for dp_gdGainPos.  This enables animation, styling, binding, etc...
+        public static readonly DependencyProperty dp_gdGainPosProperty =
+            DependencyProperty.Register("dp_gdGainPos", typeof(int), typeof(CLimitGDSlider),
+            new PropertyMetadata(DefaultGDGainPos));
+
+
+
+
+        private const GDSliderType DefaultSliderType = GDSliderType.GDSLIDER_Exp;
+
+        public GDSliderType dp_GDSliderType
+        {
+            get { return (GDSliderType)GetValue(dp_GDSliderTypeProperty); }
+            set { SetValue(dp_GDSliderTypeProperty, value); }
+        }
+        // Using a DependencyProperty as the backing store for dp_GDSliderType.  This enables animation, styling, binding, etc...
+        public static readonly DependencyProperty dp_GDSliderTypeProperty =
+            DependencyProperty.Register("dp_GDSliderType", typeof(GDSliderType), typeof(CLimitGDSlider),
+            new PropertyMetadata(DefaultSliderType));
+
+
+        public CLimitGDSlider()
+        {
+
+
+
+
+
+        }
+        /// <summary>
+        /// flat to initial draw
+        /// </summary>
+        public void flatControl()
+        {
+            dp_gdGainPos = dp_gdRatioPos = dp_gdThresholdPos = 0;
+            this.Redraw();
+        }
+
+
+        /// <summary>
+        /// paint below..
+        /// </summary>
+        /// <param name="dc"></param>
+        protected override void OnRender(DrawingContext dc)
+        {
+            base.OnRender(dc);
+            double wd = this.ActualWidth;
+            double ht = this.ActualHeight;
+            dc.DrawRectangle(BackBrush, new Pen(), new Rect(0, 0, wd, ht));
+            //
+            double K = 0;
+            double K1 = 0;
+            switch (dp_GDSliderType)
+            {
+                case GDSliderType.GDSLIDER_Gate:
+                    {
+
+
+                    }
+                    break;
+                case GDSliderType.GDSLIDER_Exp:
+                    {
+                        K = (double)ht / wd;
+                        K1 = 1 / dynExpRatioTable[dp_gdRatioPos];
+                        double vrStep = ht / dp_gdThresholdMax;
+
+                        double m = (dp_gdThresholdMax - dp_gdThresholdPos) * vrStep;
+                        double dt = K1 * (ht - m);
+                        dPoints[0].X = wd - dt - m / K;
+                        dPoints[0].Y = ht;
+                        dPoints[1].X = dPoints[0].X + dt;
+                        dPoints[1].Y = m;
+
+                        if (dp_gdThresholdPos == 0)
+                        {
+                            dPoints[0].X = dPoints[1].X = 0;
+                            dPoints[0].Y = dPoints[1].Y = ht;
+                        }
+                        else if (dp_gdThresholdPos == dp_gdThresholdMax)
+                        {
+                            dPoints[1].X = wd;
+                            dPoints[1].Y = 0;
+                        }
+
+                        if (dp_gdRatioPos == dp_gdRatioMax)
+                        {
+                            dPoints[0].X = dPoints[1].X;
+                        }
+                        dPoints[2].X = wd;
+                        dPoints[2].Y = 0;
+
+                    }
+                    break;
+
+                case GDSliderType.GDSLIDER_Dyn:
+                    {
+
+                        K = (double)ht / wd;
+                        K1 = 1 / dynRatioTable[dp_gdRatioPos];
+                        double vrStep = ht / dp_gdThresholdMax;
+                        double h = (dp_gdThresholdMax - dp_gdThresholdPos) * vrStep;
+
+                        dPoints[0].X = 0;
+                        dPoints[0].Y = ht;
+
+                        if (dp_gdThresholdPos == 0 && dp_gdRatioPos == 0)
+                        {
+                            dPoints[1].X = 0;
+                            dPoints[1].Y = ht;
+                            dPoints[2].X = wd;
+                            dPoints[2].Y = 0;
+                        }
+                        else if (dp_gdRatioPos == 0 && dp_gdThresholdPos > 0 && dp_gdThresholdPos < dp_gdThresholdMax)
+                        {
+
+                            dPoints[1].X = wd - h / K;
+                            dPoints[1].Y = h;
+
+                            dPoints[2].X = wd;
+                            dPoints[2].Y = 0;
+                        }
+                        else if (dp_gdRatioPos == 0 && (dp_gdThresholdPos == dp_gdThresholdMax))
+                        {
+
+                            dPoints[1].X = wd;
+                            dPoints[1].Y = 0;
+                            dPoints[2].X = wd;
+                            dPoints[2].Y = 0;
+                        }
+                        else if (dp_gdRatioPos > 0 && dp_gdRatioPos < dp_gdRatioMax && dp_gdThresholdPos > 0 && dp_gdThresholdPos < dp_gdThresholdMax)
+                        {
+
+                            dPoints[1].X = (ht - h) / K;
+                            dPoints[1].Y = h;
+                            dPoints[2].X = wd;
+                            dPoints[2].Y = h - K1 * (wd - dPoints[1].X);
+
+                        }
+                        else if (dp_gdRatioPos > 0 && dp_gdRatioPos < dp_gdRatioMax && dp_gdThresholdPos == dp_gdThresholdMax)
+                        {
+
+                            dPoints[1].X = wd;
+                            dPoints[1].Y = 0;
+                            dPoints[2].X = wd;
+                            dPoints[2].Y = 0;
+
+                        }
+                        else if (dp_gdThresholdPos == 0 && dp_gdRatioPos > 0 && dp_gdRatioPos < dp_gdRatioMax)
+                        {
+
+                            dPoints[1].X = 0;
+                            dPoints[1].Y = ht;
+                            dPoints[2].X = wd;
+                            dPoints[2].Y = ht - K1 * wd;
+
+                        }
+                        else if (dp_gdRatioPos == dp_gdRatioMax && dp_gdThresholdPos == dp_gdThresholdMax)
+                        {
+                            dPoints[1].X = wd;
+                            dPoints[1].Y = 0;
+                            dPoints[2].X = wd;
+                            dPoints[2].Y = 0;
+                        }
+
+
+                    }
+                    break;
+
+            }
+
+            if (dPoints[0].x < 0) dPoints[0].x = 0;
+            if (dp_GDSliderType == GDSLIDER_EXP)
+                drawEXP(cvs);
+            else if (dp_GDSliderType == GDSLIDER_DYN)
+                drawDYN(cvs);
+            cvs->Pen->Color = oldPenColor;  //restore the color
+            cvs->Pen->Width = oldPenWidth;
+            cvs->Brush->Color = oldBackColor;
+            Canvas->StretchDraw(GetClientRect(), image);
+            delete image;
+             
+
+
+
+
+        }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    }
+}

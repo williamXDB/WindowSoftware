@@ -1,0 +1,17 @@
+ AutoMixerAttack[0]=8;
+ AutoMixerHavg_tau[0]=32;
+ AutoMixerRelease[0]=11;
+
+
+
+void UpData_DSP_AutoMixerPara_PC_To_MCU(void)
+
+void UpData_DSP_AutoMixerPara(void)
+
+void UpData_DSP_AutoMixerPara(void)
+
+  UARTTxBuf[12] = AutoMixerAttack[0]/100;
+  UARTTxBuf[13] = AutoMixerAttack[0]%100;	
+  UARTTxBuf[14] = AutoMixerRelease[0]/100;	
+  UARTTxBuf[15] = AutoMixerRelease[0]%100;
+  UARTTxBuf[16] = AutoMixerHavg_tau[0];

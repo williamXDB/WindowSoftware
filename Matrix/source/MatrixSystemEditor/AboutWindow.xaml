@@ -1,0 +1,50 @@
+﻿<Window x:Class="MatrixSystemEditor.AboutWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="AboutWindow" Height="180" Width="330" WindowStartupLocation="CenterScreen"  
+        Background="#EFEFEF" ResizeMode="NoResize"   Loaded="Window_Loaded">
+    <Grid ShowGridLines="False">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"></RowDefinition>
+            <RowDefinition Height="Auto"></RowDefinition>
+            <RowDefinition Height="Auto"></RowDefinition>
+            <RowDefinition Height="Auto"></RowDefinition>
+            <RowDefinition Height="Auto"></RowDefinition>
+            <RowDefinition Height="Auto"></RowDefinition>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="Auto"></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+        <Border Grid.RowSpan="4" MinWidth="90" MinHeight="90" BorderThickness="1" BorderBrush="Gray" Margin="5" >
+            <Image Source="Resources/Image/logo_show.png" />
+
+
+        </Border>
+        
+        <StackPanel Grid.Column="1" Orientation="Horizontal">
+            <TextBlock>Product Name:</TextBlock>
+            <TextBlock Name="lbProduct" Text="APL520"></TextBlock>
+        </StackPanel>
+        <StackPanel Grid.Column="1" Grid.Row="1" Orientation="Horizontal">
+            <TextBlock>Product Name:</TextBlock>
+            <TextBlock Name="lbVersion" Text="V1.0.1"></TextBlock>
+        </StackPanel>
+        <StackPanel Grid.Column="1" Grid.Row="2" Orientation="Horizontal">
+            <TextBlock>Copyright:</TextBlock>
+            <TextBlock Name="lbCopyRight" Text="(c)2016"></TextBlock>
+        </StackPanel>
+        <StackPanel Grid.Column="1" Grid.Row="3" >
+            <TextBlock Name="lbCompany" Text="Seikaku Technical Group." ></TextBlock>
+        </StackPanel>
+
+        <StackPanel Grid.Column="1" Grid.Row="4"  Orientation="Horizontal">
+            <TextBlock Name="lbURL" Text="http://www.seikaku.hk" 
+                   Foreground="Blue" FontSize="13" 
+                   >
+                
+            </TextBlock>
+        </StackPanel>
+
+    </Grid>
+</Window>

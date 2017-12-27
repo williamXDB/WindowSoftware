@@ -1,0 +1,146 @@
+﻿<Window x:Class="MatrixSystemEditor.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Background="#EFEFEF"
+        xmlns:local="clr-namespace:MatrixSystemEditor"
+        xmlns:oc="clr-namespace:Lib.Controls;assembly=Lib.Controls.MyControls"
+        Title="Matrix System Editor V1.3.9" Height="768" Width="1024" 
+        WindowStartupLocation="CenterScreen" Closing="Window_Closing"
+        Loaded="Window_Loaded" WindowState="Maximized" >
+    <Window.Resources>
+        <ContextMenu x:Key="PopMenu">
+            <MenuItem Header="Change DeviceID" /> 
+            <Separator/>
+            <MenuItem Header="Delete Module" />
+        </ContextMenu>
+    </Window.Resources>
+    
+
+    <Grid Name="rootGrid" ShowGridLines="False">
+        <Grid.RowDefinitions>
+            <!--headMenu-->
+            <RowDefinition Height="Auto"></RowDefinition>
+            <!--mainpanel-->
+            <RowDefinition Height="*"></RowDefinition>
+            <!--bottom-->
+            <RowDefinition Height="Auto"></RowDefinition>
+            <!--preserved for expand-->
+            <RowDefinition Height="Auto"></RowDefinition>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition ></ColumnDefinition>
+            <ColumnDefinition Width="Auto"></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+        <StackPanel Orientation="Horizontal">
+            <Menu Grid.Row="0" Background="Transparent" Margin="5,5,5,8" Name="topMenu">
+                <MenuItem Header="System" Height="21">
+                    <MenuItem Header="Exit" Name="exit" Click="exit_Click">
+                    </MenuItem>
+                </MenuItem>
+                <Separator></Separator>
+                <MenuItem Header="About" Height="21">
+                    <MenuItem Header="Version" Name="verDlg" Click="verDlg_Click">
+                    </MenuItem>
+                </MenuItem>
+                <Separator></Separator>
+                <!--<Button Margin="5" Padding="5" MinWidth="65" Name="mtrixBtn"  Click="mtrixBtn_Click">Matrix Main</Button>
+            <Button >test cook</Button>
+            <Button >Read Test</Button>-->
+
+
+
+            </Menu>
+            <StackPanel Orientation="Horizontal" Margin="80,0,0,0">
+                <Button Name="connetItem"  Padding="5" MaxHeight="30" 
+                        Background="#EFEFEF"  Width="60"
+                        Click="connetItem_Click">Connect</Button>
+                <Button Name="netConfigItem"  Padding="5" MaxHeight="30" 
+                        Background="#EFEFEF" Margin="10,0,0,0" Width="60"
+                        Click="netConfigItem_Click">Setup</Button>
+                <Separator></Separator>
+                <TextBlock Text="status:" VerticalAlignment="Center"
+                               Margin="20,0,2,0"
+                               ></TextBlock>
+                <oc:CLed Width="30" Height="15" Name="conLed" GreenBrush="Lime"></oc:CLed>
+
+            </StackPanel>
+        </StackPanel>
+        <DockPanel Name="mainPanel" Grid.Row="1" LastChildFill="True">
+            <Grid Name="mainGrid" ShowGridLines="False">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="Auto"></ColumnDefinition>
+                    <ColumnDefinition Width="*"></ColumnDefinition>
+                </Grid.ColumnDefinitions>
+                <oc:CTreeView MinWidth="178" Name="devieListTree" SelectedItemChanged="devieListTree_SelectedItemChanged" >
+                    <oc:CTreeView.Background>
+                        <ImageBrush ImageSource="Resources/i_LeftList.png"/>
+                    </oc:CTreeView.Background>
+                    <TreeViewItem Header="Config Device List" IsExpanded="True">
+                        <TreeViewItem  TabIndex="0">
+                            <TreeViewItem.Header>
+                                <oc:CTreeViewItem  itemSource="Resources/folder.png"  itemText="CL-4" MaxHeight="16" Margin="0,2,5,2"></oc:CTreeViewItem>
+                            </TreeViewItem.Header>
+                        </TreeViewItem>
+                        <TreeViewItem  TabIndex="1">
+                            <TreeViewItem.Header>
+                                <oc:CTreeViewItem  itemSource="Resources/folder.png"  itemText="Lan Interface" MaxHeight="16" Margin="0,2,5,2"></oc:CTreeViewItem>
+                            </TreeViewItem.Header>
+                        </TreeViewItem>
+                        <TreeViewItem TabIndex="2">
+                            <TreeViewItem.Header>
+                                <oc:CTreeViewItem  itemSource="Resources/folder.png"  itemText="MatrixA8" MaxHeight="16" Margin="0,2,5,2"></oc:CTreeViewItem>
+                            </TreeViewItem.Header>
+                        </TreeViewItem>
+                        <TreeViewItem TabIndex="3">
+                            <TreeViewItem.Header>
+                                <oc:CTreeViewItem  itemSource="Resources/folder.png"  itemText="Text-Left" MaxHeight="16" Margin="0,2,5,2"></oc:CTreeViewItem>
+                            </TreeViewItem.Header>
+                        </TreeViewItem>
+                        <TreeViewItem TabIndex="4">
+                            <TreeViewItem.Header>
+                                <oc:CTreeViewItem  itemSource="Resources/folder.png"  itemText="Text-Right" MaxHeight="16" Margin="0,2,5,2"></oc:CTreeViewItem>
+                            </TreeViewItem.Header>
+                        </TreeViewItem>
+                        <TreeViewItem TabIndex="5">
+                            <TreeViewItem.Header>
+                                <oc:CTreeViewItem  itemSource="Resources/folder.png"  itemText="RVA200" MaxHeight="16" Margin="0,2,5,2"></oc:CTreeViewItem>
+                            </TreeViewItem.Header>
+                        </TreeViewItem>
+                        <TreeViewItem TabIndex="6">
+                            <TreeViewItem.Header>
+                                <oc:CTreeViewItem  itemSource="Resources/folder.png"  itemText="RIO200" MaxHeight="16" Margin="0,2,5,2"></oc:CTreeViewItem>
+                            </TreeViewItem.Header>
+                        </TreeViewItem>
+                        <TreeViewItem TabIndex="7">
+                            <TreeViewItem.Header>
+                                <oc:CTreeViewItem  itemSource="Resources/folder.png"  itemText="RVC1000" MaxHeight="16" Margin="0,2,5,2"></oc:CTreeViewItem>
+                            </TreeViewItem.Header>
+                        </TreeViewItem>
+                        <TreeViewItem TabIndex="8">
+                            <TreeViewItem.Header>
+                                <oc:CTreeViewItem  itemSource="Resources/folder.png"  itemText="RPM200" MaxHeight="16" Margin="0,2,5,2"></oc:CTreeViewItem>
+                            </TreeViewItem.Header>
+                        </TreeViewItem>
+                    </TreeViewItem>
+                   
+                </oc:CTreeView>
+              
+                <oc:DrawCanvas  x:Name="dwpanel"  Grid.Column="1" Background="LightGray"  Drop="dwpanel_Drop"></oc:DrawCanvas>
+
+            </Grid>
+        </DockPanel>
+
+        <StatusBar Name="botomStatusBar" Grid.Row="2" Background="Transparent"  Margin="5">
+            <StatusBarItem  VerticalContentAlignment="Center">Connect status:</StatusBarItem>
+            <StatusBarItem Name="itemConStatus" VerticalContentAlignment="Center">Disconnected</StatusBarItem>
+            <StatusBarItem Margin="30,0,0,0" VerticalContentAlignment="Center">Local IP:</StatusBarItem>
+            <StatusBarItem Name="cLocalIP" VerticalContentAlignment="Center" Content="127.0.1"></StatusBarItem>
+            <StatusBarItem Margin="30,0,0,0" VerticalContentAlignment="Center">Remoted IP:</StatusBarItem>
+            <StatusBarItem Name="edRemotDevIP" VerticalContentAlignment="Center" Content="127.0.0.1" ></StatusBarItem>
+            <StatusBarItem Margin="30,0,0,0" VerticalContentAlignment="Center">Device:</StatusBarItem>
+            <StatusBarItem Name="cdevName" VerticalContentAlignment="Center" ></StatusBarItem>
+        </StatusBar>
+
+
+    </Grid>
+</Window>

@@ -1,0 +1,297 @@
+﻿<UserControl x:Class="MatrixSystemEditor.CEQControlII"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             mc:Ignorable="d" 
+             xmlns:oc="clr-namespace:Lib.Controls;assembly=Lib.Controls.MyControls"
+             d:DesignHeight="268" d:DesignWidth="658">
+    <Border BorderBrush="Gray" BorderThickness="1">
+        <Grid Name="rootGrid">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="Auto"></ColumnDefinition>
+                <ColumnDefinition></ColumnDefinition>
+            </Grid.ColumnDefinitions>
+
+            <DockPanel Name="leftXoverPanel_total" Margin="5,5,10,5">
+                <Grid Name="xover_topGrid" >
+                    <Grid.RowDefinitions>
+                        <RowDefinition></RowDefinition>
+                        <RowDefinition></RowDefinition>
+                    </Grid.RowDefinitions>
+                    <DockPanel  Margin="0,0,0,5" Name="leftHXoverPanel" HorizontalAlignment="Left" VerticalAlignment="Top">
+                        <GroupBox Header="High FilterPass" Padding="1,15,8,10" Margin="5,5,0,0">
+                            <Grid Name="xoverUp" Grid.IsSharedSizeScope="True">
+                                <Grid.RowDefinitions>
+                                    <RowDefinition Height="Auto"></RowDefinition>
+                                    <RowDefinition Height="Auto"></RowDefinition>
+                                </Grid.RowDefinitions>
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition SharedSizeGroup="XoverFilter"></ColumnDefinition>
+                                    <ColumnDefinition ></ColumnDefinition>
+                                </Grid.ColumnDefinitions>
+                                <TextBlock VerticalAlignment="Center"  Margin="1,1,5,1">Freq</TextBlock>
+                                <oc:SpinnerControl UpeqType="EQ_Freq" Maximum="300" Value="2" Margin="5"
+                                                            iTag="8" x:Name="spinFreq_8" Grid.Column="1"
+                                                           ></oc:SpinnerControl>
+
+                                <TextBlock VerticalAlignment="Center" Grid.Column="0" Grid.Row="1">Type</TextBlock>
+                                <oc:TComboBox MinWidth="75" Margin="5" x:Name="cbxeqType8" iTg="8"
+                                                  IsEditable="False"  Grid.Column="1" Grid.Row="1"
+                                                  ></oc:TComboBox>
+                            </Grid>
+                        </GroupBox>
+                    </DockPanel>
+                    <DockPanel  Margin="0,0,0,5" Name="leftLXoverPanel" HorizontalAlignment="Left" VerticalAlignment="Top"
+                            Grid.Row="1"
+                            >
+                        <GroupBox Header="Low FilterPass" Padding="1,15,8,10" Margin="5,5,0,0">
+                            <Grid Name="xoverUpL" Grid.IsSharedSizeScope="True">
+                                <Grid.RowDefinitions>
+                                    <RowDefinition Height="Auto"></RowDefinition>
+                                    <RowDefinition Height="Auto"></RowDefinition>
+                                </Grid.RowDefinitions>
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition SharedSizeGroup="XoverFilter"></ColumnDefinition>
+                                    <ColumnDefinition ></ColumnDefinition>
+                                </Grid.ColumnDefinitions>
+                                <TextBlock VerticalAlignment="Center"  Margin="1,1,5,1">Freq</TextBlock>
+                                <oc:SpinnerControl UpeqType="EQ_Freq" Maximum="300" Value="2" Margin="5"
+                                                            iTag="9" x:Name="spinFreq_9" Grid.Column="1"
+                                                           ></oc:SpinnerControl>
+
+                                <TextBlock VerticalAlignment="Center" Grid.Column="0" Grid.Row="1">Type</TextBlock>
+                                <oc:TComboBox MinWidth="75" Margin="5" x:Name="cbxeqType9"   iTg="9"
+                                                  IsEditable="False"  Grid.Column="1" Grid.Row="1"
+                                                  ></oc:TComboBox>
+                            </Grid>
+                        </GroupBox>
+                    </DockPanel>
+                </Grid>
+            </DockPanel>
+            <DockPanel Name="rightEQPanel" Grid.Column="1" Margin="5">
+                <Grid Name="eqGrid">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto"></RowDefinition>
+                        <RowDefinition Height="Auto"></RowDefinition>
+                        <RowDefinition Height="Auto"></RowDefinition>
+                        <RowDefinition Height="Auto"></RowDefinition>
+                        <RowDefinition Height="Auto"></RowDefinition>
+
+                        <RowDefinition Height="Auto"></RowDefinition>
+                        <RowDefinition Height="Auto"></RowDefinition>
+                        <RowDefinition Height="Auto"></RowDefinition>
+                        <RowDefinition Height="Auto"></RowDefinition>
+                        <RowDefinition Height="Auto"></RowDefinition>
+
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="Auto"></ColumnDefinition>
+                        <ColumnDefinition></ColumnDefinition>
+                        <ColumnDefinition></ColumnDefinition>
+
+                        <ColumnDefinition></ColumnDefinition>
+                        <ColumnDefinition></ColumnDefinition>
+                        <ColumnDefinition></ColumnDefinition>
+                    </Grid.ColumnDefinitions>
+                    <!--EQ mark index-->
+                    <Label>EQ</Label>
+                    <StackPanel Orientation="Horizontal" Grid.Row="1">
+                        <Label Margin="-3,0,0,0" MaxHeight="22" >EQ1</Label>
+                        <Rectangle Fill="#E9FCE3" Width="15" Height="10"></Rectangle>
+                    </StackPanel>
+                    <StackPanel Orientation="Horizontal" Grid.Row="2">
+                        <Label Margin="-3,0,0,0">EQ2</Label>
+                        <Rectangle Fill="#008CF5" Width="15" Height="10"></Rectangle>
+                    </StackPanel>
+                    <StackPanel Orientation="Horizontal" Grid.Row="3">
+                        <Label Margin="-3,0,0,0">EQ3</Label>
+                        <Rectangle Fill="#A6CAF0" Width="15" Height="10"></Rectangle>
+                    </StackPanel>
+
+                    <StackPanel Orientation="Horizontal" Grid.Row="4">
+                        <Label Margin="-3,0,0,0">EQ4</Label>
+                        <Rectangle Fill="#FF00FF" Width="15" Height="10"></Rectangle>
+                    </StackPanel>
+
+                    <StackPanel Orientation="Horizontal" Grid.Row="5">
+                        <Label Margin="-3,0,0,0">EQ5</Label>
+                        <Rectangle Fill="#1CA361" Width="15" Height="10"></Rectangle>
+                    </StackPanel>
+
+                    <StackPanel Orientation="Horizontal" Grid.Row="6" Height="24" VerticalAlignment="Top">
+                        <Label Margin="-3,0,0,0">EQ6</Label>
+                        <Rectangle Fill="#3A6EA5" Width="15" Height="10"></Rectangle>
+                    </StackPanel>
+
+                    <StackPanel Orientation="Horizontal" Grid.Row="7">
+                        <Label Margin="-3,0,0,0">EQ7</Label>
+                        <Rectangle Fill="#FF0000" Width="15" Height="10"></Rectangle>
+                    </StackPanel>
+
+                    <StackPanel Orientation="Horizontal"  Grid.Row="8">
+                        <Label Margin="-3,0,0,0">EQ8</Label>
+                        <Rectangle Fill="#FFFF00" Width="15" Height="10"></Rectangle>
+                    </StackPanel>
+                    <!--top mark-->
+                    <Label Grid.Column="1">Frequency</Label>
+                    <Label Grid.Column="2">Qfact</Label>
+                    <Label Grid.Column="3">Gain</Label>
+                    <Label Grid.Column="4">Type</Label>
+                    <Label Grid.Column="5">Bypass</Label>
+                    <!--Freq spincontrol-->
+                    <oc:SpinnerControl Grid.Row="1" Grid.Column="1" Margin="2,1,1,1" MaxHeight="24" 
+                                   x:Name="spinFreq_0"  iTag="0" UpeqType="EQ_Freq" Maximum="300">
+                    </oc:SpinnerControl>
+                    <oc:SpinnerControl Grid.Row="2" Grid.Column="1" Margin="2,1,1,1" MaxHeight="24" 
+                                   x:Name="spinFreq_1"  iTag="1" UpeqType="EQ_Freq" Maximum="300">
+                    </oc:SpinnerControl>
+                    <oc:SpinnerControl Grid.Row="3" Grid.Column="1" Margin="2,1,1,1" MaxHeight="24" 
+                                   x:Name="spinFreq_2"  iTag="2" UpeqType="EQ_Freq" Maximum="300">
+                    </oc:SpinnerControl>
+                    <oc:SpinnerControl Grid.Row="4" Grid.Column="1" Margin="2,1,1,1" MaxHeight="24" 
+                                   x:Name="spinFreq_3"  iTag="3" UpeqType="EQ_Freq" Maximum="300">
+                    </oc:SpinnerControl>
+                    <oc:SpinnerControl Grid.Row="5" Grid.Column="1" Margin="2,1,1,1" MaxHeight="24" 
+                                   x:Name="spinFreq_4"  iTag="4" UpeqType="EQ_Freq" Maximum="300">
+                    </oc:SpinnerControl>
+                    <oc:SpinnerControl Grid.Row="6" Grid.Column="1" Margin="2,1,1,1" MaxHeight="24" 
+                                   x:Name="spinFreq_5"  iTag="5" UpeqType="EQ_Freq" Maximum="300">
+                    </oc:SpinnerControl>
+                    <oc:SpinnerControl Grid.Row="7" Grid.Column="1" Margin="2,1,1,1" MaxHeight="24" 
+                                   x:Name="spinFreq_6"  iTag="6" UpeqType="EQ_Freq" Maximum="300">
+                    </oc:SpinnerControl>
+                    <oc:SpinnerControl Grid.Row="8" Grid.Column="1" Margin="2,1,1,1" MaxHeight="24" 
+                                   x:Name="spinFreq_7"  iTag="7" UpeqType="EQ_Freq" Maximum="300">
+                    </oc:SpinnerControl>
+                    <!--Qvalue qfactor-->
+                    <oc:SpinnerControl Grid.Row="1" Grid.Column="2" Margin="1"    
+                          MaxHeight="22" x:Name="spinQ_0" iTag="0" UpeqType="EQ_QV"
+                                           ></oc:SpinnerControl>
+                    <oc:SpinnerControl Grid.Row="2" Grid.Column="2" Margin="1"    
+                          MaxHeight="22" x:Name="spinQ_1" iTag="1" UpeqType="EQ_QV"
+                                           ></oc:SpinnerControl>
+                    <oc:SpinnerControl Grid.Row="3" Grid.Column="2" Margin="1"    
+                          MaxHeight="22" x:Name="spinQ_2" iTag="2" UpeqType="EQ_QV"
+                                           ></oc:SpinnerControl>
+                    <oc:SpinnerControl Grid.Row="4" Grid.Column="2" Margin="1"    
+                          MaxHeight="22" x:Name="spinQ_3" iTag="3" UpeqType="EQ_QV"
+                                           ></oc:SpinnerControl>
+                    <oc:SpinnerControl Grid.Row="5" Grid.Column="2" Margin="1"    
+                          MaxHeight="22" x:Name="spinQ_4" iTag="4" UpeqType="EQ_QV"
+                                           ></oc:SpinnerControl>
+                    <oc:SpinnerControl Grid.Row="6" Grid.Column="2" Margin="1"    
+                          MaxHeight="22" x:Name="spinQ_5" iTag="5" UpeqType="EQ_QV"
+                                           ></oc:SpinnerControl>
+                    <oc:SpinnerControl Grid.Row="7" Grid.Column="2" Margin="1"    
+                          MaxHeight="22" x:Name="spinQ_6" iTag="6" UpeqType="EQ_QV"
+                                           ></oc:SpinnerControl>
+                    <oc:SpinnerControl Grid.Row="8" Grid.Column="2" Margin="1"    
+                          MaxHeight="22" x:Name="spinQ_7" iTag="7" UpeqType="EQ_QV"
+                                           ></oc:SpinnerControl>
+                    <!--EQ Gain spincontrol-->
+                    <oc:SpinnerControl Grid.Row="1" Grid.Column="3" Margin="1" MaxHeight="24" 
+                                x:Name="spinGain_0"  iTag="0" UpeqType="EQ_Gain"  Maximum="48"
+                                           ></oc:SpinnerControl>
+                    <oc:SpinnerControl Grid.Row="2" Grid.Column="3" Margin="1" MaxHeight="24" 
+                                x:Name="spinGain_1"  iTag="1" UpeqType="EQ_Gain"  Maximum="48"
+                                           ></oc:SpinnerControl>
+                    <oc:SpinnerControl Grid.Row="3" Grid.Column="3" Margin="1" MaxHeight="24" 
+                                x:Name="spinGain_2"  iTag="2" UpeqType="EQ_Gain"  Maximum="48"
+                                           ></oc:SpinnerControl>
+                    <oc:SpinnerControl Grid.Row="4" Grid.Column="3" Margin="1" MaxHeight="24" 
+                                x:Name="spinGain_3"  iTag="3" UpeqType="EQ_Gain"  Maximum="48"
+                                           ></oc:SpinnerControl>
+                    <oc:SpinnerControl Grid.Row="5" Grid.Column="3" Margin="1" MaxHeight="24" 
+                                x:Name="spinGain_4"  iTag="4" UpeqType="EQ_Gain"  Maximum="48"
+                                           ></oc:SpinnerControl>
+                    <oc:SpinnerControl Grid.Row="6" Grid.Column="3" Margin="1" MaxHeight="24" 
+                                x:Name="spinGain_5"  iTag="5" UpeqType="EQ_Gain"  Maximum="48"
+                                           ></oc:SpinnerControl>
+                    <oc:SpinnerControl Grid.Row="7" Grid.Column="3" Margin="1" MaxHeight="24" 
+                                x:Name="spinGain_6"  iTag="6" UpeqType="EQ_Gain"  Maximum="48"
+                                           ></oc:SpinnerControl>
+                    <oc:SpinnerControl Grid.Row="8" Grid.Column="3" Margin="1" MaxHeight="24" 
+                                x:Name="spinGain_7"  iTag="7" UpeqType="EQ_Gain"  Maximum="48"
+                                           ></oc:SpinnerControl>
+                    <!--eq type low/high shelf-->
+                    <oc:TComboBox Grid.Column="4" Grid.Row="1" SelectedIndex="0" MaxHeight="20" 
+                                  iTg="0"
+                                  IsEditable="False" Margin="1" x:Name="cbxeqType0">
+                        <ComboBoxItem>Peak</ComboBoxItem>
+                        <ComboBoxItem>Low</ComboBoxItem>
+                        <ComboBoxItem >High</ComboBoxItem>
+                    </oc:TComboBox>
+                    <oc:TComboBox Grid.Column="4" Grid.Row="2" SelectedIndex="0" MaxHeight="20"
+                                   iTg="1"
+                                  IsEditable="False" Margin="1" x:Name="cbxeqType1">
+                        <ComboBoxItem>Peak</ComboBoxItem>
+                        <ComboBoxItem>Low</ComboBoxItem>
+                        <ComboBoxItem >High</ComboBoxItem>
+                    </oc:TComboBox>
+                    <oc:TComboBox Grid.Column="4" Grid.Row="3" SelectedIndex="0" MaxHeight="20"
+                                   iTg="2"
+                                  IsEditable="False" Margin="1" x:Name="cbxeqType2">
+                        <ComboBoxItem>Peak</ComboBoxItem>
+                        <ComboBoxItem>Low</ComboBoxItem>
+                        <ComboBoxItem >High</ComboBoxItem>
+                    </oc:TComboBox>
+                    <oc:TComboBox Grid.Column="4" Grid.Row="4" SelectedIndex="0" MaxHeight="20"  iTg="3"
+                                  IsEditable="False" Margin="1" x:Name="cbxeqType3">
+                        <ComboBoxItem>Peak</ComboBoxItem>
+                        <ComboBoxItem>Low</ComboBoxItem>
+                        <ComboBoxItem >High</ComboBoxItem>
+                    </oc:TComboBox>
+                    <oc:TComboBox Grid.Column="4" Grid.Row="5" SelectedIndex="0" MaxHeight="20"  iTg="4"
+                                  IsEditable="False" Margin="1" x:Name="cbxeqType4">
+                        <ComboBoxItem>Peak</ComboBoxItem>
+                        <ComboBoxItem>Low</ComboBoxItem>
+                        <ComboBoxItem >High</ComboBoxItem>
+                    </oc:TComboBox>
+                    <oc:TComboBox Grid.Column="4" Grid.Row="6" SelectedIndex="0" MaxHeight="20"  iTg="5"
+                                  IsEditable="False" Margin="1" x:Name="cbxeqType5">
+                        <ComboBoxItem>Peak</ComboBoxItem>
+                        <ComboBoxItem>Low</ComboBoxItem>
+                        <ComboBoxItem >High</ComboBoxItem>
+                    </oc:TComboBox>
+                    <oc:TComboBox Grid.Column="4" Grid.Row="7" SelectedIndex="0" MaxHeight="20"  iTg="6"
+                                  IsEditable="False" Margin="1" x:Name="cbxeqType6">
+                        <ComboBoxItem>Peak</ComboBoxItem>
+                        <ComboBoxItem>Low</ComboBoxItem>
+                        <ComboBoxItem >High</ComboBoxItem>
+                    </oc:TComboBox>
+                    <oc:TComboBox Grid.Column="4" Grid.Row="8" SelectedIndex="0" MaxHeight="20"  iTg="7"
+                                  IsEditable="False" Margin="1" x:Name="cbxeqType7">
+                        <ComboBoxItem>Peak</ComboBoxItem>
+                        <ComboBoxItem>Low</ComboBoxItem>
+                        <ComboBoxItem >High</ComboBoxItem>
+                    </oc:TComboBox>
+                    <!--bypas EQ-->
+                    <CheckBox Grid.Column="8" Grid.Row="1" Margin="3,0,3,0" Name="ckbypas0" VerticalAlignment="Center">Bypass</CheckBox>
+                    <CheckBox Grid.Column="8" Grid.Row="2" Margin="3,0,3,0" Name="ckbypas1" VerticalAlignment="Center">Bypass</CheckBox>
+                    <CheckBox Grid.Column="8" Grid.Row="3" Margin="3,0,3,0" Name="ckbypas2" VerticalAlignment="Center">Bypass</CheckBox>
+                    <CheckBox Grid.Column="8" Grid.Row="4" Margin="3,0,3,0" Name="ckbypas3" VerticalAlignment="Center">Bypass</CheckBox>
+                    <CheckBox Grid.Column="8" Grid.Row="5" Margin="3,0,3,0" Name="ckbypas4" VerticalAlignment="Center">Bypass</CheckBox>
+                    <CheckBox Grid.Column="8" Grid.Row="6" Margin="3,0,3,0" Name="ckbypas5" VerticalAlignment="Center">Bypass</CheckBox>
+                    <CheckBox Grid.Column="8" Grid.Row="7" Margin="3,0,3,0" Name="ckbypas6" VerticalAlignment="Center">Bypass</CheckBox>
+                    <CheckBox Grid.Column="8" Grid.Row="8" Margin="3,0,3,0" Name="ckbypas7" VerticalAlignment="Center">Bypass</CheckBox>
+                    <!--//tow button-->
+                    <DockPanel HorizontalAlignment="Center" Grid.Column="2" Grid.Row="9" Grid.ColumnSpan="2">
+                        <StackPanel Orientation="Horizontal">
+                            <Button  MinWidth="60" Name="flatBtn" Padding="5" Margin="1,4,1,5"
+                                     Click="flatBtn_Click"
+                                 >Flat</Button>
+                            <oc:CSwitcher  MinWidth="60" Padding="5" Margin="1,4,1,4"
+                                      unActiveBrush="#FFD4D0C8" activeBrush="Red" 
+                                           Click="bypasAllBtn_Click"
+                                      Name="bypasAllBtn" >Bypass</oc:CSwitcher>
+                        </StackPanel>
+                    </DockPanel>
+                </Grid>
+
+            </DockPanel>
+
+
+        </Grid>
+    </Border>
+</UserControl>

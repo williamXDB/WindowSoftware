@@ -1,0 +1,51 @@
+﻿<UserControl x:Class="MatrixSystemEditor.CDeviceModule"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             mc:Ignorable="d" 
+             xmlns:oc="clr-namespace:Lib.Controls;assembly=Lib.Controls.MyControls"
+             d:DesignHeight="80" d:DesignWidth="130"
+             Background="Black"
+             >
+    <oc:CBorderSwitcher Background="Transparent"  Name="rootPanel" IsSelected="False"
+                        unActiveBrush="#FFD4D0C8" activeBrush="Yellow"
+                        > 
+        <oc:CBorderSwitcher.Content>
+        <Grid >
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto"></RowDefinition>
+                <RowDefinition Height="Auto"></RowDefinition>
+                <RowDefinition Height="Auto"></RowDefinition>
+               
+                <!--for expand for preserved-->
+
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition  Width="Auto"></ColumnDefinition>
+                <ColumnDefinition Width="Auto"></ColumnDefinition>
+               
+                <!--for expand for preserved-->
+            </Grid.ColumnDefinitions>
+            <TextBlock Name="deviceTitle" Text="Name:" Margin="3,3,0,3" Foreground="White"
+                       HorizontalAlignment="Left" VerticalAlignment="Center"></TextBlock>
+            <TextBlock Name="deviceAddr" Text="Addr:" Grid.Row="1" MinWidth="30"
+                       Margin="3,3,0,3" Foreground="White"
+                        HorizontalAlignment="Left" VerticalAlignment="Center"
+                       ></TextBlock>
+            <TextBlock Name="deviceMac" Text="MAC:" Grid.Row="2" Margin="3,3,0,3"
+                        HorizontalAlignment="Left" VerticalAlignment="Center"    Foreground="White"                   
+                       ></TextBlock>
+
+            <TextBlock Name="edTitle" Text="" Grid.Column="1"  Margin="0,3,3,3" Foreground="White"
+                       HorizontalAlignment="Left" VerticalAlignment="Center"></TextBlock>
+                <TextBlock Name="edAddr" Text="127.0.0.1" Grid.Column="1" Grid.Row="1" Foreground="White"
+                        HorizontalAlignment="Left" VerticalAlignment="Center" Margin="0,3,3,3"
+                       ></TextBlock>
+                <TextBlock Name="edMac" Text="00-00-00-00-00-00" Grid.Column="1" Grid.Row="2" Foreground="White"
+                        HorizontalAlignment="Left" VerticalAlignment="Center" Margin="0,3,3,3"
+                       ></TextBlock>
+        </Grid>
+        </oc:CBorderSwitcher.Content>
+    </oc:CBorderSwitcher>
+</UserControl>

@@ -1,0 +1,172 @@
+﻿<Page x:Class="MatrixSystemEditor.pageTab.DSpChanelPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+       xmlns:oc="clr-namespace:Lib.Controls;assembly=Lib.Controls.MyControls"    
+       xmlns:om="clr-namespace:Lib.Controls.FFTControl;assembly=Lib.Controls.MyControls"
+      mc:Ignorable="d" 
+      d:DesignHeight="500" d:DesignWidth="1060"
+	Title="DSpChanelPage">
+    <Grid x:Name="pageInputGrid"  HorizontalAlignment="Left" ShowGridLines="False"  >
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition  MinWidth="190" MaxWidth="205" />
+            <ColumnDefinition  Width="Auto" />
+            <ColumnDefinition  />
+        </Grid.ColumnDefinitions>
+        <Grid x:Name="leftExpGrid" Grid.Column="0">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto" />
+                <RowDefinition />
+            </Grid.RowDefinitions>
+            <StackPanel Orientation="Vertical" Grid.Row="0">
+                <StackPanel.Background>
+                    <ImageBrush ImageSource="/MatrixSystemEditor;component/Resources/left_long.png"></ImageBrush>
+                </StackPanel.Background>
+
+                <Grid Name="leftxExpGateGrid" >
+                    <!--exp/gate grid part-->
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto"></RowDefinition>
+                        <RowDefinition MinHeight="135"></RowDefinition>
+                    </Grid.RowDefinitions>
+                    <StackPanel Orientation="Horizontal"  Grid.Row="0">
+                        <TextBlock Grid.Column="1" Text="EXP/Gate"  VerticalAlignment="Center" HorizontalAlignment="Left" 
+                                                       Margin="8,5,40,0" Foreground="White"
+                                                       />
+                        <TextBlock Text="G.R." VerticalAlignment="Center" Margin="0,5,0,0"  Foreground="White"/>
+                        <oc:CLed Width="25" Height="15" Margin="1,5,1,1" x:Name="expLed"/>
+                    </StackPanel>
+                    <Canvas  Grid.Row="1" Margin="15,0,5,5">
+                        <Image Source="/MatrixSystemEditor;component/Resources/Image/expBK.png" MaxHeight="160" Margin="8,1,5,5"/>
+                        <oc:CLimitGDSlider  Width="160" Height="160" Margin="8,1,5,5"  
+												BackBrush="Transparent"  x:Name="leftExpGateControl"
+												dp_gdThresholdMax="100" />
+                    </Canvas>
+                </Grid>
+
+                <oc:CNoiseGateAjustControl  x:Name="leftNoiseControl"  LimitFlag="0" iTag="0"
+                                                                MinHeight="200"
+										thresRadix="-80" throsholdMax="100"  Margin="0,1,0,0" />
+            </StackPanel>
+            <Border x:Name="leftploarityBorder" Grid.Row="1" Margin="0,2,0,0" MinHeight="60" >
+                <Border.Background>
+                    <ImageBrush ImageSource="/MatrixSystemEditor;component/Resources/leftDown_img.png" ></ImageBrush>
+                </Border.Background>
+                <Grid ShowGridLines="False" >
+                    <Grid.RowDefinitions>
+                        <RowDefinition MinHeight="5" MaxHeight="10"/>
+                        <!--fore empty blank row-->
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition/>
+                        <RowDefinition MinHeight="5" MaxHeight="10"/>
+                    </Grid.RowDefinitions>
+                    <StackPanel Grid.Row="1">
+                        <StackPanel Orientation="Horizontal" >
+                            <oc:CSwitcher Content="DC48V" Margin="10,2,1,5" unActiveBrush="#FF454545" x:Name="dc48VBtn" Click="dc48VBtn_Click" MinWidth="58" MinHeight="30"/>
+                            <oc:CSwitcher Margin="5,2,5,5" Padding="5" MaxHeight="35" x:Name="ploarityBtn" Click="ploarityBtn_Click" unActiveBrush="#FF454545" Content="Polarity" MinWidth="58" MinHeight="30"/>
+                            <TextBox MaxHeight="25" MinWidth="38" DockPanel.Dock="Left" x:Name="edPloarity" Text="0°" IsReadOnly="True" 
+														Foreground="Red"
+														TextAlignment="Center" VerticalAlignment="Center"/>
+
+                        </StackPanel>
+                    </StackPanel>
+                    <Border Grid.Column="0" Grid.Row="2"  Margin="5,1,5,5" x:Name="gpxSensi"   MinHeight="50">                  
+
+                            <StackPanel >
+                            <TextBlock Text="Microphone Sensitivity" VerticalAlignment="Center" Margin="10,5,5,5" Foreground="White" />
+                                <oc:SpinnerControl  x:Name="sensiSpin" UpeqType="OtherType" Maximum="4" valueTxt="0dB"/>
+                            </StackPanel>
+                        
+                    </Border>
+                </Grid>
+            </Border>
+        </Grid>
+        <Grid x:Name="rightExpGrid" ShowGridLines="False" Grid.Column="2"  Margin="3,0,0,2">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition/>
+            </Grid.RowDefinitions>
+            <StackPanel>
+                <StackPanel.Background>
+                    <ImageBrush ImageSource="/MatrixSystemEditor;component/Resources/right_long.png"></ImageBrush>
+                </StackPanel.Background>
+                <DockPanel LastChildFill="True" x:Name="rightDynControlPanel">
+                    <Grid x:Name="rightExpGateGridPanel"   Margin="15,0,0,0" >
+                        <Grid.RowDefinitions>
+                            <RowDefinition />
+                            <RowDefinition Height="160"/>
+                            <RowDefinition/>
+                        </Grid.RowDefinitions>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition MinWidth="170"/>
+                            <ColumnDefinition Width="Auto" />
+                            <ColumnDefinition Width="*" />
+                        </Grid.ColumnDefinitions>
+                        <TextBlock Grid.Column="0"  Text="COMP" Margin="5,5,5,1"  Foreground="White"/>
+                        <TextBlock Grid.Column="1" HorizontalAlignment="Center"  Text="   GR."  Foreground="White" />
+                        <TextBlock Grid.Column="2" HorizontalAlignment="Left" Text="  Gain"  Foreground="White"/>
+                        <Canvas Grid.Column="0" Grid.Row="1">
+                            <Image Source="/MatrixSystemEditor;component/Resources/Image/dynBK.png" Height="160" Margin="5,1,5,5"
+													Width="160"/>
+                            <oc:CLimitGDSlider MinWidth="160" MinHeight="160" Margin="5,1,5,5"  
+													dp_GDSliderType="GDSLIDER_Dyn"
+													BackBrush="Transparent"  x:Name="rightExpGateControl"/>
+                        </Canvas>
+                        <DockPanel Grid.Column="2" Grid.Row="1" HorizontalAlignment="Left">
+                            <DockPanel.Background>
+                                <ImageBrush ImageSource="/MatrixSystemEditor;component/Resources/vbs_sliderPanel.png"/>
+                            </DockPanel.Background>
+                            <oc:CSlider Width="30" thumb="/MatrixSystemEditor;component/Resources/Image/thumb.png" Maximum="24" Posvalue="0"
+												x:Name="dynGSlider" 
+												BottomGap="5" TopGap="5"  Margin="-2,1,1,1"
+                                                            />
+                        </DockPanel>
+                        <StackPanel Grid.Column="1" Orientation="Horizontal"  Grid.Row="1" Margin="1,0,0,0" >
+                            <oc:DynGainMark MinWidth="22"></oc:DynGainMark>
+                            <oc:CMeter Width="15"  MinHeight="160" x:Name="dynMeter"  isLoopReverse="True"  
+                                                           LimitSegNum="0" ClipSegNum="16" posvalue="0"
+                                                           
+                                                           />
+                        </StackPanel>
+                        <TextBox Grid.Row="2" MaxHeight="18"  Grid.Column="2" IsReadOnly="True" Text="0.0dB"
+												MinWidth="35"  HorizontalAlignment="Center" Margin="1,1,1,1" FontSize="10"                                                     
+												x:Name="dynEdGain"/>
+                    </Grid>
+
+                </DockPanel>
+                <oc:CNoiseGateAjustControl Grid.Row="1" x:Name="rightNoiseControl" 
+                                                              MinWidth="258" HorizontalAlignment="Left"
+                                                               LimitFlag="1" iTag="1" Margin="0,5,0,0">
+
+                </oc:CNoiseGateAjustControl>
+            </StackPanel>
+            <oc:CDelayControl Grid.Row="1" x:Name="delayCtl"   MinHeight="60" >
+                <oc:CDelayControl.Background>
+                    <ImageBrush ImageSource="/MatrixSystemEditor;component/Resources/rightDown_img.png"></ImageBrush>
+                </oc:CDelayControl.Background>
+
+            </oc:CDelayControl>
+
+        </Grid>
+
+        <DockPanel Grid.Column="1" LastChildFill="True"  Margin="3,0,0,0">
+            <!--eqcontrol and fftview layout-->
+            <DockPanel.Background>
+                <ImageBrush ImageSource="/MatrixSystemEditor;component/Resources/mid_bimg.png"></ImageBrush>
+            </DockPanel.Background>
+            <Border  DockPanel.Dock="Top">
+                <oc:FFTDrawer   MinWidth="546" MinHeight="200"                                           
+										
+										BackBrush="#FF1E1E1E" BorderThick="1"
+										
+										x:Name="userfft"  isHasHLPF="True" 
+										isDrawWave="True" gLineBrushII="Green" 
+										GridBrush="#008000" Margin="20,5,10,18" />
+            </Border>
+            <oc:CEQControlII MinHeight="278" x:Name="eqControl"									
+									DockPanel.Dock="Bottom"/>
+        </DockPanel>
+
+    </Grid>
+</Page>

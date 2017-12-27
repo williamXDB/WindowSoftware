@@ -1,0 +1,38 @@
+﻿<Application x:Class="MatrixSystemEditor.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:oc="clr-namespace:Lib.Controls;assembly=Lib.Controls.MyControls"
+             StartupUri="FirstLookChooseWindow.xaml">
+    <Application.Resources>
+        <ResourceDictionary>           
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="pack://application:,,,/CLinerStyle;component/Themes/GenericStyle.xaml" />
+            </ResourceDictionary.MergedDictionaries>
+            
+            <SolidColorBrush x:Key="CsGray" Color="#FF808080" ></SolidColorBrush>
+            <SolidColorBrush x:Key="CsBlack" Color="#ff454545"></SolidColorBrush>
+            <SolidColorBrush x:Key="CsDarkGray" Color="#ff676767"></SolidColorBrush>
+
+            <Style BasedOn="{ StaticResource CheckBoxStyle1}" TargetType="{x:Type CheckBox}">
+                <Setter Property="Background" Value="{StaticResource CsDarkGray}"></Setter>
+            </Style>
+
+            <Style BasedOn="{ StaticResource ButtonStyle1}" TargetType="{x:Type Button}">
+                <Setter Property="Background" Value="{StaticResource CsGray}"></Setter>
+            </Style>
+            <Style BasedOn="{StaticResource ComboBoxStyle1}" TargetType="{x:Type oc:TComboBox}">
+                <Setter Property="Background" Value="{StaticResource CsBlack}"></Setter>
+             </Style>
+
+            <Style BasedOn="{StaticResource ButtonStyle3_select}" TargetType="{x:Type oc:CSwitcher}"></Style>
+            
+            <Style BasedOn="{StaticResource TextBoxStyle1}" TargetType="{x:Type TextBox}">
+                <Setter Property="Background" Value="{StaticResource CsGray}"></Setter>
+            </Style>
+            <Style BasedOn="{StaticResource RadioButtonStyle4_noeffect_pressed}" TargetType="{x:Type RepeatButton}">
+                <Setter Property="Background" Value="{StaticResource CsDarkGray}"></Setter>
+            </Style>
+            
+        </ResourceDictionary>
+    </Application.Resources>
+</Application>

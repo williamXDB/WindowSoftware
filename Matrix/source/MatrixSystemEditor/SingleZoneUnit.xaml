@@ -1,0 +1,76 @@
+﻿<UserControl x:Class="MatrixSystemEditor.SingleZoneUnit"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:lib="clr-namespace:Lib.Controls;assembly=Lib.Controls.MyControls"
+             mc:Ignorable="d" 
+             d:DesignHeight="438" d:DesignWidth="84"  BorderBrush="Gray" BorderThickness="1">
+    <Grid VirtualizingPanel.IsVirtualizing="True">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"></RowDefinition>
+            <RowDefinition></RowDefinition>
+        </Grid.RowDefinitions>
+
+        <StackPanel Orientation="Vertical">
+            <Border Width="78" Height="30"  Margin="2,5,2,5" BorderBrush="White" BorderThickness="1"  Padding="0,8,0,0"  >
+                <TextBlock TextAlignment="Center" HorizontalAlignment="Center" VerticalAlignment="Center" Text="MatrixA8" Width="74" Height="22" Foreground="White"  Name="lbTitle" />
+            </Border>
+            <TextBlock Text="1000" TextAlignment="Center" HorizontalAlignment="Center" VerticalAlignment="Center" Width="75" Name="lbDevID"></TextBlock>
+        </StackPanel>
+
+        <UniformGrid  Grid.Row="1" Columns="1" Rows="12" VirtualizingPanel.IsVirtualizing="True">
+
+            <StackPanel Orientation="Horizontal">
+                <lib:CSwitcher  Width="24"  activeBrush="Green"  unActiveBrush="Gray"   Height="16" Margin="5,0,1,0" iTag="0" Name="btn_port0"  ></lib:CSwitcher>
+                <TextBlock Text="Output 01" VerticalAlignment="Center" HorizontalAlignment="Center" Margin="5,0,5,0"></TextBlock>
+            </StackPanel>
+
+            <StackPanel Orientation="Horizontal">
+                <lib:CSwitcher  Width="24"  activeBrush="Green"  unActiveBrush="Gray"  Height="16" Margin="5,0,1,0" iTag="1"  Name="btn_port1" ></lib:CSwitcher>
+                <TextBlock Text="Output 02" VerticalAlignment="Center" HorizontalAlignment="Center" Margin="5,0,5,0"  FontSize="11"></TextBlock>
+            </StackPanel>
+            <StackPanel Orientation="Horizontal">
+                <lib:CSwitcher  Width="24"  activeBrush="Green"  unActiveBrush="Gray"  Height="16" Margin="5,0,1,0" iTag="2"  Name="btn_port2"></lib:CSwitcher>
+                <TextBlock Text="Output 03" VerticalAlignment="Center" HorizontalAlignment="Center" Margin="5,0,5,0"  FontSize="11"></TextBlock>
+            </StackPanel>
+            <StackPanel Orientation="Horizontal">
+                <lib:CSwitcher  Width="24"  activeBrush="Green"  unActiveBrush="Gray"  Height="16" Margin="5,0,1,0" iTag="3"  Name="btn_port3"></lib:CSwitcher>
+                <TextBlock Text="Output 04" VerticalAlignment="Center" HorizontalAlignment="Center" Margin="5,0,5,0"  FontSize="11"></TextBlock>
+            </StackPanel>
+            <StackPanel Orientation="Horizontal">
+                <lib:CSwitcher  Width="24"  activeBrush="Green"  unActiveBrush="Gray"  Height="16" Margin="5,0,1,0" iTag="4"  Name="btn_port4"></lib:CSwitcher>
+                <TextBlock Text="Output 05" VerticalAlignment="Center" HorizontalAlignment="Center" Margin="5,0,5,0"  FontSize="11"></TextBlock>
+            </StackPanel>
+            <StackPanel Orientation="Horizontal">
+                <lib:CSwitcher  Width="24"  activeBrush="Green"  unActiveBrush="Gray"  Height="16" Margin="5,0,1,0" iTag="5"  Name="btn_port5"></lib:CSwitcher>
+                <TextBlock Text="Output 06" VerticalAlignment="Center" HorizontalAlignment="Center" Margin="5,0,5,0"  FontSize="11"></TextBlock>
+            </StackPanel>
+            <StackPanel Orientation="Horizontal">
+                <lib:CSwitcher  Width="24"  activeBrush="Green"  unActiveBrush="Gray"  Height="16" Margin="5,0,1,0" iTag="6"  Name="btn_port6"></lib:CSwitcher>
+                <TextBlock Text="Output 07" VerticalAlignment="Center" HorizontalAlignment="Center" Margin="5,0,5,0"  FontSize="11"></TextBlock>
+            </StackPanel>
+            <StackPanel Orientation="Horizontal">
+                <lib:CSwitcher  Width="24"  activeBrush="Green"  unActiveBrush="Gray"  Height="16" Margin="5,0,1,0" iTag="7"  Name="btn_port7"></lib:CSwitcher>
+                <TextBlock Text="Output 08" VerticalAlignment="Center" HorizontalAlignment="Center" Margin="5,0,5,0"  FontSize="11"></TextBlock>
+            </StackPanel>
+            <StackPanel Orientation="Horizontal">
+                <lib:CSwitcher  Width="24"  activeBrush="Green"  unActiveBrush="Gray"  Height="16" Margin="5,0,1,0" iTag="8"  Name="btn_port8"></lib:CSwitcher>
+                <TextBlock Text="Output 09" VerticalAlignment="Center" HorizontalAlignment="Center" Margin="5,0,5,0"  FontSize="11"></TextBlock>
+            </StackPanel>
+            <StackPanel Orientation="Horizontal">
+                <lib:CSwitcher  Width="24"  activeBrush="Green"  unActiveBrush="Gray"  Height="16" Margin="5,0,1,0" iTag="9" Name="btn_port9"></lib:CSwitcher>
+                <TextBlock Text="Output 10" VerticalAlignment="Center" HorizontalAlignment="Center" Margin="5,0,5,0"  FontSize="11"></TextBlock>
+            </StackPanel>
+            <StackPanel Orientation="Horizontal">
+                <lib:CSwitcher  Width="24"  activeBrush="Green"  unActiveBrush="Gray"  Height="16" Margin="5,0,1,0" iTag="10" Name="btn_port10"></lib:CSwitcher>
+                <TextBlock Text="Output 11" VerticalAlignment="Center" HorizontalAlignment="Center" Margin="5,0,5,0"  FontSize="11"></TextBlock>
+            </StackPanel>
+            <StackPanel Orientation="Horizontal">
+                <lib:CSwitcher  Width="24"  activeBrush="Green"  unActiveBrush="Gray"  Height="16" Margin="5,0,1,0" iTag="11" Name="btn_port11"></lib:CSwitcher>
+                <TextBlock Text="Output 12" VerticalAlignment="Center" HorizontalAlignment="Center" Margin="5,0,5,0"  FontSize="11"></TextBlock>
+            </StackPanel>
+        </UniformGrid>
+
+    </Grid>
+</UserControl>

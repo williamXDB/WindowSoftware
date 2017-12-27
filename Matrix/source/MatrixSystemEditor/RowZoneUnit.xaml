@@ -1,0 +1,41 @@
+﻿<UserControl x:Class="MatrixSystemEditor.RowZoneUnit"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:MatrixSystemEditor"
+             mc:Ignorable="d" 
+             d:DesignHeight="450" d:DesignWidth="1350">
+    <Grid VirtualizingPanel.IsVirtualizing="True">
+        <UniformGrid Columns="16" Rows="1" VirtualizingPanel.IsVirtualizing="True" VerticalAlignment="Top">
+            <local:SingleZoneUnit  Width="85"  Height="438"    Margin="2,2,3,2" iTag="0" GroupDevID="1000"  x:Name="singleDev_0"></local:SingleZoneUnit>
+            <local:SingleZoneUnit  Width="85"  Height="438"    Margin="2,2,3,2"  iTag="1" GroupDevID="1100" x:Name="singleDev_1"    ></local:SingleZoneUnit>
+            <local:SingleZoneUnit  Width="85"  Height="438"    Margin="2,2,3,2"  iTag="2" GroupDevID="1200"  x:Name="singleDev_2"   ></local:SingleZoneUnit>
+            <local:SingleZoneUnit  Width="85"  Height="438"    Margin="2,2,3,2"  iTag="3" GroupDevID="1300"  x:Name="singleDev_3"   ></local:SingleZoneUnit>
+
+            <local:SingleZoneUnit  Width="85"  Height="438"    Margin="2,2,3,2" iTag="4" GroupDevID="1400"   x:Name="singleDev_4"  ></local:SingleZoneUnit>
+            <local:SingleZoneUnit  Width="85"  Height="438"    Margin="2,2,3,2" iTag="5" GroupDevID="1500"   x:Name="singleDev_5"  ></local:SingleZoneUnit>
+            <local:SingleZoneUnit  Width="85"  Height="438"    Margin="2,2,3,2" iTag="6" GroupDevID="1600"   x:Name="singleDev_6"  ></local:SingleZoneUnit>
+            <local:SingleZoneUnit  Width="85"  Height="438"    Margin="2,2,3,2" iTag="7" GroupDevID="1700"   x:Name="singleDev_7"  ></local:SingleZoneUnit>
+
+            <local:SingleZoneUnit  Width="85"  Height="438"    Margin="2,2,3,2" iTag="8" GroupDevID="1800"    x:Name="singleDev_8" ></local:SingleZoneUnit>
+            <local:SingleZoneUnit  Width="85"  Height="438"    Margin="2,2,3,2" iTag="9" GroupDevID="1900"   x:Name="singleDev_9" ></local:SingleZoneUnit>
+            <local:SingleZoneUnit  Width="85"  Height="438"    Margin="2,2,3,2" iTag="10" GroupDevID="2000"   x:Name="singleDev_10"  ></local:SingleZoneUnit>
+            <local:SingleZoneUnit  Width="85"  Height="438"    Margin="2,2,3,2" iTag="11" GroupDevID="2100"    x:Name="singleDev_11" ></local:SingleZoneUnit>
+
+            <local:SingleZoneUnit  Width="85"  Height="438"    Margin="2,2,3,2" iTag="12" GroupDevID="2200"   x:Name="singleDev_12"  ></local:SingleZoneUnit>
+            <local:SingleZoneUnit  Width="85"  Height="438"    Margin="2,2,3,2" iTag="13" GroupDevID="2300"   x:Name="singleDev_13"  ></local:SingleZoneUnit>
+            <local:SingleZoneUnit  Width="85"  Height="438"    Margin="2,2,3,2" iTag="14" GroupDevID="2400"   x:Name="singleDev_14"  ></local:SingleZoneUnit>
+            <local:SingleZoneUnit  Width="85"  Height="438"    Margin="2,2,3,2" iTag="15" GroupDevID="2500"    x:Name="singleDev_15" ></local:SingleZoneUnit>
+
+        </UniformGrid>
+
+
+
+
+
+
+
+    </Grid>
+
+</UserControl>

@@ -1,0 +1,853 @@
+﻿<UserControl x:Class="MatrixSystemEditor.CMatrixControl"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:oc="clr-namespace:Lib.Controls;assembly=Lib.Controls.MyControls"
+             mc:Ignorable="d" 
+             d:DesignHeight="510" d:DesignWidth="1000">
+    <Border BorderBrush="Gray" BorderThickness="1" Padding="5">
+
+        <Grid Name="RootGrid" ShowGridLines="False">
+            <Grid.RowDefinitions>
+                <RowDefinition MinHeight="80" MaxHeight="80"></RowDefinition>
+                <RowDefinition MaxHeight="15"></RowDefinition>
+                <RowDefinition Height="Auto"></RowDefinition>
+                <RowDefinition Height="Auto"></RowDefinition>
+                <RowDefinition Height="Auto"></RowDefinition>
+
+                <RowDefinition Height="Auto"></RowDefinition>
+                <RowDefinition Height="Auto"></RowDefinition>
+                <RowDefinition Height="Auto"></RowDefinition>
+                <RowDefinition Height="Auto"></RowDefinition>
+                <RowDefinition Height="Auto"></RowDefinition>
+
+                <RowDefinition Height="Auto"></RowDefinition>
+                <RowDefinition Height="Auto"></RowDefinition>
+                <RowDefinition Height="Auto"></RowDefinition>
+                <RowDefinition Height="Auto"></RowDefinition>
+                <RowDefinition Height="15"></RowDefinition>
+
+                <RowDefinition Height="Auto"></RowDefinition>
+                <RowDefinition Height="Auto"></RowDefinition>
+                <RowDefinition Height="Auto"></RowDefinition>
+                <RowDefinition Height="Auto"></RowDefinition>
+                <RowDefinition Height="Auto"></RowDefinition>
+                <RowDefinition Height="Auto"></RowDefinition>
+                <RowDefinition Height="Auto"></RowDefinition>
+                <RowDefinition Height="Auto"></RowDefinition>
+                <RowDefinition Height="10"></RowDefinition>
+
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition MinWidth="90" MaxWidth="70"></ColumnDefinition>
+                <ColumnDefinition MinWidth="85" MaxWidth="85"></ColumnDefinition>
+                <ColumnDefinition Width="Auto"></ColumnDefinition>
+                <!--local1-->
+                <ColumnDefinition Width="Auto"></ColumnDefinition>
+                <ColumnDefinition Width="Auto"></ColumnDefinition>
+
+                <ColumnDefinition Width="Auto"></ColumnDefinition>
+                <ColumnDefinition Width="Auto"></ColumnDefinition>
+                <ColumnDefinition Width="Auto"></ColumnDefinition>
+                <ColumnDefinition Width="Auto"></ColumnDefinition>
+                <ColumnDefinition Width="Auto"></ColumnDefinition>
+
+                <ColumnDefinition Width="Auto"></ColumnDefinition>
+                <ColumnDefinition Width="Auto"></ColumnDefinition>
+                <ColumnDefinition Width="Auto"></ColumnDefinition>
+                <ColumnDefinition Width="Auto"></ColumnDefinition>
+                <ColumnDefinition MaxWidth="15"></ColumnDefinition>
+                <!--blank-->
+
+                <ColumnDefinition Width="Auto"></ColumnDefinition>
+                <ColumnDefinition Width="Auto"></ColumnDefinition>
+                <ColumnDefinition Width="Auto"></ColumnDefinition>
+                <ColumnDefinition Width="Auto"></ColumnDefinition>
+                <ColumnDefinition Width="Auto"></ColumnDefinition>
+
+                <ColumnDefinition Width="Auto"></ColumnDefinition>
+                <ColumnDefinition Width="Auto"></ColumnDefinition>
+                <ColumnDefinition Width="Auto"></ColumnDefinition>
+            </Grid.ColumnDefinitions>
+            <Border BorderBrush="Gray" BorderThickness="1" Grid.Row="2">
+                <TextBlock Text="Local 01" VerticalAlignment="Center"  HorizontalAlignment="Center" TextAlignment="Center" MinWidth="65"></TextBlock>
+            </Border>
+            <Border BorderBrush="Gray" BorderThickness="1" Grid.Row="3">
+                <TextBlock Text="Local 02" VerticalAlignment="Center" HorizontalAlignment="Center" TextAlignment="Center" MinWidth="65"></TextBlock>
+            </Border>
+            <Border BorderBrush="Gray" BorderThickness="1" Grid.Row="4">
+                <TextBlock Text="Local 03" VerticalAlignment="Center" HorizontalAlignment="Center" TextAlignment="Center" MinWidth="65"></TextBlock>
+            </Border>
+            <Border BorderBrush="Gray" BorderThickness="1" Grid.Row="5">
+                <TextBlock Text="Local 04" VerticalAlignment="Center" HorizontalAlignment="Center" TextAlignment="Center" MinWidth="65"></TextBlock>
+            </Border>
+            <Border BorderBrush="Gray" BorderThickness="1" Grid.Row="6">
+                <TextBlock Text="Local 05" VerticalAlignment="Center"  HorizontalAlignment="Center" TextAlignment="Center" MinWidth="65"></TextBlock>
+            </Border>
+            <Border BorderBrush="Gray" BorderThickness="1" Grid.Row="7">
+                <TextBlock Text="Local 06" VerticalAlignment="Center"  HorizontalAlignment="Center" TextAlignment="Center" MinWidth="65"></TextBlock>
+            </Border>
+            <Border BorderBrush="Gray" BorderThickness="1" Grid.Row="8">
+                <TextBlock Text="Local 07" VerticalAlignment="Center"  HorizontalAlignment="Center" TextAlignment="Center" MinWidth="65"></TextBlock>
+            </Border>
+
+            <Border BorderBrush="Gray" BorderThickness="1" Grid.Row="9">
+                <TextBlock Text="Local 08" VerticalAlignment="Center"  HorizontalAlignment="Center" TextAlignment="Center" MinWidth="65"></TextBlock>
+            </Border>
+            <Border BorderBrush="Gray" BorderThickness="1" Grid.Row="10">
+                <TextBlock Text="Local 09" VerticalAlignment="Center" HorizontalAlignment="Center" TextAlignment="Center" MinWidth="65"></TextBlock>
+            </Border>
+            <Border BorderBrush="Gray" BorderThickness="1" Grid.Row="11">
+                <TextBlock Text="Local 10" VerticalAlignment="Center"  HorizontalAlignment="Center" TextAlignment="Center" MinWidth="65"></TextBlock>
+            </Border>
+            <Border BorderBrush="Gray" BorderThickness="1" Grid.Row="12">
+                <TextBlock Text="Local 11" VerticalAlignment="Center"  HorizontalAlignment="Center" TextAlignment="Center" MinWidth="65"></TextBlock>
+            </Border>
+            <Border BorderBrush="Gray" BorderThickness="1" Grid.Row="13">
+                <TextBlock Text="Local 12" VerticalAlignment="Center"  HorizontalAlignment="Center" TextAlignment="Center" MinWidth="65"></TextBlock>
+            </Border>
+            <!--//blank-->
+            <Border BorderBrush="Gray" BorderThickness="1" Grid.Row="15">
+                <TextBlock Text="Net  01" VerticalAlignment="Center"  HorizontalAlignment="Center" TextAlignment="Center" MinWidth="65"></TextBlock>
+            </Border>
+            <Border BorderBrush="Gray" BorderThickness="1" Grid.Row="16">
+                <TextBlock Text="Net  02" VerticalAlignment="Center" Grid.Row="15" HorizontalAlignment="Center" TextAlignment="Center" MinWidth="65"></TextBlock>
+            </Border>
+            <Border BorderBrush="Gray" BorderThickness="1" Grid.Row="17">
+                <TextBlock Text="Net  03" VerticalAlignment="Center"  HorizontalAlignment="Center" TextAlignment="Center" MinWidth="65"></TextBlock>
+            </Border>
+            <Border BorderBrush="Gray" BorderThickness="1" Grid.Row="18">
+                <TextBlock Text="Net  04" VerticalAlignment="Center"  HorizontalAlignment="Center" TextAlignment="Center" MinWidth="65"></TextBlock>
+            </Border>
+            <Border BorderBrush="Gray" BorderThickness="1" Grid.Row="19">
+                <TextBlock Text="Net  05" VerticalAlignment="Center"  HorizontalAlignment="Center" TextAlignment="Center" MinWidth="65"></TextBlock>
+            </Border>
+            <Border BorderBrush="Gray" BorderThickness="1" Grid.Row="20">
+                <TextBlock Text="Net  06" VerticalAlignment="Center"  HorizontalAlignment="Center" TextAlignment="Center" MinWidth="65"></TextBlock>
+            </Border>
+            <Border BorderBrush="Gray" BorderThickness="1" Grid.Row="21">
+                <TextBlock Text="Net  07" VerticalAlignment="Center"  HorizontalAlignment="Center" TextAlignment="Center" MinWidth="65"></TextBlock>
+            </Border>
+            <Border BorderBrush="Gray" BorderThickness="1" Grid.Row="22">
+                <TextBlock Text="Net  08" VerticalAlignment="Center"  HorizontalAlignment="Center" TextAlignment="Center" MinWidth="65"></TextBlock>
+            </Border>
+            <!--begin  local-->
+
+            <TextBlock Text="Local 01"  Grid.Column="2" Grid.Row="0"
+                       FontSize="13" TextAlignment="Left"  Margin="23,5,0,11"
+                       HorizontalAlignment="Left" Grid.ColumnSpan="3" Width="56" >
+                <TextBlock.RenderTransform>
+                    <TransformGroup>
+                        <RotateTransform Angle="-270" />
+                    </TransformGroup>
+                </TextBlock.RenderTransform>
+            </TextBlock>
+
+            <TextBlock Text="Local 02"  Grid.Column="3" Grid.Row="0"
+                       FontSize="13" TextAlignment="Left"  Margin="22,5,0,11"
+                       HorizontalAlignment="Left" Grid.ColumnSpan="3" >
+                <TextBlock.RenderTransform>
+                    <TransformGroup>
+                        <RotateTransform Angle="-270" />
+                    </TransformGroup>
+                </TextBlock.RenderTransform>
+            </TextBlock>
+            <TextBlock Text="Local 03"  Grid.Column="4" Grid.Row="0"
+                       FontSize="13" TextAlignment="Left"  Margin="25,5,0,0"
+                       HorizontalAlignment="Left" VerticalAlignment="Top" Grid.ColumnSpan="3" Width="57" >
+                <TextBlock.RenderTransform>
+                    <TransformGroup>
+                        <RotateTransform Angle="-270" />
+                    </TransformGroup>
+                </TextBlock.RenderTransform>
+            </TextBlock>
+            <TextBlock Text="Local 04"  Grid.Column="5" Grid.Row="0"
+                       FontSize="13" TextAlignment="Left"  Margin="25,5,0,0"
+                       HorizontalAlignment="Left" VerticalAlignment="Top" Grid.ColumnSpan="3" Width="55" >
+                <TextBlock.RenderTransform>
+                    <TransformGroup>
+                        <RotateTransform Angle="-270" />
+                    </TransformGroup>
+                </TextBlock.RenderTransform>
+            </TextBlock>
+            <TextBlock Text="Local 05"  Grid.Column="6" Grid.Row="0"
+                       FontSize="13" TextAlignment="Left"  Margin="25,5,0,0"
+                       HorizontalAlignment="Left" VerticalAlignment="Top" Grid.ColumnSpan="3" Width="57" >
+                <TextBlock.RenderTransform>
+                    <TransformGroup>
+                        <RotateTransform Angle="-270" />
+                    </TransformGroup>
+                </TextBlock.RenderTransform>
+            </TextBlock>
+            <TextBlock Text="Local 06"  Grid.Column="7" Grid.Row="0"
+                       FontSize="13" TextAlignment="Left"  Margin="25,5,0,0"
+                       HorizontalAlignment="Left" VerticalAlignment="Top" Grid.ColumnSpan="3" Width="57" >
+                <TextBlock.RenderTransform>
+                    <TransformGroup>
+                        <RotateTransform Angle="-270" />
+                    </TransformGroup>
+                </TextBlock.RenderTransform>
+            </TextBlock>
+            <TextBlock Text="Local 07"  Grid.Column="8" Grid.Row="0"
+                       FontSize="13" TextAlignment="Left"  Margin="25,5,0,11"
+                       HorizontalAlignment="Left" Grid.ColumnSpan="3" Width="55" >
+                <TextBlock.RenderTransform>
+                    <TransformGroup>
+                        <RotateTransform Angle="-270" />
+                    </TransformGroup>
+                </TextBlock.RenderTransform>
+            </TextBlock>
+            <TextBlock Text="Local 08"  Grid.Column="9" Grid.Row="0"
+                       FontSize="13" TextAlignment="Left"  Margin="25,5,0,16"
+                       HorizontalAlignment="Left" Grid.ColumnSpan="3" Width="56" >
+                <TextBlock.RenderTransform>
+                    <TransformGroup>
+                        <RotateTransform Angle="-270" />
+                    </TransformGroup>
+                </TextBlock.RenderTransform>
+            </TextBlock>
+            <TextBlock Text="Local 09"  Grid.Column="10" Grid.Row="0" Width="56"
+                       FontSize="13" TextAlignment="Left"  Margin="25,5,0,16"
+                       HorizontalAlignment="Left" Grid.ColumnSpan="3" >
+                <TextBlock.RenderTransform>
+                    <TransformGroup>
+                        <RotateTransform Angle="-270" />
+                    </TransformGroup>
+                </TextBlock.RenderTransform>
+            </TextBlock>
+            <TextBlock Text="Local 10"  Grid.Column="11" Grid.Row="0"
+                       FontSize="13" TextAlignment="Left"  Margin="25,5,0,0"
+                       HorizontalAlignment="Left" VerticalAlignment="Top" Grid.ColumnSpan="3" Width="58" >
+                <TextBlock.RenderTransform>
+                    <TransformGroup>
+                        <RotateTransform Angle="-270" />
+                    </TransformGroup>
+                </TextBlock.RenderTransform>
+            </TextBlock>
+            <TextBlock Text="Local 11"  Grid.Column="12" Grid.Row="0"
+                       FontSize="13" TextAlignment="Left"  Margin="25,5,0,16"
+                       HorizontalAlignment="Left" Grid.ColumnSpan="4" Width="66" >
+                <TextBlock.RenderTransform>
+                    <TransformGroup>
+                        <RotateTransform Angle="-270" />
+                    </TransformGroup>
+                </TextBlock.RenderTransform>
+            </TextBlock>
+            <TextBlock Text="Local 12"  Grid.Column="13" Grid.Row="0"
+                       FontSize="13" TextAlignment="Left"  Margin="24,5,0,0"
+                       HorizontalAlignment="Left" VerticalAlignment="Top" Grid.ColumnSpan="4" Width="53" >
+                <TextBlock.RenderTransform>
+                    <TransformGroup>
+                        <RotateTransform Angle="-270" />
+                    </TransformGroup>
+                </TextBlock.RenderTransform>
+            </TextBlock>
+            <TextBlock Text="Net 01"  Grid.Column="15" Grid.Row="0"
+                       FontSize="13" TextAlignment="Left"  Margin="22,5,0,0"
+                       HorizontalAlignment="Left" VerticalAlignment="Top" Grid.ColumnSpan="3" Width="49" >
+                <TextBlock.RenderTransform>
+                    <TransformGroup>
+                        <RotateTransform Angle="-270" />
+                    </TransformGroup>
+                </TextBlock.RenderTransform>
+            </TextBlock>
+            <TextBlock Text="Net 02"  Grid.Column="16" Grid.Row="0"
+                       FontSize="13" TextAlignment="Left"  Margin="24,5,0,0"
+                       HorizontalAlignment="Left" VerticalAlignment="Top" Grid.ColumnSpan="2" Width="35" >
+                <TextBlock.RenderTransform>
+                    <TransformGroup>
+                        <RotateTransform Angle="-270" />
+                    </TransformGroup>
+                </TextBlock.RenderTransform>
+            </TextBlock>
+            <TextBlock Text="Net 03"  Grid.Column="17" Grid.Row="0"
+                       FontSize="13" TextAlignment="Left"  Margin="25,5,0,0"
+                       HorizontalAlignment="Left" VerticalAlignment="Top" Grid.ColumnSpan="3" Width="35" >
+                <TextBlock.RenderTransform>
+                    <TransformGroup>
+                        <RotateTransform Angle="-270" />
+                    </TransformGroup>
+                </TextBlock.RenderTransform>
+            </TextBlock>
+
+            <TextBlock Text="Net 04"  Grid.Column="18" Grid.Row="0"
+                       FontSize="13" TextAlignment="Left"  Margin="25,5,0,0"
+                       HorizontalAlignment="Left" VerticalAlignment="Top" Grid.ColumnSpan="3" Width="57" >
+                <TextBlock.RenderTransform>
+                    <TransformGroup>
+                        <RotateTransform Angle="-270" />
+                    </TransformGroup>
+                </TextBlock.RenderTransform>
+            </TextBlock>
+            <TextBlock Text="Net 05"  Grid.Column="19" Grid.Row="0"
+                       FontSize="13" TextAlignment="Left"  Margin="25,5,0,0"
+                       HorizontalAlignment="Left" VerticalAlignment="Top" Grid.ColumnSpan="3" Width="47" >
+                <TextBlock.RenderTransform>
+                    <TransformGroup>
+                        <RotateTransform Angle="-270" />
+                    </TransformGroup>
+                </TextBlock.RenderTransform>
+            </TextBlock>
+            <TextBlock Text="Net 06"  Grid.Column="20" Grid.Row="0"
+                       FontSize="13" TextAlignment="Left"  Margin="23,5,0,0"
+                       HorizontalAlignment="Left" VerticalAlignment="Top" Grid.ColumnSpan="3" Width="45" >
+                <TextBlock.RenderTransform>
+                    <TransformGroup>
+                        <RotateTransform Angle="-270" />
+                    </TransformGroup>
+                </TextBlock.RenderTransform>
+            </TextBlock>
+            <TextBlock Text="Net 07"  Grid.Column="21" Grid.Row="0"
+                       FontSize="13" TextAlignment="Left"  Margin="24,5,-13,0"
+                       HorizontalAlignment="Left" VerticalAlignment="Top" Grid.ColumnSpan="2" Width="50" >
+                <TextBlock.RenderTransform>
+                    <TransformGroup>
+                        <RotateTransform Angle="-270" />
+                    </TransformGroup>
+                </TextBlock.RenderTransform>
+            </TextBlock>
+            <TextBlock Text="Net 08"  Grid.Column="22" Grid.Row="0"
+                       FontSize="13" TextAlignment="Left"  Margin="24,5,-45,0"
+                       HorizontalAlignment="Left" VerticalAlignment="Top" Width="51" >
+                <TextBlock.RenderTransform>
+                    <TransformGroup>
+                        <RotateTransform Angle="-270" />
+                    </TransformGroup>
+                </TextBlock.RenderTransform>
+            </TextBlock>
+
+
+            <!--Frist column-->
+            <oc:CSwitcher Grid.Row="2" Grid.Column="2" Height="16" VerticalAlignment="Top" Width="26" 
+                          iTag="0" unActiveBrush="Gray" activeBrush="Green" IsSelected="False"   Margin="1,1,1,1"                          
+                          ></oc:CSwitcher>
+            <oc:CSwitcher Grid.Row="3" Grid.Column="2" Height="16" VerticalAlignment="Top" Width="26"  iTag="1" unActiveBrush="Gray" activeBrush="Green" IsSelected="False"   Margin="1,1,1,1"></oc:CSwitcher>
+            <oc:CSwitcher Grid.Row="4" Grid.Column="2" Height="16" VerticalAlignment="Top" Width="26"  iTag="2" unActiveBrush="Gray" activeBrush="Green" IsSelected="False"   Margin="1,1,1,1"></oc:CSwitcher>
+            <oc:CSwitcher Grid.Row="5" Grid.Column="2" Height="16" VerticalAlignment="Top" Width="26"  iTag="3" unActiveBrush="Gray" activeBrush="Green" IsSelected="False"   Margin="1,1,1,1"></oc:CSwitcher>
+            <oc:CSwitcher Grid.Row="6" Grid.Column="2" Height="16" VerticalAlignment="Top" Width="26"  iTag="4" unActiveBrush="Gray" activeBrush="Green" IsSelected="False"   Margin="1,1,1,1"></oc:CSwitcher>
+
+            <oc:CSwitcher Grid.Row="7" Grid.Column="2" Height="16" VerticalAlignment="Top" Width="26"  iTag="5" unActiveBrush="Gray" activeBrush="Green" IsSelected="False"   Margin="1,1,1,1"></oc:CSwitcher>
+            <oc:CSwitcher Grid.Row="8" Grid.Column="2" Height="16" VerticalAlignment="Top" Width="26"  iTag="6" unActiveBrush="Gray" activeBrush="Green" IsSelected="False"   Margin="1,1,1,1"></oc:CSwitcher>
+            <oc:CSwitcher Grid.Row="9" Grid.Column="2" Height="16" VerticalAlignment="Top" Width="26"  iTag="7" unActiveBrush="Gray" activeBrush="Green" IsSelected="False"   Margin="1,1,1,1"></oc:CSwitcher>
+            <oc:CSwitcher Grid.Row="10" Grid.Column="2" Height="16" VerticalAlignment="Top" Width="26"  iTag="8" unActiveBrush="Gray" activeBrush="Green" IsSelected="False"   Margin="1,1,1,1"></oc:CSwitcher>
+            <oc:CSwitcher Grid.Row="11" Grid.Column="2" Height="16" VerticalAlignment="Top" Width="26"  iTag="9" unActiveBrush="Gray" activeBrush="Green" IsSelected="False"   Margin="1,1,1,1"></oc:CSwitcher>
+
+            <oc:CSwitcher Grid.Row="12" Grid.Column="2" Height="16" VerticalAlignment="Top" Width="26"  iTag="10" unActiveBrush="Gray" activeBrush="Green" IsSelected="False"   Margin="1,1,1,1"></oc:CSwitcher>
+            <oc:CSwitcher Grid.Row="13" Grid.Column="2" Height="16" VerticalAlignment="Top" Width="26"  iTag="11" unActiveBrush="Gray" activeBrush="Green" IsSelected="False"   Margin="1,1,1,1"></oc:CSwitcher>
+
+            <oc:CSwitcher Grid.Row="15" Grid.Column="2" Height="16" VerticalAlignment="Top" Width="26"  iTag="12" unActiveBrush="Gray" activeBrush="Green" IsSelected="False"   Margin="1,1,1,1"></oc:CSwitcher>
+            <oc:CSwitcher Grid.Row="16" Grid.Column="2" Height="16" VerticalAlignment="Top" Width="26"  iTag="13" unActiveBrush="Gray" activeBrush="Green" IsSelected="False"   Margin="1,1,1,1"></oc:CSwitcher>
+            <oc:CSwitcher Grid.Row="17" Grid.Column="2" Height="16" VerticalAlignment="Top" Width="26"  iTag="14" unActiveBrush="Gray" activeBrush="Green" IsSelected="False"   Margin="1,1,1,1"></oc:CSwitcher>
+            <oc:CSwitcher Grid.Row="18" Grid.Column="2" Height="16" VerticalAlignment="Top" Width="26"  iTag="15" unActiveBrush="Gray" activeBrush="Green" IsSelected="False"   Margin="1,1,1,1"></oc:CSwitcher>
+
+            <oc:CSwitcher Grid.Row="19" Grid.Column="2" Height="16" VerticalAlignment="Top" Width="26"  iTag="16" unActiveBrush="Gray" activeBrush="Green" IsSelected="False"   Margin="1,1,1,1"></oc:CSwitcher>
+            <oc:CSwitcher Grid.Row="20" Grid.Column="2" Height="16" VerticalAlignment="Top" Width="26"  iTag="17" unActiveBrush="Gray" activeBrush="Green" IsSelected="False"   Margin="1,1,1,1"></oc:CSwitcher>
+            <oc:CSwitcher Grid.Row="21" Grid.Column="2" Height="16" VerticalAlignment="Top" Width="26"  iTag="18" unActiveBrush="Gray" activeBrush="Green" IsSelected="False"   Margin="1,1,1,1"></oc:CSwitcher>
+            <oc:CSwitcher Grid.Row="22" Grid.Column="2" Height="16" VerticalAlignment="Top" Width="26"  iTag="19" unActiveBrush="Gray" activeBrush="Green" IsSelected="False"   Margin="1,1,1,1"></oc:CSwitcher>
+
+            <!--Frist column-->
+            <oc:CSwitcher Grid.Row="2" Grid.Column="3" Height="16" VerticalAlignment="Top" Width="26"  iTag="20" unActiveBrush="Gray" activeBrush="Green" IsSelected="False"   Margin="1,1,1,1"></oc:CSwitcher>
+            <oc:CSwitcher Grid.Row="3" Grid.Column="3" Height="16" VerticalAlignment="Top" Width="26"  iTag="21" unActiveBrush="Gray" activeBrush="Green" IsSelected="False"   Margin="1,1,1,1"></oc:CSwitcher>
+            <oc:CSwitcher Grid.Row="4" Grid.Column="3" Height="16" VerticalAlignment="Top" Width="26"  iTag="22" unActiveBrush="Gray" activeBrush="Green" IsSelected="False"   Margin="1,1,1,1"></oc:CSwitcher>
+            <oc:CSwitcher Grid.Row="5" Grid.Column="3" Height="16" VerticalAlignment="Top" Width="26"  iTag="23" unActiveBrush="Gray" activeBrush="Green" IsSelected="False"   Margin="1,1,1,1"></oc:CSwitcher>
+            <oc:CSwitcher Grid.Row="6" Grid.Column="3" Height="16" VerticalAlignment="Top" Width="26"  iTag="24" unActiveBrush="Gray" activeBrush="Green" IsSelected="False"   Margin="1,1,1,1"></oc:CSwitcher>
+
+            <oc:CSwitcher Grid.Row="7" Grid.Column="3" Height="16" VerticalAlignment="Top" Width="26"  iTag="25" unActiveBrush="Gray" activeBrush="Green" IsSelected="False"   Margin="1,1,1,1"></oc:CSwitcher>
+            <oc:CSwitcher Grid.Row="8" Grid.Column="3" Height="16" VerticalAlignment="Top" Width="26"  iTag="26" unActiveBrush="Gray" activeBrush="Green" IsSelected="False"   Margin="1,1,1,1"></oc:CSwitcher>
+            <oc:CSwitcher Grid.Row="9" Grid.Column="3" Height="16" VerticalAlignment="Top" Width="26"  iTag="27" unActiveBrush="Gray" activeBrush="Green" IsSelected="False"   Margin="1,1,1,1"></oc:CSwitcher>
+            <oc:CSwitcher Grid.Row="10" Grid.Column="3" Height="16" VerticalAlignment="Top" Width="26"  iTag="28" unActiveBrush="Gray" activeBrush="Green" IsSelected="False"   Margin="1,1,1,1"></oc:CSwitcher>
+            <oc:CSwitcher Grid.Row="11" Grid.Column="3" Height="16" VerticalAlignment="Top" Width="26"  iTag="29" unActiveBrush="Gray" activeBrush="Green" IsSelected="False"   Margin="1,1,1,1"></oc:CSwitcher>
+
+            <oc:CSwitcher Grid.Row="12" Grid.Column="3" Height="16" VerticalAlignment="Top" Width="26"  iTag="30" unActiveBrush="Gray" activeBrush="Green" IsSelected="False"   Margin="1,1,1,1"></oc:CSwitcher>
+            <oc:CSwitcher Grid.Row="13" Grid.Column="3" Height="16" VerticalAlignment="Top" Width="26"  iTag="31" unActiveBrush="Gray" activeBrush="Green" IsSelected="False"   Margin="1,1,1,1"></oc:CSwitcher>
+            <oc:CSwitcher Grid.Row="15" Grid.Column="3" Height="16" VerticalAlignment="Top" Width="26"  iTag="32" unActiveBrush="Gray" activeBrush="Green" IsSelected="False"   Margin="1,1,1,1"></oc:CSwitcher>
+            <oc:CSwitcher Grid.Row="16" Grid.Column="3" Height="16" VerticalAlignment="Top" Width="26"  iTag="33" unActiveBrush="Gray" activeBrush="Green" IsSelected="False"   Margin="1,1,1,1"></oc:CSwitcher>
+            <oc:CSwitcher Grid.Row="17" Grid.Column="3" Height="16" VerticalAlignment="Top" Width="26"  iTag="34" unActiveBrush="Gray" activeBrush="Green" IsSelected="False"   Margin="1,1,1,1"></oc:CSwitcher>
+            <oc:CSwitcher Grid.Row="18" Grid.Column="3" Height="16" VerticalAlignment="Top" Width="26"  iTag="35" unActiveBrush="Gray" activeBrush="Green" IsSelected="False"   Margin="1,1,1,1"></oc:CSwitcher>
+
+            <oc:CSwitcher Grid.Row="19" Grid.Column="3" Height="16" VerticalAlignment="Top" Width="26"  iTag="36" unActiveBrush="Gray" activeBrush="Green" IsSelected="False"   Margin="1,1,1,1"></oc:CSwitcher>
+            <oc:CSwitcher Grid.Row="20" Grid.Column="3" Height="16" VerticalAlignment="Top" Width="26"  iTag="37" unActiveBrush="Gray" activeBrush="Green" IsSelected="False"   Margin="1,1,1,1"></oc:CSwitcher>
+            <oc:CSwitcher Grid.Row="21" Grid.Column="3" Height="16" VerticalAlignment="Top" Width="26"  iTag="38" unActiveBrush="Gray" activeBrush="Green" IsSelected="False"   Margin="1,1,1,1"></oc:CSwitcher>
+            <oc:CSwitcher Grid.Row="22" Grid.Column="3" Height="16" VerticalAlignment="Top" Width="26"  iTag="39" unActiveBrush="Gray" activeBrush="Green" IsSelected="False"   Margin="1,1,1,1"></oc:CSwitcher>
+
+            <!--Frist column-->
+            <oc:CSwitcher Grid.Row="2" Grid.Column="4" Height="16" VerticalAlignment="Top" Width="26"  iTag="40" unActiveBrush="Gray" activeBrush="Green" IsSelected="False"   Margin="1,1,1,1"></oc:CSwitcher>
+            <oc:CSwitcher Grid.Row="3" Grid.Column="4" Height="16" VerticalAlignment="Top" Width="26"  iTag="41" unActiveBrush="Gray" activeBrush="Green" IsSelected="False"   Margin="1,1,1,1"></oc:CSwitcher>
+            <oc:CSwitcher Grid.Row="4" Grid.Column="4" Height="16" VerticalAlignment="Top" Width="26"  iTag="42" unActiveBrush="Gray" activeBrush="Green" IsSelected="False"   Margin="1,1,1,1"></oc:CSwitcher>
+            <oc:CSwitcher Grid.Row="5" Grid.Column="4" Height="16" VerticalAlignment="Top" Width="26"  iTag="43" unActiveBrush="Gray" activeBrush="Green" IsSelected="False"   Margin="1,1,1,1"></oc:CSwitcher>
+            <oc:CSwitcher Grid.Row="6" Grid.Column="4" Height="16" VerticalAlignment="Top" Width="26"  iTag="44" unActiveBrush="Gray" activeBrush="Green" IsSelected="False"   Margin="1,1,1,1"></oc:CSwitcher>
+
+            <oc:CSwitcher Grid.Row="7" Grid.Column="4" Height="16" VerticalAlignment="Top" Width="26"  iTag="45" unActiveBrush="Gray" activeBrush="Green" IsSelected="False"   Margin="1,1,1,1"></oc:CSwitcher>
+            <oc:CSwitcher Grid.Row="8" Grid.Column="4" Height="16" VerticalAlignment="Top" Width="26"  iTag="46" unActiveBrush="Gray" activeBrush="Green" IsSelected="False"   Margin="1,1,1,1"></oc:CSwitcher>
+            <oc:CSwitcher Grid.Row="9" Grid.Column="4" Height="16" VerticalAlignment="Top" Width="26"  iTag="47" unActiveBrush="Gray" activeBrush="Green" IsSelected="False"   Margin="1,1,1,1"></oc:CSwitcher>
+            <oc:CSwitcher Grid.Row="10" Grid.Column="4" Height="16" VerticalAlignment="Top" Width="26"  iTag="48" unActiveBrush="Gray" activeBrush="Green" IsSelected="False"   Margin="1,1,1,1"></oc:CSwitcher>
+            <oc:CSwitcher Grid.Row="11" Grid.Column="4" Height="16" VerticalAlignment="Top" Width="26"  iTag="49" unActiveBrush="Gray" activeBrush="Green" IsSelected="False"   Margin="1,1,1,1"></oc:CSwitcher>
+
+            <oc:CSwitcher Grid.Row="12" Grid.Column="4" Height="16" VerticalAlignment="Top" Width="26"  iTag="50" unActiveBrush="Gray" activeBrush="Green" IsSelected="False"   Margin="1,1,1,1"></oc:CSwitcher>
+            <oc:CSwitcher Grid.Row="13" Grid.Column="4" Height="16" VerticalAlignment="Top" Width="26"  iTag="51" unActiveBrush="Gray" activeBrush="Green" IsSelected="False"   Margin="1,1,1,1"></oc:CSwitcher>
+
+            <oc:CSwitcher Grid.Row="15" Grid.Column="4" Height="16" VerticalAlignment="Top" Width="26"  iTag="52" unActiveBrush="Gray" activeBrush="Green" IsSelected="False"   Margin="1,1,1,1"></oc:CSwitcher>
+            <oc:CSwitcher Grid.Row="16" Grid.Column="4" Height="16" VerticalAlignment="Top" Width="26"  iTag="53" unActiveBrush="Gray" activeBrush="Green" IsSelected="False"   Margin="1,1,1,1"></oc:CSwitcher>
+            <oc:CSwitcher Grid.Row="17" Grid.Column="4" Height="16" VerticalAlignment="Top" Width="26"  iTag="54" unActiveBrush="Gray" activeBrush="Green" IsSelected="False"   Margin="1,1,1,1"></oc:CSwitcher>
+            <oc:CSwitcher Grid.Row="18" Grid.Column="4" Height="16" VerticalAlignment="Top" Width="26"  iTag="55" unActiveBrush="Gray" activeBrush="Green" IsSelected="False"   Margin="1,1,1,1"></oc:CSwitcher>
+
+            <oc:CSwitcher Grid.Row="19" Grid.Column="4" Height="16" VerticalAlignment="Top" Width="26"  iTag="56" unActiveBrush="Gray" activeBrush="Green" IsSelected="False"   Margin="1,1,1,1"></oc:CSwitcher>
+            <oc:CSwitcher Grid.Row="20" Grid.Column="4" Height="16" VerticalAlignment="Top" Width="26"  iTag="57" unActiveBrush="Gray" activeBrush="Green" IsSelected="False"   Margin="1,1,1,1"></oc:CSwitcher>
+            <oc:CSwitcher Grid.Row="21" Grid.Column="4" Height="16" VerticalAlignment="Top" Width="26"  iTag="58" unActiveBrush="Gray" activeBrush="Green" IsSelected="False"   Margin="1,1,1,1"></oc:CSwitcher>
+            <oc:CSwitcher Grid.Row="22" Grid.Column="4" Height="16" VerticalAlignment="Top" Width="26"  iTag="59" unActiveBrush="Gray" activeBrush="Green" IsSelected="False"   Margin="1,1,1,1"></oc:CSwitcher>
+
+
+            <!--Frist column-->
+            <oc:CSwitcher Grid.Row="2" Grid.Column="5" Height="16" VerticalAlignment="Top" Width="26"  iTag="60" unActiveBrush="Gray" activeBrush="Green" IsSelected="False"   Margin="1,1,1,1"></oc:CSwitcher>
+            <oc:CSwitcher Grid.Row="3" Grid.Column="5" Height="16" VerticalAlignment="Top" Width="26"  iTag="61" unActiveBrush="Gray" activeBrush="Green" IsSelected="False"   Margin="1,1,1,1"></oc:CSwitcher>
+            <oc:CSwitcher Grid.Row="4" Grid.Column="5" Height="16" VerticalAlignment="Top" Width="26"  iTag="62" unActiveBrush="Gray" activeBrush="Green" IsSelected="False"   Margin="1,1,1,1"></oc:CSwitcher>
+            <oc:CSwitcher Grid.Row="5" Grid.Column="5" Height="16" VerticalAlignment="Top" Width="26"  iTag="63" unActiveBrush="Gray" activeBrush="Green" IsSelected="False"   Margin="1,1,1,1"></oc:CSwitcher>
+            <oc:CSwitcher Grid.Row="6" Grid.Column="5" Height="16" VerticalAlignment="Top" Width="26"  iTag="64" unActiveBrush="Gray" activeBrush="Green" IsSelected="False"   Margin="1,1,1,1"></oc:CSwitcher>
+
+            <oc:CSwitcher Grid.Row="7" Grid.Column="5" Height="16" VerticalAlignment="Top" Width="26"  iTag="65" unActiveBrush="Gray" activeBrush="Green" IsSelected="False"   Margin="1,1,1,1"></oc:CSwitcher>
+            <oc:CSwitcher Grid.Row="8" Grid.Column="5" Height="16" VerticalAlignment="Top" Width="26"  iTag="66" unActiveBrush="Gray" activeBrush="Green" IsSelected="False"   Margin="1,1,1,1"></oc:CSwitcher>
+            <oc:CSwitcher Grid.Row="9" Grid.Column="5" Height="16" VerticalAlignment="Top" Width="26"  iTag="67" unActiveBrush="Gray" activeBrush="Green" IsSelected="False"   Margin="1,1,1,1"></oc:CSwitcher>
+            <oc:CSwitcher Grid.Row="10" Grid.Column="5" Height="16" VerticalAlignment="Top" Width="26"  iTag="68" unActiveBrush="Gray" activeBrush="Green" IsSelected="False"   Margin="1,1,1,1"></oc:CSwitcher>
+            <oc:CSwitcher Grid.Row="11" Grid.Column="5" Height="16" VerticalAlignment="Top" Width="26"  iTag="69" unActiveBrush="Gray" activeBrush="Green" IsSelected="False"   Margin="1,1,1,1"></oc:CSwitcher>
+
+            <oc:CSwitcher Grid.Row="12" Grid.Column="5" Height="16" VerticalAlignment="Top" Width="26"  iTag="70" unActiveBrush="Gray" activeBrush="Green" IsSelected="False"   Margin="1,1,1,1"></oc:CSwitcher>
+            <oc:CSwitcher Grid.Row="13" Grid.Column="5" Height="16" VerticalAlignment="Top" Width="26"  iTag="71" unActiveBrush="Gray" activeBrush="Green" IsSelected="False"   Margin="1,1,1,1"></oc:CSwitcher>
+
+            <oc:CSwitcher Grid.Row="15" Grid.Column="5" Height="16" VerticalAlignment="Top" Width="26"  iTag="72" unActiveBrush="Gray" activeBrush="Green" IsSelected="False"   Margin="1,1,1,1"></oc:CSwitcher>
+            <oc:CSwitcher Grid.Row="16" Grid.Column="5" Height="16" VerticalAlignment="Top" Width="26"  iTag="73" unActiveBrush="Gray" activeBrush="Green" IsSelected="False"   Margin="1,1,1,1"></oc:CSwitcher>
+            <oc:CSwitcher Grid.Row="17" Grid.Column="5" Height="16" VerticalAlignment="Top" Width="26"  iTag="74" unActiveBrush="Gray" activeBrush="Green" IsSelected="False"   Margin="1,1,1,1"></oc:CSwitcher>
+            <oc:CSwitcher Grid.Row="18" Grid.Column="5" Height="16" VerticalAlignment="Top" Width="26"  iTag="75" unActiveBrush="Gray" activeBrush="Green" IsSelected="False"   Margin="1,1,1,1"></oc:CSwitcher>
+
+            <oc:CSwitcher Grid.Row="19" Grid.Column="5" Height="16" VerticalAlignment="Top" Width="26"  iTag="76" unActiveBrush="Gray" activeBrush="Green" IsSelected="False"   Margin="1,1,1,1"></oc:CSwitcher>
+            <oc:CSwitcher Grid.Row="20" Grid.Column="5" Height="16" VerticalAlignment="Top" Width="26"  iTag="77" unActiveBrush="Gray" activeBrush="Green" IsSelected="False"   Margin="1,1,1,1"></oc:CSwitcher>
+            <oc:CSwitcher Grid.Row="21" Grid.Column="5" Height="16" VerticalAlignment="Top" Width="26"  iTag="78" unActiveBrush="Gray" activeBrush="Green" IsSelected="False"   Margin="1,1,1,1"></oc:CSwitcher>
+            <oc:CSwitcher Grid.Row="22" Grid.Column="5" Height="16" VerticalAlignment="Top" Width="26"  iTag="79" unActiveBrush="Gray" activeBrush="Green" IsSelected="False"   Margin="1,1,1,1"></oc:CSwitcher>
+
+
+            <!--fifth column-->
+            <oc:CSwitcher Grid.Row="2" Grid.Column="6" Height="16" VerticalAlignment="Top" Width="26"  iTag="80" unActiveBrush="Gray" activeBrush="Green" IsSelected="False"   Margin="1,1,1,1"></oc:CSwitcher>
+            <oc:CSwitcher Grid.Row="3" Grid.Column="6" Height="16" VerticalAlignment="Top" Width="26"  iTag="81" unActiveBrush="Gray" activeBrush="Green" IsSelected="False"   Margin="1,1,1,1"></oc:CSwitcher>
+            <oc:CSwitcher Grid.Row="4" Grid.Column="6" Height="16" VerticalAlignment="Top" Width="26"  iTag="82" unActiveBrush="Gray" activeBrush="Green" IsSelected="False"   Margin="1,1,1,1"></oc:CSwitcher>
+            <oc:CSwitcher Grid.Row="5" Grid.Column="6" Height="16" VerticalAlignment="Top" Width="26"  iTag="83" unActiveBrush="Gray" activeBrush="Green" IsSelected="False"   Margin="1,1,1,1"></oc:CSwitcher>
+            <oc:CSwitcher Grid.Row="6" Grid.Column="6" Height="16" VerticalAlignment="Top" Width="26"  iTag="84" unActiveBrush="Gray" activeBrush="Green" IsSelected="False"   Margin="1,1,1,1"></oc:CSwitcher>
+
+            <oc:CSwitcher Grid.Row="7" Grid.Column="6" Height="16" VerticalAlignment="Top" Width="26"  iTag="85" unActiveBrush="Gray" activeBrush="Green" IsSelected="False"   Margin="1,1,1,1"></oc:CSwitcher>
+            <oc:CSwitcher Grid.Row="8" Grid.Column="6" Height="16" VerticalAlignment="Top" Width="26"  iTag="86" unActiveBrush="Gray" activeBrush="Green" IsSelected="False"   Margin="1,1,1,1"></oc:CSwitcher>
+            <oc:CSwitcher Grid.Row="9" Grid.Column="6" Height="16" VerticalAlignment="Top" Width="26"  iTag="87" unActiveBrush="Gray" activeBrush="Green" IsSelected="False"   Margin="1,1,1,1"></oc:CSwitcher>
+            <oc:CSwitcher Grid.Row="10" Grid.Column="6" Height="16" VerticalAlignment="Top" Width="26"  iTag="88" unActiveBrush="Gray" activeBrush="Green" IsSelected="False"   Margin="1,1,1,1"></oc:CSwitcher>
+            <oc:CSwitcher Grid.Row="11" Grid.Column="6" Height="16" VerticalAlignment="Top" Width="26"  iTag="89" unActiveBrush="Gray" activeBrush="Green" IsSelected="False"   Margin="1,1,1,1"></oc:CSwitcher>
+
+            <oc:CSwitcher Grid.Row="12" Grid.Column="6" Height="16" VerticalAlignment="Top" Width="26"  iTag="90" unActiveBrush="Gray" activeBrush="Green" IsSelected="False"   Margin="1,1,1,1"></oc:CSwitcher>
+            <oc:CSwitcher Grid.Row="13" Grid.Column="6" Height="16" VerticalAlignment="Top" Width="26"  iTag="91" unActiveBrush="Gray" activeBrush="Green" IsSelected="False"   Margin="1,1,1,1"></oc:CSwitcher>
+            <oc:CSwitcher Grid.Row="15" Grid.Column="6" Height="16" VerticalAlignment="Top" Width="26"  iTag="92" unActiveBrush="Gray" activeBrush="Green" IsSelected="False"   Margin="1,1,1,1"></oc:CSwitcher>
+            <oc:CSwitcher Grid.Row="16" Grid.Column="6" Height="16" VerticalAlignment="Top" Width="26"  iTag="93" unActiveBrush="Gray" activeBrush="Green" IsSelected="False"   Margin="1,1,1,1"></oc:CSwitcher>
+            <oc:CSwitcher Grid.Row="17" Grid.Column="6" Height="16" VerticalAlignment="Top" Width="26"  iTag="94" unActiveBrush="Gray" activeBrush="Green" IsSelected="False"   Margin="1,1,1,1"></oc:CSwitcher>
+            <oc:CSwitcher Grid.Row="18" Grid.Column="6" Height="16" VerticalAlignment="Top" Width="26"  iTag="95" unActiveBrush="Gray" activeBrush="Green" IsSelected="False"   Margin="1,1,1,1"></oc:CSwitcher>
+
+            <oc:CSwitcher Grid.Row="19" Grid.Column="6" Height="16" VerticalAlignment="Top" Width="26"  iTag="96" unActiveBrush="Gray" activeBrush="Green" IsSelected="False"   Margin="1,1,1,1"></oc:CSwitcher>
+            <oc:CSwitcher Grid.Row="20" Grid.Column="6" Height="16" VerticalAlignment="Top" Width="26"  iTag="97" unActiveBrush="Gray" activeBrush="Green" IsSelected="False"   Margin="1,1,1,1"></oc:CSwitcher>
+            <oc:CSwitcher Grid.Row="21" Grid.Column="6" Height="16" VerticalAlignment="Top" Width="26"  iTag="98" unActiveBrush="Gray" activeBrush="Green" IsSelected="False"   Margin="1,1,1,1"></oc:CSwitcher>
+            <oc:CSwitcher Grid.Row="22" Grid.Column="6" Height="16" VerticalAlignment="Top" Width="26"  iTag="99" unActiveBrush="Gray" activeBrush="Green" IsSelected="False"   Margin="1,1,1,1"></oc:CSwitcher>
+
+            <!--seven column-->
+            <oc:CSwitcher Grid.Row="2" Grid.Column="7" Height="16" VerticalAlignment="Top" Width="26"  iTag="100" unActiveBrush="Gray" activeBrush="Green" IsSelected="False"   Margin="1,1,1,1"></oc:CSwitcher>
+            <oc:CSwitcher Grid.Row="3" Grid.Column="7" Height="16" VerticalAlignment="Top" Width="26"  iTag="101" unActiveBrush="Gray" activeBrush="Green" IsSelected="False"   Margin="1,1,1,1"></oc:CSwitcher>
+            <oc:CSwitcher Grid.Row="4" Grid.Column="7" Height="16" VerticalAlignment="Top" Width="26"  iTag="102" unActiveBrush="Gray" activeBrush="Green" IsSelected="False"   Margin="1,1,1,1"></oc:CSwitcher>
+            <oc:CSwitcher Grid.Row="5" Grid.Column="7" Height="16" VerticalAlignment="Top" Width="26"  iTag="103" unActiveBrush="Gray" activeBrush="Green" IsSelected="False"   Margin="1,1,1,1"></oc:CSwitcher>
+            <oc:CSwitcher Grid.Row="6" Grid.Column="7" Height="16" VerticalAlignment="Top" Width="26"  iTag="104" unActiveBrush="Gray" activeBrush="Green" IsSelected="False"   Margin="1,1,1,1"></oc:CSwitcher>
+
+            <oc:CSwitcher Grid.Row="7" Grid.Column="7" Height="16" VerticalAlignment="Top" Width="26"  iTag="105" unActiveBrush="Gray" activeBrush="Green" IsSelected="False"   Margin="1,1,1,1"></oc:CSwitcher>
+            <oc:CSwitcher Grid.Row="8" Grid.Column="7" Height="16" VerticalAlignment="Top" Width="26"  iTag="106" unActiveBrush="Gray" activeBrush="Green" IsSelected="False"   Margin="1,1,1,1"></oc:CSwitcher>
+            <oc:CSwitcher Grid.Row="9" Grid.Column="7" Height="16" VerticalAlignment="Top" Width="26"  iTag="107" unActiveBrush="Gray" activeBrush="Green" IsSelected="False"   Margin="1,1,1,1"></oc:CSwitcher>
+            <oc:CSwitcher Grid.Row="10" Grid.Column="7" Height="16" VerticalAlignment="Top" Width="26"  iTag="108" unActiveBrush="Gray" activeBrush="Green" IsSelected="False"   Margin="1,1,1,1"></oc:CSwitcher>
+            <oc:CSwitcher Grid.Row="11" Grid.Column="7" Height="16" VerticalAlignment="Top" Width="26"  iTag="109" unActiveBrush="Gray" activeBrush="Green" IsSelected="False"   Margin="1,1,1,1"></oc:CSwitcher>
+
+            <oc:CSwitcher Grid.Row="12" Grid.Column="7" Height="16" VerticalAlignment="Top" Width="26"  iTag="110" unActiveBrush="Gray" activeBrush="Green" IsSelected="False"   Margin="1,1,1,1"></oc:CSwitcher>
+            <oc:CSwitcher Grid.Row="13" Grid.Column="7" Height="16" VerticalAlignment="Top" Width="26"  iTag="111" unActiveBrush="Gray" activeBrush="Green" IsSelected="False"   Margin="1,1,1,1"></oc:CSwitcher>
+
+            <oc:CSwitcher Grid.Row="15" Grid.Column="7" Height="16" VerticalAlignment="Top" Width="26"  iTag="112" unActiveBrush="Gray" activeBrush="Green" IsSelected="False"   Margin="1,1,1,1"></oc:CSwitcher>
+            <oc:CSwitcher Grid.Row="16" Grid.Column="7" Height="16" VerticalAlignment="Top" Width="26"  iTag="113" unActiveBrush="Gray" activeBrush="Green" IsSelected="False"   Margin="1,1,1,1"></oc:CSwitcher>
+            <oc:CSwitcher Grid.Row="17" Grid.Column="7" Height="16" VerticalAlignment="Top" Width="26"  iTag="114" unActiveBrush="Gray" activeBrush="Green" IsSelected="False"   Margin="1,1,1,1"></oc:CSwitcher>
+            <oc:CSwitcher Grid.Row="18" Grid.Column="7" Height="16" VerticalAlignment="Top" Width="26"  iTag="115" unActiveBrush="Gray" activeBrush="Green" IsSelected="False"   Margin="1,1,1,1"></oc:CSwitcher>
+
+            <oc:CSwitcher Grid.Row="19" Grid.Column="7" Height="16" VerticalAlignment="Top" Width="26"  iTag="116" unActiveBrush="Gray" activeBrush="Green" IsSelected="False"   Margin="1,1,1,1"></oc:CSwitcher>
+            <oc:CSwitcher Grid.Row="20" Grid.Column="7" Height="16" VerticalAlignment="Top" Width="26"  iTag="117" unActiveBrush="Gray" activeBrush="Green" IsSelected="False"   Margin="1,1,1,1"></oc:CSwitcher>
+            <oc:CSwitcher Grid.Row="21" Grid.Column="7" Height="16" VerticalAlignment="Top" Width="26"  iTag="118" unActiveBrush="Gray" activeBrush="Green" IsSelected="False"   Margin="1,1,1,1"></oc:CSwitcher>
+            <oc:CSwitcher Grid.Row="22" Grid.Column="7" Height="16" VerticalAlignment="Top" Width="26"  iTag="119" unActiveBrush="Gray" activeBrush="Green" IsSelected="False"   Margin="1,1,1,1"></oc:CSwitcher>
+
+            <!--8 column-->
+            <oc:CSwitcher Grid.Row="2" Grid.Column="8" Height="16" VerticalAlignment="Top" Width="26"  iTag="120" unActiveBrush="Gray" activeBrush="Green" IsSelected="False"   Margin="1,1,1,1"></oc:CSwitcher>
+            <oc:CSwitcher Grid.Row="3" Grid.Column="8" Height="16" VerticalAlignment="Top" Width="26"  iTag="121" unActiveBrush="Gray" activeBrush="Green" IsSelected="False"   Margin="1,1,1,1"></oc:CSwitcher>
+            <oc:CSwitcher Grid.Row="4" Grid.Column="8" Height="16" VerticalAlignment="Top" Width="26"  iTag="122" unActiveBrush="Gray" activeBrush="Green" IsSelected="False"   Margin="1,1,1,1"></oc:CSwitcher>
+            <oc:CSwitcher Grid.Row="5" Grid.Column="8" Height="16" VerticalAlignment="Top" Width="26"  iTag="123" unActiveBrush="Gray" activeBrush="Green" IsSelected="False"   Margin="1,1,1,1"></oc:CSwitcher>
+            <oc:CSwitcher Grid.Row="6" Grid.Column="8" Height="16" VerticalAlignment="Top" Width="26"  iTag="124" unActiveBrush="Gray" activeBrush="Green" IsSelected="False"   Margin="1,1,1,1"></oc:CSwitcher>
+
+            <oc:CSwitcher Grid.Row="7" Grid.Column="8" Height="16" VerticalAlignment="Top" Width="26"  iTag="125" unActiveBrush="Gray" activeBrush="Green" IsSelected="False"   Margin="1,1,1,1"></oc:CSwitcher>
+            <oc:CSwitcher Grid.Row="8" Grid.Column="8" Height="16" VerticalAlignment="Top" Width="26"  iTag="126" unActiveBrush="Gray" activeBrush="Green" IsSelected="False"   Margin="1,1,1,1"></oc:CSwitcher>
+            <oc:CSwitcher Grid.Row="9" Grid.Column="8" Height="16" VerticalAlignment="Top" Width="26"  iTag="127" unActiveBrush="Gray" activeBrush="Green" IsSelected="False"   Margin="1,1,1,1"></oc:CSwitcher>
+            <oc:CSwitcher Grid.Row="10" Grid.Column="8" Height="16" VerticalAlignment="Top" Width="26"  iTag="128" unActiveBrush="Gray" activeBrush="Green" IsSelected="False"   Margin="1,1,1,1"></oc:CSwitcher>
+            <oc:CSwitcher Grid.Row="11" Grid.Column="8" Height="16" VerticalAlignment="Top" Width="26"  iTag="129" unActiveBrush="Gray" activeBrush="Green" IsSelected="False"   Margin="1,1,1,1"></oc:CSwitcher>
+
+            <oc:CSwitcher Grid.Row="12" Grid.Column="8" Height="16" VerticalAlignment="Top" Width="26"  iTag="130" unActiveBrush="Gray" activeBrush="Green" IsSelected="False"   Margin="1,1,1,1"></oc:CSwitcher>
+            <oc:CSwitcher Grid.Row="13" Grid.Column="8" Height="16" VerticalAlignment="Top" Width="26"  iTag="131" unActiveBrush="Gray" activeBrush="Green" IsSelected="False"   Margin="1,1,1,1"></oc:CSwitcher>
+
+            <oc:CSwitcher Grid.Row="15" Grid.Column="8" Height="16" VerticalAlignment="Top" Width="26"  iTag="132" unActiveBrush="Gray" activeBrush="Green" IsSelected="False"   Margin="1,1,1,1"></oc:CSwitcher>
+            <oc:CSwitcher Grid.Row="16" Grid.Column="8" Height="16" VerticalAlignment="Top" Width="26"  iTag="133" unActiveBrush="Gray" activeBrush="Green" IsSelected="False"   Margin="1,1,1,1"></oc:CSwitcher>
+            <oc:CSwitcher Grid.Row="17" Grid.Column="8" Height="16" VerticalAlignment="Top" Width="26"  iTag="134" unActiveBrush="Gray" activeBrush="Green" IsSelected="False"   Margin="1,1,1,1"></oc:CSwitcher>
+            <oc:CSwitcher Grid.Row="18" Grid.Column="8" Height="16" VerticalAlignment="Top" Width="26"  iTag="135" unActiveBrush="Gray" activeBrush="Green" IsSelected="False"   Margin="1,1,1,1"></oc:CSwitcher>
+
+            <oc:CSwitcher Grid.Row="19" Grid.Column="8" Height="16" VerticalAlignment="Top" Width="26"  iTag="136" unActiveBrush="Gray" activeBrush="Green" IsSelected="False"   Margin="1,1,1,1"></oc:CSwitcher>
+            <oc:CSwitcher Grid.Row="20" Grid.Column="8" Height="16" VerticalAlignment="Top" Width="26"  iTag="137" unActiveBrush="Gray" activeBrush="Green" IsSelected="False"   Margin="1,1,1,1"></oc:CSwitcher>
+            <oc:CSwitcher Grid.Row="21" Grid.Column="8" Height="16" VerticalAlignment="Top" Width="26"  iTag="138" unActiveBrush="Gray" activeBrush="Green" IsSelected="False"   Margin="1,1,1,1"></oc:CSwitcher>
+            <oc:CSwitcher Grid.Row="22" Grid.Column="8" Height="16" VerticalAlignment="Top" Width="26"  iTag="139" unActiveBrush="Gray" activeBrush="Green" IsSelected="False"   Margin="1,1,1,1"></oc:CSwitcher>
+
+
+            <!--9 column-->
+            <oc:CSwitcher Grid.Row="2" Grid.Column="9" Height="16" VerticalAlignment="Top" Width="26"  iTag="140" unActiveBrush="Gray" activeBrush="Green" IsSelected="False"   Margin="1,1,1,1"></oc:CSwitcher>
+            <oc:CSwitcher Grid.Row="3" Grid.Column="9" Height="16" VerticalAlignment="Top" Width="26"  iTag="141" unActiveBrush="Gray" activeBrush="Green" IsSelected="False"   Margin="1,1,1,1"></oc:CSwitcher>
+            <oc:CSwitcher Grid.Row="4" Grid.Column="9" Height="16" VerticalAlignment="Top" Width="26"  iTag="142" unActiveBrush="Gray" activeBrush="Green" IsSelected="False"   Margin="1,1,1,1"></oc:CSwitcher>
+            <oc:CSwitcher Grid.Row="5" Grid.Column="9" Height="16" VerticalAlignment="Top" Width="26"  iTag="143" unActiveBrush="Gray" activeBrush="Green" IsSelected="False"   Margin="1,1,1,1"></oc:CSwitcher>
+            <oc:CSwitcher Grid.Row="6" Grid.Column="9" Height="16" VerticalAlignment="Top" Width="26"  iTag="144" unActiveBrush="Gray" activeBrush="Green" IsSelected="False"   Margin="1,1,1,1"></oc:CSwitcher>
+
+            <oc:CSwitcher Grid.Row="7" Grid.Column="9" Height="16" VerticalAlignment="Top" Width="26"  iTag="145" unActiveBrush="Gray" activeBrush="Green" IsSelected="False"   Margin="1,1,1,1"></oc:CSwitcher>
+            <oc:CSwitcher Grid.Row="8" Grid.Column="9" Height="16" VerticalAlignment="Top" Width="26"  iTag="146" unActiveBrush="Gray" activeBrush="Green" IsSelected="False"   Margin="1,1,1,1"></oc:CSwitcher>
+            <oc:CSwitcher Grid.Row="9" Grid.Column="9" Height="16" VerticalAlignment="Top" Width="26"  iTag="147" unActiveBrush="Gray" activeBrush="Green" IsSelected="False"   Margin="1,1,1,1"></oc:CSwitcher>
+            <oc:CSwitcher Grid.Row="10" Grid.Column="9" Height="16" VerticalAlignment="Top" Width="26"  iTag="148" unActiveBrush="Gray" activeBrush="Green" IsSelected="False"   Margin="1,1,1,1"></oc:CSwitcher>
+            <oc:CSwitcher Grid.Row="11" Grid.Column="9" Height="16" VerticalAlignment="Top" Width="26"  iTag="149" unActiveBrush="Gray" activeBrush="Green" IsSelected="False"   Margin="1,1,1,1"></oc:CSwitcher>
+
+            <oc:CSwitcher Grid.Row="12" Grid.Column="9" Height="16" VerticalAlignment="Top" Width="26"  iTag="150" unActiveBrush="Gray" activeBrush="Green" IsSelected="False"   Margin="1,1,1,1"></oc:CSwitcher>
+            <oc:CSwitcher Grid.Row="13" Grid.Column="9" Height="16" VerticalAlignment="Top" Width="26"  iTag="151" unActiveBrush="Gray" activeBrush="Green" IsSelected="False"   Margin="1,1,1,1"></oc:CSwitcher>
+
+
+            <oc:CSwitcher Grid.Row="15" Grid.Column="9" Height="16" VerticalAlignment="Top" Width="26"  iTag="152" unActiveBrush="Gray" activeBrush="Green" IsSelected="False"   Margin="1,1,1,1"></oc:CSwitcher>
+            <oc:CSwitcher Grid.Row="16" Grid.Column="9" Height="16" VerticalAlignment="Top" Width="26"  iTag="153" unActiveBrush="Gray" activeBrush="Green" IsSelected="False"   Margin="1,1,1,1"></oc:CSwitcher>
+            <oc:CSwitcher Grid.Row="17" Grid.Column="9" Height="16" VerticalAlignment="Top" Width="26"  iTag="154" unActiveBrush="Gray" activeBrush="Green" IsSelected="False"   Margin="1,1,1,1"></oc:CSwitcher>
+            <oc:CSwitcher Grid.Row="18" Grid.Column="9" Height="16" VerticalAlignment="Top" Width="26"  iTag="155" unActiveBrush="Gray" activeBrush="Green" IsSelected="False"   Margin="1,1,1,1"></oc:CSwitcher>
+
+            <oc:CSwitcher Grid.Row="19" Grid.Column="9" Height="16" VerticalAlignment="Top" Width="26"  iTag="156" unActiveBrush="Gray" activeBrush="Green" IsSelected="False"   Margin="1,1,1,1"></oc:CSwitcher>
+            <oc:CSwitcher Grid.Row="20" Grid.Column="9" Height="16" VerticalAlignment="Top" Width="26"  iTag="157" unActiveBrush="Gray" activeBrush="Green" IsSelected="False"   Margin="1,1,1,1"></oc:CSwitcher>
+            <oc:CSwitcher Grid.Row="21" Grid.Column="9" Height="16" VerticalAlignment="Top" Width="26"  iTag="158" unActiveBrush="Gray" activeBrush="Green" IsSelected="False"   Margin="1,1,1,1"></oc:CSwitcher>
+            <oc:CSwitcher Grid.Row="22" Grid.Column="9" Height="16" VerticalAlignment="Top" Width="26"  iTag="159" unActiveBrush="Gray" activeBrush="Green" IsSelected="False"   Margin="1,1,1,1"></oc:CSwitcher>
+
+            <!--10 column-->
+            <oc:CSwitcher Grid.Row="2" Grid.Column="10" Height="16" VerticalAlignment="Top" Width="26"  iTag="160" unActiveBrush="Gray" activeBrush="Green" IsSelected="False"   Margin="1,1,1,1"></oc:CSwitcher>
+            <oc:CSwitcher Grid.Row="3" Grid.Column="10" Height="16" VerticalAlignment="Top" Width="26"  iTag="161" unActiveBrush="Gray" activeBrush="Green" IsSelected="False"   Margin="1,1,1,1"></oc:CSwitcher>
+            <oc:CSwitcher Grid.Row="4" Grid.Column="10" Height="16" VerticalAlignment="Top" Width="26"  iTag="162" unActiveBrush="Gray" activeBrush="Green" IsSelected="False"   Margin="1,1,1,1"></oc:CSwitcher>
+            <oc:CSwitcher Grid.Row="5" Grid.Column="10" Height="16" VerticalAlignment="Top" Width="26"  iTag="163" unActiveBrush="Gray" activeBrush="Green" IsSelected="False"   Margin="1,1,1,1"></oc:CSwitcher>
+            <oc:CSwitcher Grid.Row="6" Grid.Column="10" Height="16" VerticalAlignment="Top" Width="26"  iTag="164" unActiveBrush="Gray" activeBrush="Green" IsSelected="False"   Margin="1,1,1,1"></oc:CSwitcher>
+
+            <oc:CSwitcher Grid.Row="7" Grid.Column="10" Height="16" VerticalAlignment="Top" Width="26"  iTag="165" unActiveBrush="Gray" activeBrush="Green" IsSelected="False"   Margin="1,1,1,1"></oc:CSwitcher>
+            <oc:CSwitcher Grid.Row="8" Grid.Column="10" Height="16" VerticalAlignment="Top" Width="26"  iTag="166" unActiveBrush="Gray" activeBrush="Green" IsSelected="False"   Margin="1,1,1,1"></oc:CSwitcher>
+            <oc:CSwitcher Grid.Row="9" Grid.Column="10" Height="16" VerticalAlignment="Top" Width="26"  iTag="167" unActiveBrush="Gray" activeBrush="Green" IsSelected="False"   Margin="1,1,1,1"></oc:CSwitcher>
+            <oc:CSwitcher Grid.Row="10" Grid.Column="10" Height="16" VerticalAlignment="Top" Width="26"  iTag="168" unActiveBrush="Gray" activeBrush="Green" IsSelected="False"   Margin="1,1,1,1"></oc:CSwitcher>
+            <oc:CSwitcher Grid.Row="11" Grid.Column="10" Height="16" VerticalAlignment="Top" Width="26"  iTag="169" unActiveBrush="Gray" activeBrush="Green" IsSelected="False"   Margin="1,1,1,1"></oc:CSwitcher>
+
+            <oc:CSwitcher Grid.Row="12" Grid.Column="10" Height="16" VerticalAlignment="Top" Width="26"  iTag="170" unActiveBrush="Gray" activeBrush="Green" IsSelected="False"   Margin="1,1,1,1"></oc:CSwitcher>
+            <oc:CSwitcher Grid.Row="13" Grid.Column="10" Height="16" VerticalAlignment="Top" Width="26"  iTag="171" unActiveBrush="Gray" activeBrush="Green" IsSelected="False"   Margin="1,1,1,1"></oc:CSwitcher>
+
+
+
+            <oc:CSwitcher Grid.Row="15" Grid.Column="10" Height="16" VerticalAlignment="Top" Width="26"  iTag="172" unActiveBrush="Gray" activeBrush="Green" IsSelected="False"   Margin="1,1,1,1"></oc:CSwitcher>
+            <oc:CSwitcher Grid.Row="16" Grid.Column="10" Height="16" VerticalAlignment="Top" Width="26"  iTag="173" unActiveBrush="Gray" activeBrush="Green" IsSelected="False"   Margin="1,1,1,1"></oc:CSwitcher>
+            <oc:CSwitcher Grid.Row="17" Grid.Column="10" Height="16" VerticalAlignment="Top" Width="26"  iTag="174" unActiveBrush="Gray" activeBrush="Green" IsSelected="False"   Margin="1,1,1,1"></oc:CSwitcher>
+            <oc:CSwitcher Grid.Row="18" Grid.Column="10" Height="16" VerticalAlignment="Top" Width="26"  iTag="175" unActiveBrush="Gray" activeBrush="Green" IsSelected="False"   Margin="1,1,1,1"></oc:CSwitcher>
+
+            <oc:CSwitcher Grid.Row="19" Grid.Column="10" Height="16" VerticalAlignment="Top" Width="26"  iTag="176" unActiveBrush="Gray" activeBrush="Green" IsSelected="False"   Margin="1,1,1,1"></oc:CSwitcher>
+            <oc:CSwitcher Grid.Row="20" Grid.Column="10" Height="16" VerticalAlignment="Top" Width="26"  iTag="177" unActiveBrush="Gray" activeBrush="Green" IsSelected="False"   Margin="1,1,1,1"></oc:CSwitcher>
+            <oc:CSwitcher Grid.Row="21" Grid.Column="10" Height="16" VerticalAlignment="Top" Width="26"  iTag="178" unActiveBrush="Gray" activeBrush="Green" IsSelected="False"   Margin="1,1,1,1"></oc:CSwitcher>
+            <oc:CSwitcher Grid.Row="22" Grid.Column="10" Height="16" VerticalAlignment="Top" Width="26"  iTag="179" unActiveBrush="Gray" activeBrush="Green" IsSelected="False"   Margin="1,1,1,1"></oc:CSwitcher>
+
+            <!--11 column-->
+            <oc:CSwitcher Grid.Row="2" Grid.Column="11" Height="16" VerticalAlignment="Top" Width="26"  iTag="180" unActiveBrush="Gray" activeBrush="Green" IsSelected="False"   Margin="1,1,1,1"></oc:CSwitcher>
+            <oc:CSwitcher Grid.Row="3" Grid.Column="11" Height="16" VerticalAlignment="Top" Width="26"  iTag="181" unActiveBrush="Gray" activeBrush="Green" IsSelected="False"   Margin="1,1,1,1"></oc:CSwitcher>
+            <oc:CSwitcher Grid.Row="4" Grid.Column="11" Height="16" VerticalAlignment="Top" Width="26"  iTag="182" unActiveBrush="Gray" activeBrush="Green" IsSelected="False"   Margin="1,1,1,1"></oc:CSwitcher>
+            <oc:CSwitcher Grid.Row="5" Grid.Column="11" Height="16" VerticalAlignment="Top" Width="26"  iTag="183" unActiveBrush="Gray" activeBrush="Green" IsSelected="False"   Margin="1,1,1,1"></oc:CSwitcher>
+            <oc:CSwitcher Grid.Row="6" Grid.Column="11" Height="16" VerticalAlignment="Top" Width="26"  iTag="184" unActiveBrush="Gray" activeBrush="Green" IsSelected="False"   Margin="1,1,1,1"></oc:CSwitcher>
+
+            <oc:CSwitcher Grid.Row="7" Grid.Column="11" Height="16" VerticalAlignment="Top" Width="26"  iTag="185" unActiveBrush="Gray" activeBrush="Green" IsSelected="False"   Margin="1,1,1,1"></oc:CSwitcher>
+            <oc:CSwitcher Grid.Row="8" Grid.Column="11" Height="16" VerticalAlignment="Top" Width="26"  iTag="186" unActiveBrush="Gray" activeBrush="Green" IsSelected="False"   Margin="1,1,1,1"></oc:CSwitcher>
+            <oc:CSwitcher Grid.Row="9" Grid.Column="11" Height="16" VerticalAlignment="Top" Width="26"  iTag="187" unActiveBrush="Gray" activeBrush="Green" IsSelected="False"   Margin="1,1,1,1"></oc:CSwitcher>
+            <oc:CSwitcher Grid.Row="10" Grid.Column="11" Height="16" VerticalAlignment="Top" Width="26"  iTag="188" unActiveBrush="Gray" activeBrush="Green" IsSelected="False"   Margin="1,1,1,1"></oc:CSwitcher>
+            <oc:CSwitcher Grid.Row="11" Grid.Column="11" Height="16" VerticalAlignment="Top" Width="26"  iTag="189" unActiveBrush="Gray" activeBrush="Green" IsSelected="False"   Margin="1,1,1,1"></oc:CSwitcher>
+
+            <oc:CSwitcher Grid.Row="12" Grid.Column="11" Height="16" VerticalAlignment="Top" Width="26"  iTag="190" unActiveBrush="Gray" activeBrush="Green" IsSelected="False"   Margin="1,1,1,1"></oc:CSwitcher>
+            <oc:CSwitcher Grid.Row="13" Grid.Column="11" Height="16" VerticalAlignment="Top" Width="26"  iTag="191" unActiveBrush="Gray" activeBrush="Green" IsSelected="False"   Margin="1,1,1,1"></oc:CSwitcher>
+            <oc:CSwitcher Grid.Row="15" Grid.Column="11" Height="16" VerticalAlignment="Top" Width="26"  iTag="192" unActiveBrush="Gray" activeBrush="Green" IsSelected="False"   Margin="1,1,1,1"></oc:CSwitcher>
+            <oc:CSwitcher Grid.Row="16" Grid.Column="11" Height="16" VerticalAlignment="Top" Width="26"  iTag="193" unActiveBrush="Gray" activeBrush="Green" IsSelected="False"   Margin="1,1,1,1"></oc:CSwitcher>
+            <oc:CSwitcher Grid.Row="17" Grid.Column="11" Height="16" VerticalAlignment="Top" Width="26"  iTag="194" unActiveBrush="Gray" activeBrush="Green" IsSelected="False"   Margin="1,1,1,1"></oc:CSwitcher>
+            <oc:CSwitcher Grid.Row="18" Grid.Column="11" Height="16" VerticalAlignment="Top" Width="26"  iTag="195" unActiveBrush="Gray" activeBrush="Green" IsSelected="False"   Margin="1,1,1,1"></oc:CSwitcher>
+
+            <oc:CSwitcher Grid.Row="19" Grid.Column="11" Height="16" VerticalAlignment="Top" Width="26"  iTag="196" unActiveBrush="Gray" activeBrush="Green" IsSelected="False"   Margin="1,1,1,1"></oc:CSwitcher>
+            <oc:CSwitcher Grid.Row="20" Grid.Column="11" Height="16" VerticalAlignment="Top" Width="26"  iTag="197" unActiveBrush="Gray" activeBrush="Green" IsSelected="False"   Margin="1,1,1,1"></oc:CSwitcher>
+            <oc:CSwitcher Grid.Row="21" Grid.Column="11" Height="16" VerticalAlignment="Top" Width="26"  iTag="198" unActiveBrush="Gray" activeBrush="Green" IsSelected="False"   Margin="1,1,1,1"></oc:CSwitcher>
+            <oc:CSwitcher Grid.Row="22" Grid.Column="11" Height="16" VerticalAlignment="Top" Width="26"  iTag="199" unActiveBrush="Gray" activeBrush="Green" IsSelected="False"   Margin="1,1,1,1"></oc:CSwitcher>
+
+
+            <!--12 column-->
+            <oc:CSwitcher Grid.Row="2" Grid.Column="12" Height="16" VerticalAlignment="Top" Width="26"  iTag="200" unActiveBrush="Gray" activeBrush="Green" IsSelected="False"   Margin="1,1,1,1"></oc:CSwitcher>
+            <oc:CSwitcher Grid.Row="3" Grid.Column="12" Height="16" VerticalAlignment="Top" Width="26"  iTag="201" unActiveBrush="Gray" activeBrush="Green" IsSelected="False"   Margin="1,1,1,1"></oc:CSwitcher>
+            <oc:CSwitcher Grid.Row="4" Grid.Column="12" Height="16" VerticalAlignment="Top" Width="26"  iTag="202" unActiveBrush="Gray" activeBrush="Green" IsSelected="False"   Margin="1,1,1,1"></oc:CSwitcher>
+            <oc:CSwitcher Grid.Row="5" Grid.Column="12" Height="16" VerticalAlignment="Top" Width="26"  iTag="203" unActiveBrush="Gray" activeBrush="Green" IsSelected="False"   Margin="1,1,1,1"></oc:CSwitcher>
+            <oc:CSwitcher Grid.Row="6" Grid.Column="12" Height="16" VerticalAlignment="Top" Width="26"  iTag="204" unActiveBrush="Gray" activeBrush="Green" IsSelected="False"   Margin="1,1,1,1"></oc:CSwitcher>
+
+            <oc:CSwitcher Grid.Row="7" Grid.Column="12" Height="16" VerticalAlignment="Top" Width="26"  iTag="205" unActiveBrush="Gray" activeBrush="Green" IsSelected="False"   Margin="1,1,1,1"></oc:CSwitcher>
+            <oc:CSwitcher Grid.Row="8" Grid.Column="12" Height="16" VerticalAlignment="Top" Width="26"  iTag="206" unActiveBrush="Gray" activeBrush="Green" IsSelected="False"   Margin="1,1,1,1"></oc:CSwitcher>
+            <oc:CSwitcher Grid.Row="9" Grid.Column="12" Height="16" VerticalAlignment="Top" Width="26"  iTag="207" unActiveBrush="Gray" activeBrush="Green" IsSelected="False"   Margin="1,1,1,1"></oc:CSwitcher>
+            <oc:CSwitcher Grid.Row="10" Grid.Column="12" Height="16" VerticalAlignment="Top" Width="26"  iTag="208" unActiveBrush="Gray" activeBrush="Green" IsSelected="False"   Margin="1,1,1,1"></oc:CSwitcher>
+            <oc:CSwitcher Grid.Row="11" Grid.Column="12" Height="16" VerticalAlignment="Top" Width="26"  iTag="209" unActiveBrush="Gray" activeBrush="Green" IsSelected="False"   Margin="1,1,1,1"></oc:CSwitcher>
+
+            <oc:CSwitcher Grid.Row="12" Grid.Column="12" Height="16" VerticalAlignment="Top" Width="26"  iTag="210" unActiveBrush="Gray" activeBrush="Green" IsSelected="False"   Margin="1,1,1,1"></oc:CSwitcher>
+            <oc:CSwitcher Grid.Row="13" Grid.Column="12" Height="16" VerticalAlignment="Top" Width="26"  iTag="211" unActiveBrush="Gray" activeBrush="Green" IsSelected="False"   Margin="1,1,1,1"></oc:CSwitcher>
+
+            <oc:CSwitcher Grid.Row="15" Grid.Column="12" Height="16" VerticalAlignment="Top" Width="26"  iTag="212" unActiveBrush="Gray" activeBrush="Green" IsSelected="False"   Margin="1,1,1,1"></oc:CSwitcher>
+            <oc:CSwitcher Grid.Row="16" Grid.Column="12" Height="16" VerticalAlignment="Top" Width="26"  iTag="213" unActiveBrush="Gray" activeBrush="Green" IsSelected="False"   Margin="1,1,1,1"></oc:CSwitcher>
+            <oc:CSwitcher Grid.Row="17" Grid.Column="12" Height="16" VerticalAlignment="Top" Width="26"  iTag="214" unActiveBrush="Gray" activeBrush="Green" IsSelected="False"   Margin="1,1,1,1"></oc:CSwitcher>
+            <oc:CSwitcher Grid.Row="18" Grid.Column="12" Height="16" VerticalAlignment="Top" Width="26"  iTag="215" unActiveBrush="Gray" activeBrush="Green" IsSelected="False"   Margin="1,1,1,1"></oc:CSwitcher>
+
+            <oc:CSwitcher Grid.Row="19" Grid.Column="12" Height="16" VerticalAlignment="Top" Width="26"  iTag="216" unActiveBrush="Gray" activeBrush="Green" IsSelected="False"   Margin="1,1,1,1"></oc:CSwitcher>
+            <oc:CSwitcher Grid.Row="20" Grid.Column="12" Height="16" VerticalAlignment="Top" Width="26"  iTag="217" unActiveBrush="Gray" activeBrush="Green" IsSelected="False"   Margin="1,1,1,1"></oc:CSwitcher>
+            <oc:CSwitcher Grid.Row="21" Grid.Column="12" Height="16" VerticalAlignment="Top" Width="26"  iTag="218" unActiveBrush="Gray" activeBrush="Green" IsSelected="False"   Margin="1,1,1,1"></oc:CSwitcher>
+            <oc:CSwitcher Grid.Row="22" Grid.Column="12" Height="16" VerticalAlignment="Top" Width="26"  iTag="219" unActiveBrush="Gray" activeBrush="Green" IsSelected="False"   Margin="1,1,1,1"></oc:CSwitcher>
+
+
+            <!--13 column-->
+            <oc:CSwitcher Grid.Row="2" Grid.Column="13" Height="16" VerticalAlignment="Top" Width="26"  iTag="220" unActiveBrush="Gray" activeBrush="Green" IsSelected="False"   Margin="1,1,1,1"></oc:CSwitcher>
+            <oc:CSwitcher Grid.Row="3" Grid.Column="13" Height="16" VerticalAlignment="Top" Width="26"  iTag="221" unActiveBrush="Gray" activeBrush="Green" IsSelected="False"   Margin="1,1,1,1"></oc:CSwitcher>
+            <oc:CSwitcher Grid.Row="4" Grid.Column="13" Height="16" VerticalAlignment="Top" Width="26"  iTag="222" unActiveBrush="Gray" activeBrush="Green" IsSelected="False"   Margin="1,1,1,1"></oc:CSwitcher>
+            <oc:CSwitcher Grid.Row="5" Grid.Column="13" Height="16" VerticalAlignment="Top" Width="26"  iTag="223" unActiveBrush="Gray" activeBrush="Green" IsSelected="False"   Margin="1,1,1,1"></oc:CSwitcher>
+            <oc:CSwitcher Grid.Row="6" Grid.Column="13" Height="16" VerticalAlignment="Top" Width="26"  iTag="224" unActiveBrush="Gray" activeBrush="Green" IsSelected="False"   Margin="1,1,1,1"></oc:CSwitcher>
+
+            <oc:CSwitcher Grid.Row="7" Grid.Column="13" Height="16" VerticalAlignment="Top" Width="26"  iTag="225" unActiveBrush="Gray" activeBrush="Green" IsSelected="False"   Margin="1,1,1,1"></oc:CSwitcher>
+            <oc:CSwitcher Grid.Row="8" Grid.Column="13" Height="16" VerticalAlignment="Top" Width="26"  iTag="226" unActiveBrush="Gray" activeBrush="Green" IsSelected="False"   Margin="1,1,1,1"></oc:CSwitcher>
+            <oc:CSwitcher Grid.Row="9" Grid.Column="13" Height="16" VerticalAlignment="Top" Width="26"  iTag="227" unActiveBrush="Gray" activeBrush="Green" IsSelected="False"   Margin="1,1,1,1"></oc:CSwitcher>
+            <oc:CSwitcher Grid.Row="10" Grid.Column="13" Height="16" VerticalAlignment="Top" Width="26"  iTag="228" unActiveBrush="Gray" activeBrush="Green" IsSelected="False"   Margin="1,1,1,1"></oc:CSwitcher>
+            <oc:CSwitcher Grid.Row="11" Grid.Column="13" Height="16" VerticalAlignment="Top" Width="26"  iTag="229" unActiveBrush="Gray" activeBrush="Green" IsSelected="False"   Margin="1,1,1,1"></oc:CSwitcher>
+
+            <oc:CSwitcher Grid.Row="12" Grid.Column="13" Height="16" VerticalAlignment="Top" Width="26"  iTag="230" unActiveBrush="Gray" activeBrush="Green" IsSelected="False"   Margin="1,1,1,1"></oc:CSwitcher>
+            <oc:CSwitcher Grid.Row="13" Grid.Column="13" Height="16" VerticalAlignment="Top" Width="26"  iTag="231" unActiveBrush="Gray" activeBrush="Green" IsSelected="False"   Margin="1,1,1,1"></oc:CSwitcher>
+
+            <oc:CSwitcher Grid.Row="15" Grid.Column="13" Height="16" VerticalAlignment="Top" Width="26"  iTag="232" unActiveBrush="Gray" activeBrush="Green" IsSelected="False"   Margin="1,1,1,1"></oc:CSwitcher>
+            <oc:CSwitcher Grid.Row="16" Grid.Column="13" Height="16" VerticalAlignment="Top" Width="26"  iTag="233" unActiveBrush="Gray" activeBrush="Green" IsSelected="False"   Margin="1,1,1,1"></oc:CSwitcher>
+            <oc:CSwitcher Grid.Row="17" Grid.Column="13" Height="16" VerticalAlignment="Top" Width="26"  iTag="234" unActiveBrush="Gray" activeBrush="Green" IsSelected="False"   Margin="1,1,1,1"></oc:CSwitcher>
+            <oc:CSwitcher Grid.Row="18" Grid.Column="13" Height="16" VerticalAlignment="Top" Width="26"  iTag="235" unActiveBrush="Gray" activeBrush="Green" IsSelected="False"   Margin="1,1,1,1"></oc:CSwitcher>
+
+            <oc:CSwitcher Grid.Row="19" Grid.Column="13" Height="16" VerticalAlignment="Top" Width="26"  iTag="236" unActiveBrush="Gray" activeBrush="Green" IsSelected="False"   Margin="1,1,1,1"></oc:CSwitcher>
+            <oc:CSwitcher Grid.Row="20" Grid.Column="13" Height="16" VerticalAlignment="Top" Width="26"  iTag="237" unActiveBrush="Gray" activeBrush="Green" IsSelected="False"   Margin="1,1,1,1"></oc:CSwitcher>
+            <oc:CSwitcher Grid.Row="21" Grid.Column="13" Height="16" VerticalAlignment="Top" Width="26"  iTag="238" unActiveBrush="Gray" activeBrush="Green" IsSelected="False"   Margin="1,1,1,1"></oc:CSwitcher>
+            <oc:CSwitcher Grid.Row="22" Grid.Column="13" Height="16" VerticalAlignment="Top" Width="26"  iTag="239" unActiveBrush="Gray" activeBrush="Green" IsSelected="False"   Margin="1,1,1,1"></oc:CSwitcher>
+
+
+            <!--15 column-->
+            <oc:CSwitcher Grid.Row="2" Grid.Column="15" Height="16" VerticalAlignment="Top" Width="26"  iTag="240" unActiveBrush="Gray" activeBrush="Green" IsSelected="False"   Margin="1,1,1,1"></oc:CSwitcher>
+            <oc:CSwitcher Grid.Row="3" Grid.Column="15" Height="16" VerticalAlignment="Top" Width="26"  iTag="241" unActiveBrush="Gray" activeBrush="Green" IsSelected="False"   Margin="1,1,1,1"></oc:CSwitcher>
+            <oc:CSwitcher Grid.Row="4" Grid.Column="15" Height="16" VerticalAlignment="Top" Width="26"  iTag="242" unActiveBrush="Gray" activeBrush="Green" IsSelected="False"   Margin="1,1,1,1"></oc:CSwitcher>
+            <oc:CSwitcher Grid.Row="5" Grid.Column="15" Height="16" VerticalAlignment="Top" Width="26"  iTag="243" unActiveBrush="Gray" activeBrush="Green" IsSelected="False"   Margin="1,1,1,1"></oc:CSwitcher>
+            <oc:CSwitcher Grid.Row="6" Grid.Column="15" Height="16" VerticalAlignment="Top" Width="26"  iTag="244" unActiveBrush="Gray" activeBrush="Green" IsSelected="False"   Margin="1,1,1,1"></oc:CSwitcher>
+
+            <oc:CSwitcher Grid.Row="7" Grid.Column="15" Height="16" VerticalAlignment="Top" Width="26"  iTag="245" unActiveBrush="Gray" activeBrush="Green" IsSelected="False"   Margin="1,1,1,1"></oc:CSwitcher>
+            <oc:CSwitcher Grid.Row="8" Grid.Column="15" Height="16" VerticalAlignment="Top" Width="26"  iTag="246" unActiveBrush="Gray" activeBrush="Green" IsSelected="False"   Margin="1,1,1,1"></oc:CSwitcher>
+            <oc:CSwitcher Grid.Row="9" Grid.Column="15" Height="16" VerticalAlignment="Top" Width="26"  iTag="247" unActiveBrush="Gray" activeBrush="Green" IsSelected="False"   Margin="1,1,1,1"></oc:CSwitcher>
+            <oc:CSwitcher Grid.Row="10" Grid.Column="15" Height="16" VerticalAlignment="Top" Width="26"  iTag="248" unActiveBrush="Gray" activeBrush="Green" IsSelected="False"   Margin="1,1,1,1"></oc:CSwitcher>
+            <oc:CSwitcher Grid.Row="11" Grid.Column="15" Height="16" VerticalAlignment="Top" Width="26"  iTag="249" unActiveBrush="Gray" activeBrush="Green" IsSelected="False"   Margin="1,1,1,1"></oc:CSwitcher>
+
+            <oc:CSwitcher Grid.Row="12" Grid.Column="15" Height="16" VerticalAlignment="Top" Width="26"  iTag="250" unActiveBrush="Gray" activeBrush="Green" IsSelected="False"   Margin="1,1,1,1"></oc:CSwitcher>
+            <oc:CSwitcher Grid.Row="13" Grid.Column="15" Height="16" VerticalAlignment="Top" Width="26"  iTag="251" unActiveBrush="Gray" activeBrush="Green" IsSelected="False"   Margin="1,1,1,1"></oc:CSwitcher>
+
+
+            <oc:CSwitcher Grid.Row="15" Grid.Column="15" Height="16" VerticalAlignment="Top" Width="26"  iTag="252" unActiveBrush="Gray" activeBrush="Green" IsSelected="False"   Margin="1,1,1,1"></oc:CSwitcher>
+            <oc:CSwitcher Grid.Row="16" Grid.Column="15" Height="16" VerticalAlignment="Top" Width="26"  iTag="253" unActiveBrush="Gray" activeBrush="Green" IsSelected="False"   Margin="1,1,1,1"></oc:CSwitcher>
+            <oc:CSwitcher Grid.Row="17" Grid.Column="15" Height="16" VerticalAlignment="Top" Width="26"  iTag="254" unActiveBrush="Gray" activeBrush="Green" IsSelected="False"   Margin="1,1,1,1"></oc:CSwitcher>
+            <oc:CSwitcher Grid.Row="18" Grid.Column="15" Height="16" VerticalAlignment="Top" Width="26"  iTag="255" unActiveBrush="Gray" activeBrush="Green" IsSelected="False"   Margin="1,1,1,1"></oc:CSwitcher>
+
+            <oc:CSwitcher Grid.Row="19" Grid.Column="15" Height="16" VerticalAlignment="Top" Width="26"  iTag="256" unActiveBrush="Gray" activeBrush="Green" IsSelected="False"   Margin="1,1,1,1"></oc:CSwitcher>
+            <oc:CSwitcher Grid.Row="20" Grid.Column="15" Height="16" VerticalAlignment="Top" Width="26"  iTag="257" unActiveBrush="Gray" activeBrush="Green" IsSelected="False"   Margin="1,1,1,1"></oc:CSwitcher>
+            <oc:CSwitcher Grid.Row="21" Grid.Column="15" Height="16" VerticalAlignment="Top" Width="26"  iTag="258" unActiveBrush="Gray" activeBrush="Green" IsSelected="False"   Margin="1,1,1,1"></oc:CSwitcher>
+            <oc:CSwitcher Grid.Row="22" Grid.Column="15" Height="16" VerticalAlignment="Top" Width="26"  iTag="259" unActiveBrush="Gray" activeBrush="Green" IsSelected="False"   Margin="1,1,1,1"></oc:CSwitcher>
+
+            <!--16 column-->
+            <oc:CSwitcher Grid.Row="2" Grid.Column="16" Height="16" VerticalAlignment="Top" Width="26"  iTag="260" unActiveBrush="Gray" activeBrush="Green" IsSelected="False"   Margin="1,1,1,1"></oc:CSwitcher>
+            <oc:CSwitcher Grid.Row="3" Grid.Column="16" Height="16" VerticalAlignment="Top" Width="26"  iTag="261" unActiveBrush="Gray" activeBrush="Green" IsSelected="False"   Margin="1,1,1,1"></oc:CSwitcher>
+            <oc:CSwitcher Grid.Row="4" Grid.Column="16" Height="16" VerticalAlignment="Top" Width="26"  iTag="262" unActiveBrush="Gray" activeBrush="Green" IsSelected="False"   Margin="1,1,1,1"></oc:CSwitcher>
+            <oc:CSwitcher Grid.Row="5" Grid.Column="16" Height="16" VerticalAlignment="Top" Width="26"  iTag="263" unActiveBrush="Gray" activeBrush="Green" IsSelected="False"   Margin="1,1,1,1"></oc:CSwitcher>
+            <oc:CSwitcher Grid.Row="6" Grid.Column="16" Height="16" VerticalAlignment="Top" Width="26"  iTag="264" unActiveBrush="Gray" activeBrush="Green" IsSelected="False"   Margin="1,1,1,1"></oc:CSwitcher>
+
+            <oc:CSwitcher Grid.Row="7" Grid.Column="16" Height="16" VerticalAlignment="Top" Width="26"  iTag="265" unActiveBrush="Gray" activeBrush="Green" IsSelected="False"   Margin="1,1,1,1"></oc:CSwitcher>
+            <oc:CSwitcher Grid.Row="8" Grid.Column="16" Height="16" VerticalAlignment="Top" Width="26"  iTag="266" unActiveBrush="Gray" activeBrush="Green" IsSelected="False"   Margin="1,1,1,1"></oc:CSwitcher>
+            <oc:CSwitcher Grid.Row="9" Grid.Column="16" Height="16" VerticalAlignment="Top" Width="26"  iTag="267" unActiveBrush="Gray" activeBrush="Green" IsSelected="False"   Margin="1,1,1,1"></oc:CSwitcher>
+            <oc:CSwitcher Grid.Row="10" Grid.Column="16" Height="16" VerticalAlignment="Top" Width="26"  iTag="268" unActiveBrush="Gray" activeBrush="Green" IsSelected="False"   Margin="1,1,1,1"></oc:CSwitcher>
+            <oc:CSwitcher Grid.Row="11" Grid.Column="16" Height="16" VerticalAlignment="Top" Width="26"  iTag="269" unActiveBrush="Gray" activeBrush="Green" IsSelected="False"   Margin="1,1,1,1"></oc:CSwitcher>
+
+            <oc:CSwitcher Grid.Row="12" Grid.Column="16" Height="16" VerticalAlignment="Top" Width="26"  iTag="270" unActiveBrush="Gray" activeBrush="Green" IsSelected="False"   Margin="1,1,1,1"></oc:CSwitcher>
+            <oc:CSwitcher Grid.Row="13" Grid.Column="16" Height="16" VerticalAlignment="Top" Width="26"  iTag="271" unActiveBrush="Gray" activeBrush="Green" IsSelected="False"   Margin="1,1,1,1"></oc:CSwitcher>
+
+            <oc:CSwitcher Grid.Row="15" Grid.Column="16" Height="16" VerticalAlignment="Top" Width="26"  iTag="272" unActiveBrush="Gray" activeBrush="Green" IsSelected="False"   Margin="1,1,1,1"></oc:CSwitcher>
+            <oc:CSwitcher Grid.Row="16" Grid.Column="16" Height="16" VerticalAlignment="Top" Width="26"  iTag="273" unActiveBrush="Gray" activeBrush="Green" IsSelected="False"   Margin="1,1,1,1"></oc:CSwitcher>
+            <oc:CSwitcher Grid.Row="17" Grid.Column="16" Height="16" VerticalAlignment="Top" Width="26"  iTag="274" unActiveBrush="Gray" activeBrush="Green" IsSelected="False"   Margin="1,1,1,1"></oc:CSwitcher>
+            <oc:CSwitcher Grid.Row="18" Grid.Column="16" Height="16" VerticalAlignment="Top" Width="26"  iTag="275" unActiveBrush="Gray" activeBrush="Green" IsSelected="False"   Margin="1,1,1,1"></oc:CSwitcher>
+
+            <oc:CSwitcher Grid.Row="19" Grid.Column="16" Height="16" VerticalAlignment="Top" Width="26"  iTag="276" unActiveBrush="Gray" activeBrush="Green" IsSelected="False"   Margin="1,1,1,1"></oc:CSwitcher>
+            <oc:CSwitcher Grid.Row="20" Grid.Column="16" Height="16" VerticalAlignment="Top" Width="26"  iTag="277" unActiveBrush="Gray" activeBrush="Green" IsSelected="False"   Margin="1,1,1,1"></oc:CSwitcher>
+            <oc:CSwitcher Grid.Row="21" Grid.Column="16" Height="16" VerticalAlignment="Top" Width="26"  iTag="278" unActiveBrush="Gray" activeBrush="Green" IsSelected="False"   Margin="1,1,1,1"></oc:CSwitcher>
+            <oc:CSwitcher Grid.Row="22" Grid.Column="16" Height="16" VerticalAlignment="Top" Width="26"  iTag="279" unActiveBrush="Gray" activeBrush="Green" IsSelected="False"   Margin="1,1,1,1"></oc:CSwitcher>
+
+            <!--17 column-->
+            <oc:CSwitcher Grid.Row="2" Grid.Column="17" Height="16" VerticalAlignment="Top" Width="26"  iTag="280" unActiveBrush="Gray" activeBrush="Green" IsSelected="False"   Margin="1,1,1,1"></oc:CSwitcher>
+            <oc:CSwitcher Grid.Row="3" Grid.Column="17" Height="16" VerticalAlignment="Top" Width="26"  iTag="281" unActiveBrush="Gray" activeBrush="Green" IsSelected="False"   Margin="1,1,1,1"></oc:CSwitcher>
+            <oc:CSwitcher Grid.Row="4" Grid.Column="17" Height="16" VerticalAlignment="Top" Width="26"  iTag="282" unActiveBrush="Gray" activeBrush="Green" IsSelected="False"   Margin="1,1,1,1"></oc:CSwitcher>
+            <oc:CSwitcher Grid.Row="5" Grid.Column="17" Height="16" VerticalAlignment="Top" Width="26"  iTag="283" unActiveBrush="Gray" activeBrush="Green" IsSelected="False"   Margin="1,1,1,1"></oc:CSwitcher>
+            <oc:CSwitcher Grid.Row="6" Grid.Column="17" Height="16" VerticalAlignment="Top" Width="26"  iTag="284" unActiveBrush="Gray" activeBrush="Green" IsSelected="False"   Margin="1,1,1,1"></oc:CSwitcher>
+
+            <oc:CSwitcher Grid.Row="7" Grid.Column="17" Height="16" VerticalAlignment="Top" Width="26"  iTag="285" unActiveBrush="Gray" activeBrush="Green" IsSelected="False"   Margin="1,1,1,1"></oc:CSwitcher>
+            <oc:CSwitcher Grid.Row="8" Grid.Column="17" Height="16" VerticalAlignment="Top" Width="26"  iTag="286" unActiveBrush="Gray" activeBrush="Green" IsSelected="False"   Margin="1,1,1,1"></oc:CSwitcher>
+            <oc:CSwitcher Grid.Row="9" Grid.Column="17" Height="16" VerticalAlignment="Top" Width="26"  iTag="287" unActiveBrush="Gray" activeBrush="Green" IsSelected="False"   Margin="1,1,1,1"></oc:CSwitcher>
+            <oc:CSwitcher Grid.Row="10" Grid.Column="17" Height="16" VerticalAlignment="Top" Width="26"  iTag="288" unActiveBrush="Gray" activeBrush="Green" IsSelected="False"   Margin="1,1,1,1"></oc:CSwitcher>
+            <oc:CSwitcher Grid.Row="11" Grid.Column="17" Height="16" VerticalAlignment="Top" Width="26"  iTag="289" unActiveBrush="Gray" activeBrush="Green" IsSelected="False"   Margin="1,1,1,1"></oc:CSwitcher>
+
+            <oc:CSwitcher Grid.Row="12" Grid.Column="17" Height="16" VerticalAlignment="Top" Width="26"  iTag="290" unActiveBrush="Gray" activeBrush="Green" IsSelected="False"   Margin="1,1,1,1"></oc:CSwitcher>
+            <oc:CSwitcher Grid.Row="13" Grid.Column="17" Height="16" VerticalAlignment="Top" Width="26"  iTag="291" unActiveBrush="Gray" activeBrush="Green" IsSelected="False"   Margin="1,1,1,1"></oc:CSwitcher>
+
+            <oc:CSwitcher Grid.Row="15" Grid.Column="17" Height="16" VerticalAlignment="Top" Width="26"  iTag="292" unActiveBrush="Gray" activeBrush="Green" IsSelected="False"   Margin="1,1,1,1"></oc:CSwitcher>
+            <oc:CSwitcher Grid.Row="16" Grid.Column="17" Height="16" VerticalAlignment="Top" Width="26"  iTag="293" unActiveBrush="Gray" activeBrush="Green" IsSelected="False"   Margin="1,1,1,1"></oc:CSwitcher>
+            <oc:CSwitcher Grid.Row="17" Grid.Column="17" Height="16" VerticalAlignment="Top" Width="26"  iTag="294" unActiveBrush="Gray" activeBrush="Green" IsSelected="False"   Margin="1,1,1,1"></oc:CSwitcher>
+            <oc:CSwitcher Grid.Row="18" Grid.Column="17" Height="16" VerticalAlignment="Top" Width="26"  iTag="295" unActiveBrush="Gray" activeBrush="Green" IsSelected="False"   Margin="1,1,1,1"></oc:CSwitcher>
+
+            <oc:CSwitcher Grid.Row="19" Grid.Column="17" Height="16" VerticalAlignment="Top" Width="26"  iTag="296" unActiveBrush="Gray" activeBrush="Green" IsSelected="False"   Margin="1,1,1,1"></oc:CSwitcher>
+            <oc:CSwitcher Grid.Row="20" Grid.Column="17" Height="16" VerticalAlignment="Top" Width="26"  iTag="297" unActiveBrush="Gray" activeBrush="Green" IsSelected="False"   Margin="1,1,1,1"></oc:CSwitcher>
+            <oc:CSwitcher Grid.Row="21" Grid.Column="17" Height="16" VerticalAlignment="Top" Width="26"  iTag="298" unActiveBrush="Gray" activeBrush="Green" IsSelected="False"   Margin="1,1,1,1"></oc:CSwitcher>
+            <oc:CSwitcher Grid.Row="22" Grid.Column="17" Height="16" VerticalAlignment="Top" Width="26"  iTag="299" unActiveBrush="Gray" activeBrush="Green" IsSelected="False"   Margin="1,1,1,1"></oc:CSwitcher>
+
+
+            <!--18 column-->
+            <oc:CSwitcher Grid.Row="2" Grid.Column="18" Height="16" VerticalAlignment="Top" Width="26"  iTag="300" unActiveBrush="Gray" activeBrush="Green" IsSelected="False"   Margin="1,1,1,1"></oc:CSwitcher>
+            <oc:CSwitcher Grid.Row="3" Grid.Column="18" Height="16" VerticalAlignment="Top" Width="26"  iTag="301" unActiveBrush="Gray" activeBrush="Green" IsSelected="False"   Margin="1,1,1,1"></oc:CSwitcher>
+            <oc:CSwitcher Grid.Row="4" Grid.Column="18" Height="16" VerticalAlignment="Top" Width="26"  iTag="302" unActiveBrush="Gray" activeBrush="Green" IsSelected="False"   Margin="1,1,1,1"></oc:CSwitcher>
+            <oc:CSwitcher Grid.Row="5" Grid.Column="18" Height="16" VerticalAlignment="Top" Width="26"  iTag="303" unActiveBrush="Gray" activeBrush="Green" IsSelected="False"   Margin="1,1,1,1"></oc:CSwitcher>
+            <oc:CSwitcher Grid.Row="6" Grid.Column="18" Height="16" VerticalAlignment="Top" Width="26"  iTag="304" unActiveBrush="Gray" activeBrush="Green" IsSelected="False"   Margin="1,1,1,1"></oc:CSwitcher>
+
+            <oc:CSwitcher Grid.Row="7" Grid.Column="18" Height="16" VerticalAlignment="Top" Width="26"  iTag="305" unActiveBrush="Gray" activeBrush="Green" IsSelected="False"   Margin="1,1,1,1"></oc:CSwitcher>
+            <oc:CSwitcher Grid.Row="8" Grid.Column="18" Height="16" VerticalAlignment="Top" Width="26"  iTag="306" unActiveBrush="Gray" activeBrush="Green" IsSelected="False"   Margin="1,1,1,1"></oc:CSwitcher>
+            <oc:CSwitcher Grid.Row="9" Grid.Column="18" Height="16" VerticalAlignment="Top" Width="26"  iTag="307" unActiveBrush="Gray" activeBrush="Green" IsSelected="False"   Margin="1,1,1,1"></oc:CSwitcher>
+            <oc:CSwitcher Grid.Row="10" Grid.Column="18" Height="16" VerticalAlignment="Top" Width="26"  iTag="308" unActiveBrush="Gray" activeBrush="Green" IsSelected="False"   Margin="1,1,1,1"></oc:CSwitcher>
+            <oc:CSwitcher Grid.Row="11" Grid.Column="18" Height="16" VerticalAlignment="Top" Width="26"  iTag="309" unActiveBrush="Gray" activeBrush="Green" IsSelected="False"   Margin="1,1,1,1"></oc:CSwitcher>
+
+            <oc:CSwitcher Grid.Row="12" Grid.Column="18" Height="16" VerticalAlignment="Top" Width="26"  iTag="310" unActiveBrush="Gray" activeBrush="Green" IsSelected="False"   Margin="1,1,1,1"></oc:CSwitcher>
+            <oc:CSwitcher Grid.Row="13" Grid.Column="18" Height="16" VerticalAlignment="Top" Width="26"  iTag="311" unActiveBrush="Gray" activeBrush="Green" IsSelected="False"   Margin="1,1,1,1"></oc:CSwitcher>
+
+            <oc:CSwitcher Grid.Row="15" Grid.Column="18" Height="16" VerticalAlignment="Top" Width="26"  iTag="312" unActiveBrush="Gray" activeBrush="Green" IsSelected="False"   Margin="1,1,1,1"></oc:CSwitcher>
+            <oc:CSwitcher Grid.Row="16" Grid.Column="18" Height="16" VerticalAlignment="Top" Width="26"  iTag="313" unActiveBrush="Gray" activeBrush="Green" IsSelected="False"   Margin="1,1,1,1"></oc:CSwitcher>
+            <oc:CSwitcher Grid.Row="17" Grid.Column="18" Height="16" VerticalAlignment="Top" Width="26"  iTag="314" unActiveBrush="Gray" activeBrush="Green" IsSelected="False"   Margin="1,1,1,1"></oc:CSwitcher>
+            <oc:CSwitcher Grid.Row="18" Grid.Column="18" Height="16" VerticalAlignment="Top" Width="26"  iTag="315" unActiveBrush="Gray" activeBrush="Green" IsSelected="False"   Margin="1,1,1,1"></oc:CSwitcher>
+
+            <oc:CSwitcher Grid.Row="19" Grid.Column="18" Height="16" VerticalAlignment="Top" Width="26"  iTag="316" unActiveBrush="Gray" activeBrush="Green" IsSelected="False"   Margin="1,1,1,1"></oc:CSwitcher>
+            <oc:CSwitcher Grid.Row="20" Grid.Column="18" Height="16" VerticalAlignment="Top" Width="26"  iTag="317" unActiveBrush="Gray" activeBrush="Green" IsSelected="False"   Margin="1,1,1,1"></oc:CSwitcher>
+            <oc:CSwitcher Grid.Row="21" Grid.Column="18" Height="16" VerticalAlignment="Top" Width="26"  iTag="318" unActiveBrush="Gray" activeBrush="Green" IsSelected="False"   Margin="1,1,1,1"></oc:CSwitcher>
+            <oc:CSwitcher Grid.Row="22" Grid.Column="18" Height="16" VerticalAlignment="Top" Width="26"  iTag="319" unActiveBrush="Gray" activeBrush="Green" IsSelected="False"   Margin="1,1,1,1"></oc:CSwitcher>
+
+            <!--19 column-->
+            <oc:CSwitcher Grid.Row="2" Grid.Column="19" Height="16" VerticalAlignment="Top" Width="26"  iTag="320" unActiveBrush="Gray" activeBrush="Green" IsSelected="False"   Margin="1,1,1,1"></oc:CSwitcher>
+            <oc:CSwitcher Grid.Row="3" Grid.Column="19" Height="16" VerticalAlignment="Top" Width="26"  iTag="321" unActiveBrush="Gray" activeBrush="Green" IsSelected="False"   Margin="1,1,1,1"></oc:CSwitcher>
+            <oc:CSwitcher Grid.Row="4" Grid.Column="19" Height="16" VerticalAlignment="Top" Width="26"  iTag="322" unActiveBrush="Gray" activeBrush="Green" IsSelected="False"   Margin="1,1,1,1"></oc:CSwitcher>
+            <oc:CSwitcher Grid.Row="5" Grid.Column="19" Height="16" VerticalAlignment="Top" Width="26"  iTag="323" unActiveBrush="Gray" activeBrush="Green" IsSelected="False"   Margin="1,1,1,1"></oc:CSwitcher>
+            <oc:CSwitcher Grid.Row="6" Grid.Column="19" Height="16" VerticalAlignment="Top" Width="26"  iTag="324" unActiveBrush="Gray" activeBrush="Green" IsSelected="False"   Margin="1,1,1,1"></oc:CSwitcher>
+
+            <oc:CSwitcher Grid.Row="7" Grid.Column="19" Height="16" VerticalAlignment="Top" Width="26"  iTag="325" unActiveBrush="Gray" activeBrush="Green" IsSelected="False"   Margin="1,1,1,1"></oc:CSwitcher>
+            <oc:CSwitcher Grid.Row="8" Grid.Column="19" Height="16" VerticalAlignment="Top" Width="26"  iTag="326" unActiveBrush="Gray" activeBrush="Green" IsSelected="False"   Margin="1,1,1,1"></oc:CSwitcher>
+            <oc:CSwitcher Grid.Row="9" Grid.Column="19" Height="16" VerticalAlignment="Top" Width="26"  iTag="327" unActiveBrush="Gray" activeBrush="Green" IsSelected="False"   Margin="1,1,1,1"></oc:CSwitcher>
+            <oc:CSwitcher Grid.Row="10" Grid.Column="19" Height="16" VerticalAlignment="Top" Width="26"  iTag="328" unActiveBrush="Gray" activeBrush="Green" IsSelected="False"   Margin="1,1,1,1"></oc:CSwitcher>
+            <oc:CSwitcher Grid.Row="11" Grid.Column="19" Height="16" VerticalAlignment="Top" Width="26"  iTag="329" unActiveBrush="Gray" activeBrush="Green" IsSelected="False"   Margin="1,1,1,1"></oc:CSwitcher>
+
+            <oc:CSwitcher Grid.Row="12" Grid.Column="19" Height="16" VerticalAlignment="Top" Width="26"  iTag="330" unActiveBrush="Gray" activeBrush="Green" IsSelected="False"   Margin="1,1,1,1"></oc:CSwitcher>
+            <oc:CSwitcher Grid.Row="13" Grid.Column="19" Height="16" VerticalAlignment="Top" Width="26"  iTag="331" unActiveBrush="Gray" activeBrush="Green" IsSelected="False"   Margin="1,1,1,1"></oc:CSwitcher>
+
+            <oc:CSwitcher Grid.Row="15" Grid.Column="19" Height="16" VerticalAlignment="Top" Width="26"  iTag="332" unActiveBrush="Gray" activeBrush="Green" IsSelected="False"   Margin="1,1,1,1"></oc:CSwitcher>
+            <oc:CSwitcher Grid.Row="16" Grid.Column="19" Height="16" VerticalAlignment="Top" Width="26"  iTag="333" unActiveBrush="Gray" activeBrush="Green" IsSelected="False"   Margin="1,1,1,1"></oc:CSwitcher>
+            <oc:CSwitcher Grid.Row="17" Grid.Column="19" Height="16" VerticalAlignment="Top" Width="26"  iTag="334" unActiveBrush="Gray" activeBrush="Green" IsSelected="False"   Margin="1,1,1,1"></oc:CSwitcher>
+            <oc:CSwitcher Grid.Row="18" Grid.Column="19" Height="16" VerticalAlignment="Top" Width="26"  iTag="335" unActiveBrush="Gray" activeBrush="Green" IsSelected="False"   Margin="1,1,1,1"></oc:CSwitcher>
+
+            <oc:CSwitcher Grid.Row="19" Grid.Column="19" Height="16" VerticalAlignment="Top" Width="26"  iTag="336" unActiveBrush="Gray" activeBrush="Green" IsSelected="False"   Margin="1,1,1,1"></oc:CSwitcher>
+            <oc:CSwitcher Grid.Row="20" Grid.Column="19" Height="16" VerticalAlignment="Top" Width="26"  iTag="337" unActiveBrush="Gray" activeBrush="Green" IsSelected="False"   Margin="1,1,1,1"></oc:CSwitcher>
+            <oc:CSwitcher Grid.Row="21" Grid.Column="19" Height="16" VerticalAlignment="Top" Width="26"  iTag="338" unActiveBrush="Gray" activeBrush="Green" IsSelected="False"   Margin="1,1,1,1"></oc:CSwitcher>
+            <oc:CSwitcher Grid.Row="22" Grid.Column="19" Height="16" VerticalAlignment="Top" Width="26"  iTag="339" unActiveBrush="Gray" activeBrush="Green" IsSelected="False"   Margin="1,1,1,1"></oc:CSwitcher>
+
+            <!--20 column-->
+            <oc:CSwitcher Grid.Row="2" Grid.Column="20" Height="16" VerticalAlignment="Top" Width="26"  iTag="340" unActiveBrush="Gray" activeBrush="Green" IsSelected="False"   Margin="1,1,1,1"></oc:CSwitcher>
+            <oc:CSwitcher Grid.Row="3" Grid.Column="20" Height="16" VerticalAlignment="Top" Width="26"  iTag="341" unActiveBrush="Gray" activeBrush="Green" IsSelected="False"   Margin="1,1,1,1"></oc:CSwitcher>
+            <oc:CSwitcher Grid.Row="4" Grid.Column="20" Height="16" VerticalAlignment="Top" Width="26"  iTag="342" unActiveBrush="Gray" activeBrush="Green" IsSelected="False"   Margin="1,1,1,1"></oc:CSwitcher>
+            <oc:CSwitcher Grid.Row="5" Grid.Column="20" Height="16" VerticalAlignment="Top" Width="26"  iTag="343" unActiveBrush="Gray" activeBrush="Green" IsSelected="False"   Margin="1,1,1,1"></oc:CSwitcher>
+            <oc:CSwitcher Grid.Row="6" Grid.Column="20" Height="16" VerticalAlignment="Top" Width="26"  iTag="344" unActiveBrush="Gray" activeBrush="Green" IsSelected="False"   Margin="1,1,1,1"></oc:CSwitcher>
+
+            <oc:CSwitcher Grid.Row="7" Grid.Column="20" Height="16" VerticalAlignment="Top" Width="26"  iTag="345" unActiveBrush="Gray" activeBrush="Green" IsSelected="False"   Margin="1,1,1,1"></oc:CSwitcher>
+            <oc:CSwitcher Grid.Row="8" Grid.Column="20" Height="16" VerticalAlignment="Top" Width="26"  iTag="346" unActiveBrush="Gray" activeBrush="Green" IsSelected="False"   Margin="1,1,1,1"></oc:CSwitcher>
+            <oc:CSwitcher Grid.Row="9" Grid.Column="20" Height="16" VerticalAlignment="Top" Width="26"  iTag="347" unActiveBrush="Gray" activeBrush="Green" IsSelected="False"   Margin="1,1,1,1"></oc:CSwitcher>
+            <oc:CSwitcher Grid.Row="10" Grid.Column="20" Height="16" VerticalAlignment="Top" Width="26"  iTag="348" unActiveBrush="Gray" activeBrush="Green" IsSelected="False"   Margin="1,1,1,1"></oc:CSwitcher>
+            <oc:CSwitcher Grid.Row="11" Grid.Column="20" Height="16" VerticalAlignment="Top" Width="26"  iTag="349" unActiveBrush="Gray" activeBrush="Green" IsSelected="False"   Margin="1,1,1,1"></oc:CSwitcher>
+
+            <oc:CSwitcher Grid.Row="12" Grid.Column="20" Height="16" VerticalAlignment="Top" Width="26"  iTag="350" unActiveBrush="Gray" activeBrush="Green" IsSelected="False"   Margin="1,1,1,1"></oc:CSwitcher>
+            <oc:CSwitcher Grid.Row="13" Grid.Column="20" Height="16" VerticalAlignment="Top" Width="26"  iTag="351" unActiveBrush="Gray" activeBrush="Green" IsSelected="False"   Margin="1,1,1,1"></oc:CSwitcher>
+
+            <oc:CSwitcher Grid.Row="15" Grid.Column="20" Height="16" VerticalAlignment="Top" Width="26"  iTag="352" unActiveBrush="Gray" activeBrush="Green" IsSelected="False"   Margin="1,1,1,1"></oc:CSwitcher>
+            <oc:CSwitcher Grid.Row="16" Grid.Column="20" Height="16" VerticalAlignment="Top" Width="26"  iTag="353" unActiveBrush="Gray" activeBrush="Green" IsSelected="False"   Margin="1,1,1,1"></oc:CSwitcher>
+            <oc:CSwitcher Grid.Row="17" Grid.Column="20" Height="16" VerticalAlignment="Top" Width="26"  iTag="354" unActiveBrush="Gray" activeBrush="Green" IsSelected="False"   Margin="1,1,1,1"></oc:CSwitcher>
+            <oc:CSwitcher Grid.Row="18" Grid.Column="20" Height="16" VerticalAlignment="Top" Width="26"  iTag="355" unActiveBrush="Gray" activeBrush="Green" IsSelected="False"   Margin="1,1,1,1"></oc:CSwitcher>
+
+            <oc:CSwitcher Grid.Row="19" Grid.Column="20" Height="16" VerticalAlignment="Top" Width="26"  iTag="356" unActiveBrush="Gray" activeBrush="Green" IsSelected="False"   Margin="1,1,1,1"></oc:CSwitcher>
+            <oc:CSwitcher Grid.Row="20" Grid.Column="20" Height="16" VerticalAlignment="Top" Width="26"  iTag="357" unActiveBrush="Gray" activeBrush="Green" IsSelected="False"   Margin="1,1,1,1"></oc:CSwitcher>
+            <oc:CSwitcher Grid.Row="21" Grid.Column="20" Height="16" VerticalAlignment="Top" Width="26"  iTag="358" unActiveBrush="Gray" activeBrush="Green" IsSelected="False"   Margin="1,1,1,1"></oc:CSwitcher>
+            <oc:CSwitcher Grid.Row="22" Grid.Column="20" Height="16" VerticalAlignment="Top" Width="26"  iTag="359" unActiveBrush="Gray" activeBrush="Green" IsSelected="False"   Margin="1,1,1,1"></oc:CSwitcher>
+
+            <!--21 column-->
+            <oc:CSwitcher Grid.Row="2" Grid.Column="21" Height="16" VerticalAlignment="Top" Width="26"  iTag="360" unActiveBrush="Gray" activeBrush="Green" IsSelected="False"   Margin="1,1,1,1"></oc:CSwitcher>
+            <oc:CSwitcher Grid.Row="3" Grid.Column="21" Height="16" VerticalAlignment="Top" Width="26"  iTag="361" unActiveBrush="Gray" activeBrush="Green" IsSelected="False"   Margin="1,1,1,1"></oc:CSwitcher>
+            <oc:CSwitcher Grid.Row="4" Grid.Column="21" Height="16" VerticalAlignment="Top" Width="26"  iTag="362" unActiveBrush="Gray" activeBrush="Green" IsSelected="False"   Margin="1,1,1,1"></oc:CSwitcher>
+            <oc:CSwitcher Grid.Row="5" Grid.Column="21" Height="16" VerticalAlignment="Top" Width="26"  iTag="363" unActiveBrush="Gray" activeBrush="Green" IsSelected="False"   Margin="1,1,1,1"></oc:CSwitcher>
+            <oc:CSwitcher Grid.Row="6" Grid.Column="21" Height="16" VerticalAlignment="Top" Width="26"  iTag="364" unActiveBrush="Gray" activeBrush="Green" IsSelected="False"   Margin="1,1,1,1"></oc:CSwitcher>
+
+            <oc:CSwitcher Grid.Row="7" Grid.Column="21" Height="16" VerticalAlignment="Top" Width="26"  iTag="365" unActiveBrush="Gray" activeBrush="Green" IsSelected="False"   Margin="1,1,1,1"></oc:CSwitcher>
+            <oc:CSwitcher Grid.Row="8" Grid.Column="21" Height="16" VerticalAlignment="Top" Width="26"  iTag="366" unActiveBrush="Gray" activeBrush="Green" IsSelected="False"   Margin="1,1,1,1"></oc:CSwitcher>
+            <oc:CSwitcher Grid.Row="9" Grid.Column="21" Height="16" VerticalAlignment="Top" Width="26"  iTag="367" unActiveBrush="Gray" activeBrush="Green" IsSelected="False"   Margin="1,1,1,1"></oc:CSwitcher>
+            <oc:CSwitcher Grid.Row="10" Grid.Column="21" Height="16" VerticalAlignment="Top" Width="26"  iTag="368" unActiveBrush="Gray" activeBrush="Green" IsSelected="False"   Margin="1,1,1,1"></oc:CSwitcher>
+            <oc:CSwitcher Grid.Row="11" Grid.Column="21" Height="16" VerticalAlignment="Top" Width="26"  iTag="369" unActiveBrush="Gray" activeBrush="Green" IsSelected="False"   Margin="1,1,1,1"></oc:CSwitcher>
+
+            <oc:CSwitcher Grid.Row="12" Grid.Column="21" Height="16" VerticalAlignment="Top" Width="26"  iTag="370" unActiveBrush="Gray" activeBrush="Green" IsSelected="False"   Margin="1,1,1,1"></oc:CSwitcher>
+            <oc:CSwitcher Grid.Row="13" Grid.Column="21" Height="16" VerticalAlignment="Top" Width="26"  iTag="371" unActiveBrush="Gray" activeBrush="Green" IsSelected="False"   Margin="1,1,1,1"></oc:CSwitcher>
+
+            <oc:CSwitcher Grid.Row="15" Grid.Column="21" Height="16" VerticalAlignment="Top" Width="26"  iTag="372" unActiveBrush="Gray" activeBrush="Green" IsSelected="False"   Margin="1,1,1,1"></oc:CSwitcher>
+            <oc:CSwitcher Grid.Row="16" Grid.Column="21" Height="16" VerticalAlignment="Top" Width="26"  iTag="373" unActiveBrush="Gray" activeBrush="Green" IsSelected="False"   Margin="1,1,1,1"></oc:CSwitcher>
+            <oc:CSwitcher Grid.Row="17" Grid.Column="21" Height="16" VerticalAlignment="Top" Width="26"  iTag="374" unActiveBrush="Gray" activeBrush="Green" IsSelected="False"   Margin="1,1,1,1"></oc:CSwitcher>
+            <oc:CSwitcher Grid.Row="18" Grid.Column="21" Height="16" VerticalAlignment="Top" Width="26"  iTag="375" unActiveBrush="Gray" activeBrush="Green" IsSelected="False"   Margin="1,1,1,1"></oc:CSwitcher>
+
+            <oc:CSwitcher Grid.Row="19" Grid.Column="21" Height="16" VerticalAlignment="Top" Width="26"  iTag="376" unActiveBrush="Gray" activeBrush="Green" IsSelected="False"   Margin="1,1,1,1"></oc:CSwitcher>
+            <oc:CSwitcher Grid.Row="20" Grid.Column="21" Height="16" VerticalAlignment="Top" Width="26"  iTag="377" unActiveBrush="Gray" activeBrush="Green" IsSelected="False"   Margin="1,1,1,1"></oc:CSwitcher>
+            <oc:CSwitcher Grid.Row="21" Grid.Column="21" Height="16" VerticalAlignment="Top" Width="26"  iTag="378" unActiveBrush="Gray" activeBrush="Green" IsSelected="False"   Margin="1,1,1,1"></oc:CSwitcher>
+            <oc:CSwitcher Grid.Row="22" Grid.Column="21" Height="16" VerticalAlignment="Top" Width="26"  iTag="379" unActiveBrush="Gray" activeBrush="Green" IsSelected="False"   Margin="1,1,1,1"></oc:CSwitcher>
+
+            <!--22 column-->
+            <oc:CSwitcher Grid.Row="2" Grid.Column="22" Height="16" VerticalAlignment="Top" Width="26"  iTag="380" unActiveBrush="Gray" activeBrush="Green" IsSelected="False"   Margin="1,1,1,1"></oc:CSwitcher>
+            <oc:CSwitcher Grid.Row="3" Grid.Column="22" Height="16" VerticalAlignment="Top" Width="26"  iTag="381" unActiveBrush="Gray" activeBrush="Green" IsSelected="False"   Margin="1,1,1,1"></oc:CSwitcher>
+            <oc:CSwitcher Grid.Row="4" Grid.Column="22" Height="16" VerticalAlignment="Top" Width="26"  iTag="382" unActiveBrush="Gray" activeBrush="Green" IsSelected="False"   Margin="1,1,1,1"></oc:CSwitcher>
+            <oc:CSwitcher Grid.Row="5" Grid.Column="22" Height="16" VerticalAlignment="Top" Width="26"  iTag="383" unActiveBrush="Gray" activeBrush="Green" IsSelected="False"   Margin="1,1,1,1"></oc:CSwitcher>
+            <oc:CSwitcher Grid.Row="6" Grid.Column="22" Height="16" VerticalAlignment="Top" Width="26"  iTag="384" unActiveBrush="Gray" activeBrush="Green" IsSelected="False"   Margin="1,1,1,1"></oc:CSwitcher>
+
+            <oc:CSwitcher Grid.Row="7" Grid.Column="22" Height="16" VerticalAlignment="Top" Width="26"  iTag="385" unActiveBrush="Gray" activeBrush="Green" IsSelected="False"   Margin="1,1,1,1"></oc:CSwitcher>
+            <oc:CSwitcher Grid.Row="8" Grid.Column="22" Height="16" VerticalAlignment="Top" Width="26"  iTag="386" unActiveBrush="Gray" activeBrush="Green" IsSelected="False"   Margin="1,1,1,1"></oc:CSwitcher>
+            <oc:CSwitcher Grid.Row="9" Grid.Column="22" Height="16" VerticalAlignment="Top" Width="26"  iTag="387" unActiveBrush="Gray" activeBrush="Green" IsSelected="False"   Margin="1,1,1,1"></oc:CSwitcher>
+            <oc:CSwitcher Grid.Row="10" Grid.Column="22" Height="16" VerticalAlignment="Top" Width="26"  iTag="388" unActiveBrush="Gray" activeBrush="Green" IsSelected="False"   Margin="1,1,1,1"></oc:CSwitcher>
+            <oc:CSwitcher Grid.Row="11" Grid.Column="22" Height="16" VerticalAlignment="Top" Width="26"  iTag="389" unActiveBrush="Gray" activeBrush="Green" IsSelected="False"   Margin="1,1,1,1"></oc:CSwitcher>
+
+            <oc:CSwitcher Grid.Row="12" Grid.Column="22" Height="16" VerticalAlignment="Top" Width="26"  iTag="390" unActiveBrush="Gray" activeBrush="Green" IsSelected="False"   Margin="1,1,1,1"></oc:CSwitcher>
+            <oc:CSwitcher Grid.Row="13" Grid.Column="22" Height="16" VerticalAlignment="Top" Width="26"  iTag="391" unActiveBrush="Gray" activeBrush="Green" IsSelected="False"   Margin="1,1,1,1"></oc:CSwitcher>
+
+            <oc:CSwitcher Grid.Row="15" Grid.Column="22" Height="16" VerticalAlignment="Top" Width="26"  iTag="392" unActiveBrush="Gray" activeBrush="Green" IsSelected="False"   Margin="1,1,1,1"></oc:CSwitcher>
+            <oc:CSwitcher Grid.Row="16" Grid.Column="22" Height="16" VerticalAlignment="Top" Width="26"  iTag="393" unActiveBrush="Gray" activeBrush="Green" IsSelected="False"   Margin="1,1,1,1"></oc:CSwitcher>
+            <oc:CSwitcher Grid.Row="17" Grid.Column="22" Height="16" VerticalAlignment="Top" Width="26"  iTag="394" unActiveBrush="Gray" activeBrush="Green" IsSelected="False"   Margin="1,1,1,1"></oc:CSwitcher>
+            <oc:CSwitcher Grid.Row="18" Grid.Column="22" Height="16" VerticalAlignment="Top" Width="26"  iTag="395" unActiveBrush="Gray" activeBrush="Green" IsSelected="False"   Margin="1,1,1,1"></oc:CSwitcher>
+
+            <oc:CSwitcher Grid.Row="19" Grid.Column="22" Height="16" VerticalAlignment="Top" Width="26"  iTag="396" unActiveBrush="Gray" activeBrush="Green" IsSelected="False"   Margin="1,1,1,1"></oc:CSwitcher>
+            <oc:CSwitcher Grid.Row="20" Grid.Column="22" Height="16" VerticalAlignment="Top" Width="26"  iTag="397" unActiveBrush="Gray" activeBrush="Green" IsSelected="False"   Margin="1,1,1,1"></oc:CSwitcher>
+            <oc:CSwitcher Grid.Row="21" Grid.Column="22" Height="16" VerticalAlignment="Top" Width="26"  iTag="398" unActiveBrush="Gray" activeBrush="Green" IsSelected="False"   Margin="1,1,1,1"></oc:CSwitcher>
+            <oc:CSwitcher Grid.Row="22" Grid.Column="22" Height="16" VerticalAlignment="Top" Width="26"  iTag="399" unActiveBrush="Gray" activeBrush="Green" IsSelected="False"   Margin="1,1,1,1"></oc:CSwitcher>
+
+        </Grid>
+    </Border>
+</UserControl>

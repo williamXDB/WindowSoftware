@@ -1,0 +1,70 @@
+﻿<UserControl x:Class="MatrixSystemEditor.CDuckerSourceControl"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:oc="clr-namespace:Lib.Controls;assembly=Lib.Controls.MyControls"
+             mc:Ignorable="d" 
+             d:DesignHeight="398" d:DesignWidth="510">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+        </Grid.RowDefinitions>
+        <GroupBox Header="Source Select" Padding="8" Margin="5,28,0,15" Name="sourceSelect_Groupbox">
+            <StackPanel>
+                <TextBlock Margin="5">Local Input</TextBlock>
+                <StackPanel  Name="LocalInput" Orientation="Horizontal">
+                    <oc:CSwitcher Margin="5,5,2,5" Padding="5" MinWidth="35" unActiveBrush="#FFD4D0C8" activeBrush="Green" iTag="0" Tag="source" Name="sourceBtn0" Click="sourceLocalClick">1</oc:CSwitcher>
+                    <oc:CSwitcher Margin="2,5,2,5" Padding="5" MinWidth="35" unActiveBrush="#FFD4D0C8" activeBrush="Green" iTag="1" Tag="source" Name="sourceBtn1"  Click="sourceLocalClick" >2</oc:CSwitcher>
+                    <oc:CSwitcher Margin="2,5,2,5" Padding="5" MinWidth="35" unActiveBrush="#FFD4D0C8" activeBrush="Green" iTag="2"  Tag="source" Name="sourceBtn2"  Click="sourceLocalClick">3</oc:CSwitcher>
+                    <oc:CSwitcher Margin="2,5,2,5" Padding="5" MinWidth="35" unActiveBrush="#FFD4D0C8" activeBrush="Green" iTag="3" Tag="source"  Name="sourceBtn3"  Click="sourceLocalClick">4</oc:CSwitcher>
+                    <oc:CSwitcher Margin="2,5,2,5" Padding="5" MinWidth="35" unActiveBrush="#FFD4D0C8" activeBrush="Green" iTag="4" Tag="source"  Name="sourceBtn4"  Click="sourceLocalClick">5</oc:CSwitcher>
+                    <oc:CSwitcher Margin="2,5,2,5" Padding="5" MinWidth="35" unActiveBrush="#FFD4D0C8" activeBrush="Green" iTag="5" Tag="source"  Name="sourceBtn5"  Click="sourceLocalClick">6</oc:CSwitcher>
+
+                    <oc:CSwitcher Margin="2,5,2,5" Padding="5" MinWidth="35" unActiveBrush="#FFD4D0C8" activeBrush="Green" iTag="6" Tag="source" Name="sourceBtn6"  Click="sourceLocalClick" >7</oc:CSwitcher>
+                    <oc:CSwitcher Margin="2,5,2,5" Padding="5" MinWidth="35" unActiveBrush="#FFD4D0C8" activeBrush="Green" iTag="7" Tag="source"  Name="sourceBtn7"  Click="sourceLocalClick">8</oc:CSwitcher>
+                    <oc:CSwitcher Margin="2,5,2,5" Padding="5" MinWidth="35" unActiveBrush="#FFD4D0C8" activeBrush="Green" iTag="8" Tag="source"  Name="sourceBtn8"  Click="sourceLocalClick">9</oc:CSwitcher>
+                    <oc:CSwitcher Margin="2,5,2,5" Padding="5" MinWidth="35" unActiveBrush="#FFD4D0C8" activeBrush="Green" iTag="9" Tag="source" Name="sourceBtn9"   Click="sourceLocalClick">10</oc:CSwitcher>
+                    <oc:CSwitcher Margin="2,5,2,5" Padding="5" MinWidth="35" unActiveBrush="#FFD4D0C8" activeBrush="Green" iTag="10" Tag="source" Name="sourceBtn10"   Click="sourceLocalClick" >11</oc:CSwitcher>
+                    <oc:CSwitcher Margin="2,5,2,5" Padding="5" MinWidth="35" unActiveBrush="#FFD4D0C8" activeBrush="Green" iTag="11" Tag="source"  Name="sourceBtn11"  Click="sourceLocalClick">12</oc:CSwitcher>
+
+                </StackPanel>
+            </StackPanel>
+
+        </GroupBox>
+        <GroupBox Header="BGM Setting" Grid.Row="1" Padding="8" Margin="5,10,0,15" Name="BGM_Groupbox">
+            <StackPanel>
+                <TextBlock>Local Input</TextBlock>
+                <StackPanel  Name="BGM_LocalOutput" Margin="0,0,0,15" Orientation="Horizontal">
+                    <oc:CSwitcher Margin="5,5,2,5" Padding="5" MinWidth="35" unActiveBrush="#FFD4D0C8" activeBrush="Green" iTag="0" Tag="bgmInput"   Name="bgmLocalBtn0" Click="bgmLocalClick">1</oc:CSwitcher>
+                    <oc:CSwitcher Margin="2,5,2,5" Padding="5" MinWidth="35" unActiveBrush="#FFD4D0C8" activeBrush="Green" iTag="1" Tag="bgmInput"   Name="bgmLocalBtn1"  Click="bgmLocalClick" >2</oc:CSwitcher>
+                    <oc:CSwitcher Margin="2,5,2,5" Padding="5" MinWidth="35" unActiveBrush="#FFD4D0C8" activeBrush="Green" iTag="2" Tag="bgmInput"   Name="bgmLocalBtn2"  Click="bgmLocalClick" >3</oc:CSwitcher>
+                    <oc:CSwitcher Margin="2,5,2,5" Padding="5" MinWidth="35" unActiveBrush="#FFD4D0C8" activeBrush="Green" iTag="3" Tag="bgmInput"   Name="bgmLocalBtn3"   Click="bgmLocalClick">4</oc:CSwitcher>
+                    <oc:CSwitcher Margin="2,5,2,5" Padding="5" MinWidth="35" unActiveBrush="#FFD4D0C8" activeBrush="Green" iTag="4" Tag="bgmInput"   Name="bgmLocalBtn4"  Click="bgmLocalClick" >5</oc:CSwitcher>
+                    <oc:CSwitcher Margin="2,5,2,5" Padding="5" MinWidth="35" unActiveBrush="#FFD4D0C8" activeBrush="Green" iTag="5" Tag="bgmInput"   Name="bgmLocalBtn5" Click="bgmLocalClick" >6</oc:CSwitcher>
+
+                    <oc:CSwitcher Margin="2,5,2,5" Padding="5" MinWidth="35" unActiveBrush="#FFD4D0C8" activeBrush="Green" iTag="6" Tag="bgmInput"    Name="bgmLocalBtn6" Click="bgmLocalClick" >7</oc:CSwitcher>
+                    <oc:CSwitcher Margin="2,5,2,5" Padding="5" MinWidth="35" unActiveBrush="#FFD4D0C8" activeBrush="Green" iTag="7" Tag="bgmInput"    Name="bgmLocalBtn7" Click="bgmLocalClick" >8</oc:CSwitcher>
+                    <oc:CSwitcher Margin="2,5,2,5" Padding="5" MinWidth="35" unActiveBrush="#FFD4D0C8" activeBrush="Green" iTag="8" Tag="bgmInput"    Name="bgmLocalBtn8"  Click="bgmLocalClick">9</oc:CSwitcher>
+                    <oc:CSwitcher Margin="2,5,2,5" Padding="5" MinWidth="35" unActiveBrush="#FFD4D0C8" activeBrush="Green" iTag="9" Tag="bgmInput"    Name="bgmLocalBtn9" Click="bgmLocalClick">10</oc:CSwitcher>
+                    <oc:CSwitcher Margin="2,5,2,5" Padding="5" MinWidth="35" unActiveBrush="#FFD4D0C8" activeBrush="Green" iTag="10" Tag="bgmInput"   Name="bgmLocalBtn10" Click="bgmLocalClick">11</oc:CSwitcher>
+                    <oc:CSwitcher Margin="2,5,2,5" Padding="5" MinWidth="35" unActiveBrush="#FFD4D0C8" activeBrush="Green" iTag="11" Tag="bgmInput"   Name="bgmLocalBtn11"  Click="bgmLocalClick">12</oc:CSwitcher>
+
+                </StackPanel>
+                <TextBlock Margin="0,15,0,0">Network Input</TextBlock>
+                <StackPanel  Name="BGM_NetworkInput" Orientation="Horizontal">
+                    <oc:CSwitcher Margin="5,5,2,5" Padding="5" MinWidth="35" unActiveBrush="#FFD4D0C8" activeBrush="Green" iTag="0" Tag="bgmNet"    Name="networkBtn0" Click="bgmNetWorkClick">1</oc:CSwitcher>
+                    <oc:CSwitcher Margin="2,5,2,5" Padding="5" MinWidth="35" unActiveBrush="#FFD4D0C8" activeBrush="Green" iTag="1" Tag="bgmNet"   Name="networkBtn1" Click="bgmNetWorkClick">2</oc:CSwitcher>
+                    <oc:CSwitcher Margin="2,5,2,5" Padding="5" MinWidth="35" unActiveBrush="#FFD4D0C8" activeBrush="Green" iTag="2" Tag="bgmNet"  Name="networkBtn2" Click="bgmNetWorkClick" >3</oc:CSwitcher>
+                    <oc:CSwitcher Margin="2,5,2,5" Padding="5" MinWidth="35" unActiveBrush="#FFD4D0C8" activeBrush="Green" iTag="3" Tag="bgmNet"   Name="networkBtn3" Click="bgmNetWorkClick">4</oc:CSwitcher>
+                    <oc:CSwitcher Margin="2,5,2,5" Padding="5" MinWidth="35" unActiveBrush="#FFD4D0C8" activeBrush="Green" iTag="4" Tag="bgmNet"   Name="networkBtn4" Click="bgmNetWorkClick">5</oc:CSwitcher>
+                    <oc:CSwitcher Margin="2,5,2,5" Padding="5" MinWidth="35" unActiveBrush="#FFD4D0C8" activeBrush="Green" iTag="5" Tag="bgmNet"  Name="networkBtn5" Click="bgmNetWorkClick" >6</oc:CSwitcher>
+                    <oc:CSwitcher Margin="2,5,2,5" Padding="5" MinWidth="35" unActiveBrush="#FFD4D0C8" activeBrush="Green" iTag="6" Tag="bgmNet"   Name="networkBtn6" Click="bgmNetWorkClick">7</oc:CSwitcher>
+                    <oc:CSwitcher Margin="2,5,2,5" Padding="5" MinWidth="35" unActiveBrush="#FFD4D0C8" activeBrush="Green" iTag="7" Tag="bgmNet"  Name="networkBtn7" Click="bgmNetWorkClick" >8</oc:CSwitcher>
+
+                </StackPanel>
+            </StackPanel>
+        </GroupBox>
+    </Grid>
+</UserControl>

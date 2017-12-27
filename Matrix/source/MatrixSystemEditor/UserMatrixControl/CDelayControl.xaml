@@ -1,0 +1,50 @@
+﻿<UserControl x:Class="MatrixSystemEditor.CDelayControl"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:oc="clr-namespace:Lib.Controls;assembly=Lib.Controls.MyControls"
+             mc:Ignorable="d" 
+             d:DesignHeight="150" d:DesignWidth="300">
+    <Border Name="rightDeleyploaritys" Grid.Row="2" Margin="5,5,5,5"
+                                            BorderBrush="Gray" BorderThickness="1" Padding="5"                                            
+                                            >
+        <Grid Name="delayGrid">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto"></RowDefinition>
+                <RowDefinition Height="Auto"></RowDefinition>
+                <RowDefinition></RowDefinition>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition></ColumnDefinition>
+                <ColumnDefinition></ColumnDefinition>
+                <ColumnDefinition ></ColumnDefinition>
+            </Grid.ColumnDefinitions>
+            <oc:CSwitcher Margin="5,8,5,5" Padding="8" Grid.RowSpan="2" Name="delayPowerBtn" 
+                          Click="delayPowerBtn_Click"
+                          unActiveBrush="#FFD4D0C8" activeBrush="Red">Bypass</oc:CSwitcher>
+            <TextBlock Grid.Column="1" VerticalAlignment="Center">Delay</TextBlock>
+            <StackPanel Orientation="Horizontal" Grid.Column="1" Grid.Row="1">
+                <TextBox MaxHeight="20" Name="edmS"
+                 MinWidth="55" IsReadOnly="True" HorizontalAlignment="Left" Text="0"
+                                                     ></TextBox>
+                <TextBlock VerticalAlignment="Center" Margin="0,3,3,3">(mS)</TextBlock>
+            </StackPanel>
+            <TextBlock Grid.Column="2" Grid.Row="1" VerticalAlignment="Center">mS</TextBlock>
+
+            <StackPanel Grid.Column="3" Grid.Row="1" Orientation="Horizontal">
+                <TextBox MaxHeight="20"    Text="0" IsReadOnly="True" Name="edM"
+                    MinWidth="55"  HorizontalAlignment="Left"
+                                                     ></TextBox>
+                <TextBlock Grid.Column="4" Grid.Row="1" VerticalAlignment="Center" Margin="0,3,3,3" >(M)</TextBlock>
+            </StackPanel>
+            <!--preserved for horslider-->
+            <oc:CSlider isVerticalSlider="False" Grid.Row="2" Grid.ColumnSpan="3" Height="40" Width="272"                        
+                        thumb="Resources/Image/fader_hr.png" Maximum="65530" Posvalue="0" Name="dslider"
+                        >                
+            </oc:CSlider>
+
+
+        </Grid>
+    </Border>
+</UserControl>

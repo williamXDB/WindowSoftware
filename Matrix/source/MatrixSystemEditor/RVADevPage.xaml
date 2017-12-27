@@ -1,0 +1,67 @@
+﻿<Window  x:Class="MatrixSystemEditor.RVADevPage"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"         
+        xmlns:oc="clr-namespace:Lib.Controls;assembly=Lib.Controls.MyControls"
+       
+        Background="#604A7B"          
+        Title="RVA200 Editor page" Height="200" Width="350" Loaded="Window_Loaded" 
+         ResizeMode="NoResize" WindowStartupLocation="CenterScreen" Closing="Window_Closing" Foreground="White"><!--//ResizeMode="NoResize"-->
+
+    <Grid ShowGridLines="False">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"></RowDefinition>
+            <RowDefinition Height="Auto"></RowDefinition>
+            <RowDefinition Height="Auto"></RowDefinition>
+            <RowDefinition></RowDefinition>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="180"></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+        <StackPanel Orientation="Horizontal" Margin="5" Grid.Row="1">
+            <TextBlock Text="App ID:" VerticalAlignment="Center"></TextBlock>
+            <TextBlock Text="0x0A00" VerticalAlignment="Center" Name="labelAPID"></TextBlock>
+            <!--status led-->   
+
+
+        </StackPanel>
+
+        <DockPanel Grid.Row="0"  Grid.Column="0" Margin="5,5,0,5" >
+            <StackPanel Orientation="Horizontal">
+                <TextBlock Text="Connect Status:" VerticalAlignment="Center"></TextBlock>
+                <oc:CLed Width="30" Height="15" Name="conLed" Margin="10,0,0,0"></oc:CLed>               
+            </StackPanel>
+        </DockPanel>
+        <DockPanel Grid.Row="0"  Grid.Column="1" >
+            <StackPanel Orientation="Horizontal" Name="aesPanel" Visibility="Hidden">
+                <TextBlock Text="AES Status:" VerticalAlignment="Center"></TextBlock>
+                <oc:CLed Width="30" Height="15" Margin="10,0,0,0" Name="aesLed"></oc:CLed>
+            </StackPanel>
+        </DockPanel>
+        <DockPanel Grid.Row="2" >
+            <StackPanel Orientation="Horizontal" Width="163">
+                <TextBlock Text="Device Name:" Margin="0,0,0,0" VerticalAlignment="Center"></TextBlock>
+                <TextBox Text="RVA200" Margin="1,0,0,0" Height="28" VerticalAlignment="Center" Name="lbDevName"
+                         MinWidth="80" MaxWidth="100"  IsReadOnly="True" Background="White" 
+                         ></TextBox>
+            </StackPanel>
+        </DockPanel>
+       
+
+        <DockPanel Grid.Column="1" Grid.Row="1">
+            <StackPanel Orientation="Horizontal">
+                <TextBlock Text="Device ID:" VerticalAlignment="Center" Margin="0,0,0,0"></TextBlock>
+                <TextBlock Text="10000" VerticalAlignment="Center" Name="labelDevID"></TextBlock>
+            </StackPanel>
+        </DockPanel>
+        <DockPanel HorizontalAlignment="Left" Grid.Column="1" Grid.Row="2" Margin="0,5,5,5">
+            <StackPanel Orientation="Horizontal">
+                <TextBlock Text="Firmware Version:" VerticalAlignment="Center" HorizontalAlignment="Left"></TextBlock>
+                <TextBlock Text="v1.2.3" VerticalAlignment="Center" Margin="5,1,1,1" Name="fmLb"></TextBlock>
+            </StackPanel>
+        </DockPanel>
+        <Button  Grid.Row="3" Margin="5,1,5,1" Background="#B1B1B1"  Grid.ColumnSpan="2"  Padding="5" MaxHeight="40"
+         Name="cgDevNameBtn" Click="cgDevNameBtn_Click" Foreground="Black">CHANGE DEVICE NAME</Button>
+
+    </Grid>
+</Window>

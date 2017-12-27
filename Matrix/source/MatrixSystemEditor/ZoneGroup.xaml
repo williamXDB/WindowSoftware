@@ -1,0 +1,86 @@
+﻿<UserControl x:Class="MatrixSystemEditor.ZoneGroup"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:lib="clr-namespace:Lib.Controls;assembly=Lib.Controls.MyControls"
+             xmlns:local="clr-namespace:MatrixSystemEditor"
+             mc:Ignorable="d" 
+             d:DesignHeight="500" d:DesignWidth="280">
+    <Grid VirtualizingPanel.IsVirtualizing="True">
+        <ScrollViewer VerticalScrollBarVisibility="Visible" VirtualizingPanel.IsVirtualizing="True" CanContentScroll="True"  >
+            <UniformGrid Rows="60" Columns="1" Name="ugrid">
+                <local:ZoneItem  Margin="2,1,4,1" x:Name="zonitem_0" BorderThickness="2" ZoneTile="01"  ZoneName="Zone1" iTag="0" isZoneSelected="True"  ></local:ZoneItem>
+                <local:ZoneItem Margin="2,1,4,1"   x:Name="zonitem_1"  BorderThickness="2" ZoneTile="02"  iTag="1" isZoneSelected="False"></local:ZoneItem>
+                <local:ZoneItem Margin="2,1,4,1"   x:Name="zonitem_2"  BorderThickness="2" ZoneTile="03" iTag="2"></local:ZoneItem>
+                <local:ZoneItem Margin="2,1,4,1"   x:Name="zonitem_3"  BorderThickness="2" ZoneTile="04" iTag="3"></local:ZoneItem>
+                <local:ZoneItem Margin="2,1,4,1"    x:Name="zonitem_4" BorderThickness="2" ZoneTile="05" iTag="4"></local:ZoneItem>
+                <local:ZoneItem Margin="2,1,4,1"    x:Name="zonitem_5" BorderThickness="2" ZoneTile="06" iTag="5" ></local:ZoneItem>
+
+                <local:ZoneItem Margin="2,1,4,1"    x:Name="zonitem_6" BorderThickness="2" ZoneTile="07" iTag="6"></local:ZoneItem>
+                <local:ZoneItem Margin="2,1,4,1"    x:Name="zonitem_7" BorderThickness="2" ZoneTile="08" iTag="7"></local:ZoneItem>
+                <local:ZoneItem Margin="2,1,4,1"    x:Name="zonitem_8" BorderThickness="2" ZoneTile="09" iTag="8"></local:ZoneItem>
+                <local:ZoneItem Margin="2,1,4,1"    x:Name="zonitem_9" BorderThickness="2" ZoneTile="10" iTag="9"></local:ZoneItem>
+                <local:ZoneItem Margin="2,1,4,1"   x:Name="zonitem_10"  BorderThickness="2" ZoneTile="11" iTag="10"></local:ZoneItem>
+                <local:ZoneItem Margin="2,1,4,1"    x:Name="zonitem_11" BorderThickness="2" ZoneTile="12" iTag="11"></local:ZoneItem>
+
+                <local:ZoneItem Margin="2,1,4,1"    x:Name="zonitem_12" BorderThickness="2" ZoneTile="13" iTag="12"></local:ZoneItem>
+                <local:ZoneItem Margin="2,1,4,1"   x:Name="zonitem_13"  BorderThickness="2" ZoneTile="14" iTag="13"></local:ZoneItem>
+                <local:ZoneItem Margin="2,1,4,1"    x:Name="zonitem_14" BorderThickness="2" ZoneTile="15" iTag="14"></local:ZoneItem>
+                <local:ZoneItem Margin="2,1,4,1"    x:Name="zonitem_15" BorderThickness="2" ZoneTile="16" iTag="15"></local:ZoneItem>
+                <local:ZoneItem Margin="2,1,4,1"   x:Name="zonitem_16"  BorderThickness="2" ZoneTile="17" iTag="16"></local:ZoneItem>
+                <local:ZoneItem Margin="2,1,4,1"    x:Name="zonitem_17" BorderThickness="2" ZoneTile="18" iTag="17"></local:ZoneItem>
+
+                <local:ZoneItem Margin="2,1,4,1"    x:Name="zonitem_18" BorderThickness="2" ZoneTile="19" iTag="18"></local:ZoneItem>
+                <local:ZoneItem Margin="2,1,4,1"    x:Name="zonitem_19" BorderThickness="2" ZoneTile="20" iTag="19"></local:ZoneItem>
+                <local:ZoneItem Margin="2,1,4,1"    x:Name="zonitem_20" BorderThickness="2" ZoneTile="21" iTag="20"></local:ZoneItem>
+                <local:ZoneItem Margin="2,1,4,1"    x:Name="zonitem_21" BorderThickness="2" ZoneTile="22" iTag="21"></local:ZoneItem>
+                <local:ZoneItem Margin="2,1,4,1"    x:Name="zonitem_22" BorderThickness="2" ZoneTile="23" iTag="22"></local:ZoneItem>
+                <local:ZoneItem Margin="2,1,4,1"    x:Name="zonitem_23" BorderThickness="2" ZoneTile="24" iTag="23"></local:ZoneItem>
+                <local:ZoneItem Margin="2,1,4,1"    x:Name="zonitem_24" BorderThickness="2" ZoneTile="25" iTag="24"></local:ZoneItem>
+                <local:ZoneItem Margin="2,1,4,1"    x:Name="zonitem_25" BorderThickness="2" ZoneTile="26" iTag="25"></local:ZoneItem>
+                <local:ZoneItem Margin="2,1,4,1"    x:Name="zonitem_26" BorderThickness="2" ZoneTile="27" iTag="26"></local:ZoneItem>
+                <local:ZoneItem Margin="2,1,4,1"    x:Name="zonitem_27" BorderThickness="2" ZoneTile="28" iTag="27"></local:ZoneItem>
+                <local:ZoneItem Margin="2,1,4,1"    x:Name="zonitem_28" BorderThickness="2" ZoneTile="29" iTag="28"></local:ZoneItem>
+                <local:ZoneItem Margin="2,1,4,1"   x:Name="zonitem_29"  BorderThickness="2" ZoneTile="30" iTag="29"></local:ZoneItem>
+
+                <local:ZoneItem Margin="2,1,4,1"    x:Name="zonitem_30" BorderThickness="2" ZoneTile="31" iTag="30"></local:ZoneItem>
+                <local:ZoneItem Margin="2,1,4,1"    x:Name="zonitem_31" BorderThickness="2" ZoneTile="32" iTag="31"></local:ZoneItem>
+                <local:ZoneItem Margin="2,1,4,1"    x:Name="zonitem_32" BorderThickness="2" ZoneTile="33" iTag="32"></local:ZoneItem>
+                <local:ZoneItem Margin="2,1,4,1"    x:Name="zonitem_33" BorderThickness="2" ZoneTile="34" iTag="33"></local:ZoneItem>
+                <local:ZoneItem Margin="2,1,4,1"   x:Name="zonitem_34"  BorderThickness="2" ZoneTile="35" iTag="34"></local:ZoneItem>
+                <local:ZoneItem Margin="2,1,4,1"    x:Name="zonitem_35" BorderThickness="2" ZoneTile="36" iTag="35"></local:ZoneItem>
+
+                <local:ZoneItem Margin="2,1,4,1"    x:Name="zonitem_36" BorderThickness="2" ZoneTile="37" iTag="36"></local:ZoneItem>
+                <local:ZoneItem Margin="2,1,4,1"    x:Name="zonitem_37" BorderThickness="2" ZoneTile="38" iTag="37"></local:ZoneItem>
+                <local:ZoneItem Margin="2,1,4,1"    x:Name="zonitem_38" BorderThickness="2" ZoneTile="39" iTag="38"></local:ZoneItem>
+                <local:ZoneItem Margin="2,1,4,1"   x:Name="zonitem_39"  BorderThickness="2" ZoneTile="40" iTag="39"></local:ZoneItem>
+                <local:ZoneItem Margin="2,1,4,1"    x:Name="zonitem_40" BorderThickness="2" ZoneTile="41" iTag="40"></local:ZoneItem>
+                <local:ZoneItem Margin="2,1,4,1"   x:Name="zonitem_41"  BorderThickness="2" ZoneTile="42" iTag="41"></local:ZoneItem>
+
+                <local:ZoneItem Margin="2,1,4,1"    x:Name="zonitem_42" BorderThickness="2" ZoneTile="43" iTag="42"></local:ZoneItem>
+                <local:ZoneItem Margin="2,1,4,1"    x:Name="zonitem_43" BorderThickness="2" ZoneTile="44" iTag="43"></local:ZoneItem>
+                <local:ZoneItem Margin="2,1,4,1"   x:Name="zonitem_44"  BorderThickness="2" ZoneTile="45" iTag="44"></local:ZoneItem>
+                <local:ZoneItem Margin="2,1,4,1"   x:Name="zonitem_45"  BorderThickness="2" ZoneTile="46" iTag="45"></local:ZoneItem>
+                <local:ZoneItem Margin="2,1,4,1"    x:Name="zonitem_46" BorderThickness="2" ZoneTile="47" iTag="46"></local:ZoneItem>
+                <local:ZoneItem Margin="2,1,4,1"   x:Name="zonitem_47"  BorderThickness="2" ZoneTile="48" iTag="47"></local:ZoneItem>
+
+                <local:ZoneItem Margin="2,1,4,1"    x:Name="zonitem_48" BorderThickness="2" ZoneTile="49" iTag="48"></local:ZoneItem>
+                <local:ZoneItem Margin="2,1,4,1"   x:Name="zonitem_49"  BorderThickness="2" ZoneTile="50" iTag="49"></local:ZoneItem>
+                <local:ZoneItem Margin="2,1,4,1"   x:Name="zonitem_50"  BorderThickness="2" ZoneTile="51" iTag="50"></local:ZoneItem>
+                <local:ZoneItem Margin="2,1,4,1"   x:Name="zonitem_51"  BorderThickness="2" ZoneTile="52" iTag="51"></local:ZoneItem>
+                <local:ZoneItem Margin="2,1,4,1"    x:Name="zonitem_52" BorderThickness="2" ZoneTile="53" iTag="52"></local:ZoneItem>
+                <local:ZoneItem Margin="2,1,4,1"   x:Name="zonitem_53"  BorderThickness="2" ZoneTile="54" iTag="53"></local:ZoneItem>
+
+                <local:ZoneItem Margin="2,1,4,1"   x:Name="zonitem_54"  BorderThickness="2" ZoneTile="55" iTag="54"></local:ZoneItem>
+                <local:ZoneItem Margin="2,1,4,1"    x:Name="zonitem_55" BorderThickness="2" ZoneTile="56" iTag="55"></local:ZoneItem>
+                <local:ZoneItem Margin="2,1,4,1"   x:Name="zonitem_56"  BorderThickness="2" ZoneTile="57" iTag="56"></local:ZoneItem>
+                <local:ZoneItem Margin="2,1,4,1"   x:Name="zonitem_57"  BorderThickness="2" ZoneTile="58" iTag="57"></local:ZoneItem>
+                <local:ZoneItem Margin="2,1,4,1"    x:Name="zonitem_58" BorderThickness="2" ZoneTile="59" iTag="58"></local:ZoneItem>
+                <local:ZoneItem Margin="2,1,4,1"   x:Name="zonitem_59"  BorderThickness="2" ZoneTile="60" iTag="59"></local:ZoneItem>            
+
+
+            </UniformGrid>
+        </ScrollViewer>
+    </Grid>
+</UserControl>

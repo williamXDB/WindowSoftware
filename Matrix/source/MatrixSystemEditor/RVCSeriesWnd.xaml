@@ -1,0 +1,161 @@
+﻿<Window x:Class="MatrixSystemEditor.RVCSeriesWnd"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:lib="clr-namespace:Lib.Controls;assembly=Lib.Controls.MyControls"        
+        Title="Device Window" Height="600" Width="1000"
+        Background="#303030" 
+        Loaded="Window_Loaded" WindowStartupLocation="CenterScreen" ResizeMode="NoResize"
+        >
+
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"></RowDefinition>
+            <RowDefinition Height="Auto"></RowDefinition>
+            <RowDefinition  Height="Auto"></RowDefinition>
+            <RowDefinition Height="Auto"></RowDefinition>
+        </Grid.RowDefinitions>
+        <StackPanel Orientation="Vertical">
+            <DockPanel >
+                <DockPanel HorizontalAlignment="Left">
+                    <StackPanel Orientation="Horizontal">
+
+                    </StackPanel>
+                </DockPanel>
+                <DockPanel Name="topPanel">
+                    <DockPanel  DockPanel.Dock="Left"  >
+                        <!--first row-->
+                        <StackPanel Orientation="Horizontal" Margin="10,0,0,0">
+                            <TextBlock Text="Connect Status:" VerticalAlignment="Center"  Foreground="White"></TextBlock>
+                            <lib:CLed Width="30" Height="15" Name="conLed" Margin="10,0,0,0"></lib:CLed>
+                        </StackPanel>
+                    </DockPanel>
+
+                    <DockPanel HorizontalAlignment="Right" Margin="5,15,5,5">
+
+                        <StackPanel Orientation="Horizontal">
+                            <TextBlock Text="APP ID:" Foreground="White"></TextBlock>
+                            <TextBlock Name="lbApID" Text="18" Foreground="White"></TextBlock>
+                            <TextBlock Text="Device ID:" Margin="50,0,0,0" Foreground="White"></TextBlock>
+                            <TextBlock Name="lbDevID" Text="10000" Foreground="White" MinWidth="118"></TextBlock>
+                        </StackPanel>
+                    </DockPanel>
+                </DockPanel>
+
+            </DockPanel>
+            <Rectangle Fill="Gray" Height="1"></Rectangle>
+        </StackPanel>
+
+
+
+        <StackPanel Orientation="Vertical" Grid.Row="1" Margin="15,5,5,5">
+            <Grid Margin="5">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition></ColumnDefinition>
+                    <ColumnDefinition></ColumnDefinition>
+                    <ColumnDefinition></ColumnDefinition>
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition></RowDefinition>
+
+                    <RowDefinition></RowDefinition>
+                    <RowDefinition></RowDefinition>
+                    <RowDefinition></RowDefinition>
+                    <RowDefinition></RowDefinition>
+                    <RowDefinition></RowDefinition>
+
+                    <RowDefinition></RowDefinition>
+                    <RowDefinition></RowDefinition>
+                    <RowDefinition></RowDefinition>
+                    <RowDefinition></RowDefinition>
+
+                    <RowDefinition></RowDefinition>
+                    <RowDefinition></RowDefinition>
+                    <RowDefinition></RowDefinition>
+                    <RowDefinition></RowDefinition>
+
+                </Grid.RowDefinitions>
+                <CheckBox Grid.ColumnSpan="2" Content="Select Channel to Control Volume" FontSize="20" IsEnabled="False"></CheckBox>
+                <CheckBox Grid.Column="2" Content="Enable Routing Function for Outputs" FontSize="20"></CheckBox>
+                <TextBlock Text="Input channel" Grid.Row="1" Grid.Column="0" Foreground="White" FontSize="16" Margin="5,20,5,5"></TextBlock>
+                <TextBlock Text="Output channel" Grid.Row="1" Grid.Column="1" Foreground="White" FontSize="16" Margin="5,20,5,5"></TextBlock>
+                <TextBlock Text="Output channel" Grid.Row="1" Grid.Column="2" Foreground="White" FontSize="16" Margin="5,20,5,5"></TextBlock>
+
+                <CheckBox Grid.Column="0"  Grid.Row="2" Content="Input01" Margin="5,5,5,5" Click="chanel_CheckBox_Click"  Tag="0" Name="ch_cbx0"></CheckBox>
+                <CheckBox Grid.Column="0"  Grid.Row="3" Content="Input02"  Margin="5,5,5,5" Click="chanel_CheckBox_Click"  Tag="1" Name="ch_cbx1"></CheckBox>
+                <CheckBox Grid.Column="0"  Grid.Row="4" Content="Input03"  Margin="5,5,5,5" Click="chanel_CheckBox_Click"  Tag="2" Name="ch_cbx2"></CheckBox>
+                <CheckBox Grid.Column="0"  Grid.Row="5" Content="Input04"  Margin="5,5,5,5" Click="chanel_CheckBox_Click"  Tag="3" Name="ch_cbx3"></CheckBox>
+                <CheckBox Grid.Column="0"  Grid.Row="6" Content="Input05"  Margin="5,5,5,5" Click="chanel_CheckBox_Click"  Tag="4" Name="ch_cbx4"></CheckBox>
+                <CheckBox Grid.Column="0"  Grid.Row="7" Content="Input06"  Margin="5,5,5,5" Click="chanel_CheckBox_Click"  Tag="5" Name="ch_cbx5"></CheckBox>
+                <CheckBox Grid.Column="0"  Grid.Row="8" Content="Input07"  Margin="5,5,5,5" Click="chanel_CheckBox_Click"  Tag="6" Name="ch_cbx6"></CheckBox>
+                <CheckBox Grid.Column="0"  Grid.Row="9" Content="Input08"  Margin="5,5,5,5" Click="chanel_CheckBox_Click"  Tag="7" Name="ch_cbx7"></CheckBox>
+                <CheckBox Grid.Column="0"  Grid.Row="10" Content="Input09"  Margin="5,5,5,5" Click="chanel_CheckBox_Click"  Tag="8" Name="ch_cbx8"></CheckBox>
+                <CheckBox Grid.Column="0"  Grid.Row="11" Content="Input10"  Margin="5,5,5,5" Click="chanel_CheckBox_Click"  Tag="9" Name="ch_cbx9"></CheckBox>
+                <CheckBox Grid.Column="0"  Grid.Row="12" Content="Input11"  Margin="5,5,5,5" Click="chanel_CheckBox_Click"  Tag="10" Name="ch_cbx10"></CheckBox>
+                <CheckBox Grid.Column="0"  Grid.Row="13" Content="Input12"  Margin="5,5,5,5" Click="chanel_CheckBox_Click"  Tag="11" Name="ch_cbx11"></CheckBox>
+
+                <CheckBox Grid.Column="1"  Grid.Row="2" Content="Output01"  Margin="5,5,5,5" Click="chanel_CheckBox_Click"  Tag="12" Name="ch_cbx12"></CheckBox>
+                <CheckBox Grid.Column="1"  Grid.Row="3" Content="Output02"  Margin="5,5,5,5" Click="chanel_CheckBox_Click"  Tag="13" Name="ch_cbx13"></CheckBox>
+                <CheckBox Grid.Column="1"  Grid.Row="4" Content="Output03"  Margin="5,5,5,5" Click="chanel_CheckBox_Click"  Tag="14" Name="ch_cbx14"></CheckBox>
+                <CheckBox Grid.Column="1"  Grid.Row="5" Content="Output04"  Margin="5,5,5,5" Click="chanel_CheckBox_Click"  Tag="15" Name="ch_cbx15"></CheckBox>
+                <CheckBox Grid.Column="1"  Grid.Row="6" Content="Output05"  Margin="5,5,5,5" Click="chanel_CheckBox_Click"  Tag="16" Name="ch_cbx16"></CheckBox>
+                <CheckBox Grid.Column="1"  Grid.Row="7" Content="Output06"  Margin="5,5,5,5" Click="chanel_CheckBox_Click"  Tag="17" Name="ch_cbx17"></CheckBox>
+                <CheckBox Grid.Column="1"  Grid.Row="8" Content="Output07"  Margin="5,5,5,5" Click="chanel_CheckBox_Click"  Tag="18" Name="ch_cbx18"></CheckBox>
+                <CheckBox Grid.Column="1"  Grid.Row="9" Content="Output08"  Margin="5,5,5,5" Click="chanel_CheckBox_Click"  Tag="19" Name="ch_cbx19"></CheckBox>
+                <CheckBox Grid.Column="1"  Grid.Row="10" Content="Output09"  Margin="5,5,5,5" Click="chanel_CheckBox_Click"  Tag="20" Name="ch_cbx20"></CheckBox>
+                <CheckBox Grid.Column="1"  Grid.Row="11" Content="Output10"  Margin="5,5,5,5" Click="chanel_CheckBox_Click"  Tag="21" Name="ch_cbx21"></CheckBox>
+                <CheckBox Grid.Column="1"  Grid.Row="12" Content="Output11"  Margin="5,5,5,5" Click="chanel_CheckBox_Click"  Tag="22" Name="ch_cbx22"></CheckBox>
+                <CheckBox Grid.Column="1"  Grid.Row="13" Content="Output12"  Margin="5,5,5,5" Click="chanel_CheckBox_Click"  Tag="23" Name="ch_cbx23"></CheckBox>
+
+                <CheckBox Grid.Column="2"  Grid.Row="2" Content="Output01"  Margin="5,5,5,5" Click="Route_CheckBox_Click" Tag="0"  Name="rout_cbx0"></CheckBox>
+                <CheckBox Grid.Column="2"  Grid.Row="3" Content="Output02"  Margin="5,5,5,5" Click="Route_CheckBox_Click" Tag="1" Name="rout_cbx1"></CheckBox>
+                <CheckBox Grid.Column="2"  Grid.Row="4" Content="Output03"  Margin="5,5,5,5" Click="Route_CheckBox_Click" Tag="2" Name="rout_cbx2"></CheckBox>
+                <CheckBox Grid.Column="2"  Grid.Row="5" Content="Output04"  Margin="5,5,5,5" Click="Route_CheckBox_Click" Tag="3" Name="rout_cbx3"></CheckBox>
+                <CheckBox Grid.Column="2"  Grid.Row="6" Content="Output05"  Margin="5,5,5,5" Click="Route_CheckBox_Click" Tag="4" Name="rout_cbx4"></CheckBox>
+                <CheckBox Grid.Column="2"  Grid.Row="7" Content="Output06"  Margin="5,5,5,5" Click="Route_CheckBox_Click" Tag="5" Name="rout_cbx5"></CheckBox>
+                <CheckBox Grid.Column="2"  Grid.Row="8" Content="Output07"  Margin="5,5,5,5" Click="Route_CheckBox_Click" Tag="6" Name="rout_cbx6"></CheckBox>
+                <CheckBox Grid.Column="2"  Grid.Row="9" Content="Output08"  Margin="5,5,5,5" Click="Route_CheckBox_Click" Tag="7" Name="rout_cbx7"></CheckBox>
+                <CheckBox Grid.Column="2"  Grid.Row="10" Content="Output09"  Margin="5,5,5,5" Click="Route_CheckBox_Click" Tag="8" Name="rout_cbx8"></CheckBox>
+                <CheckBox Grid.Column="2"  Grid.Row="11" Content="Output10"  Margin="5,5,5,5" Click="Route_CheckBox_Click" Tag="9" Name="rout_cbx9"></CheckBox>
+                <CheckBox Grid.Column="2"  Grid.Row="12" Content="Output11"  Margin="5,5,5,5" Click="Route_CheckBox_Click" Tag="10" Name="rout_cbx10"></CheckBox>
+                <CheckBox Grid.Column="2"  Grid.Row="13" Content="Output12"  Margin="5,5,5,5" Click="Route_CheckBox_Click" Tag="11" Name="rout_cbx11"></CheckBox>
+
+
+            </Grid>
+
+        </StackPanel>
+        <DockPanel Grid.Row="2" HorizontalAlignment="Left"  Margin="20,15,0,0">
+            <StackPanel Orientation="Vertical">
+                <CheckBox Content="Device Name Setting" MinWidth="500"  IsEnabled="False"></CheckBox>
+                <TextBox Text="Input Here" Margin="20,5,0,5" MinHeight="28" MaxLength="20" Foreground="White"  Name="eDevName"
+                         
+                         MouseDoubleClick="TextBox_MouseDoubleClick" TextChanged="TextBox_TextChanged"></TextBox>
+            </StackPanel>
+        </DockPanel>
+        <DockPanel Grid.Row="3" HorizontalAlignment="Center" Margin="15,15,5,15">
+            <StackPanel Orientation="Horizontal">
+                <lib:CSwitcher Content="Load Preset" MinHeight="30" MinWidth="118" Margin="30,5,10,5" Name="btnLoadPreFromLocal" Click="btnLoadPreFromLocal_Click"></lib:CSwitcher>
+                <lib:CSwitcher Content="Save Preset" MinWidth="118" Margin="30,5,10,5" Name="btnSavePresetToLocal" Click="btnSavePresetToLocal_Click"></lib:CSwitcher>
+                <lib:CSwitcher Content="Load From Device" MinWidth="118" Margin="30,5,10,5" Name="btnLoadFromDevice" Click="btnLoadFromDevice_Click"></lib:CSwitcher>
+                <lib:CSwitcher Content="Save To Device" MinWidth="118" Margin="30,5,10,5" Name="btnSaveToDevice" Click="btnSaveToDevice_Click"></lib:CSwitcher>
+                <lib:SprocketControl 
+                             x:Name="rotateSpin"
+                                      Margin="10,0,0,0"
+                                      VerticalAlignment="Top"
+                                      TickColor="White"
+                                      Width="50"
+                                      Height="50"
+                                      TickWidth="4"
+                                      TickCount="10"
+                            
+                                      StartAngle="-90"
+                                      IsIndeterminate="False"
+                                      Interval="450"                                    
+                                      TickStyle="Triangle"                                   
+                            
+                            ></lib:SprocketControl>
+            </StackPanel>
+        </DockPanel>
+
+    </Grid>
+</Window>

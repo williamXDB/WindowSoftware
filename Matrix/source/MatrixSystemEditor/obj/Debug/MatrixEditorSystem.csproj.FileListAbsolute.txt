@@ -1,0 +1,462 @@
+D:\Work\source20170607\source\MatrixSystemEditor\bin\Debug\MatrixSystemEditor.exe.config
+D:\Work\source20170607\source\MatrixSystemEditor\bin\Debug\MatrixSystemEditor.exe
+D:\Work\source20170607\source\MatrixSystemEditor\bin\Debug\MatrixSystemEditor.pdb
+D:\Work\source20170607\source\MatrixSystemEditor\obj\Debug\AboutWindow.baml
+D:\Work\source20170607\source\MatrixSystemEditor\obj\Debug\ChangeLockPWD.baml
+D:\Work\source20170607\source\MatrixSystemEditor\obj\Debug\commom\CNewDeveName.baml
+D:\Work\source20170607\source\MatrixSystemEditor\obj\Debug\FChanelName.baml
+D:\Work\source20170607\source\MatrixSystemEditor\obj\Debug\NoteLockPwdWindow.baml
+D:\Work\source20170607\source\MatrixSystemEditor\obj\Debug\RVADevPage.baml
+D:\Work\source20170607\source\MatrixSystemEditor\obj\Debug\FBCValueShow.baml
+D:\Work\source20170607\source\MatrixSystemEditor\obj\Debug\SingleZoneUnit.baml
+D:\Work\source20170607\source\MatrixSystemEditor\obj\Debug\AboutWindow.g.cs
+D:\Work\source20170607\source\MatrixSystemEditor\obj\Debug\ChangeLockPWD.g.cs
+D:\Work\source20170607\source\MatrixSystemEditor\obj\Debug\commom\CNewDeveName.g.cs
+D:\Work\source20170607\source\MatrixSystemEditor\obj\Debug\FChanelName.g.cs
+D:\Work\source20170607\source\MatrixSystemEditor\obj\Debug\NoteLockPwdWindow.g.cs
+D:\Work\source20170607\source\MatrixSystemEditor\obj\Debug\RowZoneUnit.g.cs
+D:\Work\source20170607\source\MatrixSystemEditor\obj\Debug\RVADevPage.g.cs
+D:\Work\source20170607\source\MatrixSystemEditor\obj\Debug\FBCValueShow.g.cs
+D:\Work\source20170607\source\MatrixSystemEditor\obj\Debug\MainWindow.g.cs
+D:\Work\source20170607\source\MatrixSystemEditor\obj\Debug\MatrixPage.g.cs
+D:\Work\source20170607\source\MatrixSystemEditor\obj\Debug\RPM200Page.g.cs
+D:\Work\source20170607\source\MatrixSystemEditor\obj\Debug\SingleZoneUnit.g.cs
+D:\Work\source20170607\source\MatrixSystemEditor\obj\Debug\App.g.cs
+D:\Work\source20170607\source\MatrixSystemEditor\obj\Debug\GeneratedInternalTypeHelper.g.cs
+D:\Work\source20170607\source\MatrixSystemEditor\obj\Debug\MatrixSystemEditor_MarkupCompile.cache
+D:\Work\source20170607\source\MatrixSystemEditor\obj\Debug\MatrixSystemEditor_MarkupCompile.lref
+D:\Work\source20170607\source\MatrixSystemEditor\obj\Debug\RowZoneUnit.baml
+D:\Work\source20170607\source\MatrixSystemEditor\obj\Debug\MainWindow.baml
+D:\Work\source20170607\source\MatrixSystemEditor\obj\Debug\MatrixPage.baml
+D:\Work\source20170607\source\MatrixSystemEditor\obj\Debug\RPM200Page.baml
+D:\Work\source20170607\source\MatrixSystemEditor\obj\Debug\Themes\Generic.baml
+D:\Work\source20170607\source\MatrixSystemEditor\obj\Debug\MatrixSystemEditor.g.resources
+D:\Work\source20170607\source\MatrixSystemEditor\obj\Debug\MatrixSystemEditor.Properties.Resources.resources
+D:\Work\source20170607\source\MatrixSystemEditor\obj\Debug\MatrixSystemEditor.Resource1.resources
+D:\Work\source20170607\source\MatrixSystemEditor\obj\Debug\MatrixEditorSystem.csproj.GenerateResource.Cache
+D:\Work\source20170607\source\MatrixSystemEditor\obj\Debug\MatrixSystemEditor.exe
+D:\Work\source20170607\source\MatrixSystemEditor\obj\Debug\MatrixSystemEditor.pdb
+C:\Users\jiajieliang\Desktop\MATRIX A8\source\MatrixSystemEditor\bin\Debug\MatrixSystemEditor.exe.config
+C:\Users\jiajieliang\Desktop\MATRIX A8\source\MatrixSystemEditor\bin\Debug\MatrixSystemEditor.exe
+C:\Users\jiajieliang\Desktop\MATRIX A8\source\MatrixSystemEditor\bin\Debug\MatrixSystemEditor.pdb
+C:\Users\jiajieliang\Desktop\MATRIX A8\source\MatrixSystemEditor\bin\Debug\CS.dll
+C:\Users\jiajieliang\Desktop\MATRIX A8\source\MatrixSystemEditor\bin\Debug\System.Data.SQLite.dll
+C:\Users\jiajieliang\Desktop\MATRIX A8\source\MatrixSystemEditor\bin\Debug\CommLibrary.pdb
+C:\Users\jiajieliang\Desktop\MATRIX A8\source\MatrixSystemEditor\bin\Debug\CS.pdb
+C:\Users\jiajieliang\Desktop\MATRIX A8\source\MatrixSystemEditor\bin\Debug\CS.dll.config
+C:\Users\jiajieliang\Desktop\MATRIX A8\source\MatrixSystemEditor\bin\Debug\Lib.Controls.MyControls.pdb
+C:\Users\jiajieliang\Desktop\MATRIX A8\source\MatrixSystemEditor\bin\Debug\System.Data.SQLite.xml
+C:\Users\jiajieliang\Desktop\MATRIX A8\source\MatrixSystemEditor\obj\Debug\MatrixEditorSystem.csprojResolveAssemblyReference.cache
+C:\Users\jiajieliang\Desktop\MATRIX A8\source\MatrixSystemEditor\obj\Debug\AboutWindow.baml
+C:\Users\jiajieliang\Desktop\MATRIX A8\source\MatrixSystemEditor\obj\Debug\ChangeLockPWD.baml
+C:\Users\jiajieliang\Desktop\MATRIX A8\source\MatrixSystemEditor\obj\Debug\commom\CNewDeveName.baml
+C:\Users\jiajieliang\Desktop\MATRIX A8\source\MatrixSystemEditor\obj\Debug\FChanelName.baml
+C:\Users\jiajieliang\Desktop\MATRIX A8\source\MatrixSystemEditor\obj\Debug\LoadLedForm.baml
+C:\Users\jiajieliang\Desktop\MATRIX A8\source\MatrixSystemEditor\obj\Debug\NoteLockPwdWindow.baml
+C:\Users\jiajieliang\Desktop\MATRIX A8\source\MatrixSystemEditor\obj\Debug\RVADevPage.baml
+C:\Users\jiajieliang\Desktop\MATRIX A8\source\MatrixSystemEditor\obj\Debug\FBCValueShow.baml
+C:\Users\jiajieliang\Desktop\MATRIX A8\source\MatrixSystemEditor\obj\Debug\SingleZoneUnit.baml
+C:\Users\jiajieliang\Desktop\MATRIX A8\source\MatrixSystemEditor\obj\Debug\App.baml
+C:\Users\jiajieliang\Desktop\MATRIX A8\source\MatrixSystemEditor\obj\Debug\AboutWindow.g.cs
+C:\Users\jiajieliang\Desktop\MATRIX A8\source\MatrixSystemEditor\obj\Debug\ChangeLockPWD.g.cs
+C:\Users\jiajieliang\Desktop\MATRIX A8\source\MatrixSystemEditor\obj\Debug\commom\CNewDeveName.g.cs
+C:\Users\jiajieliang\Desktop\MATRIX A8\source\MatrixSystemEditor\obj\Debug\FChanelName.g.cs
+C:\Users\jiajieliang\Desktop\MATRIX A8\source\MatrixSystemEditor\obj\Debug\LoadLedForm.g.cs
+C:\Users\jiajieliang\Desktop\MATRIX A8\source\MatrixSystemEditor\obj\Debug\NoteLockPwdWindow.g.cs
+C:\Users\jiajieliang\Desktop\MATRIX A8\source\MatrixSystemEditor\obj\Debug\RowZoneUnit.g.cs
+C:\Users\jiajieliang\Desktop\MATRIX A8\source\MatrixSystemEditor\obj\Debug\RVADevPage.g.cs
+C:\Users\jiajieliang\Desktop\MATRIX A8\source\MatrixSystemEditor\obj\Debug\FBCValueShow.g.cs
+C:\Users\jiajieliang\Desktop\MATRIX A8\source\MatrixSystemEditor\obj\Debug\MainWindow.g.cs
+C:\Users\jiajieliang\Desktop\MATRIX A8\source\MatrixSystemEditor\obj\Debug\MatrixPage.g.cs
+C:\Users\jiajieliang\Desktop\MATRIX A8\source\MatrixSystemEditor\obj\Debug\RPM200Page.g.cs
+C:\Users\jiajieliang\Desktop\MATRIX A8\source\MatrixSystemEditor\obj\Debug\SingleZoneUnit.g.cs
+C:\Users\jiajieliang\Desktop\MATRIX A8\source\MatrixSystemEditor\obj\Debug\App.g.cs
+C:\Users\jiajieliang\Desktop\MATRIX A8\source\MatrixSystemEditor\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\jiajieliang\Desktop\MATRIX A8\source\MatrixSystemEditor\obj\Debug\MatrixSystemEditor_MarkupCompile.cache
+C:\Users\jiajieliang\Desktop\MATRIX A8\source\MatrixSystemEditor\obj\Debug\MatrixSystemEditor_MarkupCompile.lref
+C:\Users\jiajieliang\Desktop\MATRIX A8\source\MatrixSystemEditor\obj\Debug\RowZoneUnit.baml
+C:\Users\jiajieliang\Desktop\MATRIX A8\source\MatrixSystemEditor\obj\Debug\MainWindow.baml
+C:\Users\jiajieliang\Desktop\MATRIX A8\source\MatrixSystemEditor\obj\Debug\MatrixPage.baml
+C:\Users\jiajieliang\Desktop\MATRIX A8\source\MatrixSystemEditor\obj\Debug\RPM200Page.baml
+C:\Users\jiajieliang\Desktop\MATRIX A8\source\MatrixSystemEditor\obj\Debug\Themes\Generic.baml
+C:\Users\jiajieliang\Desktop\MATRIX A8\source\MatrixSystemEditor\obj\Debug\MatrixSystemEditor.g.resources
+C:\Users\jiajieliang\Desktop\MATRIX A8\source\MatrixSystemEditor\obj\Debug\MatrixSystemEditor.Properties.Resources.resources
+C:\Users\jiajieliang\Desktop\MATRIX A8\source\MatrixSystemEditor\obj\Debug\MatrixSystemEditor.Resource1.resources
+C:\Users\jiajieliang\Desktop\MATRIX A8\source\MatrixSystemEditor\obj\Debug\MatrixEditorSystem.csproj.GenerateResource.Cache
+C:\Users\jiajieliang\Desktop\MATRIX A8\source\MatrixSystemEditor\obj\Debug\MatrixSystemEditor.exe
+C:\Users\jiajieliang\Desktop\MATRIX A8\source\MatrixSystemEditor\obj\Debug\MatrixSystemEditor.pdb
+C:\Users\williamxia\Desktop\MATRIX A8\source\MatrixSystemEditor\bin\Debug\MatrixSystemEditor.exe.config
+C:\Users\williamxia\Desktop\MATRIX A8\source\MatrixSystemEditor\bin\Debug\MatrixSystemEditor.exe
+C:\Users\williamxia\Desktop\MATRIX A8\source\MatrixSystemEditor\bin\Debug\MatrixSystemEditor.pdb
+C:\Users\williamxia\Desktop\MATRIX A8\source\MatrixSystemEditor\bin\Debug\CS.dll
+C:\Users\williamxia\Desktop\MATRIX A8\source\MatrixSystemEditor\bin\Debug\System.Data.SQLite.dll
+C:\Users\williamxia\Desktop\MATRIX A8\source\MatrixSystemEditor\bin\Debug\CommLibrary.pdb
+C:\Users\williamxia\Desktop\MATRIX A8\source\MatrixSystemEditor\bin\Debug\CS.pdb
+C:\Users\williamxia\Desktop\MATRIX A8\source\MatrixSystemEditor\bin\Debug\Lib.Controls.MyControls.pdb
+C:\Users\williamxia\Desktop\MATRIX A8\source\MatrixSystemEditor\bin\Debug\System.Data.SQLite.xml
+C:\Users\williamxia\Desktop\MATRIX A8\source\MatrixSystemEditor\obj\Debug\MatrixEditorSystem.csprojResolveAssemblyReference.cache
+C:\Users\williamxia\Desktop\MATRIX A8\source\MatrixSystemEditor\obj\Debug\AboutWindow.baml
+C:\Users\williamxia\Desktop\MATRIX A8\source\MatrixSystemEditor\obj\Debug\ChangeLockPWD.baml
+C:\Users\williamxia\Desktop\MATRIX A8\source\MatrixSystemEditor\obj\Debug\commom\CNewDeveName.baml
+C:\Users\williamxia\Desktop\MATRIX A8\source\MatrixSystemEditor\obj\Debug\FChanelName.baml
+C:\Users\williamxia\Desktop\MATRIX A8\source\MatrixSystemEditor\obj\Debug\LoadLedForm.baml
+C:\Users\williamxia\Desktop\MATRIX A8\source\MatrixSystemEditor\obj\Debug\NoteLockPwdWindow.baml
+C:\Users\williamxia\Desktop\MATRIX A8\source\MatrixSystemEditor\obj\Debug\RVADevPage.baml
+C:\Users\williamxia\Desktop\MATRIX A8\source\MatrixSystemEditor\obj\Debug\FBCValueShow.baml
+C:\Users\williamxia\Desktop\MATRIX A8\source\MatrixSystemEditor\obj\Debug\SingleZoneUnit.baml
+C:\Users\williamxia\Desktop\MATRIX A8\source\MatrixSystemEditor\obj\Debug\App.baml
+C:\Users\williamxia\Desktop\MATRIX A8\source\MatrixSystemEditor\obj\Debug\AboutWindow.g.cs
+C:\Users\williamxia\Desktop\MATRIX A8\source\MatrixSystemEditor\obj\Debug\ChangeLockPWD.g.cs
+C:\Users\williamxia\Desktop\MATRIX A8\source\MatrixSystemEditor\obj\Debug\commom\CNewDeveName.g.cs
+C:\Users\williamxia\Desktop\MATRIX A8\source\MatrixSystemEditor\obj\Debug\FChanelName.g.cs
+C:\Users\williamxia\Desktop\MATRIX A8\source\MatrixSystemEditor\obj\Debug\LoadLedForm.g.cs
+C:\Users\williamxia\Desktop\MATRIX A8\source\MatrixSystemEditor\obj\Debug\NoteLockPwdWindow.g.cs
+C:\Users\williamxia\Desktop\MATRIX A8\source\MatrixSystemEditor\obj\Debug\RowZoneUnit.g.cs
+C:\Users\williamxia\Desktop\MATRIX A8\source\MatrixSystemEditor\obj\Debug\RVADevPage.g.cs
+C:\Users\williamxia\Desktop\MATRIX A8\source\MatrixSystemEditor\obj\Debug\FBCValueShow.g.cs
+C:\Users\williamxia\Desktop\MATRIX A8\source\MatrixSystemEditor\obj\Debug\MainWindow.g.cs
+C:\Users\williamxia\Desktop\MATRIX A8\source\MatrixSystemEditor\obj\Debug\MatrixPage.g.cs
+C:\Users\williamxia\Desktop\MATRIX A8\source\MatrixSystemEditor\obj\Debug\RPM200Page.g.cs
+C:\Users\williamxia\Desktop\MATRIX A8\source\MatrixSystemEditor\obj\Debug\SingleZoneUnit.g.cs
+C:\Users\williamxia\Desktop\MATRIX A8\source\MatrixSystemEditor\obj\Debug\App.g.cs
+C:\Users\williamxia\Desktop\MATRIX A8\source\MatrixSystemEditor\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\williamxia\Desktop\MATRIX A8\source\MatrixSystemEditor\obj\Debug\MatrixSystemEditor_MarkupCompile.cache
+C:\Users\williamxia\Desktop\MATRIX A8\source\MatrixSystemEditor\obj\Debug\MatrixSystemEditor_MarkupCompile.lref
+C:\Users\williamxia\Desktop\MATRIX A8\source\MatrixSystemEditor\obj\Debug\RowZoneUnit.baml
+C:\Users\williamxia\Desktop\MATRIX A8\source\MatrixSystemEditor\obj\Debug\MainWindow.baml
+C:\Users\williamxia\Desktop\MATRIX A8\source\MatrixSystemEditor\obj\Debug\MatrixPage.baml
+C:\Users\williamxia\Desktop\MATRIX A8\source\MatrixSystemEditor\obj\Debug\RPM200Page.baml
+C:\Users\williamxia\Desktop\MATRIX A8\source\MatrixSystemEditor\obj\Debug\Themes\Generic.baml
+C:\Users\williamxia\Desktop\MATRIX A8\source\MatrixSystemEditor\obj\Debug\MatrixSystemEditor.g.resources
+C:\Users\williamxia\Desktop\MATRIX A8\source\MatrixSystemEditor\obj\Debug\MatrixSystemEditor.Properties.Resources.resources
+C:\Users\williamxia\Desktop\MATRIX A8\source\MatrixSystemEditor\obj\Debug\MatrixSystemEditor.Resource1.resources
+C:\Users\williamxia\Desktop\MATRIX A8\source\MatrixSystemEditor\obj\Debug\MatrixEditorSystem.csproj.GenerateResource.Cache
+C:\Users\williamxia\Desktop\MATRIX A8\source\MatrixSystemEditor\obj\Debug\MatrixSystemEditor.exe
+C:\Users\williamxia\Desktop\MATRIX A8\source\MatrixSystemEditor\obj\Debug\MatrixSystemEditor.pdb
+E:\MySpace\MyDesk\项目\MATRIX A8\20170713\source v2.0.1_ 20170713\source\MatrixSystemEditor\bin\Debug\MatrixSystemEditor.exe.config
+E:\MySpace\MyDesk\项目\MATRIX A8\20170713\source v2.0.1_ 20170713\source\MatrixSystemEditor\bin\Debug\MatrixSystemEditor.exe
+E:\MySpace\MyDesk\项目\MATRIX A8\20170713\source v2.0.1_ 20170713\source\MatrixSystemEditor\bin\Debug\MatrixSystemEditor.pdb
+E:\MySpace\MyDesk\项目\MATRIX A8\20170713\source v2.0.1_ 20170713\source\MatrixSystemEditor\bin\Debug\System.Data.SQLite.dll
+E:\MySpace\MyDesk\项目\MATRIX A8\20170713\source v2.0.1_ 20170713\source\MatrixSystemEditor\bin\Debug\CLinerStyle.pdb
+E:\MySpace\MyDesk\项目\MATRIX A8\20170713\source v2.0.1_ 20170713\source\MatrixSystemEditor\bin\Debug\CommLibrary.pdb
+E:\MySpace\MyDesk\项目\MATRIX A8\20170713\source v2.0.1_ 20170713\source\MatrixSystemEditor\bin\Debug\Lib.Controls.MyControls.pdb
+E:\MySpace\MyDesk\项目\MATRIX A8\20170713\source v2.0.1_ 20170713\source\MatrixSystemEditor\bin\Debug\System.Data.SQLite.xml
+E:\MySpace\MyDesk\项目\MATRIX A8\20170713\source v2.0.1_ 20170713\source\MatrixSystemEditor\obj\Debug\MatrixEditorSystem.csprojResolveAssemblyReference.cache
+E:\MySpace\MyDesk\项目\MATRIX A8\20170713\source v2.0.1_ 20170713\source\MatrixSystemEditor\obj\Debug\AboutWindow.baml
+E:\MySpace\MyDesk\项目\MATRIX A8\20170713\source v2.0.1_ 20170713\source\MatrixSystemEditor\obj\Debug\ChangeLockPWD.baml
+E:\MySpace\MyDesk\项目\MATRIX A8\20170713\source v2.0.1_ 20170713\source\MatrixSystemEditor\obj\Debug\commom\CNewDeveName.baml
+E:\MySpace\MyDesk\项目\MATRIX A8\20170713\source v2.0.1_ 20170713\source\MatrixSystemEditor\obj\Debug\FChanelName.baml
+E:\MySpace\MyDesk\项目\MATRIX A8\20170713\source v2.0.1_ 20170713\source\MatrixSystemEditor\obj\Debug\LoadLedForm.baml
+E:\MySpace\MyDesk\项目\MATRIX A8\20170713\source v2.0.1_ 20170713\source\MatrixSystemEditor\obj\Debug\NoteLockPwdWindow.baml
+E:\MySpace\MyDesk\项目\MATRIX A8\20170713\source v2.0.1_ 20170713\source\MatrixSystemEditor\obj\Debug\RVADevPage.baml
+E:\MySpace\MyDesk\项目\MATRIX A8\20170713\source v2.0.1_ 20170713\source\MatrixSystemEditor\obj\Debug\FBCValueShow.baml
+E:\MySpace\MyDesk\项目\MATRIX A8\20170713\source v2.0.1_ 20170713\source\MatrixSystemEditor\obj\Debug\SingleZoneUnit.baml
+E:\MySpace\MyDesk\项目\MATRIX A8\20170713\source v2.0.1_ 20170713\source\MatrixSystemEditor\obj\Debug\App.baml
+E:\MySpace\MyDesk\项目\MATRIX A8\20170713\source v2.0.1_ 20170713\source\MatrixSystemEditor\obj\Debug\AboutWindow.g.cs
+E:\MySpace\MyDesk\项目\MATRIX A8\20170713\source v2.0.1_ 20170713\source\MatrixSystemEditor\obj\Debug\ChangeLockPWD.g.cs
+E:\MySpace\MyDesk\项目\MATRIX A8\20170713\source v2.0.1_ 20170713\source\MatrixSystemEditor\obj\Debug\commom\CNewDeveName.g.cs
+E:\MySpace\MyDesk\项目\MATRIX A8\20170713\source v2.0.1_ 20170713\source\MatrixSystemEditor\obj\Debug\FChanelName.g.cs
+E:\MySpace\MyDesk\项目\MATRIX A8\20170713\source v2.0.1_ 20170713\source\MatrixSystemEditor\obj\Debug\LoadLedForm.g.cs
+E:\MySpace\MyDesk\项目\MATRIX A8\20170713\source v2.0.1_ 20170713\source\MatrixSystemEditor\obj\Debug\NoteLockPwdWindow.g.cs
+E:\MySpace\MyDesk\项目\MATRIX A8\20170713\source v2.0.1_ 20170713\source\MatrixSystemEditor\obj\Debug\RowZoneUnit.g.cs
+E:\MySpace\MyDesk\项目\MATRIX A8\20170713\source v2.0.1_ 20170713\source\MatrixSystemEditor\obj\Debug\RVADevPage.g.cs
+E:\MySpace\MyDesk\项目\MATRIX A8\20170713\source v2.0.1_ 20170713\source\MatrixSystemEditor\obj\Debug\FBCValueShow.g.cs
+E:\MySpace\MyDesk\项目\MATRIX A8\20170713\source v2.0.1_ 20170713\source\MatrixSystemEditor\obj\Debug\MainWindow.g.cs
+E:\MySpace\MyDesk\项目\MATRIX A8\20170713\source v2.0.1_ 20170713\source\MatrixSystemEditor\obj\Debug\MatrixPage.g.cs
+E:\MySpace\MyDesk\项目\MATRIX A8\20170713\source v2.0.1_ 20170713\source\MatrixSystemEditor\obj\Debug\RPM200Page.g.cs
+E:\MySpace\MyDesk\项目\MATRIX A8\20170713\source v2.0.1_ 20170713\source\MatrixSystemEditor\obj\Debug\SingleZoneUnit.g.cs
+E:\MySpace\MyDesk\项目\MATRIX A8\20170713\source v2.0.1_ 20170713\source\MatrixSystemEditor\obj\Debug\App.g.cs
+E:\MySpace\MyDesk\项目\MATRIX A8\20170713\source v2.0.1_ 20170713\source\MatrixSystemEditor\obj\Debug\GeneratedInternalTypeHelper.g.cs
+E:\MySpace\MyDesk\项目\MATRIX A8\20170713\source v2.0.1_ 20170713\source\MatrixSystemEditor\obj\Debug\MatrixSystemEditor_MarkupCompile.cache
+E:\MySpace\MyDesk\项目\MATRIX A8\20170713\source v2.0.1_ 20170713\source\MatrixSystemEditor\obj\Debug\MatrixSystemEditor_MarkupCompile.lref
+E:\MySpace\MyDesk\项目\MATRIX A8\20170713\source v2.0.1_ 20170713\source\MatrixSystemEditor\obj\Debug\RowZoneUnit.baml
+E:\MySpace\MyDesk\项目\MATRIX A8\20170713\source v2.0.1_ 20170713\source\MatrixSystemEditor\obj\Debug\MainWindow.baml
+E:\MySpace\MyDesk\项目\MATRIX A8\20170713\source v2.0.1_ 20170713\source\MatrixSystemEditor\obj\Debug\MatrixPage.baml
+E:\MySpace\MyDesk\项目\MATRIX A8\20170713\source v2.0.1_ 20170713\source\MatrixSystemEditor\obj\Debug\RPM200Page.baml
+E:\MySpace\MyDesk\项目\MATRIX A8\20170713\source v2.0.1_ 20170713\source\MatrixSystemEditor\obj\Debug\Themes\Generic.baml
+E:\MySpace\MyDesk\项目\MATRIX A8\20170713\source v2.0.1_ 20170713\source\MatrixSystemEditor\obj\Debug\MatrixSystemEditor.g.resources
+E:\MySpace\MyDesk\项目\MATRIX A8\20170713\source v2.0.1_ 20170713\source\MatrixSystemEditor\obj\Debug\MatrixSystemEditor.Properties.Resources.resources
+E:\MySpace\MyDesk\项目\MATRIX A8\20170713\source v2.0.1_ 20170713\source\MatrixSystemEditor\obj\Debug\MatrixSystemEditor.Resource1.resources
+E:\MySpace\MyDesk\项目\MATRIX A8\20170713\source v2.0.1_ 20170713\source\MatrixSystemEditor\obj\Debug\MatrixEditorSystem.csproj.GenerateResource.Cache
+E:\MySpace\MyDesk\项目\MATRIX A8\20170713\source v2.0.1_ 20170713\source\MatrixSystemEditor\obj\Debug\MatrixSystemEditor.exe
+E:\MySpace\MyDesk\项目\MATRIX A8\20170713\source v2.0.1_ 20170713\source\MatrixSystemEditor\obj\Debug\MatrixSystemEditor.pdb
+E:\MySpace\MyDesk\项目\MATRIX A8\20170713\source v2.0.1_ 20170713\source\MatrixSystemEditor\bin\Debug\Lib.Controls.MyControls.dll
+E:\MySpace\MyDesk\项目\MATRIX A8\20170713\source v2.0.1_ 20170713\source\MatrixSystemEditor\bin\Debug\Lib.Controls.MyControls.dll.config
+E:\MySpace\MyDesk\项目\MATRIX A8\20170713\source v2.0.1_ 20170713\source\MatrixSystemEditor\bin\Debug\System.Data.SQLite.dll.config
+E:\MySpace\MyDesk\项目\MATRIX A8\20170713\source v2.0.1_ 20170713 - 複製\source\MatrixSystemEditor\bin\Debug\MatrixSystemEditor.exe.config
+E:\MySpace\MyDesk\项目\MATRIX A8\20170713\source v2.0.1_ 20170713 - 複製\source\MatrixSystemEditor\bin\Debug\MatrixSystemEditor.exe
+E:\MySpace\MyDesk\项目\MATRIX A8\20170713\source v2.0.1_ 20170713 - 複製\source\MatrixSystemEditor\bin\Debug\MatrixSystemEditor.pdb
+E:\MySpace\MyDesk\项目\MATRIX A8\20170713\source v2.0.1_ 20170713 - 複製\source\MatrixSystemEditor\bin\Debug\Lib.Controls.MyControls.dll
+E:\MySpace\MyDesk\项目\MATRIX A8\20170713\source v2.0.1_ 20170713 - 複製\source\MatrixSystemEditor\bin\Debug\System.Data.SQLite.dll
+E:\MySpace\MyDesk\项目\MATRIX A8\20170713\source v2.0.1_ 20170713 - 複製\source\MatrixSystemEditor\bin\Debug\CLinerStyle.pdb
+E:\MySpace\MyDesk\项目\MATRIX A8\20170713\source v2.0.1_ 20170713 - 複製\source\MatrixSystemEditor\bin\Debug\CommLibrary.pdb
+E:\MySpace\MyDesk\项目\MATRIX A8\20170713\source v2.0.1_ 20170713 - 複製\source\MatrixSystemEditor\bin\Debug\Lib.Controls.MyControls.pdb
+E:\MySpace\MyDesk\项目\MATRIX A8\20170713\source v2.0.1_ 20170713 - 複製\source\MatrixSystemEditor\bin\Debug\Lib.Controls.MyControls.dll.config
+E:\MySpace\MyDesk\项目\MATRIX A8\20170713\source v2.0.1_ 20170713 - 複製\source\MatrixSystemEditor\bin\Debug\System.Data.SQLite.xml
+E:\MySpace\MyDesk\项目\MATRIX A8\20170713\source v2.0.1_ 20170713 - 複製\source\MatrixSystemEditor\bin\Debug\System.Data.SQLite.dll.config
+E:\MySpace\MyDesk\项目\MATRIX A8\20170713\source v2.0.1_ 20170713 - 複製\source\MatrixSystemEditor\obj\Debug\MatrixEditorSystem.csprojResolveAssemblyReference.cache
+E:\MySpace\MyDesk\项目\MATRIX A8\20170713\source v2.0.1_ 20170713 - 複製\source\MatrixSystemEditor\obj\Debug\AboutWindow.baml
+E:\MySpace\MyDesk\项目\MATRIX A8\20170713\source v2.0.1_ 20170713 - 複製\source\MatrixSystemEditor\obj\Debug\ChangeLockPWD.baml
+E:\MySpace\MyDesk\项目\MATRIX A8\20170713\source v2.0.1_ 20170713 - 複製\source\MatrixSystemEditor\obj\Debug\commom\CNewDeveName.baml
+E:\MySpace\MyDesk\项目\MATRIX A8\20170713\source v2.0.1_ 20170713 - 複製\source\MatrixSystemEditor\obj\Debug\FChanelName.baml
+E:\MySpace\MyDesk\项目\MATRIX A8\20170713\source v2.0.1_ 20170713 - 複製\source\MatrixSystemEditor\obj\Debug\LoadLedForm.baml
+E:\MySpace\MyDesk\项目\MATRIX A8\20170713\source v2.0.1_ 20170713 - 複製\source\MatrixSystemEditor\obj\Debug\NoteLockPwdWindow.baml
+E:\MySpace\MyDesk\项目\MATRIX A8\20170713\source v2.0.1_ 20170713 - 複製\source\MatrixSystemEditor\obj\Debug\RVADevPage.baml
+E:\MySpace\MyDesk\项目\MATRIX A8\20170713\source v2.0.1_ 20170713 - 複製\source\MatrixSystemEditor\obj\Debug\FBCValueShow.baml
+E:\MySpace\MyDesk\项目\MATRIX A8\20170713\source v2.0.1_ 20170713 - 複製\source\MatrixSystemEditor\obj\Debug\SingleZoneUnit.baml
+E:\MySpace\MyDesk\项目\MATRIX A8\20170713\source v2.0.1_ 20170713 - 複製\source\MatrixSystemEditor\obj\Debug\App.baml
+E:\MySpace\MyDesk\项目\MATRIX A8\20170713\source v2.0.1_ 20170713 - 複製\source\MatrixSystemEditor\obj\Debug\AboutWindow.g.cs
+E:\MySpace\MyDesk\项目\MATRIX A8\20170713\source v2.0.1_ 20170713 - 複製\source\MatrixSystemEditor\obj\Debug\ChangeLockPWD.g.cs
+E:\MySpace\MyDesk\项目\MATRIX A8\20170713\source v2.0.1_ 20170713 - 複製\source\MatrixSystemEditor\obj\Debug\commom\CNewDeveName.g.cs
+E:\MySpace\MyDesk\项目\MATRIX A8\20170713\source v2.0.1_ 20170713 - 複製\source\MatrixSystemEditor\obj\Debug\FChanelName.g.cs
+E:\MySpace\MyDesk\项目\MATRIX A8\20170713\source v2.0.1_ 20170713 - 複製\source\MatrixSystemEditor\obj\Debug\LoadLedForm.g.cs
+E:\MySpace\MyDesk\项目\MATRIX A8\20170713\source v2.0.1_ 20170713 - 複製\source\MatrixSystemEditor\obj\Debug\NoteLockPwdWindow.g.cs
+E:\MySpace\MyDesk\项目\MATRIX A8\20170713\source v2.0.1_ 20170713 - 複製\source\MatrixSystemEditor\obj\Debug\RowZoneUnit.g.cs
+E:\MySpace\MyDesk\项目\MATRIX A8\20170713\source v2.0.1_ 20170713 - 複製\source\MatrixSystemEditor\obj\Debug\RVADevPage.g.cs
+E:\MySpace\MyDesk\项目\MATRIX A8\20170713\source v2.0.1_ 20170713 - 複製\source\MatrixSystemEditor\obj\Debug\FBCValueShow.g.cs
+E:\MySpace\MyDesk\项目\MATRIX A8\20170713\source v2.0.1_ 20170713 - 複製\source\MatrixSystemEditor\obj\Debug\MainWindow.g.cs
+E:\MySpace\MyDesk\项目\MATRIX A8\20170713\source v2.0.1_ 20170713 - 複製\source\MatrixSystemEditor\obj\Debug\MatrixPage.g.cs
+E:\MySpace\MyDesk\项目\MATRIX A8\20170713\source v2.0.1_ 20170713 - 複製\source\MatrixSystemEditor\obj\Debug\RPM200Page.g.cs
+E:\MySpace\MyDesk\项目\MATRIX A8\20170713\source v2.0.1_ 20170713 - 複製\source\MatrixSystemEditor\obj\Debug\SingleZoneUnit.g.cs
+E:\MySpace\MyDesk\项目\MATRIX A8\20170713\source v2.0.1_ 20170713 - 複製\source\MatrixSystemEditor\obj\Debug\App.g.cs
+E:\MySpace\MyDesk\项目\MATRIX A8\20170713\source v2.0.1_ 20170713 - 複製\source\MatrixSystemEditor\obj\Debug\GeneratedInternalTypeHelper.g.cs
+E:\MySpace\MyDesk\项目\MATRIX A8\20170713\source v2.0.1_ 20170713 - 複製\source\MatrixSystemEditor\obj\Debug\MatrixSystemEditor_MarkupCompile.cache
+E:\MySpace\MyDesk\项目\MATRIX A8\20170713\source v2.0.1_ 20170713 - 複製\source\MatrixSystemEditor\obj\Debug\MatrixSystemEditor_MarkupCompile.lref
+E:\MySpace\MyDesk\项目\MATRIX A8\20170713\source v2.0.1_ 20170713 - 複製\source\MatrixSystemEditor\obj\Debug\RowZoneUnit.baml
+E:\MySpace\MyDesk\项目\MATRIX A8\20170713\source v2.0.1_ 20170713 - 複製\source\MatrixSystemEditor\obj\Debug\MainWindow.baml
+E:\MySpace\MyDesk\项目\MATRIX A8\20170713\source v2.0.1_ 20170713 - 複製\source\MatrixSystemEditor\obj\Debug\MatrixPage.baml
+E:\MySpace\MyDesk\项目\MATRIX A8\20170713\source v2.0.1_ 20170713 - 複製\source\MatrixSystemEditor\obj\Debug\RPM200Page.baml
+E:\MySpace\MyDesk\项目\MATRIX A8\20170713\source v2.0.1_ 20170713 - 複製\source\MatrixSystemEditor\obj\Debug\Themes\Generic.baml
+E:\MySpace\MyDesk\项目\MATRIX A8\20170713\source v2.0.1_ 20170713 - 複製\source\MatrixSystemEditor\obj\Debug\MatrixSystemEditor.g.resources
+E:\MySpace\MyDesk\项目\MATRIX A8\20170713\source v2.0.1_ 20170713 - 複製\source\MatrixSystemEditor\obj\Debug\MatrixSystemEditor.Properties.Resources.resources
+E:\MySpace\MyDesk\项目\MATRIX A8\20170713\source v2.0.1_ 20170713 - 複製\source\MatrixSystemEditor\obj\Debug\MatrixSystemEditor.Resource1.resources
+E:\MySpace\MyDesk\项目\MATRIX A8\20170713\source v2.0.1_ 20170713 - 複製\source\MatrixSystemEditor\obj\Debug\MatrixEditorSystem.csproj.GenerateResource.Cache
+E:\MySpace\MyDesk\项目\MATRIX A8\20170713\source v2.0.1_ 20170713 - 複製\source\MatrixSystemEditor\obj\Debug\MatrixSystemEditor.exe
+E:\MySpace\MyDesk\项目\MATRIX A8\20170713\source v2.0.1_ 20170713 - 複製\source\MatrixSystemEditor\obj\Debug\MatrixSystemEditor.pdb
+D:\William\work\VCsharp\work\MatrixSystemEditor\source\MatrixSystemEditor\bin\Debug\MatrixSystemEditor.exe.config
+D:\William\work\VCsharp\work\MatrixSystemEditor\source\MatrixSystemEditor\bin\Debug\MatrixSystemEditor.exe
+D:\William\work\VCsharp\work\MatrixSystemEditor\source\MatrixSystemEditor\bin\Debug\MatrixSystemEditor.pdb
+D:\William\work\VCsharp\work\MatrixSystemEditor\source\MatrixSystemEditor\bin\Debug\CLinerStyle.dll
+D:\William\work\VCsharp\work\MatrixSystemEditor\source\MatrixSystemEditor\bin\Debug\CommLibrary.dll
+D:\William\work\VCsharp\work\MatrixSystemEditor\source\MatrixSystemEditor\bin\Debug\Lib.Controls.MyControls.dll
+D:\William\work\VCsharp\work\MatrixSystemEditor\source\MatrixSystemEditor\bin\Debug\System.Data.SQLite.dll
+D:\William\work\VCsharp\work\MatrixSystemEditor\source\MatrixSystemEditor\bin\Debug\CLinerStyle.pdb
+D:\William\work\VCsharp\work\MatrixSystemEditor\source\MatrixSystemEditor\bin\Debug\CommLibrary.pdb
+D:\William\work\VCsharp\work\MatrixSystemEditor\source\MatrixSystemEditor\bin\Debug\Lib.Controls.MyControls.pdb
+D:\William\work\VCsharp\work\MatrixSystemEditor\source\MatrixSystemEditor\bin\Debug\System.Data.SQLite.xml
+D:\William\work\VCsharp\work\MatrixSystemEditor\source\MatrixSystemEditor\obj\Debug\AboutWindow.baml
+D:\William\work\VCsharp\work\MatrixSystemEditor\source\MatrixSystemEditor\obj\Debug\CDeviceModule.baml
+D:\William\work\VCsharp\work\MatrixSystemEditor\source\MatrixSystemEditor\obj\Debug\ChangeLockPWD.baml
+D:\William\work\VCsharp\work\MatrixSystemEditor\source\MatrixSystemEditor\obj\Debug\commom\CNewDeveName.baml
+D:\William\work\VCsharp\work\MatrixSystemEditor\source\MatrixSystemEditor\obj\Debug\FChanelName.baml
+D:\William\work\VCsharp\work\MatrixSystemEditor\source\MatrixSystemEditor\obj\Debug\FirstLookChooseWindow.baml
+D:\William\work\VCsharp\work\MatrixSystemEditor\source\MatrixSystemEditor\obj\Debug\LoadLedForm.baml
+D:\William\work\VCsharp\work\MatrixSystemEditor\source\MatrixSystemEditor\obj\Debug\Matrix\CDelayInputer.baml
+D:\William\work\VCsharp\work\MatrixSystemEditor\source\MatrixSystemEditor\obj\Debug\MenuWin.baml
+D:\William\work\VCsharp\work\MatrixSystemEditor\source\MatrixSystemEditor\obj\Debug\NoteLockPwdWindow.baml
+D:\William\work\VCsharp\work\MatrixSystemEditor\source\MatrixSystemEditor\obj\Debug\pageTab\AutoMixerPage.baml
+D:\William\work\VCsharp\work\MatrixSystemEditor\source\MatrixSystemEditor\obj\Debug\pageTab\DSpChanelPage.baml
+D:\William\work\VCsharp\work\MatrixSystemEditor\source\MatrixSystemEditor\obj\Debug\pageTab\DuckerPage.baml
+D:\William\work\VCsharp\work\MatrixSystemEditor\source\MatrixSystemEditor\obj\Debug\pageTab\FBCPage.baml
+D:\William\work\VCsharp\work\MatrixSystemEditor\source\MatrixSystemEditor\obj\Debug\pageTab\SubMatrixPage.baml
+D:\William\work\VCsharp\work\MatrixSystemEditor\source\MatrixSystemEditor\obj\Debug\pageTab\SaveLoadPage.baml
+D:\William\work\VCsharp\work\MatrixSystemEditor\source\MatrixSystemEditor\obj\Debug\pageTab\SystemPage.baml
+D:\William\work\VCsharp\work\MatrixSystemEditor\source\MatrixSystemEditor\obj\Debug\RVADevPage.baml
+D:\William\work\VCsharp\work\MatrixSystemEditor\source\MatrixSystemEditor\obj\Debug\FBCValueShow.baml
+D:\William\work\VCsharp\work\MatrixSystemEditor\source\MatrixSystemEditor\obj\Debug\SingleZoneUnit.baml
+D:\William\work\VCsharp\work\MatrixSystemEditor\source\MatrixSystemEditor\obj\Debug\App.baml
+D:\William\work\VCsharp\work\MatrixSystemEditor\source\MatrixSystemEditor\obj\Debug\AboutWindow.g.cs
+D:\William\work\VCsharp\work\MatrixSystemEditor\source\MatrixSystemEditor\obj\Debug\CDeviceModule.g.cs
+D:\William\work\VCsharp\work\MatrixSystemEditor\source\MatrixSystemEditor\obj\Debug\ChangeLockPWD.g.cs
+D:\William\work\VCsharp\work\MatrixSystemEditor\source\MatrixSystemEditor\obj\Debug\commom\CNewDeveName.g.cs
+D:\William\work\VCsharp\work\MatrixSystemEditor\source\MatrixSystemEditor\obj\Debug\FChanelName.g.cs
+D:\William\work\VCsharp\work\MatrixSystemEditor\source\MatrixSystemEditor\obj\Debug\FirstLookChooseWindow.g.cs
+D:\William\work\VCsharp\work\MatrixSystemEditor\source\MatrixSystemEditor\obj\Debug\LoadLedForm.g.cs
+D:\William\work\VCsharp\work\MatrixSystemEditor\source\MatrixSystemEditor\obj\Debug\Matrix\CDelayInputer.g.cs
+D:\William\work\VCsharp\work\MatrixSystemEditor\source\MatrixSystemEditor\obj\Debug\MenuWin.g.cs
+D:\William\work\VCsharp\work\MatrixSystemEditor\source\MatrixSystemEditor\obj\Debug\NoteLockPwdWindow.g.cs
+D:\William\work\VCsharp\work\MatrixSystemEditor\source\MatrixSystemEditor\obj\Debug\pageTab\AutoMixerPage.g.cs
+D:\William\work\VCsharp\work\MatrixSystemEditor\source\MatrixSystemEditor\obj\Debug\pageTab\DSpChanelPage.g.cs
+D:\William\work\VCsharp\work\MatrixSystemEditor\source\MatrixSystemEditor\obj\Debug\pageTab\DuckerPage.g.cs
+D:\William\work\VCsharp\work\MatrixSystemEditor\source\MatrixSystemEditor\obj\Debug\pageTab\FBCPage.g.cs
+D:\William\work\VCsharp\work\MatrixSystemEditor\source\MatrixSystemEditor\obj\Debug\pageTab\SubMatrixPage.g.cs
+D:\William\work\VCsharp\work\MatrixSystemEditor\source\MatrixSystemEditor\obj\Debug\pageTab\SaveLoadPage.g.cs
+D:\William\work\VCsharp\work\MatrixSystemEditor\source\MatrixSystemEditor\obj\Debug\pageTab\SystemPage.g.cs
+D:\William\work\VCsharp\work\MatrixSystemEditor\source\MatrixSystemEditor\obj\Debug\RowZoneUnit.g.cs
+D:\William\work\VCsharp\work\MatrixSystemEditor\source\MatrixSystemEditor\obj\Debug\RVADevPage.g.cs
+D:\William\work\VCsharp\work\MatrixSystemEditor\source\MatrixSystemEditor\obj\Debug\FBCValueShow.g.cs
+D:\William\work\VCsharp\work\MatrixSystemEditor\source\MatrixSystemEditor\obj\Debug\MainWindow.g.cs
+D:\William\work\VCsharp\work\MatrixSystemEditor\source\MatrixSystemEditor\obj\Debug\MatrixPage.g.cs
+D:\William\work\VCsharp\work\MatrixSystemEditor\source\MatrixSystemEditor\obj\Debug\RPM200Page.g.cs
+D:\William\work\VCsharp\work\MatrixSystemEditor\source\MatrixSystemEditor\obj\Debug\SingleZoneUnit.g.cs
+D:\William\work\VCsharp\work\MatrixSystemEditor\source\MatrixSystemEditor\obj\Debug\App.g.cs
+D:\William\work\VCsharp\work\MatrixSystemEditor\source\MatrixSystemEditor\obj\Debug\GeneratedInternalTypeHelper.g.cs
+D:\William\work\VCsharp\work\MatrixSystemEditor\source\MatrixSystemEditor\obj\Debug\MatrixSystemEditor_MarkupCompile.cache
+D:\William\work\VCsharp\work\MatrixSystemEditor\source\MatrixSystemEditor\obj\Debug\MatrixSystemEditor_MarkupCompile.lref
+D:\William\work\VCsharp\work\MatrixSystemEditor\source\MatrixSystemEditor\obj\Debug\RowZoneUnit.baml
+D:\William\work\VCsharp\work\MatrixSystemEditor\source\MatrixSystemEditor\obj\Debug\MainWindow.baml
+D:\William\work\VCsharp\work\MatrixSystemEditor\source\MatrixSystemEditor\obj\Debug\MatrixPage.baml
+D:\William\work\VCsharp\work\MatrixSystemEditor\source\MatrixSystemEditor\obj\Debug\RPM200Page.baml
+D:\William\work\VCsharp\work\MatrixSystemEditor\source\MatrixSystemEditor\obj\Debug\Themes\Generic.baml
+D:\William\work\VCsharp\work\MatrixSystemEditor\source\MatrixSystemEditor\obj\Debug\MatrixSystemEditor.g.resources
+D:\William\work\VCsharp\work\MatrixSystemEditor\source\MatrixSystemEditor\obj\Debug\MatrixSystemEditor.Properties.Resources.resources
+D:\William\work\VCsharp\work\MatrixSystemEditor\source\MatrixSystemEditor\obj\Debug\MatrixSystemEditor.Resource1.resources
+D:\William\work\VCsharp\work\MatrixSystemEditor\source\MatrixSystemEditor\obj\Debug\MatrixEditorSystem.csproj.GenerateResource.Cache
+D:\William\work\VCsharp\work\MatrixSystemEditor\source\MatrixSystemEditor\obj\Debug\MatrixSystemEditor.exe
+D:\William\work\VCsharp\work\MatrixSystemEditor\source\MatrixSystemEditor\obj\Debug\MatrixSystemEditor.pdb
+D:\JinHeng\William\work\VCsharp\work\MatrixSystemEditor\source\MatrixSystemEditor\bin\Debug\MatrixSystemEditor.exe.config
+D:\JinHeng\William\work\VCsharp\work\MatrixSystemEditor\source\MatrixSystemEditor\bin\Debug\MatrixSystemEditor.exe
+D:\JinHeng\William\work\VCsharp\work\MatrixSystemEditor\source\MatrixSystemEditor\bin\Debug\MatrixSystemEditor.pdb
+D:\JinHeng\William\work\VCsharp\work\MatrixSystemEditor\source\MatrixSystemEditor\bin\Debug\CLinerStyle.dll
+D:\JinHeng\William\work\VCsharp\work\MatrixSystemEditor\source\MatrixSystemEditor\bin\Debug\CommLibrary.dll
+D:\JinHeng\William\work\VCsharp\work\MatrixSystemEditor\source\MatrixSystemEditor\bin\Debug\CSFileIO.dll
+D:\JinHeng\William\work\VCsharp\work\MatrixSystemEditor\source\MatrixSystemEditor\bin\Debug\Lib.Controls.MyControls.dll
+D:\JinHeng\William\work\VCsharp\work\MatrixSystemEditor\source\MatrixSystemEditor\bin\Debug\System.Data.SQLite.dll
+D:\JinHeng\William\work\VCsharp\work\MatrixSystemEditor\source\MatrixSystemEditor\bin\Debug\CLinerStyle.pdb
+D:\JinHeng\William\work\VCsharp\work\MatrixSystemEditor\source\MatrixSystemEditor\bin\Debug\CommLibrary.pdb
+D:\JinHeng\William\work\VCsharp\work\MatrixSystemEditor\source\MatrixSystemEditor\bin\Debug\CSFileIO.pdb
+D:\JinHeng\William\work\VCsharp\work\MatrixSystemEditor\source\MatrixSystemEditor\bin\Debug\Lib.Controls.MyControls.pdb
+D:\JinHeng\William\work\VCsharp\work\MatrixSystemEditor\source\MatrixSystemEditor\bin\Debug\System.Data.SQLite.xml
+D:\JinHeng\William\work\VCsharp\work\MatrixSystemEditor\source\MatrixSystemEditor\obj\Debug\MatrixEditorSystem.csprojResolveAssemblyReference.cache
+D:\JinHeng\William\work\VCsharp\work\MatrixSystemEditor\source\MatrixSystemEditor\obj\Debug\AboutWindow.baml
+D:\JinHeng\William\work\VCsharp\work\MatrixSystemEditor\source\MatrixSystemEditor\obj\Debug\CDeviceModule.baml
+D:\JinHeng\William\work\VCsharp\work\MatrixSystemEditor\source\MatrixSystemEditor\obj\Debug\ChangeLockPWD.baml
+D:\JinHeng\William\work\VCsharp\work\MatrixSystemEditor\source\MatrixSystemEditor\obj\Debug\commom\CNewDeveName.baml
+D:\JinHeng\William\work\VCsharp\work\MatrixSystemEditor\source\MatrixSystemEditor\obj\Debug\FChanelName.baml
+D:\JinHeng\William\work\VCsharp\work\MatrixSystemEditor\source\MatrixSystemEditor\obj\Debug\FirstLookChooseWindow.baml
+D:\JinHeng\William\work\VCsharp\work\MatrixSystemEditor\source\MatrixSystemEditor\obj\Debug\LoadLedForm.baml
+D:\JinHeng\William\work\VCsharp\work\MatrixSystemEditor\source\MatrixSystemEditor\obj\Debug\Matrix\CDelayInputer.baml
+D:\JinHeng\William\work\VCsharp\work\MatrixSystemEditor\source\MatrixSystemEditor\obj\Debug\MenuWin.baml
+D:\JinHeng\William\work\VCsharp\work\MatrixSystemEditor\source\MatrixSystemEditor\obj\Debug\NoteLockPwdWindow.baml
+D:\JinHeng\William\work\VCsharp\work\MatrixSystemEditor\source\MatrixSystemEditor\obj\Debug\pageTab\AutoMixerPage.baml
+D:\JinHeng\William\work\VCsharp\work\MatrixSystemEditor\source\MatrixSystemEditor\obj\Debug\pageTab\DSpChanelPage.baml
+D:\JinHeng\William\work\VCsharp\work\MatrixSystemEditor\source\MatrixSystemEditor\obj\Debug\pageTab\DuckerPage.baml
+D:\JinHeng\William\work\VCsharp\work\MatrixSystemEditor\source\MatrixSystemEditor\obj\Debug\pageTab\FBCPage.baml
+D:\JinHeng\William\work\VCsharp\work\MatrixSystemEditor\source\MatrixSystemEditor\obj\Debug\pageTab\SubMatrixPage.baml
+D:\JinHeng\William\work\VCsharp\work\MatrixSystemEditor\source\MatrixSystemEditor\obj\Debug\pageTab\SaveLoadPage.baml
+D:\JinHeng\William\work\VCsharp\work\MatrixSystemEditor\source\MatrixSystemEditor\obj\Debug\pageTab\SystemPage.baml
+D:\JinHeng\William\work\VCsharp\work\MatrixSystemEditor\source\MatrixSystemEditor\obj\Debug\RVADevPage.baml
+D:\JinHeng\William\work\VCsharp\work\MatrixSystemEditor\source\MatrixSystemEditor\obj\Debug\FBCValueShow.baml
+D:\JinHeng\William\work\VCsharp\work\MatrixSystemEditor\source\MatrixSystemEditor\obj\Debug\RVCSeriesWnd.baml
+D:\JinHeng\William\work\VCsharp\work\MatrixSystemEditor\source\MatrixSystemEditor\obj\Debug\SingleZoneUnit.baml
+D:\JinHeng\William\work\VCsharp\work\MatrixSystemEditor\source\MatrixSystemEditor\obj\Debug\ZoneItem.baml
+D:\JinHeng\William\work\VCsharp\work\MatrixSystemEditor\source\MatrixSystemEditor\obj\Debug\App.baml
+D:\JinHeng\William\work\VCsharp\work\MatrixSystemEditor\source\MatrixSystemEditor\obj\Debug\AboutWindow.g.cs
+D:\JinHeng\William\work\VCsharp\work\MatrixSystemEditor\source\MatrixSystemEditor\obj\Debug\CDeviceModule.g.cs
+D:\JinHeng\William\work\VCsharp\work\MatrixSystemEditor\source\MatrixSystemEditor\obj\Debug\ChangeLockPWD.g.cs
+D:\JinHeng\William\work\VCsharp\work\MatrixSystemEditor\source\MatrixSystemEditor\obj\Debug\commom\CNewDeveName.g.cs
+D:\JinHeng\William\work\VCsharp\work\MatrixSystemEditor\source\MatrixSystemEditor\obj\Debug\FChanelName.g.cs
+D:\JinHeng\William\work\VCsharp\work\MatrixSystemEditor\source\MatrixSystemEditor\obj\Debug\FirstLookChooseWindow.g.cs
+D:\JinHeng\William\work\VCsharp\work\MatrixSystemEditor\source\MatrixSystemEditor\obj\Debug\LoadLedForm.g.cs
+D:\JinHeng\William\work\VCsharp\work\MatrixSystemEditor\source\MatrixSystemEditor\obj\Debug\Matrix\CDelayInputer.g.cs
+D:\JinHeng\William\work\VCsharp\work\MatrixSystemEditor\source\MatrixSystemEditor\obj\Debug\MenuWin.g.cs
+D:\JinHeng\William\work\VCsharp\work\MatrixSystemEditor\source\MatrixSystemEditor\obj\Debug\NoteLockPwdWindow.g.cs
+D:\JinHeng\William\work\VCsharp\work\MatrixSystemEditor\source\MatrixSystemEditor\obj\Debug\pageTab\AutoMixerPage.g.cs
+D:\JinHeng\William\work\VCsharp\work\MatrixSystemEditor\source\MatrixSystemEditor\obj\Debug\pageTab\DSpChanelPage.g.cs
+D:\JinHeng\William\work\VCsharp\work\MatrixSystemEditor\source\MatrixSystemEditor\obj\Debug\pageTab\DuckerPage.g.cs
+D:\JinHeng\William\work\VCsharp\work\MatrixSystemEditor\source\MatrixSystemEditor\obj\Debug\pageTab\FBCPage.g.cs
+D:\JinHeng\William\work\VCsharp\work\MatrixSystemEditor\source\MatrixSystemEditor\obj\Debug\pageTab\SubMatrixPage.g.cs
+D:\JinHeng\William\work\VCsharp\work\MatrixSystemEditor\source\MatrixSystemEditor\obj\Debug\pageTab\SaveLoadPage.g.cs
+D:\JinHeng\William\work\VCsharp\work\MatrixSystemEditor\source\MatrixSystemEditor\obj\Debug\pageTab\SystemPage.g.cs
+D:\JinHeng\William\work\VCsharp\work\MatrixSystemEditor\source\MatrixSystemEditor\obj\Debug\RowZoneUnit.g.cs
+D:\JinHeng\William\work\VCsharp\work\MatrixSystemEditor\source\MatrixSystemEditor\obj\Debug\RVADevPage.g.cs
+D:\JinHeng\William\work\VCsharp\work\MatrixSystemEditor\source\MatrixSystemEditor\obj\Debug\FBCValueShow.g.cs
+D:\JinHeng\William\work\VCsharp\work\MatrixSystemEditor\source\MatrixSystemEditor\obj\Debug\MainWindow.g.cs
+D:\JinHeng\William\work\VCsharp\work\MatrixSystemEditor\source\MatrixSystemEditor\obj\Debug\MatrixPage.g.cs
+D:\JinHeng\William\work\VCsharp\work\MatrixSystemEditor\source\MatrixSystemEditor\obj\Debug\RPM200Page.g.cs
+D:\JinHeng\William\work\VCsharp\work\MatrixSystemEditor\source\MatrixSystemEditor\obj\Debug\RVCSeriesWnd.g.cs
+D:\JinHeng\William\work\VCsharp\work\MatrixSystemEditor\source\MatrixSystemEditor\obj\Debug\SingleZoneUnit.g.cs
+D:\JinHeng\William\work\VCsharp\work\MatrixSystemEditor\source\MatrixSystemEditor\obj\Debug\ZoneGroup.g.cs
+D:\JinHeng\William\work\VCsharp\work\MatrixSystemEditor\source\MatrixSystemEditor\obj\Debug\ZoneItem.g.cs
+D:\JinHeng\William\work\VCsharp\work\MatrixSystemEditor\source\MatrixSystemEditor\obj\Debug\App.g.cs
+D:\JinHeng\William\work\VCsharp\work\MatrixSystemEditor\source\MatrixSystemEditor\obj\Debug\GeneratedInternalTypeHelper.g.cs
+D:\JinHeng\William\work\VCsharp\work\MatrixSystemEditor\source\MatrixSystemEditor\obj\Debug\MatrixSystemEditor_MarkupCompile.cache
+D:\JinHeng\William\work\VCsharp\work\MatrixSystemEditor\source\MatrixSystemEditor\obj\Debug\MatrixSystemEditor_MarkupCompile.lref
+D:\JinHeng\William\work\VCsharp\work\MatrixSystemEditor\source\MatrixSystemEditor\obj\Debug\RowZoneUnit.baml
+D:\JinHeng\William\work\VCsharp\work\MatrixSystemEditor\source\MatrixSystemEditor\obj\Debug\MainWindow.baml
+D:\JinHeng\William\work\VCsharp\work\MatrixSystemEditor\source\MatrixSystemEditor\obj\Debug\MatrixPage.baml
+D:\JinHeng\William\work\VCsharp\work\MatrixSystemEditor\source\MatrixSystemEditor\obj\Debug\RPM200Page.baml
+D:\JinHeng\William\work\VCsharp\work\MatrixSystemEditor\source\MatrixSystemEditor\obj\Debug\Themes\Generic.baml
+D:\JinHeng\William\work\VCsharp\work\MatrixSystemEditor\source\MatrixSystemEditor\obj\Debug\ZoneGroup.baml
+D:\JinHeng\William\work\VCsharp\work\MatrixSystemEditor\source\MatrixSystemEditor\obj\Debug\MatrixSystemEditor.g.resources
+D:\JinHeng\William\work\VCsharp\work\MatrixSystemEditor\source\MatrixSystemEditor\obj\Debug\MatrixSystemEditor.Properties.Resources.resources
+D:\JinHeng\William\work\VCsharp\work\MatrixSystemEditor\source\MatrixSystemEditor\obj\Debug\MatrixSystemEditor.Resource1.resources
+D:\JinHeng\William\work\VCsharp\work\MatrixSystemEditor\source\MatrixSystemEditor\obj\Debug\MatrixEditorSystem.csproj.GenerateResource.Cache
+D:\JinHeng\William\work\VCsharp\work\MatrixSystemEditor\source\MatrixSystemEditor\obj\Debug\MatrixSystemEditor.exe
+D:\JinHeng\William\work\VCsharp\work\MatrixSystemEditor\source\MatrixSystemEditor\obj\Debug\MatrixSystemEditor.pdb
+D:\JinHeng\William\work\VCsharp\work\MatrixSystemEditor\oldVersion\source\MatrixSystemEditor\bin\Debug\MatrixSystemEditor.exe.config
+D:\JinHeng\William\work\VCsharp\work\MatrixSystemEditor\oldVersion\source\MatrixSystemEditor\bin\Debug\MatrixSystemEditor.exe
+D:\JinHeng\William\work\VCsharp\work\MatrixSystemEditor\oldVersion\source\MatrixSystemEditor\bin\Debug\MatrixSystemEditor.pdb
+D:\JinHeng\William\work\VCsharp\work\MatrixSystemEditor\oldVersion\source\MatrixSystemEditor\bin\Debug\CommLibrary.dll
+D:\JinHeng\William\work\VCsharp\work\MatrixSystemEditor\oldVersion\source\MatrixSystemEditor\bin\Debug\Lib.Controls.MyControls.dll
+D:\JinHeng\William\work\VCsharp\work\MatrixSystemEditor\oldVersion\source\MatrixSystemEditor\bin\Debug\System.Data.SQLite.dll
+D:\JinHeng\William\work\VCsharp\work\MatrixSystemEditor\oldVersion\source\MatrixSystemEditor\bin\Debug\CommLibrary.pdb
+D:\JinHeng\William\work\VCsharp\work\MatrixSystemEditor\oldVersion\source\MatrixSystemEditor\bin\Debug\Lib.Controls.MyControls.pdb
+D:\JinHeng\William\work\VCsharp\work\MatrixSystemEditor\oldVersion\source\MatrixSystemEditor\bin\Debug\System.Data.SQLite.xml
+D:\JinHeng\William\work\VCsharp\work\MatrixSystemEditor\oldVersion\source\MatrixSystemEditor\obj\Debug\AboutWindow.baml
+D:\JinHeng\William\work\VCsharp\work\MatrixSystemEditor\oldVersion\source\MatrixSystemEditor\obj\Debug\CDeviceModule.baml
+D:\JinHeng\William\work\VCsharp\work\MatrixSystemEditor\oldVersion\source\MatrixSystemEditor\obj\Debug\ChangeLockPWD.baml
+D:\JinHeng\William\work\VCsharp\work\MatrixSystemEditor\oldVersion\source\MatrixSystemEditor\obj\Debug\commom\CNewDeveName.baml
+D:\JinHeng\William\work\VCsharp\work\MatrixSystemEditor\oldVersion\source\MatrixSystemEditor\obj\Debug\FChanelName.baml
+D:\JinHeng\William\work\VCsharp\work\MatrixSystemEditor\oldVersion\source\MatrixSystemEditor\obj\Debug\FirstLookChooseWindow.baml
+D:\JinHeng\William\work\VCsharp\work\MatrixSystemEditor\oldVersion\source\MatrixSystemEditor\obj\Debug\LoadLedForm.baml
+D:\JinHeng\William\work\VCsharp\work\MatrixSystemEditor\oldVersion\source\MatrixSystemEditor\obj\Debug\Matrix\CDelayInputer.baml
+D:\JinHeng\William\work\VCsharp\work\MatrixSystemEditor\oldVersion\source\MatrixSystemEditor\obj\Debug\MenuWin.baml
+D:\JinHeng\William\work\VCsharp\work\MatrixSystemEditor\oldVersion\source\MatrixSystemEditor\obj\Debug\NoteLockPwdWindow.baml
+D:\JinHeng\William\work\VCsharp\work\MatrixSystemEditor\oldVersion\source\MatrixSystemEditor\obj\Debug\pageTab\AutoMixerPage.baml
+D:\JinHeng\William\work\VCsharp\work\MatrixSystemEditor\oldVersion\source\MatrixSystemEditor\obj\Debug\pageTab\DSpChanelPage.baml
+D:\JinHeng\William\work\VCsharp\work\MatrixSystemEditor\oldVersion\source\MatrixSystemEditor\obj\Debug\pageTab\DuckerPage.baml
+D:\JinHeng\William\work\VCsharp\work\MatrixSystemEditor\oldVersion\source\MatrixSystemEditor\obj\Debug\pageTab\FBCPage.baml
+D:\JinHeng\William\work\VCsharp\work\MatrixSystemEditor\oldVersion\source\MatrixSystemEditor\obj\Debug\pageTab\SubMatrixPage.baml
+D:\JinHeng\William\work\VCsharp\work\MatrixSystemEditor\oldVersion\source\MatrixSystemEditor\obj\Debug\pageTab\SaveLoadPage.baml
+D:\JinHeng\William\work\VCsharp\work\MatrixSystemEditor\oldVersion\source\MatrixSystemEditor\obj\Debug\pageTab\SystemPage.baml
+D:\JinHeng\William\work\VCsharp\work\MatrixSystemEditor\oldVersion\source\MatrixSystemEditor\obj\Debug\RVADevPage.baml
+D:\JinHeng\William\work\VCsharp\work\MatrixSystemEditor\oldVersion\source\MatrixSystemEditor\obj\Debug\FBCValueShow.baml
+D:\JinHeng\William\work\VCsharp\work\MatrixSystemEditor\oldVersion\source\MatrixSystemEditor\obj\Debug\RVCSeriesWnd.baml
+D:\JinHeng\William\work\VCsharp\work\MatrixSystemEditor\oldVersion\source\MatrixSystemEditor\obj\Debug\SingleZoneUnit.baml
+D:\JinHeng\William\work\VCsharp\work\MatrixSystemEditor\oldVersion\source\MatrixSystemEditor\obj\Debug\ZoneItem.baml
+D:\JinHeng\William\work\VCsharp\work\MatrixSystemEditor\oldVersion\source\MatrixSystemEditor\obj\Debug\App.baml
+D:\JinHeng\William\work\VCsharp\work\MatrixSystemEditor\oldVersion\source\MatrixSystemEditor\obj\Debug\AboutWindow.g.cs
+D:\JinHeng\William\work\VCsharp\work\MatrixSystemEditor\oldVersion\source\MatrixSystemEditor\obj\Debug\CDeviceModule.g.cs
+D:\JinHeng\William\work\VCsharp\work\MatrixSystemEditor\oldVersion\source\MatrixSystemEditor\obj\Debug\ChangeLockPWD.g.cs
+D:\JinHeng\William\work\VCsharp\work\MatrixSystemEditor\oldVersion\source\MatrixSystemEditor\obj\Debug\commom\CNewDeveName.g.cs
+D:\JinHeng\William\work\VCsharp\work\MatrixSystemEditor\oldVersion\source\MatrixSystemEditor\obj\Debug\FChanelName.g.cs
+D:\JinHeng\William\work\VCsharp\work\MatrixSystemEditor\oldVersion\source\MatrixSystemEditor\obj\Debug\FirstLookChooseWindow.g.cs
+D:\JinHeng\William\work\VCsharp\work\MatrixSystemEditor\oldVersion\source\MatrixSystemEditor\obj\Debug\LoadLedForm.g.cs
+D:\JinHeng\William\work\VCsharp\work\MatrixSystemEditor\oldVersion\source\MatrixSystemEditor\obj\Debug\Matrix\CDelayInputer.g.cs
+D:\JinHeng\William\work\VCsharp\work\MatrixSystemEditor\oldVersion\source\MatrixSystemEditor\obj\Debug\MenuWin.g.cs
+D:\JinHeng\William\work\VCsharp\work\MatrixSystemEditor\oldVersion\source\MatrixSystemEditor\obj\Debug\NoteLockPwdWindow.g.cs
+D:\JinHeng\William\work\VCsharp\work\MatrixSystemEditor\oldVersion\source\MatrixSystemEditor\obj\Debug\pageTab\AutoMixerPage.g.cs
+D:\JinHeng\William\work\VCsharp\work\MatrixSystemEditor\oldVersion\source\MatrixSystemEditor\obj\Debug\pageTab\DSpChanelPage.g.cs
+D:\JinHeng\William\work\VCsharp\work\MatrixSystemEditor\oldVersion\source\MatrixSystemEditor\obj\Debug\pageTab\DuckerPage.g.cs
+D:\JinHeng\William\work\VCsharp\work\MatrixSystemEditor\oldVersion\source\MatrixSystemEditor\obj\Debug\pageTab\FBCPage.g.cs
+D:\JinHeng\William\work\VCsharp\work\MatrixSystemEditor\oldVersion\source\MatrixSystemEditor\obj\Debug\pageTab\SubMatrixPage.g.cs
+D:\JinHeng\William\work\VCsharp\work\MatrixSystemEditor\oldVersion\source\MatrixSystemEditor\obj\Debug\pageTab\SaveLoadPage.g.cs
+D:\JinHeng\William\work\VCsharp\work\MatrixSystemEditor\oldVersion\source\MatrixSystemEditor\obj\Debug\pageTab\SystemPage.g.cs
+D:\JinHeng\William\work\VCsharp\work\MatrixSystemEditor\oldVersion\source\MatrixSystemEditor\obj\Debug\RowZoneUnit.g.cs
+D:\JinHeng\William\work\VCsharp\work\MatrixSystemEditor\oldVersion\source\MatrixSystemEditor\obj\Debug\RVADevPage.g.cs
+D:\JinHeng\William\work\VCsharp\work\MatrixSystemEditor\oldVersion\source\MatrixSystemEditor\obj\Debug\FBCValueShow.g.cs
+D:\JinHeng\William\work\VCsharp\work\MatrixSystemEditor\oldVersion\source\MatrixSystemEditor\obj\Debug\MainWindow.g.cs
+D:\JinHeng\William\work\VCsharp\work\MatrixSystemEditor\oldVersion\source\MatrixSystemEditor\obj\Debug\MatrixPage.g.cs
+D:\JinHeng\William\work\VCsharp\work\MatrixSystemEditor\oldVersion\source\MatrixSystemEditor\obj\Debug\RPM200Page.g.cs
+D:\JinHeng\William\work\VCsharp\work\MatrixSystemEditor\oldVersion\source\MatrixSystemEditor\obj\Debug\RVCSeriesWnd.g.cs
+D:\JinHeng\William\work\VCsharp\work\MatrixSystemEditor\oldVersion\source\MatrixSystemEditor\obj\Debug\SingleZoneUnit.g.cs
+D:\JinHeng\William\work\VCsharp\work\MatrixSystemEditor\oldVersion\source\MatrixSystemEditor\obj\Debug\ZoneGroup.g.cs
+D:\JinHeng\William\work\VCsharp\work\MatrixSystemEditor\oldVersion\source\MatrixSystemEditor\obj\Debug\ZoneItem.g.cs
+D:\JinHeng\William\work\VCsharp\work\MatrixSystemEditor\oldVersion\source\MatrixSystemEditor\obj\Debug\App.g.cs
+D:\JinHeng\William\work\VCsharp\work\MatrixSystemEditor\oldVersion\source\MatrixSystemEditor\obj\Debug\GeneratedInternalTypeHelper.g.cs
+D:\JinHeng\William\work\VCsharp\work\MatrixSystemEditor\oldVersion\source\MatrixSystemEditor\obj\Debug\MatrixSystemEditor_MarkupCompile.cache
+D:\JinHeng\William\work\VCsharp\work\MatrixSystemEditor\oldVersion\source\MatrixSystemEditor\obj\Debug\MatrixSystemEditor_MarkupCompile.lref
+D:\JinHeng\William\work\VCsharp\work\MatrixSystemEditor\oldVersion\source\MatrixSystemEditor\obj\Debug\RowZoneUnit.baml
+D:\JinHeng\William\work\VCsharp\work\MatrixSystemEditor\oldVersion\source\MatrixSystemEditor\obj\Debug\MainWindow.baml
+D:\JinHeng\William\work\VCsharp\work\MatrixSystemEditor\oldVersion\source\MatrixSystemEditor\obj\Debug\MatrixPage.baml
+D:\JinHeng\William\work\VCsharp\work\MatrixSystemEditor\oldVersion\source\MatrixSystemEditor\obj\Debug\RPM200Page.baml
+D:\JinHeng\William\work\VCsharp\work\MatrixSystemEditor\oldVersion\source\MatrixSystemEditor\obj\Debug\Themes\Generic.baml
+D:\JinHeng\William\work\VCsharp\work\MatrixSystemEditor\oldVersion\source\MatrixSystemEditor\obj\Debug\ZoneGroup.baml
+D:\JinHeng\William\work\VCsharp\work\MatrixSystemEditor\oldVersion\source\MatrixSystemEditor\obj\Debug\MatrixSystemEditor.g.resources
+D:\JinHeng\William\work\VCsharp\work\MatrixSystemEditor\oldVersion\source\MatrixSystemEditor\obj\Debug\MatrixSystemEditor.Properties.Resources.resources
+D:\JinHeng\William\work\VCsharp\work\MatrixSystemEditor\oldVersion\source\MatrixSystemEditor\obj\Debug\MatrixSystemEditor.Resource1.resources
+D:\JinHeng\William\work\VCsharp\work\MatrixSystemEditor\oldVersion\source\MatrixSystemEditor\obj\Debug\MatrixEditorSystem.csproj.GenerateResource.Cache
+D:\JinHeng\William\work\VCsharp\work\MatrixSystemEditor\oldVersion\source\MatrixSystemEditor\obj\Debug\MatrixSystemEditor.exe
+D:\JinHeng\William\work\VCsharp\work\MatrixSystemEditor\oldVersion\source\MatrixSystemEditor\obj\Debug\MatrixSystemEditor.pdb
+D:\JinHeng\William\work\VCsharp\work\MatrixSystemEditor\oldVersion\source\MatrixSystemEditor\obj\Debug\MatrixEditorSystem.csprojResolveAssemblyReference.cache

@@ -1,0 +1,93 @@
+﻿<Page x:Class="MatrixSystemEditor.pageTab.SystemPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+       xmlns:oc="clr-namespace:Lib.Controls;assembly=Lib.Controls.MyControls"  
+      mc:Ignorable="d" 
+      d:DesignHeight="500" d:DesignWidth="1060"
+	Title="SystemPage">
+    <Grid x:Name="systemGrid">
+        <Grid.Background>
+            <ImageBrush ImageSource="/MatrixSystemEditor;component/Resources/mid_bimg.png"></ImageBrush>
+        </Grid.Background>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="Auto"/>
+            <ColumnDefinition Width="Auto" />
+        </Grid.ColumnDefinitions>
+        <DockPanel HorizontalAlignment="Left" MinWidth="160">
+            <StackPanel>
+                <Border  Margin="25,10,5,5" Padding="20"  >
+                    <Border.Background>
+                        <ImageBrush ImageSource="/MatrixSystemEditor;component/Resources/leftDown_img.png"></ImageBrush>
+                    </Border.Background>
+                    <StackPanel Orientation="Vertical">
+                        <TextBlock Text="Relay Control" Foreground="White" Margin="1,1,1,20"></TextBlock>
+                        <StackPanel Orientation="Horizontal">
+                            <oc:CSwitcher Content="RelayI"  Margin="38,5,2,5" x:Name="btnRelayI" Click="btnRelay_Click" iTag="0" Width="70" Height="35"/>
+                            <oc:CSwitcher Content="RelayII"  Margin="10,5,0,5" x:Name="btnRelayII" Click="btnRelay_Click" iTag="1" Width="70" Height="35" />
+                        </StackPanel>
+                    </StackPanel>
+
+                </Border>
+                <StackPanel Margin="25,0,5,5">
+                    <StackPanel.Background>
+                        <ImageBrush ImageSource="/MatrixSystemEditor;component/Resources/leftDown_img.png"></ImageBrush>
+                    </StackPanel.Background>
+                    <oc:CSwitcher x:Name="resetBtn" Padding="5" Margin="0,25,0,5"  unActiveBrush="#FF454545"
+										Height="35" Click="resetBtn_Click"  Width="142" HorizontalAlignment="Center"                                    
+                                        Content="Restore Default Settings"                                       
+                                        />
+                    <oc:CSwitcher x:Name="resetFatoryBtn" Padding="5"  Width="142" Margin="0,15,0,25"
+										Height="35" Content="Reset to Factory Setting" Click="resetFatoryBtn_Click"                                        
+                                          HorizontalAlignment="Center"    unActiveBrush="#FF454545"                                   
+                                        />
+                </StackPanel>
+                <StackPanel   Margin="25,0,5,5">
+                    <StackPanel.Background>
+                        <ImageBrush ImageSource="/MatrixSystemEditor;component/Resources/leftDown_img.png"></ImageBrush>
+                    </StackPanel.Background>
+                    <Grid x:Name="systemAboutGrid" >
+                        <Grid.RowDefinitions>
+                            <RowDefinition/>
+                            <RowDefinition/>
+                            <RowDefinition/>
+                        </Grid.RowDefinitions>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition/>
+                            <ColumnDefinition/>
+                        </Grid.ColumnDefinitions>
+                        <TextBlock Text="Device Name" Foreground="White" Margin="15,5,5,15"></TextBlock>
+                        <TextBox Grid.Column="0" IsReadOnly="True" Grid.ColumnSpan="2" Width="142"
+												Margin="0,5,0,5" Grid.Row="1"  HorizontalAlignment="Center"
+												 x:Name="edtDevice"/>
+                        <oc:CSwitcher Grid.Row="2" Grid.ColumnSpan="2" Margin="0,5,0,25"  HorizontalAlignment="Center" unActiveBrush="#FF454545"
+												  x:Name="btnChangeDevName" Click="btnChangeDevName_Click" Content="Change Device Name" Width="142" Height="35" />
+                    </Grid>
+
+                </StackPanel>
+
+            </StackPanel>
+        </DockPanel>
+        <DockPanel Grid.Column="1" Background="Transparent" HorizontalAlignment="Left" VerticalAlignment="Center">
+            <StackPanel  Margin="40,-225,2,2">
+                <oc:SprocketControl                                   
+										Margin="0,5,0,0"
+										VerticalAlignment="Top"
+										TickColor="White"
+										Width="60"
+										Height="60"
+										TickWidth="4"
+										TickCount="10"                                       
+										StartAngle="-90"
+										IsIndeterminate="False"
+										Interval="450"                                    
+										TickStyle="Triangle"                                    
+										x:Name="factSpin"                                    
+                            
+                            />
+                <TextBlock Text="  Wating..." x:Name="itorLabel" Visibility="Hidden"  Foreground="White"  FontSize="20"/>
+            </StackPanel>
+        </DockPanel>
+    </Grid>
+</Page>

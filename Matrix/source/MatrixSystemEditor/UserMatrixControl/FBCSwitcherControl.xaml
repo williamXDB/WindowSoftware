@@ -1,0 +1,81 @@
+﻿<UserControl x:Class="MatrixSystemEditor.FBCSwitcherControl"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:oc="clr-namespace:Lib.Controls;assembly=Lib.Controls.MyControls"
+             mc:Ignorable="d" 
+             d:DesignHeight="180" d:DesignWidth="1030">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+        <GroupBox Header="FBC Input select" Padding="8" Margin="5"  Name="FBCsourceSelect_Groupbox"
+                                      Grid.Column="0">
+            <StackPanel>
+                <TextBlock Margin="5">Local Input</TextBlock>
+                <StackPanel    Name="FBCLocalInput" Orientation="Horizontal">
+                    <oc:CSwitcher Margin="5,5,2,5" Padding="5" Width="35"   activeBrush="Green"  unActiveBrush   ="#FFD4D0C8"  Name="inBtn_0" iTag="0" Click="inBtn_0_Click">1</oc:CSwitcher>
+                    <oc:CSwitcher Margin="2,5,2,5" Padding="5" Width="35"   activeBrush="Green"  unActiveBrush   ="#FFD4D0C8"  Name="inBtn_1" iTag="1" Click="inBtn_0_Click">2</oc:CSwitcher>
+                    <oc:CSwitcher Margin="2,5,2,5" Padding="5" Width="35"   activeBrush="Green"  unActiveBrush   ="#FFD4D0C8"  Name="inBtn_2" iTag="2" Click="inBtn_0_Click">3</oc:CSwitcher>
+                    <oc:CSwitcher Margin="2,5,2,5" Padding="5" Width="35"   activeBrush="Green"  unActiveBrush   ="#FFD4D0C8"  Name="inBtn_3" iTag="3" Click="inBtn_0_Click">4</oc:CSwitcher>
+                    <oc:CSwitcher Margin="2,5,2,5" Padding="5" Width="35"   activeBrush="Green"  unActiveBrush   ="#FFD4D0C8"  Name="inBtn_4" iTag="4" Click="inBtn_0_Click">5</oc:CSwitcher>
+                    <oc:CSwitcher Margin="2,5,2,5" Padding="5" Width="35"   activeBrush="Green"  unActiveBrush   ="#FFD4D0C8"  Name="inBtn_5" iTag="5" Click="inBtn_0_Click">6</oc:CSwitcher>
+
+                    <oc:CSwitcher Margin="2,5,2,5" Padding="5" Width="35"   activeBrush="Green"  unActiveBrush   ="#FFD4D0C8"  Name="inBtn_6" iTag="6" Click="inBtn_0_Click">7</oc:CSwitcher>
+                    <oc:CSwitcher Margin="2,5,2,5" Padding="5" Width="35"   activeBrush="Green"  unActiveBrush   ="#FFD4D0C8"  Name="inBtn_7" iTag="7" Click="inBtn_0_Click">8</oc:CSwitcher>
+                    <oc:CSwitcher Margin="2,5,2,5" Padding="5" Width="35"   activeBrush="Green"  unActiveBrush   ="#FFD4D0C8"  Name="inBtn_8" iTag="8" Click="inBtn_0_Click">9</oc:CSwitcher>
+                    <oc:CSwitcher Margin="2,5,2,5" Padding="5" Width="35"   activeBrush="Green"  unActiveBrush   ="#FFD4D0C8"  Name="inBtn_9" iTag="9" Click="inBtn_0_Click">10</oc:CSwitcher>
+                    <oc:CSwitcher Margin="2,5,2,5" Padding="5" Width="35"   activeBrush="Green"  unActiveBrush   ="#FFD4D0C8"  Name="inBtn_10" iTag="10" Click="inBtn_0_Click">11</oc:CSwitcher>
+                    <oc:CSwitcher Margin="2,5,2,5" Padding="5" Width="35"   activeBrush="Green"  unActiveBrush   ="#FFD4D0C8"  Name="inBtn_11" iTag="11" Click="inBtn_0_Click">12</oc:CSwitcher>
+
+                </StackPanel>
+                <TextBlock Margin="0,15,0,0">Network Input</TextBlock>
+                <StackPanel   Name="FBCNetworkInput" Orientation="Horizontal">
+                    <oc:CSwitcher Margin="5,5,2,5" Padding="5" Width="35"    activeBrush="Green"  unActiveBrush   ="#FFD4D0C8"  Name="inBtn_12" iTag="12" Click="inBtn_0_Click">1</oc:CSwitcher>
+                    <oc:CSwitcher Margin="2,5,2,5" Padding="5" Width="35"    activeBrush="Green"  unActiveBrush   ="#FFD4D0C8"  Name="inBtn_13" iTag="13" Click="inBtn_0_Click">2</oc:CSwitcher>
+                    <oc:CSwitcher Margin="2,5,2,5" Padding="5" Width="35"    activeBrush="Green"  unActiveBrush   ="#FFD4D0C8"  Name="inBtn_14" iTag="14" Click="inBtn_0_Click">3</oc:CSwitcher>
+                    <oc:CSwitcher Margin="2,5,2,5" Padding="5" Width="35"    activeBrush="Green"  unActiveBrush   ="#FFD4D0C8"  Name="inBtn_15" iTag="15" Click="inBtn_0_Click">4</oc:CSwitcher>
+                    <oc:CSwitcher Margin="2,5,2,5" Padding="5" Width="35"    activeBrush="Green"  unActiveBrush   ="#FFD4D0C8"  Name="inBtn_16" iTag="16" Click="inBtn_0_Click">5</oc:CSwitcher>
+                    <oc:CSwitcher Margin="2,5,2,5" Padding="5" Width="35"    activeBrush="Green"  unActiveBrush   ="#FFD4D0C8"  Name="inBtn_17" iTag="17" Click="inBtn_0_Click">6</oc:CSwitcher>
+                    <oc:CSwitcher Margin="2,5,2,5" Padding="5" Width="35"    activeBrush="Green"  unActiveBrush   ="#FFD4D0C8"  Name="inBtn_18" iTag="18" Click="inBtn_0_Click">7</oc:CSwitcher>
+                    <oc:CSwitcher Margin="2,5,2,5" Padding="5" Width="35"    activeBrush="Green"  unActiveBrush   ="#FFD4D0C8"  Name="inBtn_19" iTag="19" Click="inBtn_0_Click">8</oc:CSwitcher>
+                </StackPanel>
+
+            </StackPanel>
+
+        </GroupBox>
+        <GroupBox Header="FBC Output Assign" Grid.Row="0" Padding="8,8,3,3" Grid.Column="1" Margin="5"  Name="FBCBGM_Groupbox">
+            <StackPanel>
+                <TextBlock>Local Input</TextBlock>
+                <StackPanel   Name="FBCBGM_LocalOutput"  Margin="0,10,5,5" Orientation="Horizontal">
+                    <oc:CSwitcher Margin="5,5,1,5" Width="35" Height="28"    activeBrush="Green"  unActiveBrush   ="#FFD4D0C8"  Name="inBtn_20" iTag="20" Click="inBtn_0_Click">1</oc:CSwitcher>
+                    <oc:CSwitcher Margin="1,5,2,5" Width="35" Height="28"    activeBrush="Green"  unActiveBrush   ="#FFD4D0C8"  Name="inBtn_21" iTag="21" Click="inBtn_0_Click">2</oc:CSwitcher>
+                    <oc:CSwitcher Margin="1,5,2,5" Padding="5" Width="35"    activeBrush="Green"  unActiveBrush   ="#FFD4D0C8"  Name="inBtn_22" iTag="22" Click="inBtn_0_Click">3</oc:CSwitcher>
+                    <oc:CSwitcher Margin="1,5,2,5" Padding="5" Width="35"    activeBrush="Green"  unActiveBrush   ="#FFD4D0C8"  Name="inBtn_23" iTag="23" Click="inBtn_0_Click">4</oc:CSwitcher>
+                    <oc:CSwitcher Margin="1,5,2,5" Padding="5" Width="35"    activeBrush="Green"  unActiveBrush   ="#FFD4D0C8"  Name="inBtn_24" iTag="24" Click="inBtn_0_Click">5</oc:CSwitcher>
+                    <oc:CSwitcher Margin="1,5,2,5" Padding="5" Width="35"    activeBrush="Green"  unActiveBrush   ="#FFD4D0C8"  Name="inBtn_25" iTag="25" Click="inBtn_0_Click">6</oc:CSwitcher>
+                    <oc:CSwitcher Margin="1,5,2,5" Padding="5" Width="35"    activeBrush="Green"  unActiveBrush   ="#FFD4D0C8"  Name="inBtn_26" iTag="26" Click="inBtn_0_Click">7</oc:CSwitcher>
+                    <oc:CSwitcher Margin="1,5,2,5" Padding="5" Width="35"    activeBrush="Green"  unActiveBrush   ="#FFD4D0C8"  Name="inBtn_27" iTag="27" Click="inBtn_0_Click">8</oc:CSwitcher>
+                    <oc:CSwitcher Margin="1,5,2,5" Padding="5" Width="35"    activeBrush="Green"  unActiveBrush   ="#FFD4D0C8"  Name="inBtn_28" iTag="28" Click="inBtn_0_Click">9</oc:CSwitcher>
+                    <oc:CSwitcher Margin="1,5,2,5" Padding="5" Width="35"    activeBrush="Green"  unActiveBrush   ="#FFD4D0C8"  Name="inBtn_29" iTag="29" Click="inBtn_0_Click">10</oc:CSwitcher>
+                    <oc:CSwitcher Margin="1,5,2,5" Padding="5" Width="35"    activeBrush="Green"  unActiveBrush   ="#FFD4D0C8"  Name="inBtn_30" iTag="30" Click="inBtn_0_Click">11</oc:CSwitcher>
+                    <oc:CSwitcher Margin="1,5,2,5" Padding="5" Width="35"    activeBrush="Green"  unActiveBrush   ="#FFD4D0C8"  Name="inBtn_31" iTag="31" Click="inBtn_0_Click">12</oc:CSwitcher>
+                </StackPanel>
+                <TextBlock Margin="0,15,0,0">Network Input</TextBlock>
+                <StackPanel   Name="FBCBGM_NetworkInput" Margin="0,0,5,5" Orientation="Horizontal">
+                    <oc:CSwitcher Margin="5,5,2,5" Padding="5" Width="35"    activeBrush="Green"  unActiveBrush   ="#FFD4D0C8"  Name="inBtn_32" iTag="32" Click="inBtn_0_Click">1</oc:CSwitcher>
+                    <oc:CSwitcher Margin="2,5,2,5" Padding="5" Width="35"    activeBrush="Green"  unActiveBrush   ="#FFD4D0C8"  Name="inBtn_33" iTag="33" Click="inBtn_0_Click">2</oc:CSwitcher>
+                    <oc:CSwitcher Margin="2,5,2,5" Padding="5" Width="35"    activeBrush="Green"  unActiveBrush   ="#FFD4D0C8"  Name="inBtn_34" iTag="34" Click="inBtn_0_Click">3</oc:CSwitcher>
+                    <oc:CSwitcher Margin="2,5,2,5" Padding="5" Width="35"    activeBrush="Green"  unActiveBrush   ="#FFD4D0C8"  Name="inBtn_35" iTag="35" Click="inBtn_0_Click">4</oc:CSwitcher>
+                    <oc:CSwitcher Margin="2,5,2,5" Padding="5" Width="35"    activeBrush="Green"  unActiveBrush   ="#FFD4D0C8"  Name="inBtn_36" iTag="36" Click="inBtn_0_Click">5</oc:CSwitcher>
+                    <oc:CSwitcher Margin="2,5,2,5" Padding="5" Width="35"    activeBrush="Green"  unActiveBrush   ="#FFD4D0C8"  Name="inBtn_37" iTag="37" Click="inBtn_0_Click">6</oc:CSwitcher>
+                    <oc:CSwitcher Margin="2,5,2,5" Padding="5" Width="35"    activeBrush="Green"  unActiveBrush   ="#FFD4D0C8"  Name="inBtn_38" iTag="38" Click="inBtn_0_Click">7</oc:CSwitcher>
+                    <oc:CSwitcher Margin="2,5,2,5" Padding="5" Width="35"   activeBrush="Green"  unActiveBrush   ="#FFD4D0C8"  Name="inBtn_39"  iTag="39" Click="inBtn_0_Click">8</oc:CSwitcher>
+
+                </StackPanel>
+            </StackPanel>
+        </GroupBox>
+    </Grid>
+</UserControl>
