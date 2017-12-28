@@ -1,0 +1,380 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{EEFA1336-44F6-4766-BE16-A81AD1FCC2E5}</ProjectGuid>
+    <OutputType>library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Lib.Controls</RootNamespace>
+    <AssemblyName>Lib.Controls.MyControls</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <TargetFrameworkProfile>
+    </TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{60dc8134-eba5-43b8-bcc9-bb4bc16c2548};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <WarningLevel>4</WarningLevel>
+    <Utf8Output>true</Utf8Output>
+    <ExpressionBlendVersion>4.0.20901.0</ExpressionBlendVersion>
+    <NuGetPackageImportStamp>bdf601df</NuGetPackageImportStamp>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="CommLibrary">
+      <HintPath>..\..\CommLibrary\CommLibrary\bin\Debug\CommLibrary.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.0.0\lib\net45\EntityFramework.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.0.0\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="PresentationFramework.Aero" />
+    <Reference Include="PresentationFramework.Classic" />
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.SQLite, Version=1.0.104.0, Culture=neutral, PublicKeyToken=db937bc2d44ff139, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Data.SQLite.Core.1.0.104.0\lib\net45\System.Data.SQLite.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Data.SQLite.EF6, Version=1.0.104.0, Culture=neutral, PublicKeyToken=db937bc2d44ff139, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Data.SQLite.EF6.1.0.104.0\lib\net45\System.Data.SQLite.EF6.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Data.SQLite.Linq, Version=1.0.104.0, Culture=neutral, PublicKeyToken=db937bc2d44ff139, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Data.SQLite.Linq.1.0.104.0\lib\net45\System.Data.SQLite.Linq.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Xaml">
+      <RequiredTargetFramework>4.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="WindowsBase" />
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
+  </ItemGroup>
+  <ItemGroup>
+    <Page Include="commom\InputPasDialog.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="CTreeViewItem.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Module\changeNameDialog.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Module\CLeftTextModule.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Module\CMVIIIModule.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Module\CRightTextModule.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Module\CRouterLanModule.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Module\CRVA200Module.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Module\CSwitcherIVModule.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Module\InputHexDialog.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="SearchLed.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="synchronizeLed.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Themes\BorderSwitcherStyle.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Resources\AllBrushes.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Themes\StandardButonStyle.Generic.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Themes\Generic.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Resources\brush.scroll.down.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Resources\brush.scroll.up.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Themes\SpinnerControl.Generic.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Themes\TCombBox.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="UserMatrixControl\AutoMixerInput.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="UserMatrixControl\CDelayControl.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="UserMatrixControl\CDuckerSourceControl.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="UserMatrixControl\CEQControl.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="UserMatrixControl\CEQControlII.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="UserMatrixControl\CMatrixControl.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="UserMatrixControl\CNoiseGateAjustControl.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="UserMatrixControl\CPYGCheckBox.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="UserMatrixControl\FBCStatusLeds.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="UserMatrixControl\FBCSwitcherControl.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Arrow.cs" />
+    <Compile Include="CBorderSwitcher.cs" />
+    <Compile Include="CLed.cs" />
+    <Compile Include="CLineArrow.cs" />
+    <Compile Include="CMeter.cs" />
+    <Compile Include="CommControl.cs" />
+    <Compile Include="commom\AppIDList.cs" />
+    <Compile Include="commom\CMatrixFinal.cs" />
+    <Compile Include="commom\CommDefine.cs" />
+    <Compile Include="commom\CUlitity.cs" />
+    <Compile Include="commom\InputPasDialog.xaml.cs">
+      <DependentUpon>InputPasDialog.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="commom\IOSqliteOperation.cs" />
+    <Compile Include="commom\LimitedStrProperty.cs" />
+    <Compile Include="CSlider.cs" />
+    <Compile Include="CSwitcher.cs" />
+    <Compile Include="CLimitGDSlider.cs" />
+    <Compile Include="CTreeView.cs" />
+    <Compile Include="CTreeViewItem.xaml.cs">
+      <DependentUpon>CTreeViewItem.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="CFBC_horMarker.cs" />
+    <Compile Include="DynGainMark.cs" />
+    <Compile Include="FFTControl\FBCFFTDraw.cs" />
+    <Compile Include="FFTControl\FFTConstaint.cs" />
+    <Compile Include="FFTControl\FFTDrawer.cs" />
+    <Compile Include="FFTControl\HalfSearcher.cs" />
+    <Compile Include="FFTControl\XChannelFFTDataGenerator.cs" />
+    <Compile Include="FFTControl\XCoverFFTCaculate.cs" />
+    <Compile Include="FinalTables.cs" />
+    <Compile Include="IPControl.cs" />
+    <Compile Include="Module\changeNameDialog.xaml.cs">
+      <DependentUpon>changeNameDialog.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Module\CLeftTextModule.xaml.cs">
+      <DependentUpon>CLeftTextModule.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Module\CMVIIIModule.xaml.cs">
+      <DependentUpon>CMVIIIModule.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Module\ComUserMD.cs" />
+    <Compile Include="Module\CRightTextModule.xaml.cs">
+      <DependentUpon>CRightTextModule.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Module\CRouterLanModule.xaml.cs">
+      <DependentUpon>CRouterLanModule.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Module\CRVA200Module.xaml.cs">
+      <DependentUpon>CRVA200Module.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Module\CSwitcherIVModule.xaml.cs">
+      <DependentUpon>CSwitcherIVModule.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Module\InputHexDialog.xaml.cs">
+      <DependentUpon>InputHexDialog.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Module\LCommand.cs" />
+    <Compile Include="Module\MessageReceiver.cs" />
+    <Compile Include="PainterText.cs" />
+    <Compile Include="PointLine.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="SearchLed.xaml.cs">
+      <DependentUpon>SearchLed.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="SpinnerControl.cs" />
+    <Compile Include="spinValueClickChange.cs" />
+    <Compile Include="SprocketControl.cs" />
+    <Compile Include="synchronizeLed.xaml.cs">
+      <DependentUpon>synchronizeLed.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="TComboBox.cs" />
+    <Compile Include="TraverseChildrenControl.cs" />
+    <Compile Include="UserMatrixControl\AutoMixerInput.xaml.cs">
+      <DependentUpon>AutoMixerInput.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UserMatrixControl\CDelayControl.xaml.cs">
+      <DependentUpon>CDelayControl.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UserMatrixControl\CDuckerSourceControl.xaml.cs">
+      <DependentUpon>CDuckerSourceControl.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UserMatrixControl\CEQControl.xaml.cs">
+      <DependentUpon>CEQControl.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UserMatrixControl\CEQControlII.xaml.cs">
+      <DependentUpon>CEQControlII.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UserMatrixControl\CMatrixControl.xaml.cs">
+      <DependentUpon>CMatrixControl.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UserMatrixControl\CNoiseGateAjustControl.xaml.cs">
+      <DependentUpon>CNoiseGateAjustControl.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UserMatrixControl\ConstMatrix.cs" />
+    <Compile Include="UserMatrixControl\CPYGCheckBox.xaml.cs">
+      <DependentUpon>CPYGCheckBox.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UserMatrixControl\DrawCanvas.cs" />
+    <Compile Include="UserMatrixControl\FBCStatusLeds.xaml.cs">
+      <DependentUpon>FBCStatusLeds.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UserMatrixControl\FBCSwitcherControl.xaml.cs">
+      <DependentUpon>FBCSwitcherControl.xaml</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <None Include="app.config" />
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <AppDesigner Include="Properties\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\thumb.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\fader_hr.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\h_sliderTrack.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\rightDown_img.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\hbs_sliderPanel.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\MA8.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\RIO200.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\RPM200.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\RVC1000.PNG" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <Import Project="..\packages\System.Data.SQLite.Core.1.0.104.0\build\net45\System.Data.SQLite.Core.targets" Condition="Exists('..\packages\System.Data.SQLite.Core.1.0.104.0\build\net45\System.Data.SQLite.Core.targets')" />
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>This project references NuGet package(s) that are missing on this computer. Enable NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\packages\System.Data.SQLite.Core.1.0.104.0\build\net45\System.Data.SQLite.Core.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\System.Data.SQLite.Core.1.0.104.0\build\net45\System.Data.SQLite.Core.targets'))" />
+  </Target>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

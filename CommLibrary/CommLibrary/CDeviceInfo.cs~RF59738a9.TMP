@@ -1,0 +1,199 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Diagnostics;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Windows;
+
+/************************************************************************************
+ * Copyright (c) 2016 All Rights Reserved.
+ * CLR版本： 4.0.30319.18408
+ *机器名称：PC120
+ *公司名称：
+ *命名空间：MatrixUpdate
+ *文件名：  CDeviceInfo
+ *版本号：  V1.0.0.0
+ *唯一标识：8ecf212b-17ad-43fd-946f-cf7fe131a1b2
+ *当前的用户域：SEIKAKU
+ *创建人：  williamxia
+ *电子邮箱：XXXX@sina.cn
+ *创建时间：9/8/2016 8:47:05 AM
+ *描述：
+ *
+ *=====================================================================
+ *修改标记
+ *修改时间：9/8/2016 8:47:05 AM
+ *修改人： williamxia
+ *版本号： V1.0.0.0
+ *描述：
+ *
+/************************************************************************************/
+
+namespace CommLibrary
+{
+
+    public class cPortInfo  //connected port information
+    {
+        byte portindex;
+        byte portType; //port in,port out,text port,rd port etc.
+        bool isHasJoined;
+        public cPortInfo()
+        {
+
+        }
+
+    }
+
+
+    public enum Module_Type
+    {
+        Mod_CLIV = 100, //cl-4
+        Mod_LAN = 101, //lan interface
+        Mod_DLM808 = 102,//dlm808
+        Mod_MAVIII = 103,//matrxiA8
+        Mod_RVC200 = 104,//rvc200
+        Mod_RIO100 = 105,//rio100
+        Mod_RPM100 = 106,//rpm100
+        Mod_TxtLft = 107,//textleft
+        Mod_TxtRht = 108,//text right
+    }
+
+
+    public enum SPecial_DevID
+    {
+        DevID_LTXT = 0x5000,
+        DevID_RTXT = 0x5001,
+        DevID_LanRouter = 0x5002,
+        DevID_CLIV = 0x5003,
+        //--------------------
+        DevID_Normal = 0x1000,
+    }
+
+    public class DeviceProvision
+    {
+        public const int DefaultSerialNumberLen = 5;
+        public const int Len_FirmVer = 2;
+        public int pMachineID; //also name appID
+        public int pDeviceID;
+        public string pDeviceName { get; set; }
+        public byte[] pFirmwareVer;//mcu,dsp ver each one byte
+        public byte[] pDevSNONumber; //DeviceserialNumber
+
+
+        public DeviceProvision()
+        {
+            pDeviceID = 0;
+            pMachineID = 0;
+            pDeviceName = string.Empty;
+            pDevSNONumber = new byte[DefaultSerialNumberLen];
+            pFirmwareVer = new byte[Len_FirmVer];
+
+        }
+
+        public void devProvisionCopy(DeviceProvision devp)
+        {
+            pDeviceID = devp.pDeviceID;
+            pMachineID = devp.pMachineID;
+            Array.Copy(devp.pFirmwareVer, pFirmwareVer, 2);
+            pFirmwareVer=devp.
+            //no copy the device name
+            Array.Copy(devp.pDevSNONumber, pDevSNONumber, DefaultSerialNumberLen);
+        }
+
+    }
+
+    public enum Device_AccesType
+    {
+        Device_Lan = 100,
+        Device_AP = 101,
+        Device_Com = 102
+    };
+
+    public class RouterInfo
+    {
+        public string RouterAddr { get; set; }  //IP
+        public string RouterMac { get; set; }
+        private Device_AccesType RouterType;
+
+        public Device_AccesType RouterStyle
+        {
+            get { return RouterType; }
+            set { RouterType = value; }
+        }
+        public RouterInfo()
+        {
+            RouterStyle = Device_AccesType.Device_Lan;
+        }
+
+    };
+
+    public class CDeviceInfo
+    {
+
+        public Module_Type devModuleType;
+        public string noteTxt { get; set; }
+
+        public DeviceProvision devProv; //contain appID,devid
+        public Point DevPoint;//Device point      
+        public int lineIndex { get; set; } //for CL-4 device        
+
+        public string iFirmwareVersion { get; set; } //preserved
+        public bool iIsReady { get; set; } //preserved
+        public int workedHours { get; set; } //preserved
+        public int burnedCount { get; set; } //preserved
+
+        /// <summary>
+        /// device is comserial or lan interface
+        /// </summary>
+        public Device_AccesType routerStyle { get; set; }
+
+
+        public CDeviceInfo()
+        {
+            routerStyle = Device_AccesType.Device_Lan;
+            devProv = new DeviceProvision();
+            devProv.pDeviceID = 0x1000;
+            devProv.pDeviceName = "Device";
+
+
+        }
+
+        public string getDevInfo()
+        {
+            string devstr = string.Format("App ID:{0}  Device ID:{1}  Device Name:{2}",
+                devProv.pMachineID.ToString("X2"), devProv.pDeviceID.ToString("X2"), devProv.pDeviceName);
+            return devstr;
+        }
+
+        public void copyDevinfo(CDeviceInfo devf)
+        {
+            if (devf != null && devf.devModuleType == devModuleType)
+            {
+                devProv.devProvisionCopy(devf.devProv);
+                DevPoint = devf.DevPoint;//device position
+                noteTxt = devf.noteTxt; //note text or not
+                lineIndex = devf.lineIndex; //lineindex
+                workedHours = devf.workedHours;
+                burnedCount = devf.burnedCount;
+                iFirmwareVersion = devf.iFirmwareVersion;
+
+            }
+
+        }
+
+        public void printDevInfo()
+        {
+            StringBuilder strb = new StringBuilder();
+            strb.AppendFormat("device moduletype is : {0}", devModuleType);
+            strb.AppendFormat("  deviceName: {0}", devProv.pDeviceName);
+            strb.AppendFormat("  machineID: {0}", devProv.pMachineID);
+            strb.AppendFormat("  deviceID: {0}", devProv.pDeviceID);
+            strb.AppendFormat("  module point: {0}", DevPoint);
+
+            Debug.WriteLine(strb.ToString());
+        }
+
+
+    }
+}

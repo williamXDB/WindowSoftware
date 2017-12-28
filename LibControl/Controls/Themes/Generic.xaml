@@ -1,0 +1,21 @@
+<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"  
+                     xmlns:local="clr-namespace:Lib.Controls">
+    
+    
+    <Style TargetType="{x:Type local:CTreeView}" BasedOn="{StaticResource {x:Type TreeView}}"/> 
+    
+    <ResourceDictionary.MergedDictionaries>
+        <!--  We have to use this 'component' relative notation to load  the 
+        other dictionaries at runtime  -->
+        <ResourceDictionary Source="/Lib.Controls.MyControls;component/Themes/SpinnerControl.Generic.xaml" />
+        <ResourceDictionary Source="/Lib.Controls.MyControls;component/Themes/StandardButonStyle.Generic.xaml" />
+        <ResourceDictionary Source="/Lib.Controls.MyControls;component/Themes/BorderSwitcherStyle.xaml" />
+        <ResourceDictionary Source="/Lib.Controls.MyControls;component/Themes/TCombBox.xaml" />
+        
+    </ResourceDictionary.MergedDictionaries>  
+
+   
+
+    
+</ResourceDictionary>

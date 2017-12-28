@@ -1,0 +1,32 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:local="CLinerStyle">
+    <ResourceDictionary.MergedDictionaries>
+        <ResourceDictionary Source="pack://application:,,,/CLinerStyle;component/Themes/CsColor.xaml" />
+    </ResourceDictionary.MergedDictionaries>
+    
+    <Style x:Key="BorderStyle_1_Effect" TargetType="Border">
+        <Setter Property="CornerRadius" Value="3"/>
+        <Setter Property="Effect">
+            <Setter.Value>
+                <DropShadowEffect BlurRadius="3" Direction="-90" Opacity="0.8" ShadowDepth="3"></DropShadowEffect>
+            </Setter.Value>
+        </Setter>
+    </Style>
+
+
+    <Style x:Key="BorderStyle_2_NoEffect" TargetType="Border">
+        <Setter Property="CornerRadius" Value="1"/>
+        <Setter Property="Background" Value="{StaticResource CsDarkGray}" >
+        </Setter>
+    </Style>
+
+    <Style x:Key="BorderStyle_3_Demo" TargetType="Border">
+        <Setter Property="CornerRadius" Value="3"/>
+        <Setter Property="Effect">
+            <Setter.Value>
+                <DropShadowEffect BlurRadius="3" Direction="-90" Opacity="0.8" ShadowDepth="3"></DropShadowEffect>
+            </Setter.Value>
+        </Setter>
+    </Style>
+</ResourceDictionary>

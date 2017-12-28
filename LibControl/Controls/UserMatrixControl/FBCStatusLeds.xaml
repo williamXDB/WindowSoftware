@@ -1,0 +1,145 @@
+﻿<UserControl x:Class="Lib.Controls.FBCStatusLeds"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             mc:Ignorable="d" 
+             xmlns:oc="clr-namespace:Lib.Controls"
+             d:DesignHeight="30" d:DesignWidth="780">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="32*"></ColumnDefinition>
+            <ColumnDefinition Width="33*"></ColumnDefinition>
+            <ColumnDefinition Width="32*"></ColumnDefinition>
+            <ColumnDefinition Width="33*"></ColumnDefinition>
+            <ColumnDefinition Width="32*"></ColumnDefinition>
+            <ColumnDefinition Width="33*"></ColumnDefinition>
+            <ColumnDefinition Width="32*"></ColumnDefinition>
+            <ColumnDefinition Width="33*"></ColumnDefinition>
+
+            <ColumnDefinition Width="32*"></ColumnDefinition>
+            <ColumnDefinition Width="33*"></ColumnDefinition>
+            <ColumnDefinition Width="32*"></ColumnDefinition>
+            <ColumnDefinition Width="33*"></ColumnDefinition>
+            <ColumnDefinition Width="32*"></ColumnDefinition>
+            <ColumnDefinition Width="33*"></ColumnDefinition>
+            <ColumnDefinition Width="32*"></ColumnDefinition>
+            <ColumnDefinition Width="33*"></ColumnDefinition>
+
+            <ColumnDefinition Width="32*"></ColumnDefinition>
+            <ColumnDefinition Width="33*"></ColumnDefinition>
+            <ColumnDefinition Width="32*"></ColumnDefinition>
+            <ColumnDefinition Width="33*"></ColumnDefinition>
+            <ColumnDefinition Width="32*"></ColumnDefinition>
+            <ColumnDefinition Width="33*"></ColumnDefinition>
+            <ColumnDefinition Width="32*"></ColumnDefinition>
+            <ColumnDefinition Width="32*"></ColumnDefinition>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"></RowDefinition>
+            <RowDefinition Height="Auto"></RowDefinition>
+        </Grid.RowDefinitions>
+        <TextBlock Text="1" VerticalAlignment="Center" HorizontalAlignment="Center" Grid.Column="0" Margin="13,0" FontSize="11"  Foreground="White" ></TextBlock>
+        <TextBlock Text="2" VerticalAlignment="Center" HorizontalAlignment="Center" Grid.Column="1" Margin="14,0,13,0"  FontSize="11"  Foreground="White" ></TextBlock>
+        <TextBlock Text="3" VerticalAlignment="Center" HorizontalAlignment="Center" Grid.Column="2" Margin="13,0" FontSize="11"  Foreground="White" ></TextBlock>
+        <TextBlock Text="4" VerticalAlignment="Center" HorizontalAlignment="Center" Grid.Column="3" Margin="14,0,13,0" FontSize="11"  Foreground="White" ></TextBlock>
+        <TextBlock Text="5" VerticalAlignment="Center" HorizontalAlignment="Center" Grid.Column="4" Margin="13,0" FontSize="11"  Foreground="White" ></TextBlock>
+        <TextBlock Text="6" VerticalAlignment="Center" HorizontalAlignment="Center" Grid.Column="5" Margin="14,0,13,0" FontSize="11"  Foreground="White" ></TextBlock>
+        <TextBlock Text="7" VerticalAlignment="Center" HorizontalAlignment="Center" Grid.Column="6" Margin="13,0" FontSize="11"  Foreground="White" ></TextBlock>
+        <TextBlock Text="8" VerticalAlignment="Center" HorizontalAlignment="Center" Grid.Column="7" Margin="14,0,13,0" FontSize="11"  Foreground="White" ></TextBlock>
+
+        <TextBlock Text="9" VerticalAlignment="Center" HorizontalAlignment="Center" Grid.Column="8" Margin="13,0"  FontSize="11"  Foreground="White" ></TextBlock>
+        <TextBlock Text="10" VerticalAlignment="Center" HorizontalAlignment="Center" Grid.Column="9" Margin="11,0,10,0" FontSize="11"  Foreground="White" ></TextBlock>
+        <TextBlock Text="11" VerticalAlignment="Center" HorizontalAlignment="Center" Grid.Column="10" Margin="10,0" FontSize="11"  Foreground="White" ></TextBlock>
+        <TextBlock Text="12" VerticalAlignment="Center" HorizontalAlignment="Center" Grid.Column="11" Margin="11,0,10,0" FontSize="11"  Foreground="White" ></TextBlock>
+        <TextBlock Text="13" VerticalAlignment="Center" HorizontalAlignment="Center" Grid.Column="12" Margin="10,0" FontSize="11"  Foreground="White" ></TextBlock>
+        <TextBlock Text="14" VerticalAlignment="Center" HorizontalAlignment="Center" Grid.Column="13" Margin="11,0,10,0" FontSize="11"  Foreground="White" ></TextBlock>
+        <TextBlock Text="15" VerticalAlignment="Center" HorizontalAlignment="Center" Grid.Column="14" Margin="10,0" FontSize="11"  Foreground="White" ></TextBlock>
+        <TextBlock Text="16" VerticalAlignment="Center" HorizontalAlignment="Center" Grid.Column="15" Margin="11,0,10,0" FontSize="11"  Foreground="White" ></TextBlock>
+
+        <TextBlock Text="17" VerticalAlignment="Center" HorizontalAlignment="Center" Grid.Column="16" Margin="10,0" FontSize="11"  Foreground="White" ></TextBlock>
+        <TextBlock Text="18" VerticalAlignment="Center" HorizontalAlignment="Center" Grid.Column="17" Margin="11,0,10,0" FontSize="11"  Foreground="White" ></TextBlock>
+        <TextBlock Text="19" VerticalAlignment="Center" HorizontalAlignment="Center" Grid.Column="18" Margin="10,0" FontSize="11"  Foreground="White" ></TextBlock>
+        <TextBlock Text="20" VerticalAlignment="Center" HorizontalAlignment="Center" Grid.Column="19" Margin="11,0,10,0" FontSize="11"  Foreground="White" ></TextBlock>
+        <TextBlock Text="21" VerticalAlignment="Center" HorizontalAlignment="Center" Grid.Column="20" Margin="10,0" FontSize="11"  Foreground="White" ></TextBlock>
+        <TextBlock Text="22" VerticalAlignment="Center" HorizontalAlignment="Center" Grid.Column="21" Margin="11,0,10,0" FontSize="11"  Foreground="White" ></TextBlock>
+        <TextBlock Text="23" VerticalAlignment="Center" HorizontalAlignment="Center" Grid.Column="22" Margin="10,0" FontSize="11"  Foreground="White" ></TextBlock>
+        <TextBlock Text="24" VerticalAlignment="Center" HorizontalAlignment="Center" Grid.Column="23" Margin="11,0,9,0" FontSize="11"  Foreground="White" ></TextBlock>
+
+        <oc:CLed Width="25" Height="12" Grid.Row="1" LedStatus="LED_Normal" Grid.Column="0" Margin="4,1,4,2"
+                 useBlink="True"                   
+                 x:Name="fbcled_0"></oc:CLed>
+        <oc:CLed Width="25" Height="12" Grid.Row="1" LedStatus="LED_Normal" Grid.Column="1" Margin="4,1,4,2" 
+                  useBlink="True"  
+                 x:Name="fbcled_1"></oc:CLed>
+        <oc:CLed Width="25" Height="12" Grid.Row="1" LedStatus="LED_Normal" Grid.Column="2" Margin="3,1,3,2" 
+                  useBlink="True"  
+                 x:Name="fbcled_2"></oc:CLed>
+        <oc:CLed Width="25" Height="12" Grid.Row="1" LedStatus="LED_Normal" Grid.Column="3" Margin="4,1,4,2"
+                  useBlink="True"  
+                 x:Name="fbcled_3"></oc:CLed>
+        <oc:CLed Width="25" Height="12" Grid.Row="1" LedStatus="LED_Normal" Grid.Column="4" Margin="4,1,4,2" 
+                  useBlink="True"  
+                 x:Name="fbcled_4"></oc:CLed>
+        <oc:CLed Width="25" Height="12" Grid.Row="1" LedStatus="LED_Normal" Grid.Column="5" Margin="4,1,4,2" 
+                  useBlink="True"  
+                 x:Name="fbcled_5"></oc:CLed>
+        <oc:CLed Width="25" Height="12" Grid.Row="1" LedStatus="LED_Normal" Grid.Column="6" Margin="3,1,3,2"
+                  useBlink="True"  
+                 x:Name="fbcled_6"></oc:CLed>
+        <oc:CLed Width="25" Height="12" Grid.Row="1" LedStatus="LED_Normal" Grid.Column="7" Margin="4,1,4,2"
+                  useBlink="True"  
+                 x:Name="fbcled_7"></oc:CLed>
+
+        <oc:CLed Width="25" Height="12" Grid.Row="1" LedStatus="LED_Normal" Grid.Column="8" Margin="4,1,4,2" 
+                  useBlink="True"  
+                 x:Name="fbcled_8"></oc:CLed>
+        <oc:CLed Width="25" Height="12" Grid.Row="1" LedStatus="LED_Normal" Grid.Column="9" Margin="4,1,4,2"
+                  useBlink="True"  
+                 x:Name="fbcled_9"></oc:CLed>
+        <oc:CLed Width="25" Height="12" Grid.Row="1" LedStatus="LED_Normal" Grid.Column="10" Margin="3,1,3,2" 
+                  useBlink="True"                   
+                 x:Name="fbcled_10"></oc:CLed>
+        <oc:CLed Width="25" Height="12" Grid.Row="1" LedStatus="LED_Normal" Grid.Column="11" Margin="4,1,4,2" 
+                  useBlink="True"  
+                 x:Name="fbcled_11"></oc:CLed>
+        <oc:CLed Width="25" Height="12" Grid.Row="1" LedStatus="LED_Normal" Grid.Column="12" Margin="4,1,4,2" 
+                  useBlink="True"  
+                 x:Name="fbcled_12"></oc:CLed>
+        <oc:CLed Width="25" Height="12" Grid.Row="1" LedStatus="LED_Normal" Grid.Column="13" Margin="4,1,4,2" 
+                  useBlink="True"  
+                 x:Name="fbcled_13"></oc:CLed>
+        <oc:CLed Width="25" Height="12" Grid.Row="1" LedStatus="LED_Normal" Grid.Column="14" Margin="3,1,3,2" 
+                  useBlink="True"  
+                 x:Name="fbcled_14"></oc:CLed>
+        <oc:CLed Width="25" Height="12" Grid.Row="1" LedStatus="LED_Normal" Grid.Column="15" Margin="4,1,4,2" 
+                  useBlink="True"                   
+                 x:Name="fbcled_15"></oc:CLed>
+
+        <oc:CLed Width="25" Height="12" Grid.Row="1" LedStatus="LED_Normal" Grid.Column="16" Margin="4,1,4,2" 
+                  useBlink="True"                   
+                 x:Name="fbcled_16"></oc:CLed>
+        <oc:CLed Width="25" Height="12" Grid.Row="1" LedStatus="LED_Normal" Grid.Column="17" Margin="4,1,4,2"
+                  useBlink="True"  
+                 x:Name="fbcled_17"></oc:CLed>
+        <oc:CLed Width="25" Height="12" Grid.Row="1" LedStatus="LED_Normal" Grid.Column="18" Margin="3,1,3,2" 
+                  useBlink="True"  
+                 x:Name="fbcled_18"></oc:CLed>
+        <oc:CLed Width="25" Height="12" Grid.Row="1" LedStatus="LED_Normal" Grid.Column="19" Margin="4,1,4,2" 
+                  useBlink="True"  
+                 x:Name="fbcled_19"></oc:CLed>
+        <oc:CLed Width="25" Height="12" Grid.Row="1" LedStatus="LED_Normal" Grid.Column="20" Margin="4,1,4,2" 
+                  useBlink="True"  
+                 x:Name="fbcled_20"></oc:CLed>
+        <oc:CLed Width="25" Height="12" Grid.Row="1" LedStatus="LED_Normal" Grid.Column="21" Margin="4,1,4,2" 
+                  useBlink="True"  
+                 x:Name="fbcled_21"></oc:CLed>
+        <oc:CLed Width="25" Height="12" Grid.Row="1" LedStatus="LED_Normal" Grid.Column="22" Margin="3,1,3,2" 
+                  useBlink="True"  
+                 x:Name="fbcled_22"></oc:CLed>
+        <oc:CLed Width="25" Height="12" Grid.Row="1" LedStatus="LED_Normal" Grid.Column="23" Margin="4,1,3,2" 
+                  useBlink="True"  
+                 x:Name="fbcled_23"></oc:CLed>
+    </Grid>
+</UserControl>

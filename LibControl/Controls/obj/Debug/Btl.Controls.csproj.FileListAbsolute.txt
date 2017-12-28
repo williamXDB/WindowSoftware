@@ -1,0 +1,16 @@
+D:\William\work\SpinnerControlExample\Btl\Controls\bin\Debug\Btl.Controls.MyControls.dll
+D:\William\work\SpinnerControlExample\Btl\Controls\bin\Debug\Btl.Controls.MyControls.pdb
+D:\William\work\SpinnerControlExample\Btl\Controls\obj\Debug\Resources\AllBrushes.baml
+D:\William\work\SpinnerControlExample\Btl\Controls\obj\Debug\Resources\brush.scroll.down.baml
+D:\William\work\SpinnerControlExample\Btl\Controls\obj\Debug\Resources\brush.scroll.up.baml
+D:\William\work\SpinnerControlExample\Btl\Controls\obj\Debug\GeneratedInternalTypeHelper.g.cs
+D:\William\work\SpinnerControlExample\Btl\Controls\obj\Debug\Btl.Controls.MyControls_MarkupCompile.cache
+D:\William\work\SpinnerControlExample\Btl\Controls\obj\Debug\Btl.Controls.MyControls_MarkupCompile.lref
+D:\William\work\SpinnerControlExample\Btl\Controls\obj\Debug\Themes\Generic.baml
+D:\William\work\SpinnerControlExample\Btl\Controls\obj\Debug\Themes\SpinnerControl.Generic.baml
+D:\William\work\SpinnerControlExample\Btl\Controls\obj\Debug\Btl.Controls.MyControls.g.resources
+D:\William\work\SpinnerControlExample\Btl\Controls\obj\Debug\Btl.Controls.Properties.Resources.resources
+D:\William\work\SpinnerControlExample\Btl\Controls\obj\Debug\Btl.Controls.csproj.GenerateResource.Cache
+D:\William\work\SpinnerControlExample\Btl\Controls\obj\Debug\Btl.Controls.MyControls.dll
+D:\William\work\SpinnerControlExample\Btl\Controls\obj\Debug\Btl.Controls.MyControls.pdb
+D:\William\work\SpinnerControlExample\Btl\Controls\obj\Debug\Btl.Controls.csprojResolveAssemblyReference.cache

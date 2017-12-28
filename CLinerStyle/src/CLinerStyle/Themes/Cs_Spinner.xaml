@@ -1,0 +1,63 @@
+﻿<UserControl x:Class="CLinerStyle.Cs_Spinner"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:CLinerStyle"
+             mc:Ignorable="d" 
+             x:Name="sp"
+             Loaded="Cs_Spinner_Loaded">
+    <UserControl.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="pack://application:,,,/CS;component/Themes/Border.xaml" />
+                <ResourceDictionary Source="pack://application:,,,/CS;component/Themes/Button.xaml" />
+                <ResourceDictionary Source="pack://application:,,,/CS;component/Resources/brush.scroll.down.xaml" />
+                <ResourceDictionary Source="pack://application:,,,/CS;component/Resources/brush.scroll.up.xaml" />
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
+    </UserControl.Resources>
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition Width="20"></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+        <TextBox  VerticalAlignment="Center" Height="29" x:Name="textbox"  Margin="0,0,4,0" Grid.Column="0"  Foreground="#DDFFFFFF" Background="#FF6A6A6A">
+
+
+            <TextBox.Template>
+                <ControlTemplate>
+                    <Border  Style="{StaticResource BorderStyle_1_Effect}" Background="{Binding ElementName=textbox,Path=Background}">
+                        <Grid Clip="{Binding ElementName=GeometryEllipse, Path=RenderedGeometry}" ClipToBounds="True">
+                            <Grid.Background>
+                                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                                    <GradientStop Color="#80ffffff" Offset="0"/>
+                                    <GradientStop Color="#80202020" Offset="1"/>
+                                </LinearGradientBrush>
+                            </Grid.Background>
+                            <Rectangle  x:Name="GeometryEllipse" Fill="{x:Null}" IsHitTestVisible="False"  Focusable="False" RadiusX="3" RadiusY="3"  />
+                            <TextBox  HorizontalAlignment="Center" VerticalAlignment="Center"                                              
+                                          Text="{Binding ElementName=sp,Path=Content1}" Cursor="IBeam" Background="{x:Null}" BorderBrush="{x:Null}" SelectionBrush="{x:Null}" BorderThickness="0" Foreground="White" />
+                            <!--<ContentPresenter VerticalAlignment="Center"  HorizontalAlignment="Center"  x:Name="firstContentPresenter" Content="{Binding ElementName=sp,Path=Content1}" ></ContentPresenter>-->
+                            <!--<TextBox x:Name="tb"  VerticalAlignment="Center" VerticalContentAlignment="Center" Height="25" HorizontalContentAlignment="Center" HorizontalAlignment="Stretch"  Text="{Binding ElementName=sp,Path=Content1}" Background="{x:Null}" BorderBrush="{x:Null}"/>-->
+                        </Grid>
+                    </Border>
+                </ControlTemplate>
+            </TextBox.Template>
+        </TextBox>
+        <StackPanel  Grid.Column="1" VerticalAlignment="Center">
+            <Button x:Name="UpBtn" Style="{StaticResource ButtonStyle2_noeffect_pressed }" Margin="0,0,0,1" Height="14" Width="20" Padding="0" Tag="0"      PreviewMouseLeftButtonDown="btn_PreviewMouseLeftButtonDown" PreviewMouseLeftButtonUp="btn_PreviewMouseLeftButtonUp" >
+
+                <ContentControl.Content >
+                    <Rectangle  Width="16" Height="5" Fill="{DynamicResource brush.scroll.up}" />
+                </ContentControl.Content>
+            </Button>
+            <Button x:Name="DownBtn" Style="{StaticResource ButtonStyle2_noeffect_pressed}" Height="14" Width="20" Padding="0" Tag="1"   PreviewMouseLeftButtonDown="btn_PreviewMouseLeftButtonDown" PreviewMouseLeftButtonUp="btn_PreviewMouseLeftButtonUp" >
+
+                <ContentControl.Content >
+                    <Rectangle  Width="16" Height="5" Fill="{StaticResource brush.scroll.down}" />
+                </ContentControl.Content>
+            </Button>
+        </StackPanel>
+    </Grid>
+</UserControl>
