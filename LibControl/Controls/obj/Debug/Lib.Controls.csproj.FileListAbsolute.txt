@@ -1,0 +1,506 @@
+D:\William\work\SpinnerControlExample\Lib\Controls\bin\Debug\Lib.Controls.MyControls.dll
+D:\William\work\SpinnerControlExample\Lib\Controls\bin\Debug\Lib.Controls.MyControls.pdb
+D:\William\work\SpinnerControlExample\Lib\Controls\obj\Debug\Resources\AllBrushes.baml
+D:\William\work\SpinnerControlExample\Lib\Controls\obj\Debug\Resources\brush.scroll.down.baml
+D:\William\work\SpinnerControlExample\Lib\Controls\obj\Debug\Resources\brush.scroll.up.baml
+D:\William\work\SpinnerControlExample\Lib\Controls\obj\Debug\GeneratedInternalTypeHelper.g.cs
+D:\William\work\SpinnerControlExample\Lib\Controls\obj\Debug\Lib.Controls.MyControls_MarkupCompile.cache
+D:\William\work\SpinnerControlExample\Lib\Controls\obj\Debug\Lib.Controls.MyControls_MarkupCompile.lref
+D:\William\work\SpinnerControlExample\Lib\Controls\obj\Debug\Themes\Generic.baml
+D:\William\work\SpinnerControlExample\Lib\Controls\obj\Debug\Themes\SpinnerControl.Generic.baml
+D:\William\work\SpinnerControlExample\Lib\Controls\obj\Debug\Lib.Controls.MyControls.g.resources
+D:\William\work\SpinnerControlExample\Lib\Controls\obj\Debug\Lib.Controls.Properties.Resources.resources
+D:\William\work\SpinnerControlExample\Lib\Controls\obj\Debug\Lib.Controls.csproj.GenerateResource.Cache
+D:\William\work\SpinnerControlExample\Lib\Controls\obj\Debug\Lib.Controls.MyControls.dll
+D:\William\work\SpinnerControlExample\Lib\Controls\obj\Debug\Lib.Controls.MyControls.pdb
+D:\William\work\VCsharp\work\Control\LibControl\Controls\bin\Debug\Lib.Controls.MyControls.dll
+D:\William\work\VCsharp\work\Control\LibControl\Controls\bin\Debug\Lib.Controls.MyControls.pdb
+D:\William\work\VCsharp\work\Control\LibControl\Controls\obj\Debug\Resources\AllBrushes.baml
+D:\William\work\VCsharp\work\Control\LibControl\Controls\obj\Debug\Resources\brush.scroll.down.baml
+D:\William\work\VCsharp\work\Control\LibControl\Controls\obj\Debug\Resources\brush.scroll.up.baml
+D:\William\work\VCsharp\work\Control\LibControl\Controls\obj\Debug\GeneratedInternalTypeHelper.g.cs
+D:\William\work\VCsharp\work\Control\LibControl\Controls\obj\Debug\Lib.Controls.MyControls_MarkupCompile.cache
+D:\William\work\VCsharp\work\Control\LibControl\Controls\obj\Debug\Lib.Controls.MyControls_MarkupCompile.lref
+D:\William\work\VCsharp\work\Control\LibControl\Controls\obj\Debug\Themes\StandardButonStyle.Generic.baml
+D:\William\work\VCsharp\work\Control\LibControl\Controls\obj\Debug\Themes\Generic.baml
+D:\William\work\VCsharp\work\Control\LibControl\Controls\obj\Debug\Themes\SpinnerControl.Generic.baml
+D:\William\work\VCsharp\work\Control\LibControl\Controls\obj\Debug\Lib.Controls.MyControls.g.resources
+D:\William\work\VCsharp\work\Control\LibControl\Controls\obj\Debug\Lib.Controls.Properties.Resources.resources
+D:\William\work\VCsharp\work\Control\LibControl\Controls\obj\Debug\Lib.Controls.csproj.GenerateResource.Cache
+D:\William\work\VCsharp\work\Control\LibControl\Controls\obj\Debug\Lib.Controls.MyControls.dll
+D:\William\work\VCsharp\work\Control\LibControl\Controls\obj\Debug\Lib.Controls.MyControls.pdb
+F:\wrok\CSharp\CS-EQ\CS_EQ\LibControl\Controls\bin\Debug\Lib.Controls.MyControls.dll
+F:\wrok\CSharp\CS-EQ\CS_EQ\LibControl\Controls\bin\Debug\Lib.Controls.MyControls.pdb
+F:\wrok\CSharp\CS-EQ\CS_EQ\LibControl\Controls\obj\Debug\Resources\AllBrushes.baml
+F:\wrok\CSharp\CS-EQ\CS_EQ\LibControl\Controls\obj\Debug\Resources\brush.scroll.down.baml
+F:\wrok\CSharp\CS-EQ\CS_EQ\LibControl\Controls\obj\Debug\Resources\brush.scroll.up.baml
+F:\wrok\CSharp\CS-EQ\CS_EQ\LibControl\Controls\obj\Debug\GeneratedInternalTypeHelper.g.cs
+F:\wrok\CSharp\CS-EQ\CS_EQ\LibControl\Controls\obj\Debug\Lib.Controls.MyControls_MarkupCompile.cache
+F:\wrok\CSharp\CS-EQ\CS_EQ\LibControl\Controls\obj\Debug\Lib.Controls.MyControls_MarkupCompile.lref
+F:\wrok\CSharp\CS-EQ\CS_EQ\LibControl\Controls\obj\Debug\Themes\StandardButonStyle.Generic.baml
+F:\wrok\CSharp\CS-EQ\CS_EQ\LibControl\Controls\obj\Debug\Themes\Generic.baml
+F:\wrok\CSharp\CS-EQ\CS_EQ\LibControl\Controls\obj\Debug\Themes\SpinnerControl.Generic.baml
+F:\wrok\CSharp\CS-EQ\CS_EQ\LibControl\Controls\obj\Debug\Lib.Controls.MyControls.g.resources
+F:\wrok\CSharp\CS-EQ\CS_EQ\LibControl\Controls\obj\Debug\Lib.Controls.Properties.Resources.resources
+F:\wrok\CSharp\CS-EQ\CS_EQ\LibControl\Controls\obj\Debug\Lib.Controls.csproj.GenerateResource.Cache
+F:\wrok\CSharp\CS-EQ\CS_EQ\LibControl\Controls\obj\Debug\Lib.Controls.MyControls.dll
+F:\wrok\CSharp\CS-EQ\CS_EQ\LibControl\Controls\obj\Debug\Lib.Controls.MyControls.pdb
+D:\William\work\VCsharp\work\CS-EQ\Control\LibControl\Controls\bin\Debug\Lib.Controls.MyControls.dll
+D:\William\work\VCsharp\work\CS-EQ\Control\LibControl\Controls\bin\Debug\Lib.Controls.MyControls.pdb
+D:\William\work\VCsharp\work\CS-EQ\Control\LibControl\Controls\obj\Debug\Lib.Controls.csprojResolveAssemblyReference.cache
+D:\William\work\VCsharp\work\CS-EQ\Control\LibControl\Controls\obj\Debug\Resources\AllBrushes.baml
+D:\William\work\VCsharp\work\CS-EQ\Control\LibControl\Controls\obj\Debug\Resources\brush.scroll.down.baml
+D:\William\work\VCsharp\work\CS-EQ\Control\LibControl\Controls\obj\Debug\Resources\brush.scroll.up.baml
+D:\William\work\VCsharp\work\CS-EQ\Control\LibControl\Controls\obj\Debug\GeneratedInternalTypeHelper.g.cs
+D:\William\work\VCsharp\work\CS-EQ\Control\LibControl\Controls\obj\Debug\Lib.Controls.MyControls_MarkupCompile.cache
+D:\William\work\VCsharp\work\CS-EQ\Control\LibControl\Controls\obj\Debug\Lib.Controls.MyControls_MarkupCompile.lref
+D:\William\work\VCsharp\work\CS-EQ\Control\LibControl\Controls\obj\Debug\Themes\BorderSwitcherStyle.baml
+D:\William\work\VCsharp\work\CS-EQ\Control\LibControl\Controls\obj\Debug\Themes\StandardButonStyle.Generic.baml
+D:\William\work\VCsharp\work\CS-EQ\Control\LibControl\Controls\obj\Debug\Themes\Generic.baml
+D:\William\work\VCsharp\work\CS-EQ\Control\LibControl\Controls\obj\Debug\Themes\SpinnerControl.Generic.baml
+D:\William\work\VCsharp\work\CS-EQ\Control\LibControl\Controls\obj\Debug\Themes\TCombBox.baml
+D:\William\work\VCsharp\work\CS-EQ\Control\LibControl\Controls\obj\Debug\Lib.Controls.MyControls.g.resources
+D:\William\work\VCsharp\work\CS-EQ\Control\LibControl\Controls\obj\Debug\Lib.Controls.Properties.Resources.resources
+D:\William\work\VCsharp\work\CS-EQ\Control\LibControl\Controls\obj\Debug\Lib.Controls.csproj.GenerateResource.Cache
+D:\William\work\VCsharp\work\CS-EQ\Control\LibControl\Controls\obj\Debug\Lib.Controls.MyControls.dll
+D:\William\work\VCsharp\work\CS-EQ\Control\LibControl\Controls\obj\Debug\Lib.Controls.MyControls.pdb
+D:\William\work\VCsharp\Control\LibControl\Controls\bin\Debug\Lib.Controls.MyControls.dll.config
+D:\William\work\VCsharp\Control\LibControl\Controls\bin\Debug\Lib.Controls.MyControls.dll
+D:\William\work\VCsharp\Control\LibControl\Controls\bin\Debug\Lib.Controls.MyControls.pdb
+D:\William\work\VCsharp\Control\LibControl\Controls\bin\Debug\CommLibrary.dll
+D:\William\work\VCsharp\Control\LibControl\Controls\bin\Debug\EntityFramework.dll
+D:\William\work\VCsharp\Control\LibControl\Controls\bin\Debug\EntityFramework.SqlServer.dll
+D:\William\work\VCsharp\Control\LibControl\Controls\bin\Debug\System.Data.SQLite.dll
+D:\William\work\VCsharp\Control\LibControl\Controls\bin\Debug\System.Data.SQLite.EF6.dll
+D:\William\work\VCsharp\Control\LibControl\Controls\bin\Debug\System.Data.SQLite.Linq.dll
+D:\William\work\VCsharp\Control\LibControl\Controls\bin\Debug\CommLibrary.pdb
+D:\William\work\VCsharp\Control\LibControl\Controls\bin\Debug\EntityFramework.xml
+D:\William\work\VCsharp\Control\LibControl\Controls\bin\Debug\EntityFramework.SqlServer.xml
+D:\William\work\VCsharp\Control\LibControl\Controls\bin\Debug\System.Data.SQLite.xml
+D:\William\work\VCsharp\Control\LibControl\Controls\obj\Debug\commom\InputPasDialog.baml
+D:\William\work\VCsharp\Control\LibControl\Controls\obj\Debug\CTreeViewItem.baml
+D:\William\work\VCsharp\Control\LibControl\Controls\obj\Debug\Module\changeNameDialog.baml
+D:\William\work\VCsharp\Control\LibControl\Controls\obj\Debug\Module\InputHexDialog.baml
+D:\William\work\VCsharp\Control\LibControl\Controls\obj\Debug\SearchLed.baml
+D:\William\work\VCsharp\Control\LibControl\Controls\obj\Debug\synchronizeLed.baml
+D:\William\work\VCsharp\Control\LibControl\Controls\obj\Debug\Resources\AllBrushes.baml
+D:\William\work\VCsharp\Control\LibControl\Controls\obj\Debug\Resources\brush.scroll.down.baml
+D:\William\work\VCsharp\Control\LibControl\Controls\obj\Debug\Resources\brush.scroll.up.baml
+D:\William\work\VCsharp\Control\LibControl\Controls\obj\Debug\UserMatrixControl\CPYGCheckBox.baml
+D:\William\work\VCsharp\Control\LibControl\Controls\obj\Debug\commom\InputPasDialog.g.cs
+D:\William\work\VCsharp\Control\LibControl\Controls\obj\Debug\CTreeViewItem.g.cs
+D:\William\work\VCsharp\Control\LibControl\Controls\obj\Debug\Module\changeNameDialog.g.cs
+D:\William\work\VCsharp\Control\LibControl\Controls\obj\Debug\Module\CLeftTextModule.g.cs
+D:\William\work\VCsharp\Control\LibControl\Controls\obj\Debug\Module\CMVIIIModule.g.cs
+D:\William\work\VCsharp\Control\LibControl\Controls\obj\Debug\Module\CRightTextModule.g.cs
+D:\William\work\VCsharp\Control\LibControl\Controls\obj\Debug\Module\CRouterLanModule.g.cs
+D:\William\work\VCsharp\Control\LibControl\Controls\obj\Debug\Module\CRVA200Module.g.cs
+D:\William\work\VCsharp\Control\LibControl\Controls\obj\Debug\Module\CSwitcherIVModule.g.cs
+D:\William\work\VCsharp\Control\LibControl\Controls\obj\Debug\Module\InputHexDialog.g.cs
+D:\William\work\VCsharp\Control\LibControl\Controls\obj\Debug\SearchLed.g.cs
+D:\William\work\VCsharp\Control\LibControl\Controls\obj\Debug\synchronizeLed.g.cs
+D:\William\work\VCsharp\Control\LibControl\Controls\obj\Debug\UserMatrixControl\AutoMixerInput.g.cs
+D:\William\work\VCsharp\Control\LibControl\Controls\obj\Debug\UserMatrixControl\CDelayControl.g.cs
+D:\William\work\VCsharp\Control\LibControl\Controls\obj\Debug\UserMatrixControl\CDuckerSourceControl.g.cs
+D:\William\work\VCsharp\Control\LibControl\Controls\obj\Debug\UserMatrixControl\CEQControl.g.cs
+D:\William\work\VCsharp\Control\LibControl\Controls\obj\Debug\UserMatrixControl\CEQControlII.g.cs
+D:\William\work\VCsharp\Control\LibControl\Controls\obj\Debug\UserMatrixControl\CMatrixControl.g.cs
+D:\William\work\VCsharp\Control\LibControl\Controls\obj\Debug\UserMatrixControl\CNoiseGateAjustControl.g.cs
+D:\William\work\VCsharp\Control\LibControl\Controls\obj\Debug\UserMatrixControl\CPYGCheckBox.g.cs
+D:\William\work\VCsharp\Control\LibControl\Controls\obj\Debug\UserMatrixControl\FBCStatusLeds.g.cs
+D:\William\work\VCsharp\Control\LibControl\Controls\obj\Debug\UserMatrixControl\FBCSwitcherControl.g.cs
+D:\William\work\VCsharp\Control\LibControl\Controls\obj\Debug\GeneratedInternalTypeHelper.g.cs
+D:\William\work\VCsharp\Control\LibControl\Controls\obj\Debug\Lib.Controls.MyControls_MarkupCompile.cache
+D:\William\work\VCsharp\Control\LibControl\Controls\obj\Debug\Lib.Controls.MyControls_MarkupCompile.lref
+D:\William\work\VCsharp\Control\LibControl\Controls\obj\Debug\Module\CLeftTextModule.baml
+D:\William\work\VCsharp\Control\LibControl\Controls\obj\Debug\Module\CMVIIIModule.baml
+D:\William\work\VCsharp\Control\LibControl\Controls\obj\Debug\Module\CRightTextModule.baml
+D:\William\work\VCsharp\Control\LibControl\Controls\obj\Debug\Module\CRouterLanModule.baml
+D:\William\work\VCsharp\Control\LibControl\Controls\obj\Debug\Module\CRVA200Module.baml
+D:\William\work\VCsharp\Control\LibControl\Controls\obj\Debug\Module\CSwitcherIVModule.baml
+D:\William\work\VCsharp\Control\LibControl\Controls\obj\Debug\Themes\BorderSwitcherStyle.baml
+D:\William\work\VCsharp\Control\LibControl\Controls\obj\Debug\Themes\StandardButonStyle.Generic.baml
+D:\William\work\VCsharp\Control\LibControl\Controls\obj\Debug\Themes\Generic.baml
+D:\William\work\VCsharp\Control\LibControl\Controls\obj\Debug\Themes\SpinnerControl.Generic.baml
+D:\William\work\VCsharp\Control\LibControl\Controls\obj\Debug\Themes\TCombBox.baml
+D:\William\work\VCsharp\Control\LibControl\Controls\obj\Debug\UserMatrixControl\AutoMixerInput.baml
+D:\William\work\VCsharp\Control\LibControl\Controls\obj\Debug\UserMatrixControl\CDelayControl.baml
+D:\William\work\VCsharp\Control\LibControl\Controls\obj\Debug\UserMatrixControl\CDuckerSourceControl.baml
+D:\William\work\VCsharp\Control\LibControl\Controls\obj\Debug\UserMatrixControl\CEQControl.baml
+D:\William\work\VCsharp\Control\LibControl\Controls\obj\Debug\UserMatrixControl\CEQControlII.baml
+D:\William\work\VCsharp\Control\LibControl\Controls\obj\Debug\UserMatrixControl\CMatrixControl.baml
+D:\William\work\VCsharp\Control\LibControl\Controls\obj\Debug\UserMatrixControl\CNoiseGateAjustControl.baml
+D:\William\work\VCsharp\Control\LibControl\Controls\obj\Debug\UserMatrixControl\FBCStatusLeds.baml
+D:\William\work\VCsharp\Control\LibControl\Controls\obj\Debug\UserMatrixControl\FBCSwitcherControl.baml
+D:\William\work\VCsharp\Control\LibControl\Controls\obj\Debug\Lib.Controls.MyControls.g.resources
+D:\William\work\VCsharp\Control\LibControl\Controls\obj\Debug\Lib.Controls.Properties.Resources.resources
+D:\William\work\VCsharp\Control\LibControl\Controls\obj\Debug\Lib.Controls.csproj.GenerateResource.Cache
+D:\William\work\VCsharp\Control\LibControl\Controls\obj\Debug\Lib.Controls.MyControls.dll
+D:\William\work\VCsharp\Control\LibControl\Controls\obj\Debug\Lib.Controls.MyControls.pdb
+E:\MySpace\MyDesk\项目\MATRIX A8\LibControl\Controls\bin\Debug\Lib.Controls.MyControls.dll.config
+E:\MySpace\MyDesk\项目\MATRIX A8\LibControl\Controls\bin\Debug\Lib.Controls.MyControls.dll
+E:\MySpace\MyDesk\项目\MATRIX A8\LibControl\Controls\bin\Debug\Lib.Controls.MyControls.pdb
+E:\MySpace\MyDesk\项目\MATRIX A8\LibControl\Controls\bin\Debug\EntityFramework.dll
+E:\MySpace\MyDesk\项目\MATRIX A8\LibControl\Controls\bin\Debug\EntityFramework.SqlServer.dll
+E:\MySpace\MyDesk\项目\MATRIX A8\LibControl\Controls\bin\Debug\System.Data.SQLite.dll
+E:\MySpace\MyDesk\项目\MATRIX A8\LibControl\Controls\bin\Debug\System.Data.SQLite.EF6.dll
+E:\MySpace\MyDesk\项目\MATRIX A8\LibControl\Controls\bin\Debug\System.Data.SQLite.Linq.dll
+E:\MySpace\MyDesk\项目\MATRIX A8\LibControl\Controls\bin\Debug\CommLibrary.pdb
+E:\MySpace\MyDesk\项目\MATRIX A8\LibControl\Controls\bin\Debug\EntityFramework.xml
+E:\MySpace\MyDesk\项目\MATRIX A8\LibControl\Controls\bin\Debug\EntityFramework.SqlServer.xml
+E:\MySpace\MyDesk\项目\MATRIX A8\LibControl\Controls\bin\Debug\System.Data.SQLite.xml
+E:\MySpace\MyDesk\项目\MATRIX A8\LibControl\Controls\bin\Debug\System.Data.SQLite.dll.config
+E:\MySpace\MyDesk\项目\MATRIX A8\LibControl\Controls\obj\Debug\Lib.Controls.csprojResolveAssemblyReference.cache
+E:\MySpace\MyDesk\项目\MATRIX A8\LibControl\Controls\obj\Debug\commom\InputPasDialog.baml
+E:\MySpace\MyDesk\项目\MATRIX A8\LibControl\Controls\obj\Debug\CTreeViewItem.baml
+E:\MySpace\MyDesk\项目\MATRIX A8\LibControl\Controls\obj\Debug\Module\changeNameDialog.baml
+E:\MySpace\MyDesk\项目\MATRIX A8\LibControl\Controls\obj\Debug\Module\InputHexDialog.baml
+E:\MySpace\MyDesk\项目\MATRIX A8\LibControl\Controls\obj\Debug\SearchLed.baml
+E:\MySpace\MyDesk\项目\MATRIX A8\LibControl\Controls\obj\Debug\synchronizeLed.baml
+E:\MySpace\MyDesk\项目\MATRIX A8\LibControl\Controls\obj\Debug\Resources\AllBrushes.baml
+E:\MySpace\MyDesk\项目\MATRIX A8\LibControl\Controls\obj\Debug\Resources\brush.scroll.down.baml
+E:\MySpace\MyDesk\项目\MATRIX A8\LibControl\Controls\obj\Debug\Resources\brush.scroll.up.baml
+E:\MySpace\MyDesk\项目\MATRIX A8\LibControl\Controls\obj\Debug\UserMatrixControl\CPYGCheckBox.baml
+E:\MySpace\MyDesk\项目\MATRIX A8\LibControl\Controls\obj\Debug\commom\InputPasDialog.g.cs
+E:\MySpace\MyDesk\项目\MATRIX A8\LibControl\Controls\obj\Debug\CTreeViewItem.g.cs
+E:\MySpace\MyDesk\项目\MATRIX A8\LibControl\Controls\obj\Debug\Module\changeNameDialog.g.cs
+E:\MySpace\MyDesk\项目\MATRIX A8\LibControl\Controls\obj\Debug\Module\CLeftTextModule.g.cs
+E:\MySpace\MyDesk\项目\MATRIX A8\LibControl\Controls\obj\Debug\Module\CMVIIIModule.g.cs
+E:\MySpace\MyDesk\项目\MATRIX A8\LibControl\Controls\obj\Debug\Module\CRightTextModule.g.cs
+E:\MySpace\MyDesk\项目\MATRIX A8\LibControl\Controls\obj\Debug\Module\CRouterLanModule.g.cs
+E:\MySpace\MyDesk\项目\MATRIX A8\LibControl\Controls\obj\Debug\Module\CRVA200Module.g.cs
+E:\MySpace\MyDesk\项目\MATRIX A8\LibControl\Controls\obj\Debug\Module\CSwitcherIVModule.g.cs
+E:\MySpace\MyDesk\项目\MATRIX A8\LibControl\Controls\obj\Debug\Module\InputHexDialog.g.cs
+E:\MySpace\MyDesk\项目\MATRIX A8\LibControl\Controls\obj\Debug\SearchLed.g.cs
+E:\MySpace\MyDesk\项目\MATRIX A8\LibControl\Controls\obj\Debug\synchronizeLed.g.cs
+E:\MySpace\MyDesk\项目\MATRIX A8\LibControl\Controls\obj\Debug\UserMatrixControl\AutoMixerInput.g.cs
+E:\MySpace\MyDesk\项目\MATRIX A8\LibControl\Controls\obj\Debug\UserMatrixControl\CDelayControl.g.cs
+E:\MySpace\MyDesk\项目\MATRIX A8\LibControl\Controls\obj\Debug\UserMatrixControl\CDuckerSourceControl.g.cs
+E:\MySpace\MyDesk\项目\MATRIX A8\LibControl\Controls\obj\Debug\UserMatrixControl\CEQControl.g.cs
+E:\MySpace\MyDesk\项目\MATRIX A8\LibControl\Controls\obj\Debug\UserMatrixControl\CEQControlII.g.cs
+E:\MySpace\MyDesk\项目\MATRIX A8\LibControl\Controls\obj\Debug\UserMatrixControl\CMatrixControl.g.cs
+E:\MySpace\MyDesk\项目\MATRIX A8\LibControl\Controls\obj\Debug\UserMatrixControl\CNoiseGateAjustControl.g.cs
+E:\MySpace\MyDesk\项目\MATRIX A8\LibControl\Controls\obj\Debug\UserMatrixControl\CPYGCheckBox.g.cs
+E:\MySpace\MyDesk\项目\MATRIX A8\LibControl\Controls\obj\Debug\UserMatrixControl\FBCStatusLeds.g.cs
+E:\MySpace\MyDesk\项目\MATRIX A8\LibControl\Controls\obj\Debug\UserMatrixControl\FBCSwitcherControl.g.cs
+E:\MySpace\MyDesk\项目\MATRIX A8\LibControl\Controls\obj\Debug\GeneratedInternalTypeHelper.g.cs
+E:\MySpace\MyDesk\项目\MATRIX A8\LibControl\Controls\obj\Debug\Lib.Controls.MyControls_MarkupCompile.cache
+E:\MySpace\MyDesk\项目\MATRIX A8\LibControl\Controls\obj\Debug\Lib.Controls.MyControls_MarkupCompile.lref
+E:\MySpace\MyDesk\项目\MATRIX A8\LibControl\Controls\obj\Debug\Module\CLeftTextModule.baml
+E:\MySpace\MyDesk\项目\MATRIX A8\LibControl\Controls\obj\Debug\Module\CMVIIIModule.baml
+E:\MySpace\MyDesk\项目\MATRIX A8\LibControl\Controls\obj\Debug\Module\CRightTextModule.baml
+E:\MySpace\MyDesk\项目\MATRIX A8\LibControl\Controls\obj\Debug\Module\CRouterLanModule.baml
+E:\MySpace\MyDesk\项目\MATRIX A8\LibControl\Controls\obj\Debug\Module\CRVA200Module.baml
+E:\MySpace\MyDesk\项目\MATRIX A8\LibControl\Controls\obj\Debug\Module\CSwitcherIVModule.baml
+E:\MySpace\MyDesk\项目\MATRIX A8\LibControl\Controls\obj\Debug\Themes\BorderSwitcherStyle.baml
+E:\MySpace\MyDesk\项目\MATRIX A8\LibControl\Controls\obj\Debug\Themes\StandardButonStyle.Generic.baml
+E:\MySpace\MyDesk\项目\MATRIX A8\LibControl\Controls\obj\Debug\Themes\Generic.baml
+E:\MySpace\MyDesk\项目\MATRIX A8\LibControl\Controls\obj\Debug\Themes\SpinnerControl.Generic.baml
+E:\MySpace\MyDesk\项目\MATRIX A8\LibControl\Controls\obj\Debug\Themes\TCombBox.baml
+E:\MySpace\MyDesk\项目\MATRIX A8\LibControl\Controls\obj\Debug\UserMatrixControl\AutoMixerInput.baml
+E:\MySpace\MyDesk\项目\MATRIX A8\LibControl\Controls\obj\Debug\UserMatrixControl\CDelayControl.baml
+E:\MySpace\MyDesk\项目\MATRIX A8\LibControl\Controls\obj\Debug\UserMatrixControl\CDuckerSourceControl.baml
+E:\MySpace\MyDesk\项目\MATRIX A8\LibControl\Controls\obj\Debug\UserMatrixControl\CEQControl.baml
+E:\MySpace\MyDesk\项目\MATRIX A8\LibControl\Controls\obj\Debug\UserMatrixControl\CEQControlII.baml
+E:\MySpace\MyDesk\项目\MATRIX A8\LibControl\Controls\obj\Debug\UserMatrixControl\CMatrixControl.baml
+E:\MySpace\MyDesk\项目\MATRIX A8\LibControl\Controls\obj\Debug\UserMatrixControl\CNoiseGateAjustControl.baml
+E:\MySpace\MyDesk\项目\MATRIX A8\LibControl\Controls\obj\Debug\UserMatrixControl\FBCStatusLeds.baml
+E:\MySpace\MyDesk\项目\MATRIX A8\LibControl\Controls\obj\Debug\UserMatrixControl\FBCSwitcherControl.baml
+E:\MySpace\MyDesk\项目\MATRIX A8\LibControl\Controls\obj\Debug\Lib.Controls.MyControls.g.resources
+E:\MySpace\MyDesk\项目\MATRIX A8\LibControl\Controls\obj\Debug\Lib.Controls.Properties.Resources.resources
+E:\MySpace\MyDesk\项目\MATRIX A8\LibControl\Controls\obj\Debug\Lib.Controls.csproj.GenerateResource.Cache
+E:\MySpace\MyDesk\项目\MATRIX A8\LibControl\Controls\obj\Debug\Lib.Controls.MyControls.dll
+E:\MySpace\MyDesk\项目\MATRIX A8\LibControl\Controls\obj\Debug\Lib.Controls.MyControls.pdb
+D:\William\work\VCsharp\work\MatrixSystemEditor\source\LibControl\Controls\bin\Debug\Lib.Controls.MyControls.dll.config
+D:\William\work\VCsharp\work\MatrixSystemEditor\source\LibControl\Controls\bin\Debug\Lib.Controls.MyControls.dll
+D:\William\work\VCsharp\work\MatrixSystemEditor\source\LibControl\Controls\bin\Debug\Lib.Controls.MyControls.pdb
+D:\William\work\VCsharp\work\MatrixSystemEditor\source\LibControl\Controls\bin\Debug\EntityFramework.dll
+D:\William\work\VCsharp\work\MatrixSystemEditor\source\LibControl\Controls\bin\Debug\EntityFramework.SqlServer.dll
+D:\William\work\VCsharp\work\MatrixSystemEditor\source\LibControl\Controls\bin\Debug\System.Data.SQLite.dll
+D:\William\work\VCsharp\work\MatrixSystemEditor\source\LibControl\Controls\bin\Debug\System.Data.SQLite.EF6.dll
+D:\William\work\VCsharp\work\MatrixSystemEditor\source\LibControl\Controls\bin\Debug\System.Data.SQLite.Linq.dll
+D:\William\work\VCsharp\work\MatrixSystemEditor\source\LibControl\Controls\bin\Debug\EntityFramework.xml
+D:\William\work\VCsharp\work\MatrixSystemEditor\source\LibControl\Controls\bin\Debug\EntityFramework.SqlServer.xml
+D:\William\work\VCsharp\work\MatrixSystemEditor\source\LibControl\Controls\bin\Debug\System.Data.SQLite.xml
+D:\William\work\VCsharp\work\MatrixSystemEditor\source\LibControl\Controls\obj\Debug\Lib.Controls.csprojResolveAssemblyReference.cache
+D:\William\work\VCsharp\work\MatrixSystemEditor\source\LibControl\Controls\obj\Debug\commom\InputPasDialog.baml
+D:\William\work\VCsharp\work\MatrixSystemEditor\source\LibControl\Controls\obj\Debug\CTreeViewItem.baml
+D:\William\work\VCsharp\work\MatrixSystemEditor\source\LibControl\Controls\obj\Debug\Module\changeNameDialog.baml
+D:\William\work\VCsharp\work\MatrixSystemEditor\source\LibControl\Controls\obj\Debug\Module\InputHexDialog.baml
+D:\William\work\VCsharp\work\MatrixSystemEditor\source\LibControl\Controls\obj\Debug\SearchLed.baml
+D:\William\work\VCsharp\work\MatrixSystemEditor\source\LibControl\Controls\obj\Debug\synchronizeLed.baml
+D:\William\work\VCsharp\work\MatrixSystemEditor\source\LibControl\Controls\obj\Debug\Resources\AllBrushes.baml
+D:\William\work\VCsharp\work\MatrixSystemEditor\source\LibControl\Controls\obj\Debug\Resources\brush.scroll.down.baml
+D:\William\work\VCsharp\work\MatrixSystemEditor\source\LibControl\Controls\obj\Debug\Resources\brush.scroll.up.baml
+D:\William\work\VCsharp\work\MatrixSystemEditor\source\LibControl\Controls\obj\Debug\UserMatrixControl\CPYGCheckBox.baml
+D:\William\work\VCsharp\work\MatrixSystemEditor\source\LibControl\Controls\obj\Debug\commom\InputPasDialog.g.cs
+D:\William\work\VCsharp\work\MatrixSystemEditor\source\LibControl\Controls\obj\Debug\CTreeViewItem.g.cs
+D:\William\work\VCsharp\work\MatrixSystemEditor\source\LibControl\Controls\obj\Debug\Module\changeNameDialog.g.cs
+D:\William\work\VCsharp\work\MatrixSystemEditor\source\LibControl\Controls\obj\Debug\Module\CLeftTextModule.g.cs
+D:\William\work\VCsharp\work\MatrixSystemEditor\source\LibControl\Controls\obj\Debug\Module\CMVIIIModule.g.cs
+D:\William\work\VCsharp\work\MatrixSystemEditor\source\LibControl\Controls\obj\Debug\Module\CRightTextModule.g.cs
+D:\William\work\VCsharp\work\MatrixSystemEditor\source\LibControl\Controls\obj\Debug\Module\CRouterLanModule.g.cs
+D:\William\work\VCsharp\work\MatrixSystemEditor\source\LibControl\Controls\obj\Debug\Module\CRVA200Module.g.cs
+D:\William\work\VCsharp\work\MatrixSystemEditor\source\LibControl\Controls\obj\Debug\Module\CSwitcherIVModule.g.cs
+D:\William\work\VCsharp\work\MatrixSystemEditor\source\LibControl\Controls\obj\Debug\Module\InputHexDialog.g.cs
+D:\William\work\VCsharp\work\MatrixSystemEditor\source\LibControl\Controls\obj\Debug\SearchLed.g.cs
+D:\William\work\VCsharp\work\MatrixSystemEditor\source\LibControl\Controls\obj\Debug\synchronizeLed.g.cs
+D:\William\work\VCsharp\work\MatrixSystemEditor\source\LibControl\Controls\obj\Debug\UserMatrixControl\AutoMixerInput.g.cs
+D:\William\work\VCsharp\work\MatrixSystemEditor\source\LibControl\Controls\obj\Debug\UserMatrixControl\CDelayControl.g.cs
+D:\William\work\VCsharp\work\MatrixSystemEditor\source\LibControl\Controls\obj\Debug\UserMatrixControl\CDuckerSourceControl.g.cs
+D:\William\work\VCsharp\work\MatrixSystemEditor\source\LibControl\Controls\obj\Debug\UserMatrixControl\CEQControl.g.cs
+D:\William\work\VCsharp\work\MatrixSystemEditor\source\LibControl\Controls\obj\Debug\UserMatrixControl\CEQControlII.g.cs
+D:\William\work\VCsharp\work\MatrixSystemEditor\source\LibControl\Controls\obj\Debug\UserMatrixControl\CMatrixControl.g.cs
+D:\William\work\VCsharp\work\MatrixSystemEditor\source\LibControl\Controls\obj\Debug\UserMatrixControl\CNoiseGateAjustControl.g.cs
+D:\William\work\VCsharp\work\MatrixSystemEditor\source\LibControl\Controls\obj\Debug\UserMatrixControl\CPYGCheckBox.g.cs
+D:\William\work\VCsharp\work\MatrixSystemEditor\source\LibControl\Controls\obj\Debug\UserMatrixControl\FBCStatusLeds.g.cs
+D:\William\work\VCsharp\work\MatrixSystemEditor\source\LibControl\Controls\obj\Debug\UserMatrixControl\FBCSwitcherControl.g.cs
+D:\William\work\VCsharp\work\MatrixSystemEditor\source\LibControl\Controls\obj\Debug\GeneratedInternalTypeHelper.g.cs
+D:\William\work\VCsharp\work\MatrixSystemEditor\source\LibControl\Controls\obj\Debug\Lib.Controls.MyControls_MarkupCompile.cache
+D:\William\work\VCsharp\work\MatrixSystemEditor\source\LibControl\Controls\obj\Debug\Lib.Controls.MyControls_MarkupCompile.lref
+D:\William\work\VCsharp\work\MatrixSystemEditor\source\LibControl\Controls\obj\Debug\Module\CLeftTextModule.baml
+D:\William\work\VCsharp\work\MatrixSystemEditor\source\LibControl\Controls\obj\Debug\Module\CMVIIIModule.baml
+D:\William\work\VCsharp\work\MatrixSystemEditor\source\LibControl\Controls\obj\Debug\Module\CRightTextModule.baml
+D:\William\work\VCsharp\work\MatrixSystemEditor\source\LibControl\Controls\obj\Debug\Module\CRouterLanModule.baml
+D:\William\work\VCsharp\work\MatrixSystemEditor\source\LibControl\Controls\obj\Debug\Module\CRVA200Module.baml
+D:\William\work\VCsharp\work\MatrixSystemEditor\source\LibControl\Controls\obj\Debug\Module\CSwitcherIVModule.baml
+D:\William\work\VCsharp\work\MatrixSystemEditor\source\LibControl\Controls\obj\Debug\Themes\BorderSwitcherStyle.baml
+D:\William\work\VCsharp\work\MatrixSystemEditor\source\LibControl\Controls\obj\Debug\Themes\StandardButonStyle.Generic.baml
+D:\William\work\VCsharp\work\MatrixSystemEditor\source\LibControl\Controls\obj\Debug\Themes\Generic.baml
+D:\William\work\VCsharp\work\MatrixSystemEditor\source\LibControl\Controls\obj\Debug\Themes\SpinnerControl.Generic.baml
+D:\William\work\VCsharp\work\MatrixSystemEditor\source\LibControl\Controls\obj\Debug\Themes\TCombBox.baml
+D:\William\work\VCsharp\work\MatrixSystemEditor\source\LibControl\Controls\obj\Debug\UserMatrixControl\AutoMixerInput.baml
+D:\William\work\VCsharp\work\MatrixSystemEditor\source\LibControl\Controls\obj\Debug\UserMatrixControl\CDelayControl.baml
+D:\William\work\VCsharp\work\MatrixSystemEditor\source\LibControl\Controls\obj\Debug\UserMatrixControl\CDuckerSourceControl.baml
+D:\William\work\VCsharp\work\MatrixSystemEditor\source\LibControl\Controls\obj\Debug\UserMatrixControl\CEQControl.baml
+D:\William\work\VCsharp\work\MatrixSystemEditor\source\LibControl\Controls\obj\Debug\UserMatrixControl\CEQControlII.baml
+D:\William\work\VCsharp\work\MatrixSystemEditor\source\LibControl\Controls\obj\Debug\UserMatrixControl\CMatrixControl.baml
+D:\William\work\VCsharp\work\MatrixSystemEditor\source\LibControl\Controls\obj\Debug\UserMatrixControl\CNoiseGateAjustControl.baml
+D:\William\work\VCsharp\work\MatrixSystemEditor\source\LibControl\Controls\obj\Debug\UserMatrixControl\FBCStatusLeds.baml
+D:\William\work\VCsharp\work\MatrixSystemEditor\source\LibControl\Controls\obj\Debug\UserMatrixControl\FBCSwitcherControl.baml
+D:\William\work\VCsharp\work\MatrixSystemEditor\source\LibControl\Controls\obj\Debug\Lib.Controls.MyControls.g.resources
+D:\William\work\VCsharp\work\MatrixSystemEditor\source\LibControl\Controls\obj\Debug\Lib.Controls.Properties.Resources.resources
+D:\William\work\VCsharp\work\MatrixSystemEditor\source\LibControl\Controls\obj\Debug\Lib.Controls.csproj.GenerateResource.Cache
+D:\William\work\VCsharp\work\MatrixSystemEditor\source\LibControl\Controls\obj\Debug\Lib.Controls.MyControls.dll
+D:\William\work\VCsharp\work\MatrixSystemEditor\source\LibControl\Controls\obj\Debug\Lib.Controls.MyControls.pdb
+D:\William\work\VCsharp\work\MatrixSystemEditor\control\LibControl\Controls\bin\Debug\Lib.Controls.MyControls.dll.config
+D:\William\work\VCsharp\work\MatrixSystemEditor\control\LibControl\Controls\bin\Debug\Lib.Controls.MyControls.dll
+D:\William\work\VCsharp\work\MatrixSystemEditor\control\LibControl\Controls\bin\Debug\Lib.Controls.MyControls.pdb
+D:\William\work\VCsharp\work\MatrixSystemEditor\control\LibControl\Controls\bin\Debug\CommLibrary.dll
+D:\William\work\VCsharp\work\MatrixSystemEditor\control\LibControl\Controls\bin\Debug\EntityFramework.dll
+D:\William\work\VCsharp\work\MatrixSystemEditor\control\LibControl\Controls\bin\Debug\EntityFramework.SqlServer.dll
+D:\William\work\VCsharp\work\MatrixSystemEditor\control\LibControl\Controls\bin\Debug\System.Data.SQLite.dll
+D:\William\work\VCsharp\work\MatrixSystemEditor\control\LibControl\Controls\bin\Debug\System.Data.SQLite.EF6.dll
+D:\William\work\VCsharp\work\MatrixSystemEditor\control\LibControl\Controls\bin\Debug\System.Data.SQLite.Linq.dll
+D:\William\work\VCsharp\work\MatrixSystemEditor\control\LibControl\Controls\bin\Debug\CommLibrary.pdb
+D:\William\work\VCsharp\work\MatrixSystemEditor\control\LibControl\Controls\bin\Debug\EntityFramework.xml
+D:\William\work\VCsharp\work\MatrixSystemEditor\control\LibControl\Controls\bin\Debug\EntityFramework.SqlServer.xml
+D:\William\work\VCsharp\work\MatrixSystemEditor\control\LibControl\Controls\bin\Debug\System.Data.SQLite.xml
+D:\William\work\VCsharp\work\MatrixSystemEditor\control\LibControl\Controls\obj\Debug\commom\InputPasDialog.baml
+D:\William\work\VCsharp\work\MatrixSystemEditor\control\LibControl\Controls\obj\Debug\CTreeViewItem.baml
+D:\William\work\VCsharp\work\MatrixSystemEditor\control\LibControl\Controls\obj\Debug\Module\changeNameDialog.baml
+D:\William\work\VCsharp\work\MatrixSystemEditor\control\LibControl\Controls\obj\Debug\Module\InputHexDialog.baml
+D:\William\work\VCsharp\work\MatrixSystemEditor\control\LibControl\Controls\obj\Debug\SearchLed.baml
+D:\William\work\VCsharp\work\MatrixSystemEditor\control\LibControl\Controls\obj\Debug\synchronizeLed.baml
+D:\William\work\VCsharp\work\MatrixSystemEditor\control\LibControl\Controls\obj\Debug\Resources\AllBrushes.baml
+D:\William\work\VCsharp\work\MatrixSystemEditor\control\LibControl\Controls\obj\Debug\Resources\brush.scroll.down.baml
+D:\William\work\VCsharp\work\MatrixSystemEditor\control\LibControl\Controls\obj\Debug\Resources\brush.scroll.up.baml
+D:\William\work\VCsharp\work\MatrixSystemEditor\control\LibControl\Controls\obj\Debug\UserMatrixControl\CPYGCheckBox.baml
+D:\William\work\VCsharp\work\MatrixSystemEditor\control\LibControl\Controls\obj\Debug\commom\InputPasDialog.g.cs
+D:\William\work\VCsharp\work\MatrixSystemEditor\control\LibControl\Controls\obj\Debug\CTreeViewItem.g.cs
+D:\William\work\VCsharp\work\MatrixSystemEditor\control\LibControl\Controls\obj\Debug\Module\changeNameDialog.g.cs
+D:\William\work\VCsharp\work\MatrixSystemEditor\control\LibControl\Controls\obj\Debug\Module\CLeftTextModule.g.cs
+D:\William\work\VCsharp\work\MatrixSystemEditor\control\LibControl\Controls\obj\Debug\Module\CMVIIIModule.g.cs
+D:\William\work\VCsharp\work\MatrixSystemEditor\control\LibControl\Controls\obj\Debug\Module\CRightTextModule.g.cs
+D:\William\work\VCsharp\work\MatrixSystemEditor\control\LibControl\Controls\obj\Debug\Module\CRouterLanModule.g.cs
+D:\William\work\VCsharp\work\MatrixSystemEditor\control\LibControl\Controls\obj\Debug\Module\CRVA200Module.g.cs
+D:\William\work\VCsharp\work\MatrixSystemEditor\control\LibControl\Controls\obj\Debug\Module\CSwitcherIVModule.g.cs
+D:\William\work\VCsharp\work\MatrixSystemEditor\control\LibControl\Controls\obj\Debug\Module\InputHexDialog.g.cs
+D:\William\work\VCsharp\work\MatrixSystemEditor\control\LibControl\Controls\obj\Debug\SearchLed.g.cs
+D:\William\work\VCsharp\work\MatrixSystemEditor\control\LibControl\Controls\obj\Debug\synchronizeLed.g.cs
+D:\William\work\VCsharp\work\MatrixSystemEditor\control\LibControl\Controls\obj\Debug\UserMatrixControl\AutoMixerInput.g.cs
+D:\William\work\VCsharp\work\MatrixSystemEditor\control\LibControl\Controls\obj\Debug\UserMatrixControl\CDelayControl.g.cs
+D:\William\work\VCsharp\work\MatrixSystemEditor\control\LibControl\Controls\obj\Debug\UserMatrixControl\CDuckerSourceControl.g.cs
+D:\William\work\VCsharp\work\MatrixSystemEditor\control\LibControl\Controls\obj\Debug\UserMatrixControl\CEQControl.g.cs
+D:\William\work\VCsharp\work\MatrixSystemEditor\control\LibControl\Controls\obj\Debug\UserMatrixControl\CEQControlII.g.cs
+D:\William\work\VCsharp\work\MatrixSystemEditor\control\LibControl\Controls\obj\Debug\UserMatrixControl\CMatrixControl.g.cs
+D:\William\work\VCsharp\work\MatrixSystemEditor\control\LibControl\Controls\obj\Debug\UserMatrixControl\CNoiseGateAjustControl.g.cs
+D:\William\work\VCsharp\work\MatrixSystemEditor\control\LibControl\Controls\obj\Debug\UserMatrixControl\CPYGCheckBox.g.cs
+D:\William\work\VCsharp\work\MatrixSystemEditor\control\LibControl\Controls\obj\Debug\UserMatrixControl\FBCStatusLeds.g.cs
+D:\William\work\VCsharp\work\MatrixSystemEditor\control\LibControl\Controls\obj\Debug\UserMatrixControl\FBCSwitcherControl.g.cs
+D:\William\work\VCsharp\work\MatrixSystemEditor\control\LibControl\Controls\obj\Debug\GeneratedInternalTypeHelper.g.cs
+D:\William\work\VCsharp\work\MatrixSystemEditor\control\LibControl\Controls\obj\Debug\Lib.Controls.MyControls_MarkupCompile.cache
+D:\William\work\VCsharp\work\MatrixSystemEditor\control\LibControl\Controls\obj\Debug\Lib.Controls.MyControls_MarkupCompile.lref
+D:\William\work\VCsharp\work\MatrixSystemEditor\control\LibControl\Controls\obj\Debug\Module\CLeftTextModule.baml
+D:\William\work\VCsharp\work\MatrixSystemEditor\control\LibControl\Controls\obj\Debug\Module\CMVIIIModule.baml
+D:\William\work\VCsharp\work\MatrixSystemEditor\control\LibControl\Controls\obj\Debug\Module\CRightTextModule.baml
+D:\William\work\VCsharp\work\MatrixSystemEditor\control\LibControl\Controls\obj\Debug\Module\CRouterLanModule.baml
+D:\William\work\VCsharp\work\MatrixSystemEditor\control\LibControl\Controls\obj\Debug\Module\CRVA200Module.baml
+D:\William\work\VCsharp\work\MatrixSystemEditor\control\LibControl\Controls\obj\Debug\Module\CSwitcherIVModule.baml
+D:\William\work\VCsharp\work\MatrixSystemEditor\control\LibControl\Controls\obj\Debug\Themes\BorderSwitcherStyle.baml
+D:\William\work\VCsharp\work\MatrixSystemEditor\control\LibControl\Controls\obj\Debug\Themes\StandardButonStyle.Generic.baml
+D:\William\work\VCsharp\work\MatrixSystemEditor\control\LibControl\Controls\obj\Debug\Themes\Generic.baml
+D:\William\work\VCsharp\work\MatrixSystemEditor\control\LibControl\Controls\obj\Debug\Themes\SpinnerControl.Generic.baml
+D:\William\work\VCsharp\work\MatrixSystemEditor\control\LibControl\Controls\obj\Debug\Themes\TCombBox.baml
+D:\William\work\VCsharp\work\MatrixSystemEditor\control\LibControl\Controls\obj\Debug\UserMatrixControl\AutoMixerInput.baml
+D:\William\work\VCsharp\work\MatrixSystemEditor\control\LibControl\Controls\obj\Debug\UserMatrixControl\CDelayControl.baml
+D:\William\work\VCsharp\work\MatrixSystemEditor\control\LibControl\Controls\obj\Debug\UserMatrixControl\CDuckerSourceControl.baml
+D:\William\work\VCsharp\work\MatrixSystemEditor\control\LibControl\Controls\obj\Debug\UserMatrixControl\CEQControl.baml
+D:\William\work\VCsharp\work\MatrixSystemEditor\control\LibControl\Controls\obj\Debug\UserMatrixControl\CEQControlII.baml
+D:\William\work\VCsharp\work\MatrixSystemEditor\control\LibControl\Controls\obj\Debug\UserMatrixControl\CMatrixControl.baml
+D:\William\work\VCsharp\work\MatrixSystemEditor\control\LibControl\Controls\obj\Debug\UserMatrixControl\CNoiseGateAjustControl.baml
+D:\William\work\VCsharp\work\MatrixSystemEditor\control\LibControl\Controls\obj\Debug\UserMatrixControl\FBCStatusLeds.baml
+D:\William\work\VCsharp\work\MatrixSystemEditor\control\LibControl\Controls\obj\Debug\UserMatrixControl\FBCSwitcherControl.baml
+D:\William\work\VCsharp\work\MatrixSystemEditor\control\LibControl\Controls\obj\Debug\Lib.Controls.MyControls.g.resources
+D:\William\work\VCsharp\work\MatrixSystemEditor\control\LibControl\Controls\obj\Debug\Lib.Controls.Properties.Resources.resources
+D:\William\work\VCsharp\work\MatrixSystemEditor\control\LibControl\Controls\obj\Debug\Lib.Controls.csproj.GenerateResource.Cache
+D:\William\work\VCsharp\work\MatrixSystemEditor\control\LibControl\Controls\obj\Debug\Lib.Controls.MyControls.dll
+D:\William\work\VCsharp\work\MatrixSystemEditor\control\LibControl\Controls\obj\Debug\Lib.Controls.MyControls.pdb
+D:\JinHeng\William\work\VCsharp\work\MatrixSystemEditor\control\LibControl\Controls\bin\Debug\Lib.Controls.MyControls.dll.config
+D:\JinHeng\William\work\VCsharp\work\MatrixSystemEditor\control\LibControl\Controls\bin\Debug\Lib.Controls.MyControls.dll
+D:\JinHeng\William\work\VCsharp\work\MatrixSystemEditor\control\LibControl\Controls\bin\Debug\Lib.Controls.MyControls.pdb
+D:\JinHeng\William\work\VCsharp\work\MatrixSystemEditor\control\LibControl\Controls\bin\Debug\CommLibrary.dll
+D:\JinHeng\William\work\VCsharp\work\MatrixSystemEditor\control\LibControl\Controls\bin\Debug\EntityFramework.dll
+D:\JinHeng\William\work\VCsharp\work\MatrixSystemEditor\control\LibControl\Controls\bin\Debug\EntityFramework.SqlServer.dll
+D:\JinHeng\William\work\VCsharp\work\MatrixSystemEditor\control\LibControl\Controls\bin\Debug\System.Data.SQLite.dll
+D:\JinHeng\William\work\VCsharp\work\MatrixSystemEditor\control\LibControl\Controls\bin\Debug\System.Data.SQLite.EF6.dll
+D:\JinHeng\William\work\VCsharp\work\MatrixSystemEditor\control\LibControl\Controls\bin\Debug\System.Data.SQLite.Linq.dll
+D:\JinHeng\William\work\VCsharp\work\MatrixSystemEditor\control\LibControl\Controls\bin\Debug\CommLibrary.pdb
+D:\JinHeng\William\work\VCsharp\work\MatrixSystemEditor\control\LibControl\Controls\bin\Debug\EntityFramework.xml
+D:\JinHeng\William\work\VCsharp\work\MatrixSystemEditor\control\LibControl\Controls\bin\Debug\EntityFramework.SqlServer.xml
+D:\JinHeng\William\work\VCsharp\work\MatrixSystemEditor\control\LibControl\Controls\bin\Debug\System.Data.SQLite.xml
+D:\JinHeng\William\work\VCsharp\work\MatrixSystemEditor\control\LibControl\Controls\obj\Debug\Lib.Controls.csprojResolveAssemblyReference.cache
+D:\JinHeng\William\work\VCsharp\work\MatrixSystemEditor\control\LibControl\Controls\obj\Debug\commom\InputPasDialog.baml
+D:\JinHeng\William\work\VCsharp\work\MatrixSystemEditor\control\LibControl\Controls\obj\Debug\CTreeViewItem.baml
+D:\JinHeng\William\work\VCsharp\work\MatrixSystemEditor\control\LibControl\Controls\obj\Debug\Module\changeNameDialog.baml
+D:\JinHeng\William\work\VCsharp\work\MatrixSystemEditor\control\LibControl\Controls\obj\Debug\Module\InputHexDialog.baml
+D:\JinHeng\William\work\VCsharp\work\MatrixSystemEditor\control\LibControl\Controls\obj\Debug\SearchLed.baml
+D:\JinHeng\William\work\VCsharp\work\MatrixSystemEditor\control\LibControl\Controls\obj\Debug\synchronizeLed.baml
+D:\JinHeng\William\work\VCsharp\work\MatrixSystemEditor\control\LibControl\Controls\obj\Debug\Resources\AllBrushes.baml
+D:\JinHeng\William\work\VCsharp\work\MatrixSystemEditor\control\LibControl\Controls\obj\Debug\Resources\brush.scroll.down.baml
+D:\JinHeng\William\work\VCsharp\work\MatrixSystemEditor\control\LibControl\Controls\obj\Debug\Resources\brush.scroll.up.baml
+D:\JinHeng\William\work\VCsharp\work\MatrixSystemEditor\control\LibControl\Controls\obj\Debug\UserMatrixControl\CPYGCheckBox.baml
+D:\JinHeng\William\work\VCsharp\work\MatrixSystemEditor\control\LibControl\Controls\obj\Debug\commom\InputPasDialog.g.cs
+D:\JinHeng\William\work\VCsharp\work\MatrixSystemEditor\control\LibControl\Controls\obj\Debug\CTreeViewItem.g.cs
+D:\JinHeng\William\work\VCsharp\work\MatrixSystemEditor\control\LibControl\Controls\obj\Debug\Module\changeNameDialog.g.cs
+D:\JinHeng\William\work\VCsharp\work\MatrixSystemEditor\control\LibControl\Controls\obj\Debug\Module\CLeftTextModule.g.cs
+D:\JinHeng\William\work\VCsharp\work\MatrixSystemEditor\control\LibControl\Controls\obj\Debug\Module\CMVIIIModule.g.cs
+D:\JinHeng\William\work\VCsharp\work\MatrixSystemEditor\control\LibControl\Controls\obj\Debug\Module\CRightTextModule.g.cs
+D:\JinHeng\William\work\VCsharp\work\MatrixSystemEditor\control\LibControl\Controls\obj\Debug\Module\CRouterLanModule.g.cs
+D:\JinHeng\William\work\VCsharp\work\MatrixSystemEditor\control\LibControl\Controls\obj\Debug\Module\CRVA200Module.g.cs
+D:\JinHeng\William\work\VCsharp\work\MatrixSystemEditor\control\LibControl\Controls\obj\Debug\Module\CSwitcherIVModule.g.cs
+D:\JinHeng\William\work\VCsharp\work\MatrixSystemEditor\control\LibControl\Controls\obj\Debug\Module\InputHexDialog.g.cs
+D:\JinHeng\William\work\VCsharp\work\MatrixSystemEditor\control\LibControl\Controls\obj\Debug\SearchLed.g.cs
+D:\JinHeng\William\work\VCsharp\work\MatrixSystemEditor\control\LibControl\Controls\obj\Debug\synchronizeLed.g.cs
+D:\JinHeng\William\work\VCsharp\work\MatrixSystemEditor\control\LibControl\Controls\obj\Debug\UserMatrixControl\AutoMixerInput.g.cs
+D:\JinHeng\William\work\VCsharp\work\MatrixSystemEditor\control\LibControl\Controls\obj\Debug\UserMatrixControl\CDelayControl.g.cs
+D:\JinHeng\William\work\VCsharp\work\MatrixSystemEditor\control\LibControl\Controls\obj\Debug\UserMatrixControl\CDuckerSourceControl.g.cs
+D:\JinHeng\William\work\VCsharp\work\MatrixSystemEditor\control\LibControl\Controls\obj\Debug\UserMatrixControl\CEQControl.g.cs
+D:\JinHeng\William\work\VCsharp\work\MatrixSystemEditor\control\LibControl\Controls\obj\Debug\UserMatrixControl\CEQControlII.g.cs
+D:\JinHeng\William\work\VCsharp\work\MatrixSystemEditor\control\LibControl\Controls\obj\Debug\UserMatrixControl\CMatrixControl.g.cs
+D:\JinHeng\William\work\VCsharp\work\MatrixSystemEditor\control\LibControl\Controls\obj\Debug\UserMatrixControl\CNoiseGateAjustControl.g.cs
+D:\JinHeng\William\work\VCsharp\work\MatrixSystemEditor\control\LibControl\Controls\obj\Debug\UserMatrixControl\CPYGCheckBox.g.cs
+D:\JinHeng\William\work\VCsharp\work\MatrixSystemEditor\control\LibControl\Controls\obj\Debug\UserMatrixControl\FBCStatusLeds.g.cs
+D:\JinHeng\William\work\VCsharp\work\MatrixSystemEditor\control\LibControl\Controls\obj\Debug\UserMatrixControl\FBCSwitcherControl.g.cs
+D:\JinHeng\William\work\VCsharp\work\MatrixSystemEditor\control\LibControl\Controls\obj\Debug\GeneratedInternalTypeHelper.g.cs
+D:\JinHeng\William\work\VCsharp\work\MatrixSystemEditor\control\LibControl\Controls\obj\Debug\Lib.Controls.MyControls_MarkupCompile.cache
+D:\JinHeng\William\work\VCsharp\work\MatrixSystemEditor\control\LibControl\Controls\obj\Debug\Lib.Controls.MyControls_MarkupCompile.lref
+D:\JinHeng\William\work\VCsharp\work\MatrixSystemEditor\control\LibControl\Controls\obj\Debug\Module\CLeftTextModule.baml
+D:\JinHeng\William\work\VCsharp\work\MatrixSystemEditor\control\LibControl\Controls\obj\Debug\Module\CMVIIIModule.baml
+D:\JinHeng\William\work\VCsharp\work\MatrixSystemEditor\control\LibControl\Controls\obj\Debug\Module\CRightTextModule.baml
+D:\JinHeng\William\work\VCsharp\work\MatrixSystemEditor\control\LibControl\Controls\obj\Debug\Module\CRouterLanModule.baml
+D:\JinHeng\William\work\VCsharp\work\MatrixSystemEditor\control\LibControl\Controls\obj\Debug\Module\CRVA200Module.baml
+D:\JinHeng\William\work\VCsharp\work\MatrixSystemEditor\control\LibControl\Controls\obj\Debug\Module\CSwitcherIVModule.baml
+D:\JinHeng\William\work\VCsharp\work\MatrixSystemEditor\control\LibControl\Controls\obj\Debug\Themes\BorderSwitcherStyle.baml
+D:\JinHeng\William\work\VCsharp\work\MatrixSystemEditor\control\LibControl\Controls\obj\Debug\Themes\StandardButonStyle.Generic.baml
+D:\JinHeng\William\work\VCsharp\work\MatrixSystemEditor\control\LibControl\Controls\obj\Debug\Themes\Generic.baml
+D:\JinHeng\William\work\VCsharp\work\MatrixSystemEditor\control\LibControl\Controls\obj\Debug\Themes\SpinnerControl.Generic.baml
+D:\JinHeng\William\work\VCsharp\work\MatrixSystemEditor\control\LibControl\Controls\obj\Debug\Themes\TCombBox.baml
+D:\JinHeng\William\work\VCsharp\work\MatrixSystemEditor\control\LibControl\Controls\obj\Debug\UserMatrixControl\AutoMixerInput.baml
+D:\JinHeng\William\work\VCsharp\work\MatrixSystemEditor\control\LibControl\Controls\obj\Debug\UserMatrixControl\CDelayControl.baml
+D:\JinHeng\William\work\VCsharp\work\MatrixSystemEditor\control\LibControl\Controls\obj\Debug\UserMatrixControl\CDuckerSourceControl.baml
+D:\JinHeng\William\work\VCsharp\work\MatrixSystemEditor\control\LibControl\Controls\obj\Debug\UserMatrixControl\CEQControl.baml
+D:\JinHeng\William\work\VCsharp\work\MatrixSystemEditor\control\LibControl\Controls\obj\Debug\UserMatrixControl\CEQControlII.baml
+D:\JinHeng\William\work\VCsharp\work\MatrixSystemEditor\control\LibControl\Controls\obj\Debug\UserMatrixControl\CMatrixControl.baml
+D:\JinHeng\William\work\VCsharp\work\MatrixSystemEditor\control\LibControl\Controls\obj\Debug\UserMatrixControl\CNoiseGateAjustControl.baml
+D:\JinHeng\William\work\VCsharp\work\MatrixSystemEditor\control\LibControl\Controls\obj\Debug\UserMatrixControl\FBCStatusLeds.baml
+D:\JinHeng\William\work\VCsharp\work\MatrixSystemEditor\control\LibControl\Controls\obj\Debug\UserMatrixControl\FBCSwitcherControl.baml
+D:\JinHeng\William\work\VCsharp\work\MatrixSystemEditor\control\LibControl\Controls\obj\Debug\Lib.Controls.MyControls.g.resources
+D:\JinHeng\William\work\VCsharp\work\MatrixSystemEditor\control\LibControl\Controls\obj\Debug\Lib.Controls.Properties.Resources.resources
+D:\JinHeng\William\work\VCsharp\work\MatrixSystemEditor\control\LibControl\Controls\obj\Debug\Lib.Controls.csproj.GenerateResource.Cache
+D:\JinHeng\William\work\VCsharp\work\MatrixSystemEditor\control\LibControl\Controls\obj\Debug\Lib.Controls.MyControls.dll
+D:\JinHeng\William\work\VCsharp\work\MatrixSystemEditor\control\LibControl\Controls\obj\Debug\Lib.Controls.MyControls.pdb
+D:\JinHeng\William\work\VCsharp\work\MatrixSystemEditor\oldVersion\control\LibControl\Controls\obj\Debug\Lib.Controls.csprojResolveAssemblyReference.cache
+D:\JinHeng\William\work\VCsharp\work\MatrixSystemEditor\oldVersion\control\LibControl\Controls\obj\Debug\commom\InputPasDialog.baml
+D:\JinHeng\William\work\VCsharp\work\MatrixSystemEditor\oldVersion\control\LibControl\Controls\obj\Debug\CTreeViewItem.baml
+D:\JinHeng\William\work\VCsharp\work\MatrixSystemEditor\oldVersion\control\LibControl\Controls\obj\Debug\Module\changeNameDialog.baml
+D:\JinHeng\William\work\VCsharp\work\MatrixSystemEditor\oldVersion\control\LibControl\Controls\obj\Debug\Module\InputHexDialog.baml
+D:\JinHeng\William\work\VCsharp\work\MatrixSystemEditor\oldVersion\control\LibControl\Controls\obj\Debug\SearchLed.baml
+D:\JinHeng\William\work\VCsharp\work\MatrixSystemEditor\oldVersion\control\LibControl\Controls\obj\Debug\synchronizeLed.baml
+D:\JinHeng\William\work\VCsharp\work\MatrixSystemEditor\oldVersion\control\LibControl\Controls\obj\Debug\Resources\AllBrushes.baml
+D:\JinHeng\William\work\VCsharp\work\MatrixSystemEditor\oldVersion\control\LibControl\Controls\obj\Debug\Resources\brush.scroll.down.baml
+D:\JinHeng\William\work\VCsharp\work\MatrixSystemEditor\oldVersion\control\LibControl\Controls\obj\Debug\Resources\brush.scroll.up.baml
+D:\JinHeng\William\work\VCsharp\work\MatrixSystemEditor\oldVersion\control\LibControl\Controls\obj\Debug\UserMatrixControl\CPYGCheckBox.baml
+D:\JinHeng\William\work\VCsharp\work\MatrixSystemEditor\oldVersion\control\LibControl\Controls\obj\Debug\commom\InputPasDialog.g.cs
+D:\JinHeng\William\work\VCsharp\work\MatrixSystemEditor\oldVersion\control\LibControl\Controls\obj\Debug\CTreeViewItem.g.cs
+D:\JinHeng\William\work\VCsharp\work\MatrixSystemEditor\oldVersion\control\LibControl\Controls\obj\Debug\Module\changeNameDialog.g.cs
+D:\JinHeng\William\work\VCsharp\work\MatrixSystemEditor\oldVersion\control\LibControl\Controls\obj\Debug\Module\CLeftTextModule.g.cs
+D:\JinHeng\William\work\VCsharp\work\MatrixSystemEditor\oldVersion\control\LibControl\Controls\obj\Debug\Module\CMVIIIModule.g.cs
+D:\JinHeng\William\work\VCsharp\work\MatrixSystemEditor\oldVersion\control\LibControl\Controls\obj\Debug\Module\CRightTextModule.g.cs
+D:\JinHeng\William\work\VCsharp\work\MatrixSystemEditor\oldVersion\control\LibControl\Controls\obj\Debug\Module\CRouterLanModule.g.cs
+D:\JinHeng\William\work\VCsharp\work\MatrixSystemEditor\oldVersion\control\LibControl\Controls\obj\Debug\Module\CRVA200Module.g.cs
+D:\JinHeng\William\work\VCsharp\work\MatrixSystemEditor\oldVersion\control\LibControl\Controls\obj\Debug\Module\CSwitcherIVModule.g.cs
+D:\JinHeng\William\work\VCsharp\work\MatrixSystemEditor\oldVersion\control\LibControl\Controls\obj\Debug\Module\InputHexDialog.g.cs
+D:\JinHeng\William\work\VCsharp\work\MatrixSystemEditor\oldVersion\control\LibControl\Controls\obj\Debug\SearchLed.g.cs
+D:\JinHeng\William\work\VCsharp\work\MatrixSystemEditor\oldVersion\control\LibControl\Controls\obj\Debug\synchronizeLed.g.cs
+D:\JinHeng\William\work\VCsharp\work\MatrixSystemEditor\oldVersion\control\LibControl\Controls\obj\Debug\UserMatrixControl\AutoMixerInput.g.cs
+D:\JinHeng\William\work\VCsharp\work\MatrixSystemEditor\oldVersion\control\LibControl\Controls\obj\Debug\UserMatrixControl\CDelayControl.g.cs
+D:\JinHeng\William\work\VCsharp\work\MatrixSystemEditor\oldVersion\control\LibControl\Controls\obj\Debug\UserMatrixControl\CDuckerSourceControl.g.cs
+D:\JinHeng\William\work\VCsharp\work\MatrixSystemEditor\oldVersion\control\LibControl\Controls\obj\Debug\UserMatrixControl\CEQControl.g.cs
+D:\JinHeng\William\work\VCsharp\work\MatrixSystemEditor\oldVersion\control\LibControl\Controls\obj\Debug\UserMatrixControl\CEQControlII.g.cs
+D:\JinHeng\William\work\VCsharp\work\MatrixSystemEditor\oldVersion\control\LibControl\Controls\obj\Debug\UserMatrixControl\CMatrixControl.g.cs
+D:\JinHeng\William\work\VCsharp\work\MatrixSystemEditor\oldVersion\control\LibControl\Controls\obj\Debug\UserMatrixControl\CNoiseGateAjustControl.g.cs
+D:\JinHeng\William\work\VCsharp\work\MatrixSystemEditor\oldVersion\control\LibControl\Controls\obj\Debug\UserMatrixControl\CPYGCheckBox.g.cs
+D:\JinHeng\William\work\VCsharp\work\MatrixSystemEditor\oldVersion\control\LibControl\Controls\obj\Debug\UserMatrixControl\FBCStatusLeds.g.cs
+D:\JinHeng\William\work\VCsharp\work\MatrixSystemEditor\oldVersion\control\LibControl\Controls\obj\Debug\UserMatrixControl\FBCSwitcherControl.g.cs
+D:\JinHeng\William\work\VCsharp\work\MatrixSystemEditor\oldVersion\control\LibControl\Controls\obj\Debug\GeneratedInternalTypeHelper.g.cs
+D:\JinHeng\William\work\VCsharp\work\MatrixSystemEditor\oldVersion\control\LibControl\Controls\obj\Debug\Lib.Controls.MyControls_MarkupCompile.cache
+D:\JinHeng\William\work\VCsharp\work\MatrixSystemEditor\oldVersion\control\LibControl\Controls\obj\Debug\Lib.Controls.MyControls_MarkupCompile.lref
+D:\JinHeng\William\work\VCsharp\work\MatrixSystemEditor\oldVersion\control\LibControl\Controls\bin\Debug\Lib.Controls.MyControls.dll.config
+D:\JinHeng\William\work\VCsharp\work\MatrixSystemEditor\oldVersion\control\LibControl\Controls\bin\Debug\Lib.Controls.MyControls.dll
+D:\JinHeng\William\work\VCsharp\work\MatrixSystemEditor\oldVersion\control\LibControl\Controls\bin\Debug\Lib.Controls.MyControls.pdb
+D:\JinHeng\William\work\VCsharp\work\MatrixSystemEditor\oldVersion\control\LibControl\Controls\bin\Debug\CommLibrary.dll
+D:\JinHeng\William\work\VCsharp\work\MatrixSystemEditor\oldVersion\control\LibControl\Controls\bin\Debug\EntityFramework.dll
+D:\JinHeng\William\work\VCsharp\work\MatrixSystemEditor\oldVersion\control\LibControl\Controls\bin\Debug\EntityFramework.SqlServer.dll
+D:\JinHeng\William\work\VCsharp\work\MatrixSystemEditor\oldVersion\control\LibControl\Controls\bin\Debug\System.Data.SQLite.dll
+D:\JinHeng\William\work\VCsharp\work\MatrixSystemEditor\oldVersion\control\LibControl\Controls\bin\Debug\System.Data.SQLite.EF6.dll
+D:\JinHeng\William\work\VCsharp\work\MatrixSystemEditor\oldVersion\control\LibControl\Controls\bin\Debug\System.Data.SQLite.Linq.dll
+D:\JinHeng\William\work\VCsharp\work\MatrixSystemEditor\oldVersion\control\LibControl\Controls\bin\Debug\CommLibrary.pdb
+D:\JinHeng\William\work\VCsharp\work\MatrixSystemEditor\oldVersion\control\LibControl\Controls\bin\Debug\EntityFramework.xml
+D:\JinHeng\William\work\VCsharp\work\MatrixSystemEditor\oldVersion\control\LibControl\Controls\bin\Debug\EntityFramework.SqlServer.xml
+D:\JinHeng\William\work\VCsharp\work\MatrixSystemEditor\oldVersion\control\LibControl\Controls\bin\Debug\System.Data.SQLite.xml
+D:\JinHeng\William\work\VCsharp\work\MatrixSystemEditor\oldVersion\control\LibControl\Controls\obj\Debug\Module\CLeftTextModule.baml
+D:\JinHeng\William\work\VCsharp\work\MatrixSystemEditor\oldVersion\control\LibControl\Controls\obj\Debug\Module\CMVIIIModule.baml
+D:\JinHeng\William\work\VCsharp\work\MatrixSystemEditor\oldVersion\control\LibControl\Controls\obj\Debug\Module\CRightTextModule.baml
+D:\JinHeng\William\work\VCsharp\work\MatrixSystemEditor\oldVersion\control\LibControl\Controls\obj\Debug\Module\CRouterLanModule.baml
+D:\JinHeng\William\work\VCsharp\work\MatrixSystemEditor\oldVersion\control\LibControl\Controls\obj\Debug\Module\CRVA200Module.baml
+D:\JinHeng\William\work\VCsharp\work\MatrixSystemEditor\oldVersion\control\LibControl\Controls\obj\Debug\Module\CSwitcherIVModule.baml
+D:\JinHeng\William\work\VCsharp\work\MatrixSystemEditor\oldVersion\control\LibControl\Controls\obj\Debug\Themes\BorderSwitcherStyle.baml
+D:\JinHeng\William\work\VCsharp\work\MatrixSystemEditor\oldVersion\control\LibControl\Controls\obj\Debug\Themes\StandardButonStyle.Generic.baml
+D:\JinHeng\William\work\VCsharp\work\MatrixSystemEditor\oldVersion\control\LibControl\Controls\obj\Debug\Themes\Generic.baml
+D:\JinHeng\William\work\VCsharp\work\MatrixSystemEditor\oldVersion\control\LibControl\Controls\obj\Debug\Themes\SpinnerControl.Generic.baml
+D:\JinHeng\William\work\VCsharp\work\MatrixSystemEditor\oldVersion\control\LibControl\Controls\obj\Debug\Themes\TCombBox.baml
+D:\JinHeng\William\work\VCsharp\work\MatrixSystemEditor\oldVersion\control\LibControl\Controls\obj\Debug\UserMatrixControl\AutoMixerInput.baml
+D:\JinHeng\William\work\VCsharp\work\MatrixSystemEditor\oldVersion\control\LibControl\Controls\obj\Debug\UserMatrixControl\CDelayControl.baml
+D:\JinHeng\William\work\VCsharp\work\MatrixSystemEditor\oldVersion\control\LibControl\Controls\obj\Debug\UserMatrixControl\CDuckerSourceControl.baml
+D:\JinHeng\William\work\VCsharp\work\MatrixSystemEditor\oldVersion\control\LibControl\Controls\obj\Debug\UserMatrixControl\CEQControl.baml
+D:\JinHeng\William\work\VCsharp\work\MatrixSystemEditor\oldVersion\control\LibControl\Controls\obj\Debug\UserMatrixControl\CEQControlII.baml
+D:\JinHeng\William\work\VCsharp\work\MatrixSystemEditor\oldVersion\control\LibControl\Controls\obj\Debug\UserMatrixControl\CMatrixControl.baml
+D:\JinHeng\William\work\VCsharp\work\MatrixSystemEditor\oldVersion\control\LibControl\Controls\obj\Debug\UserMatrixControl\CNoiseGateAjustControl.baml
+D:\JinHeng\William\work\VCsharp\work\MatrixSystemEditor\oldVersion\control\LibControl\Controls\obj\Debug\UserMatrixControl\FBCStatusLeds.baml
+D:\JinHeng\William\work\VCsharp\work\MatrixSystemEditor\oldVersion\control\LibControl\Controls\obj\Debug\UserMatrixControl\FBCSwitcherControl.baml
+D:\JinHeng\William\work\VCsharp\work\MatrixSystemEditor\oldVersion\control\LibControl\Controls\obj\Debug\Lib.Controls.MyControls.g.resources
+D:\JinHeng\William\work\VCsharp\work\MatrixSystemEditor\oldVersion\control\LibControl\Controls\obj\Debug\Lib.Controls.Properties.Resources.resources
+D:\JinHeng\William\work\VCsharp\work\MatrixSystemEditor\oldVersion\control\LibControl\Controls\obj\Debug\Lib.Controls.csproj.GenerateResource.Cache
+D:\JinHeng\William\work\VCsharp\work\MatrixSystemEditor\oldVersion\control\LibControl\Controls\obj\Debug\Lib.Controls.MyControls.dll
+D:\JinHeng\William\work\VCsharp\work\MatrixSystemEditor\oldVersion\control\LibControl\Controls\obj\Debug\Lib.Controls.MyControls.pdb

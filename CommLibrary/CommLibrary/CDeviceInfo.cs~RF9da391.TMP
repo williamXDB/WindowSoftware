@@ -1,0 +1,119 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+/************************************************************************************
+ * Copyright (c) 2016 All Rights Reserved.
+ * CLR版本： 4.0.30319.18408
+ *机器名称：PC120
+ *公司名称：
+ *命名空间：MatrixUpdate
+ *文件名：  CDeviceInfo
+ *版本号：  V1.0.0.0
+ *唯一标识：8ecf212b-17ad-43fd-946f-cf7fe131a1b2
+ *当前的用户域：SEIKAKU
+ *创建人：  williamxia
+ *电子邮箱：XXXX@sina.cn
+ *创建时间：9/8/2016 8:47:05 AM
+ *描述：
+ *
+ *=====================================================================
+ *修改标记
+ *修改时间：9/8/2016 8:47:05 AM
+ *修改人： williamxia
+ *版本号： V1.0.0.0
+ *描述：
+ *
+/************************************************************************************/
+
+namespace CommLibrary
+{
+
+    public class DeviceProvision
+    {
+        public const int DefaultSerialNumberLen = 5;
+
+        public int pDeviceID;
+        public int pMachineID;
+        public byte[] pDeviceNumber; //DeviceserialNumber
+
+        public DeviceProvision()
+        {
+            pDeviceID = 0;
+            pMachineID = 0;
+            pDeviceNumber = new byte[DefaultSerialNumberLen];
+        }
+
+        public void devProvisionCopy(DeviceProvision devp)
+        {
+            pDeviceID = devp.pDeviceID;
+            pMachineID = devp.pMachineID;
+            Array.Copy(devp.pDeviceNumber, pDeviceNumber, DefaultSerialNumberLen);
+
+        }
+    }
+
+    public enum Device_AccesType
+    {
+        Device_Lan = 100,
+        Device_AP = 101,
+        Device_Com = 102
+    };
+
+    public class RouterInfo
+    {
+        public string RouterAddr { get; set; }  //IP
+        public string RouterMac { get; set; }
+        private Device_AccesType RouterType;
+
+        public Device_AccesType RouterStyle
+        {
+            get { return RouterType; }
+            set { RouterType = value; }
+        }
+        public RouterInfo()
+        {
+            RouterStyle = Device_AccesType.Device_Lan;
+        }
+
+    };
+
+    public class CDeviceInfo
+    {
+
+
+        public string iDeviceName { get; set; }
+        public int iAppID { get; set; }
+        public int iDeviceID { get; set; }
+        public string iFirmwareVersion { get; set; }
+        public bool iIsReady { get; set; }
+        public int workedHours { get; set; }
+        public int burnedCount { get; set; }
+
+        private Device_AccesType routerType;
+
+        public Device_AccesType routerStyle
+        {
+            get { return routerType; }
+            set { routerType = value; }
+        }
+        public CDeviceInfo()
+        {
+            routerStyle = Device_AccesType.Device_Lan;
+        }
+
+        public string getDevInfo()
+        {
+            string devstr = string.Format("App ID:{0}  Device ID:{1}  Device Name:{2}",
+                iAppID.ToString("X2"), iDeviceID.ToString("X2"), iDeviceName);
+            return devstr;
+
+
+        }
+
+
+
+    }
+}

@@ -1,0 +1,23 @@
+﻿<local:ComUserMD  x:Class="Lib.Controls.CRightTextModule"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             mc:Ignorable="d" 
+             xmlns:local="clr-namespace:Lib.Controls"
+                  
+             d:DesignHeight="16" d:DesignWidth="118" MinHeight="16" MinWidth="118">
+    <Grid Name="rootGrid"   MinWidth="118" MaxWidth="118" MinHeight="16" MaxHeight="16">
+        <Grid.ContextMenu>
+            <ContextMenu>             
+                <MenuItem Header="delete Module" Click="MenuItem_Click" ></MenuItem>
+            </ContextMenu>
+        </Grid.ContextMenu>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="Auto"></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+        <TextBox MinWidth="75" MaxLength="14"  MaxWidth="75"  FontSize="11"  Foreground="White"  Name="edLbR" TextChanged="edLbR_TextChanged" ></TextBox>
+        <local:CLineArrow Grid.Column="1" RrowAngle="15" ArowFlag="Arow_Right"></local:CLineArrow>
+    </Grid>
+</local:ComUserMD>

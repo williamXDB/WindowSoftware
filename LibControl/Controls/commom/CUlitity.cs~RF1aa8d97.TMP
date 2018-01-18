@@ -1,0 +1,106 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+using System.ComponentModel;
+
+/************************************************************************************
+ * Copyright (c) 2016 All Rights Reserved.
+ * CLR版本： 4.0.30319.18408
+ *机器名称：PC120
+ *公司名称：
+ *命名空间：MatrixSystemEditor.commom
+ *文件名：  CUlitity
+ *版本号：  V1.0.0.0
+ *唯一标识：5fcb6885-57e7-41c6-98f8-97c2cbe27929
+ *当前的用户域：SEIKAKU
+ *创建人：  williamxia
+ *电子邮箱：XXXX@sina.cn
+ *创建时间：11/10/2016 11:15:04 AM
+ *描述：
+ *
+ *=====================================================================
+ *修改标记
+ *修改时间：11/10/2016 11:15:04 AM
+ *修改人： williamxia
+ *版本号： V1.0.0.0
+ *描述：
+ *
+/************************************************************************************/
+
+namespace Lib.Controls
+{
+    public class CUlitity
+    {
+        public const int LINE_I = 0x1000;
+        public const int LINE_II = 0x2000;
+        public const int LINE_III = 0x3000;
+        public const int LINE_IV = 0x4000;
+
+        public static void sortDataGridAscend(DataGrid grid,int colindex)
+        {
+
+
+        }
+        public static int lineindexOfDevID(int mdevid)
+        {
+            int index = 0;
+            if (mdevid >= LINE_I && mdevid < LINE_II)
+                index = 0;
+            else if (mdevid >= LINE_II && mdevid < LINE_III)
+                index = 1;
+            else if (mdevid >= LINE_III && mdevid < LINE_IV)
+                index = 2;
+            else if (mdevid >= LINE_IV)
+                index = 3;
+            return index;
+        }
+
+        public static int limitFreq(int freq)
+        {
+            int tmpf = 0;
+            const int freqMin = 0;
+            const int freqMax = 300;
+            tmpf = Math.Max(freqMin, Math.Min(freqMax, freq));
+            return tmpf;
+        }
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="sch">just for is searched substring</param>
+        /// <param name="strSrc">source string </param>
+        /// <returns></returns>
+        public static string rightStr(string sch, string strSrc)
+        {
+            string res = "";
+            int t = strSrc.IndexOf(sch);
+            if (t >= 0)
+            {
+                res = strSrc.Substring(t + 1, strSrc.Length - t - 1);
+            }
+            return res;
+        }
+
+        public static string defaultChName(int chindex)
+        {
+            string strRes = "";
+            if (chindex > 8)
+                strRes = string.Format("CH{0}", chindex + 1);
+            else
+                strRes = string.Format("CH0{0}", chindex + 1);
+            return strRes;
+
+        }
+
+        public static int limitValue(int mvalue, int maxm,int minx = 0)
+        {
+
+            return Math.Max(minx, Math.Min(maxm,mvalue)); //very good
+        }
+            
+            
+
+    }
+}
